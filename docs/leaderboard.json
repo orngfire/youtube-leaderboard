@@ -1,0 +1,88 @@
+{
+  "last_updated": "2025-10-12T11:57:06.014366+00:00",
+  "period": {
+    "start": "2025-10-02T00:00:00Z",
+    "end": "2025-12-14T23:59:59Z"
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "리로",
+      "channel_handle": "lee-lo-4u",
+      "channel_url": "https://www.youtube.com/@lee-lo-4u",
+      "badges": [
+        "📈",
+        "⭐"
+      ],
+      "total_score": 549,
+      "score_breakdown": {
+        "basic": 407,
+        "engagement": 6,
+        "viral": 128,
+        "growth": 8
+      },
+      "metrics": {
+        "median_score": 678,
+        "avg_engagement": 0.21,
+        "top3_avg": 2556,
+        "growth_ratio": 1.62,
+        "video_count": 11
+      },
+      "status": "success"
+    },
+    {
+      "rank": 2,
+      "name": "김소윤",
+      "channel_handle": "catmocotto",
+      "channel_url": "https://www.youtube.com/@catmocotto",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 0
+    },
+    {
+      "rank": 3,
+      "name": "강민성",
+      "channel_handle": "IQ160건강깡패",
+      "channel_url": "https://www.youtube.com/@IQ160건강깡패",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 0
+    },
+    {
+      "rank": 4,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 0
+    },
+    {
+      "rank": 5,
+      "name": "조한준",
+      "channel_handle": "Desde_Seúl",
+      "channel_url": "https://www.youtube.com/@Desde_Seúl",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 1
+    },
+    {
+      "rank": 6,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 0
+    },
+    {
+      "rank": 7,
+      "name": "김수정",
+      "channel_handle": "kokonyang-p6l",
+      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
+      "badges": [],
+      "status": "insufficient_data",
+      "video_count": 0
+    }
+  ]
+}
