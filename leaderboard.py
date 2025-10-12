@@ -64,21 +64,77 @@ class YouTubeAPI:
             # @username 형식 처리
             if '@' in channel_url:
                 username = channel_url.split('@')[-1].strip()
-                self.api_calls += 1
-                request = self.youtube.channels().list(
-                    part='id',
-                    forHandle=username
-                )
-                response = request.execute()
 
-                if response.get('items'):
-                    return response['items'][0]['id']
+                # 방법 1: forHandle 파라미터 사용 (최신 API)
+                try:
+                    self.api_calls += 1
+                    request = self.youtube.channels().list(
+                        part='id',
+                        forHandle=username
+                    )
+                    response = request.execute()
+
+                    if response.get('items'):
+                        logger.info(f"채널 ID 찾음 (forHandle): {response['items'][0]['id']}")
+                        return response['items'][0]['id']
+                except (HttpError, TypeError) as e:
+                    logger.warning(f"forHandle 실패, search API 시도 중: {e}")
+
+                # 방법 2: forUsername 파라미터 사용 (레거시 API)
+                try:
+                    self.api_calls += 1
+                    request = self.youtube.channels().list(
+                        part='id',
+                        forUsername=username
+                    )
+                    response = request.execute()
+
+                    if response.get('items'):
+                        logger.info(f"채널 ID 찾음 (forUsername): {response['items'][0]['id']}")
+                        return response['items'][0]['id']
+                except (HttpError, TypeError) as e:
+                    logger.warning(f"forUsername 실패, search API 시도 중: {e}")
+
+                # 방법 3: search API 사용
+                try:
+                    self.api_calls += 1
+                    search_request = self.youtube.search().list(
+                        part='snippet',
+                        q=username,
+                        type='channel',
+                        maxResults=5
+                    )
+                    search_response = search_request.execute()
+
+                    # 정확한 채널명 매치 찾기
+                    for item in search_response.get('items', []):
+                        channel_title = item['snippet']['channelTitle'].lower()
+                        # @username과 channelTitle 비교
+                        if username.lower() in channel_title or channel_title in username.lower():
+                            channel_id = item['snippet']['channelId']
+                            logger.info(f"채널 ID 찾음 (search): {channel_id}")
+                            return channel_id
+
+                    # 정확한 매치가 없으면 첫 번째 결과 사용
+                    if search_response.get('items'):
+                        channel_id = search_response['items'][0]['snippet']['channelId']
+                        logger.warning(f"정확한 매치 없음, 첫 결과 사용: {channel_id}")
+                        return channel_id
+
+                except HttpError as e:
+                    logger.error(f"search API 실패: {e}")
+
+            # /channel/UC... 형식 처리
+            elif '/channel/' in channel_url:
+                channel_id = channel_url.split('/channel/')[-1].strip()
+                logger.info(f"채널 ID 추출 (URL): {channel_id}")
+                return channel_id
 
             logger.warning(f"채널 ID를 찾을 수 없습니다: {channel_url}")
             return None
 
-        except HttpError as e:
-            logger.error(f"API 에러 (채널 ID): {e}")
+        except Exception as e:
+            logger.error(f"예상치 못한 에러 (채널 ID): {e}")
             return None
 
     def get_channel_videos(self, channel_id: str, start_date: str, end_date: str) -> List[Dict]:
