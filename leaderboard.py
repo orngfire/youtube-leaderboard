@@ -224,10 +224,23 @@ class ScoreCalculator:
     @staticmethod
     def calculate_channel_scores(videos: List[Dict]) -> Dict:
         """채널 종합 점수 계산"""
-        if len(videos) < MIN_VIDEOS:
+        video_count = len(videos)
+
+        # 영상이 없거나 부족한 경우 0점 처리
+        if video_count == 0:
             return {
-                'status': 'insufficient_data',
-                'video_count': len(videos)
+                'status': 'success',
+                'video_count': 0,
+                'median_score': 0,
+                'avg_engagement': 0,
+                'top3_avg': 0,
+                'growth_ratio': 0,
+                'score_median': 0,
+                'score_engagement': 0,
+                'score_viral': 0,
+                'score_growth': 0,
+                'total_score': 0,
+                'videos': []
             }
 
         # 각 영상의 기본 점수와 인게이지먼트율 계산
@@ -246,18 +259,20 @@ class ScoreCalculator:
             engagement_rates.append(engagement_rate)
 
         # 중앙값
-        median_score = statistics.median(basic_scores)
+        median_score = statistics.median(basic_scores) if basic_scores else 0
 
         # 평균 인게이지먼트율
-        avg_engagement = statistics.mean(engagement_rates)
+        avg_engagement = statistics.mean(engagement_rates) if engagement_rates else 0
 
-        # Top 3 평균
-        top3_scores = sorted(basic_scores, reverse=True)[:3]
-        top3_avg = statistics.mean(top3_scores)
+        # Top 3 평균 (영상이 3개 미만이면 있는 만큼만 사용)
+        top3_scores = sorted(basic_scores, reverse=True)[:min(3, len(basic_scores))]
+        top3_avg = statistics.mean(top3_scores) if top3_scores else 0
 
         # 성장 비율 (최근 3개 영상의 평균 / 전체 중앙값)
-        recent3_scores = basic_scores[-3:]
-        recent3_avg = statistics.mean(recent3_scores)
+        # 영상이 3개 미만이면 있는 만큼만 사용
+        recent_count = min(3, len(basic_scores))
+        recent3_scores = basic_scores[-recent_count:] if basic_scores else []
+        recent3_avg = statistics.mean(recent3_scores) if recent3_scores else 0
         growth_ratio = recent3_avg / median_score if median_score > 0 else 0
 
         # 최종 점수
@@ -270,7 +285,7 @@ class ScoreCalculator:
 
         return {
             'status': 'success',
-            'video_count': len(videos),
+            'video_count': video_count,
             'median_score': median_score,
             'avg_engagement': avg_engagement,
             'top3_avg': top3_avg,
@@ -346,11 +361,11 @@ def create_excel(leaderboard: List[Dict], filename: str):
     rows = []
 
     for rank, item in enumerate(leaderboard, 1):
-        if item['status'] == 'success':
-            badges = ' '.join(item['badges'])
-            name_with_badges = f"{item['name']} {badges}".strip()
-            channel_handle = item['channel_url'].split('@')[-1]
+        badges = ' '.join(item.get('badges', []))
+        name_with_badges = f"{item['name']} {badges}".strip()
+        channel_handle = item['channel_url'].split('@')[-1]
 
+        if item['status'] == 'success':
             rows.append({
                 '참여자': f"{name_with_badges}\n@{channel_handle}",
                 '최종': round(item['total_score']),
@@ -360,14 +375,14 @@ def create_excel(leaderboard: List[Dict], filename: str):
                 '성장': round(item['score_growth'])
             })
         else:
-            channel_handle = item['channel_url'].split('@')[-1]
+            # 채널을 찾을 수 없는 경우도 0점으로 처리
             rows.append({
                 '참여자': f"{item['name']}\n@{channel_handle}",
-                '최종': '데이터 부족',
-                '기본': '-',
-                '참여': '-',
-                '바이럴': '-',
-                '성장': '-'
+                '최종': 0,
+                '기본': 0,
+                '참여': 0,
+                '바이럴': 0,
+                '성장': 0
             })
 
     df = pd.DataFrame(rows)
@@ -414,7 +429,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'name': item['name'],
                 'channel_handle': channel_handle,
                 'channel_url': item['channel_url'],
-                'badges': item['badges'],
+                'badges': item.get('badges', []),
                 'total_score': round(item['total_score']),
                 'score_breakdown': {
                     'basic': round(item['score_median']),
@@ -432,14 +447,28 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'status': 'success'
             })
         else:
+            # 채널을 찾을 수 없는 경우도 0점으로 표시
             output['leaderboard'].append({
                 'rank': rank,
                 'name': item['name'],
                 'channel_handle': channel_handle,
                 'channel_url': item['channel_url'],
                 'badges': [],
-                'status': 'insufficient_data',
-                'video_count': item.get('video_count', 0)
+                'total_score': 0,
+                'score_breakdown': {
+                    'basic': 0,
+                    'engagement': 0,
+                    'viral': 0,
+                    'growth': 0
+                },
+                'metrics': {
+                    'median_score': 0,
+                    'avg_engagement': 0,
+                    'top3_avg': 0,
+                    'growth_ratio': 0,
+                    'video_count': item.get('video_count', 0)
+                },
+                'status': 'channel_not_found'
             })
 
     with open(filename, 'w', encoding='utf-8') as f:
