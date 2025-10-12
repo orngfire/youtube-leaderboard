@@ -116,8 +116,9 @@ function createLeaderboardCard(item) {
     const card = document.createElement('div');
     card.className = `leaderboard-card rank-${item.rank}`;
 
-    if (item.status === 'insufficient_data') {
-        card.innerHTML = createInsufficientDataCard(item);
+    // 채널을 찾을 수 없거나 데이터가 없는 경우
+    if (item.status === 'channel_not_found') {
+        card.innerHTML = createChannelNotFoundCard(item);
         return card;
     }
 
@@ -167,8 +168,8 @@ function createLeaderboardCard(item) {
     return card;
 }
 
-// 데이터 부족 카드
-function createInsufficientDataCard(item) {
+// 채널을 찾을 수 없는 경우 카드
+function createChannelNotFoundCard(item) {
     const medalEmoji = item.rank === 1 ? '🥇' : item.rank === 2 ? '🥈' : item.rank === 3 ? '🥉' : '';
     const rankDisplay = medalEmoji || `${item.rank}위`;
 
@@ -182,12 +183,16 @@ function createInsufficientDataCard(item) {
                 </div>
                 <div class="channel-handle">@${item.channel_handle}</div>
             </div>
+            <div class="score-display">
+                <div class="total-score">0</div>
+                <div class="score-label">점</div>
+            </div>
         </div>
         <div class="insufficient-data">
-            <div class="insufficient-data-icon">📊</div>
+            <div class="insufficient-data-icon">❌</div>
             <div class="insufficient-data-text">
-                평가 기간 내 영상이 ${item.video_count}개로 데이터가 부족합니다.<br>
-                (최소 3개 필요)
+                ${item.video_count === 0 ? '평가 기간 내 영상이 없습니다.' : `평가 기간 내 영상이 ${item.video_count}개입니다.`}<br>
+                0점으로 처리됩니다.
             </div>
         </div>
     `;
