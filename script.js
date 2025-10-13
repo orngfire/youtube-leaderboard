@@ -406,7 +406,7 @@ function updateLastUpdated() {
             .replace(/\.$/, '')
             .replace(' ', ' ');
 
-        lastUpdatedElement.innerHTML = `<span style="color: #666;">마지막 업데이트:</span> <strong>${cleanDate} (KST)</strong>`;
+        lastUpdatedElement.innerHTML = `<span style="color: #666;">마지막 업데이트:</span> <span style="color: #333;">${cleanDate} (KST)</span>`;
     }
 }
 
