@@ -191,6 +191,7 @@ class YouTubeAPI:
                                 'video_id': video['id'],
                                 'title': video['snippet']['title'],
                                 'published_at': published_at,
+                                'url': f"https://www.youtube.com/watch?v={video['id']}",
                                 'views': int(stats.get('viewCount', 0)),
                                 'likes': int(stats.get('likeCount', 0)),
                                 'comments': int(stats.get('commentCount', 0))
@@ -572,12 +573,25 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
         for channel in all_channel_data:
             if channel['status'] == 'success' and 'video_details' in channel:
                 for video in channel['video_details']:
+                    # 날짜 형식 변환 (Google Sheets가 인식할 수 있는 형식으로)
+                    published_at = video.get('published_at', '')
+                    if published_at:
+                        try:
+                            # ISO 형식을 datetime으로 파싱
+                            date_obj = datetime.fromisoformat(published_at.replace('Z', '+00:00'))
+                            # Google Sheets가 인식할 수 있는 형식으로 변환 (YYYY-MM-DD HH:MM:SS)
+                            formatted_date = date_obj.strftime('%Y-%m-%d %H:%M:%S')
+                        except:
+                            formatted_date = published_at
+                    else:
+                        formatted_date = ''
+
                     row = [
                         channel['name'],
                         f"@{channel.get('channel_handle', '')}",
                         video.get('title', ''),
                         video.get('video_id', ''),
-                        video.get('published_at', ''),
+                        formatted_date,  # 변환된 날짜
                         video.get('views', 0),
                         video.get('likes', 0),
                         video.get('comments', 0),
@@ -715,6 +729,10 @@ def main():
 
     for i, channel_info in enumerate(channels, 1):
         logger.info(f"\n[{i}/{len(channels)}] {channel_info['name']} 처리 중...")
+
+        # channel_url에서 channel_handle 추출
+        channel_handle = channel_info['channel_url'].split('@')[-1] if '@' in channel_info['channel_url'] else ''
+        channel_info['channel_handle'] = channel_handle
 
         # 채널 ID 가져오기
         channel_id = api.get_channel_id(channel_info['channel_url'])
