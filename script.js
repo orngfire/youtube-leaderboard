@@ -249,10 +249,10 @@ function createExpandedDetails(channel) {
     const viralScore = channel.score_breakdown?.viral || channel.viral_score || 0;
     const growthScore = channel.score_breakdown?.growth || channel.growth_score || 0;
 
-    const basicPercent = totalScore > 0 ? ((basicScore / totalScore) * 100).toFixed(1) : 0;
-    const engagementPercent = totalScore > 0 ? ((engagementScore / totalScore) * 100).toFixed(1) : 0;
-    const viralPercent = totalScore > 0 ? ((viralScore / totalScore) * 100).toFixed(1) : 0;
-    const growthPercent = totalScore > 0 ? ((growthScore / totalScore) * 100).toFixed(1) : 0;
+    const basicPercent = totalScore > 0 ? Math.round((basicScore / totalScore) * 100) : 0;
+    const engagementPercent = totalScore > 0 ? Math.round((engagementScore / totalScore) * 100) : 0;
+    const viralPercent = totalScore > 0 ? Math.round((viralScore / totalScore) * 100) : 0;
+    const growthPercent = totalScore > 0 ? Math.round((growthScore / totalScore) * 100) : 0;
 
     let badgeHtml = '';
     if (channel.badges && channel.badges.length > 0 && channel.badge_descriptions) {
