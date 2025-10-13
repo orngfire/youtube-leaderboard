@@ -8,7 +8,7 @@ import json
 import logging
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import Dict, List, Optional
 import statistics
 
@@ -16,6 +16,8 @@ import pandas as pd
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from dotenv import load_dotenv
+import gspread
+from google.oauth2.service_account import Credentials
 
 # 로깅 설정
 logging.basicConfig(
@@ -243,26 +245,44 @@ class ScoreCalculator:
                 'videos': []
             }
 
-        # 각 영상의 기본 점수와 인게이지먼트율 계산
+        # 각 영상의 기본 점수 계산 및 전체 수치 합산
         basic_scores = []
-        engagement_rates = []
+        video_details = []  # 영상 상세 정보 저장
+        total_views = 0
+        total_likes = 0
+        total_comments = 0
 
         for video in videos:
             basic_score = ScoreCalculator.calculate_basic_score(
                 video['views'], video['likes'], video['comments']
             )
-            engagement_rate = ScoreCalculator.calculate_engagement_rate(
-                video['views'], video['likes'], video['comments']
-            )
-
             basic_scores.append(basic_score)
-            engagement_rates.append(engagement_rate)
+
+            # 영상 상세 정보 저장
+            video_details.append({
+                'title': video.get('title', ''),
+                'video_id': video.get('video_id', ''),
+                'url': video.get('url', ''),
+                'published_at': video.get('published_at', ''),
+                'views': video['views'],
+                'likes': video['likes'],
+                'comments': video['comments'],
+                'basic_score': basic_score
+            })
+
+            # 전체 합산 (인게이지먼트 계산용)
+            total_views += video['views']
+            total_likes += video['likes']
+            total_comments += video['comments']
 
         # 중앙값
         median_score = statistics.median(basic_scores) if basic_scores else 0
 
-        # 평균 인게이지먼트율
-        avg_engagement = statistics.mean(engagement_rates) if engagement_rates else 0
+        # 전체 합산 방식의 인게이지먼트율 계산
+        if total_views > 0:
+            total_engagement_rate = ((total_likes + total_comments * 2) / total_views) * 100
+        else:
+            total_engagement_rate = 0
 
         # Top 3 평균 (영상이 3개 미만이면 있는 만큼만 사용)
         top3_scores = sorted(basic_scores, reverse=True)[:min(3, len(basic_scores))]
@@ -277,7 +297,7 @@ class ScoreCalculator:
 
         # 최종 점수
         score_median = median_score * WEIGHT_MEDIAN
-        score_engagement = avg_engagement * 100 * WEIGHT_ENGAGEMENT
+        score_engagement = total_engagement_rate * 100 * WEIGHT_ENGAGEMENT
         score_viral = top3_avg * WEIGHT_VIRAL
         score_growth = growth_ratio * 100 * WEIGHT_GROWTH
 
@@ -287,7 +307,7 @@ class ScoreCalculator:
             'status': 'success',
             'video_count': video_count,
             'median_score': median_score,
-            'avg_engagement': avg_engagement,
+            'avg_engagement': total_engagement_rate,
             'top3_avg': top3_avg,
             'growth_ratio': growth_ratio,
             'score_median': score_median,
@@ -295,7 +315,8 @@ class ScoreCalculator:
             'score_viral': score_viral,
             'score_growth': score_growth,
             'total_score': total_score,
-            'videos': videos
+            'videos': videos,
+            'video_details': video_details  # 영상 상세 정보 추가
         }
 
 
@@ -407,6 +428,154 @@ def create_excel(leaderboard: List[Dict], filename: str):
                 cell.alignment = Alignment(wrap_text=True, vertical='center')
 
     logger.info(f"Excel 파일 생성 완료: {filename}")
+
+
+def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict]):
+    """Google Sheets에 데이터 업로드"""
+    try:
+        # 환경 변수 확인
+        credentials_file = os.getenv('GOOGLE_SHEETS_CREDENTIALS_FILE', 'credentials.json')
+        spreadsheet_id = os.getenv('GOOGLE_SHEET_ID')
+
+        if not spreadsheet_id:
+            logger.error("GOOGLE_SHEET_ID 환경 변수가 설정되지 않았습니다.")
+            return
+
+        # 인증 설정
+        scope = [
+            'https://www.googleapis.com/auth/spreadsheets',
+            'https://www.googleapis.com/auth/drive'
+        ]
+
+        if not os.path.exists(credentials_file):
+            logger.error(f"인증 파일을 찾을 수 없습니다: {credentials_file}")
+            return
+
+        creds = Credentials.from_service_account_file(credentials_file, scopes=scope)
+        client = gspread.authorize(creds)
+
+        # 스프레드시트 열기
+        spreadsheet = client.open_by_key(spreadsheet_id)
+
+        # 시트 1: 리더보드 (요약)
+        try:
+            leaderboard_sheet = spreadsheet.worksheet('리더보드')
+        except gspread.exceptions.WorksheetNotFound:
+            leaderboard_sheet = spreadsheet.add_worksheet(title='리더보드', rows=100, cols=20)
+
+        # 리더보드 데이터 준비
+        leaderboard_headers = [
+            '순위', '이름', '채널명', '총점수', '채널점수', '인게이지먼트', '바이럴', '성장',
+            '영상수', '중앙값', '인게이지먼트율(%)', 'Top3평균', '성장비율', '뱃지'
+        ]
+
+        leaderboard_data = [leaderboard_headers]
+
+        for rank, item in enumerate(leaderboard, 1):
+            if item['status'] == 'success':
+                row = [
+                    rank,
+                    item['name'],
+                    f"@{item['channel_handle']}",
+                    round(item['total_score']),
+                    round(item['score_median']),
+                    round(item['score_engagement']),
+                    round(item['score_viral']),
+                    round(item['score_growth']),
+                    item['video_count'],
+                    round(item['median_score']),
+                    round(item['avg_engagement'], 2),
+                    round(item['top3_avg']),
+                    round(item['growth_ratio'], 2),
+                    ' '.join(item.get('badges', []))
+                ]
+            else:
+                row = [
+                    rank, item['name'], f"@{item['channel_handle']}",
+                    0, 0, 0, 0, 0,
+                    item.get('video_count', 0), 0, 0, 0, 0, ''
+                ]
+            leaderboard_data.append(row)
+
+        # 리더보드 시트 업데이트
+        leaderboard_sheet.clear()
+        leaderboard_sheet.update('A1', leaderboard_data)
+
+        # 서식 설정
+        leaderboard_sheet.format('A1:N1', {
+            'backgroundColor': {'red': 0.9, 'green': 0.9, 'blue': 0.9},
+            'textFormat': {'bold': True},
+            'horizontalAlignment': 'CENTER'
+        })
+
+        # 1-3위 색상
+        if len(leaderboard) >= 1:
+            leaderboard_sheet.format('A2:N2', {
+                'backgroundColor': {'red': 1, 'green': 0.843, 'blue': 0}
+            })  # 금색
+        if len(leaderboard) >= 2:
+            leaderboard_sheet.format('A3:N3', {
+                'backgroundColor': {'red': 0.753, 'green': 0.753, 'blue': 0.753}
+            })  # 은색
+        if len(leaderboard) >= 3:
+            leaderboard_sheet.format('A4:N4', {
+                'backgroundColor': {'red': 0.804, 'green': 0.498, 'blue': 0.196}
+            })  # 동색
+
+        # 시트 2: 영상 상세
+        try:
+            videos_sheet = spreadsheet.worksheet('영상상세')
+        except gspread.exceptions.WorksheetNotFound:
+            videos_sheet = spreadsheet.add_worksheet(title='영상상세', rows=1000, cols=20)
+
+        # 영상 상세 데이터 준비
+        video_headers = [
+            '이름', '채널명', '영상제목', '영상ID', '업로드날짜',
+            '조회수', '좋아요', '댓글', '기본점수', 'URL'
+        ]
+
+        video_data = [video_headers]
+
+        # 모든 채널의 영상 정보 수집
+        for channel in all_channel_data:
+            if channel['status'] == 'success' and 'video_details' in channel:
+                for video in channel['video_details']:
+                    row = [
+                        channel['name'],
+                        f"@{channel['channel_handle']}",
+                        video.get('title', ''),
+                        video.get('video_id', ''),
+                        video.get('published_at', ''),
+                        video.get('views', 0),
+                        video.get('likes', 0),
+                        video.get('comments', 0),
+                        round(video.get('basic_score', 0)),
+                        video.get('url', '')
+                    ]
+                    video_data.append(row)
+
+        # 영상 상세 시트 업데이트
+        videos_sheet.clear()
+        videos_sheet.update('A1', video_data)
+
+        # 헤더 서식
+        videos_sheet.format('A1:J1', {
+            'backgroundColor': {'red': 0.9, 'green': 0.9, 'blue': 0.9},
+            'textFormat': {'bold': True},
+            'horizontalAlignment': 'CENTER'
+        })
+
+        # 마지막 업데이트 시간 추가
+        kst = timezone(timedelta(hours=9))
+        update_time = datetime.now(kst).strftime('%Y-%m-%d %H:%M:%S KST')
+
+        # 리더보드 시트에 업데이트 시간 표시
+        leaderboard_sheet.update('P1', [['마지막 업데이트'], [update_time]])
+
+        logger.info(f"Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
+
+    except Exception as e:
+        logger.error(f"Google Sheets 업로드 실패: {e}")
 
 
 def create_json(leaderboard: List[Dict], filename: str):
@@ -550,8 +719,16 @@ def main():
 
     # 파일 생성
     logger.info("\n파일 생성 중...")
-    create_excel(leaderboard, 'leaderboard.xlsx')
-    create_json(leaderboard, 'leaderboard.json')
+    create_json(leaderboard, 'leaderboard.json')  # JSON은 웹페이지용으로 필요
+
+    # Google Sheets 업로드 (환경 변수 확인)
+    if os.getenv('GOOGLE_SHEETS_ENABLED', 'false').lower() == 'true':
+        logger.info("\nGoogle Sheets 업로드 중...")
+        upload_to_google_sheets(leaderboard, all_channel_data)
+    else:
+        # Google Sheets가 비활성화된 경우에만 로컬 Excel 생성
+        create_excel(leaderboard, 'leaderboard.xlsx')
+        logger.info("Google Sheets가 비활성화되어 로컬 Excel 파일을 생성했습니다.")
 
     # 통계
     logger.info("\n" + "=" * 60)

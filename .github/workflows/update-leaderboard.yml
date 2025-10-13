@@ -35,14 +35,20 @@ jobs:
     - name: Run leaderboard script
       env:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        GOOGLE_SHEETS_ENABLED: 'true'
+        GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+        GOOGLE_SHEET_ID: '1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0'
       run: |
+        # Create credentials file from secret if Google Sheets is enabled
+        if [ "$GOOGLE_SHEETS_ENABLED" = "true" ] && [ -n "$GOOGLE_SHEETS_CREDENTIALS" ]; then
+          echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json
+        fi
         python leaderboard.py
 
     - name: Move files to docs folder
       run: |
         mkdir -p docs
         cp leaderboard.json docs/
-        cp leaderboard.xlsx docs/
         cp index.html docs/
         cp styles.css docs/ || true
         cp script.js docs/ || true
@@ -52,7 +58,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add docs/leaderboard.json docs/leaderboard.xlsx leaderboard.log
+        git add docs/leaderboard.json leaderboard.log
         git diff --quiet && git diff --staged --quiet || (git commit -m "Update leaderboard - $(date +'%Y-%m-%d %H:%M:%S')" && git push)
 
     - name: Upload artifact
