@@ -481,35 +481,56 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         leaderboard_data = [leaderboard_headers]
 
+        logger.info(f"리더보드 데이터 준비 중... 총 {len(leaderboard)}개 채널")
+
         for rank, item in enumerate(leaderboard, 1):
-            if item['status'] == 'success':
-                row = [
-                    rank,
-                    item['name'],
-                    f"@{item['channel_handle']}",
-                    round(item['total_score']),
-                    round(item['score_median']),
-                    round(item['score_engagement']),
-                    round(item['score_viral']),
-                    round(item['score_growth']),
-                    item['video_count'],
-                    round(item['median_score']),
-                    round(item['avg_engagement'], 2),
-                    round(item['top3_avg']),
-                    round(item['growth_ratio'], 2),
-                    ' '.join(item.get('badges', []))
-                ]
-            else:
-                row = [
-                    rank, item['name'], f"@{item['channel_handle']}",
-                    0, 0, 0, 0, 0,
-                    item.get('video_count', 0), 0, 0, 0, 0, ''
-                ]
-            leaderboard_data.append(row)
+            try:
+                # 데이터 구조 확인 및 로깅
+                if rank == 1:  # 첫 번째 아이템만 상세 로깅
+                    logger.info(f"첫 번째 아이템 키: {item.keys()}")
+
+                if item['status'] == 'success':
+                    # item 자체가 이미 채널 데이터임 (leaderboard = all_channel_data)
+                    # scores 정보가 있는지 확인
+                    scores = item.get('scores', {})
+
+                    row = [
+                        rank,
+                        item['name'],
+                        f"@{item.get('channel_handle', '')}",
+                        round(item.get('total_score', 0)),
+                        round(scores.get('score_median', item.get('score_median', 0))),
+                        round(scores.get('score_engagement', item.get('score_engagement', 0))),
+                        round(scores.get('score_viral', item.get('score_viral', 0))),
+                        round(scores.get('score_growth', item.get('score_growth', 0))),
+                        scores.get('video_count', item.get('video_count', 0)),
+                        round(scores.get('median_score', item.get('median_score', 0))),
+                        round(scores.get('avg_engagement', item.get('avg_engagement', 0)), 2),
+                        round(scores.get('top3_avg', item.get('top3_avg', 0))),
+                        round(scores.get('growth_ratio', item.get('growth_ratio', 0)), 2),
+                        ' '.join(item.get('badges', []))
+                    ]
+                else:
+                    row = [
+                        rank, item['name'], f"@{item.get('channel_handle', '')}",
+                        0, 0, 0, 0, 0,
+                        item.get('video_count', 0), 0, 0, 0, 0, ''
+                    ]
+
+                leaderboard_data.append(row)
+
+            except Exception as e:
+                logger.error(f"행 {rank} 처리 중 오류: {e}")
+                # 오류 발생 시 기본값으로 행 추가
+                row = [rank, item.get('name', 'Unknown'), '', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '']
+                leaderboard_data.append(row)
+
+        logger.info(f"리더보드 데이터 준비 완료: {len(leaderboard_data)}행")
 
         # 리더보드 시트 업데이트
         leaderboard_sheet.clear()
         leaderboard_sheet.update('A1', leaderboard_data)
+        logger.info("리더보드 시트 업데이트 완료")
 
         # 서식 설정
         leaderboard_sheet.format('A1:N1', {
@@ -547,12 +568,13 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
         video_data = [video_headers]
 
         # 모든 채널의 영상 정보 수집
+        video_count = 0
         for channel in all_channel_data:
             if channel['status'] == 'success' and 'video_details' in channel:
                 for video in channel['video_details']:
                     row = [
                         channel['name'],
-                        f"@{channel['channel_handle']}",
+                        f"@{channel.get('channel_handle', '')}",
                         video.get('title', ''),
                         video.get('video_id', ''),
                         video.get('published_at', ''),
@@ -563,10 +585,14 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
                         video.get('url', '')
                     ]
                     video_data.append(row)
+                    video_count += 1
+
+        logger.info(f"영상 상세 데이터 준비 완료: {video_count}개 영상")
 
         # 영상 상세 시트 업데이트
         videos_sheet.clear()
         videos_sheet.update('A1', video_data)
+        logger.info("영상 상세 시트 업데이트 완료")
 
         # 헤더 서식
         videos_sheet.format('A1:J1', {
