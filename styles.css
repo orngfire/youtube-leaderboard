@@ -1,7 +1,7 @@
 /* CSS Variables */
 :root {
-    --bg-gradient-start: #FFF5E6;
-    --bg-gradient-end: #FFE4CC;
+    --bg-gradient-start: #FFF8F0;
+    --bg-gradient-end: #FFDAB3;
     --rank-1-start: #FFF8DC;
     --rank-1-end: #FFE4B5;
     --rank-2-start: #F0F0F0;
@@ -287,16 +287,19 @@ body {
 /* Rank 1 */
 .rank-1 .rank-cell {
     background: linear-gradient(135deg, var(--rank-1-start), var(--rank-1-end));
+    border-radius: 4px 0 0 4px;
 }
 
 /* Rank 2 */
 .rank-2 .rank-cell {
     background: linear-gradient(135deg, var(--rank-2-start), var(--rank-2-end));
+    border-radius: 4px 0 0 4px;
 }
 
 /* Rank 3 */
 .rank-3 .rank-cell {
     background: linear-gradient(135deg, var(--rank-3-start), var(--rank-3-end));
+    border-radius: 4px 0 0 4px;
 }
 
 /* Name Cell */
