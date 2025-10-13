@@ -110,7 +110,7 @@ function createTableRow(channel) {
                         ${createBadges(channel.badges, channel.badge_descriptions)}
                     </div>
                 </div>
-                <div class="channel-name">${channel.channel_name}</div>
+                <div class="channel-name">${channel.channel_handle || channel.channel_name || ''}</div>
             </div>
         </td>
         <td class="total-score-cell">
@@ -121,10 +121,10 @@ function createTableRow(channel) {
                 </div>
             </div>
         </td>
-        <td class="score-cell">${formatNumber(channel.basic_score)}</td>
-        <td class="score-cell">${formatNumber(channel.engagement_score)}</td>
-        <td class="score-cell viral-cell">${formatNumber(channel.viral_score)}</td>
-        <td class="score-cell growth-cell">${formatNumber(channel.growth_score)}</td>
+        <td class="score-cell">${formatNumber(channel.score_breakdown?.basic || channel.basic_score || 0)}</td>
+        <td class="score-cell">${formatNumber(channel.score_breakdown?.engagement || channel.engagement_score || 0)}</td>
+        <td class="score-cell viral-cell">${formatNumber(channel.score_breakdown?.viral || channel.viral_score || 0)}</td>
+        <td class="score-cell growth-cell">${formatNumber(channel.score_breakdown?.growth || channel.growth_score || 0)}</td>
     `;
 
     row.innerHTML = mainRow;
@@ -167,23 +167,23 @@ function createMobileCard(channel) {
             </div>
         </div>
         <div class="mobile-name">${channel.name} ${channel.badges ? channel.badges.join(' ') : ''}</div>
-        <div class="mobile-channel">${channel.channel_name}</div>
+        <div class="mobile-channel">${channel.channel_handle || channel.channel_name || ''}</div>
         <div class="mobile-scores">
             <div class="mobile-score-item">
                 <div class="mobile-score-label">채널</div>
-                <div class="mobile-score-value">${formatNumber(channel.basic_score)}</div>
+                <div class="mobile-score-value">${formatNumber(channel.score_breakdown?.basic || channel.basic_score || 0)}</div>
             </div>
             <div class="mobile-score-item">
                 <div class="mobile-score-label">인게이지먼트</div>
-                <div class="mobile-score-value">${formatNumber(channel.engagement_score)}</div>
+                <div class="mobile-score-value">${formatNumber(channel.score_breakdown?.engagement || channel.engagement_score || 0)}</div>
             </div>
             <div class="mobile-score-item">
                 <div class="mobile-score-label">바이럴</div>
-                <div class="mobile-score-value">${formatNumber(channel.viral_score)}</div>
+                <div class="mobile-score-value">${formatNumber(channel.score_breakdown?.viral || channel.viral_score || 0)}</div>
             </div>
             <div class="mobile-score-item">
                 <div class="mobile-score-label">성장</div>
-                <div class="mobile-score-value">${formatNumber(channel.growth_score)}</div>
+                <div class="mobile-score-value">${formatNumber(channel.score_breakdown?.growth || channel.growth_score || 0)}</div>
             </div>
         </div>
         ${channel.badges && channel.badges.length > 0 ? `
@@ -244,10 +244,15 @@ function createBadges(badges, descriptions) {
  */
 function createExpandedDetails(channel) {
     const totalScore = channel.total_score || 0;
-    const basicPercent = totalScore > 0 ? ((channel.basic_score / totalScore) * 100).toFixed(1) : 0;
-    const engagementPercent = totalScore > 0 ? ((channel.engagement_score / totalScore) * 100).toFixed(1) : 0;
-    const viralPercent = totalScore > 0 ? ((channel.viral_score / totalScore) * 100).toFixed(1) : 0;
-    const growthPercent = totalScore > 0 ? ((channel.growth_score / totalScore) * 100).toFixed(1) : 0;
+    const basicScore = channel.score_breakdown?.basic || channel.basic_score || 0;
+    const engagementScore = channel.score_breakdown?.engagement || channel.engagement_score || 0;
+    const viralScore = channel.score_breakdown?.viral || channel.viral_score || 0;
+    const growthScore = channel.score_breakdown?.growth || channel.growth_score || 0;
+
+    const basicPercent = totalScore > 0 ? ((basicScore / totalScore) * 100).toFixed(1) : 0;
+    const engagementPercent = totalScore > 0 ? ((engagementScore / totalScore) * 100).toFixed(1) : 0;
+    const viralPercent = totalScore > 0 ? ((viralScore / totalScore) * 100).toFixed(1) : 0;
+    const growthPercent = totalScore > 0 ? ((growthScore / totalScore) * 100).toFixed(1) : 0;
 
     let badgeHtml = '';
     if (channel.badges && channel.badges.length > 0 && channel.badge_descriptions) {
@@ -275,19 +280,19 @@ function createExpandedDetails(channel) {
                 <div class="score-breakdown">
                     <div class="score-item">
                         <span class="score-label">채널 점수</span>
-                        <span class="score-value">${formatNumber(channel.basic_score)}점 (${basicPercent}%)</span>
+                        <span class="score-value">${formatNumber(basicScore)}점 (${basicPercent}%)</span>
                     </div>
                     <div class="score-item">
                         <span class="score-label">인게이지먼트 점수</span>
-                        <span class="score-value">${formatNumber(channel.engagement_score)}점 (${engagementPercent}%)</span>
+                        <span class="score-value">${formatNumber(engagementScore)}점 (${engagementPercent}%)</span>
                     </div>
                     <div class="score-item">
                         <span class="score-label">바이럴 보너스</span>
-                        <span class="score-value">${formatNumber(channel.viral_score)}점 (${viralPercent}%)</span>
+                        <span class="score-value">${formatNumber(viralScore)}점 (${viralPercent}%)</span>
                     </div>
                     <div class="score-item">
                         <span class="score-label">성장 점수</span>
-                        <span class="score-value">${formatNumber(channel.growth_score)}점 (${growthPercent}%)</span>
+                        <span class="score-value">${formatNumber(growthScore)}점 (${growthPercent}%)</span>
                     </div>
                 </div>
             </div>
