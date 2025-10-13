@@ -186,15 +186,17 @@ body {
 .table-container {
     background: var(--white);
     border-radius: 16px;
-    overflow: hidden;
+    overflow-x: auto;
     box-shadow: var(--shadow-sm);
 }
 
 /* Table Styles */
 .leaderboard-table {
     width: 100%;
+    min-width: 900px;
     border-collapse: separate;
     border-spacing: 0;
+    table-layout: fixed;
 }
 
 .leaderboard-table thead {
@@ -209,7 +211,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     color: var(--text-header);
-    text-align: left;
+    text-align: center;
     height: 56px;
     border-bottom: 2px solid var(--gray-200);
 }
@@ -220,23 +222,25 @@ body {
 }
 
 .th-name {
-    width: 250px;
+    width: 280px;
+    text-align: left;
+    padding-left: 24px;
 }
 
 .th-total {
-    width: 180px;
+    width: 150px;
     text-align: center;
 }
 
 .th-basic,
 .th-viral,
 .th-growth {
-    width: 120px;
+    width: 110px;
     text-align: center;
 }
 
 .th-engagement {
-    width: 150px;
+    width: 140px;
     text-align: center;
 }
 
@@ -297,8 +301,9 @@ body {
 
 /* Name Cell */
 .name-cell {
-    padding: 16px;
+    padding: 16px 16px 16px 24px;
     vertical-align: middle;
+    text-align: left;
 }
 
 .name-wrapper {
