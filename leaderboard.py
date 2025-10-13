@@ -562,7 +562,7 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         # 영상 상세 데이터 준비
         video_headers = [
-            '이름', '채널명', '영상제목', '영상ID', '업로드날짜',
+            '이름', '채널명', '영상제목', '업로드날짜',
             '조회수', '좋아요', '댓글', '기본점수', 'URL'
         ]
 
@@ -590,7 +590,6 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
                         channel['name'],
                         f"@{channel.get('channel_handle', '')}",
                         video.get('title', ''),
-                        video.get('video_id', ''),
                         formatted_date,  # 변환된 날짜
                         video.get('views', 0),
                         video.get('likes', 0),
@@ -609,7 +608,7 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
         logger.info("영상 상세 시트 업데이트 완료")
 
         # 헤더 서식
-        videos_sheet.format('A1:J1', {
+        videos_sheet.format('A1:I1', {
             'backgroundColor': {'red': 0.9, 'green': 0.9, 'blue': 0.9},
             'textFormat': {'bold': True},
             'horizontalAlignment': 'CENTER'
