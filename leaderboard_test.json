@@ -1,0 +1,84 @@
+{
+  "last_updated": "2025-10-13 23:45:00",
+  "channels": [
+    {
+      "rank": 1,
+      "name": "김소윤",
+      "channel_name": "@catmocotto",
+      "channel_url": "https://www.youtube.com/@catmocotto",
+      "total_score": 45820,
+      "basic_score": 27000,
+      "engagement_score": 13650,
+      "viral_score": 2730,
+      "growth_score": 2440,
+      "video_count": 12,
+      "badges": ["🎯", "💬"],
+      "badge_descriptions": {
+        "🎯": "안정 러너: 중앙값 5,000점 이상",
+        "💬": "인게이지먼트 킹: 평균 5% 이상"
+      }
+    },
+    {
+      "rank": 2,
+      "name": "리로",
+      "channel_name": "@lee-lo-4u",
+      "channel_url": "https://www.youtube.com/@lee-lo-4u",
+      "total_score": 38450,
+      "basic_score": 22000,
+      "engagement_score": 11400,
+      "viral_score": 3150,
+      "growth_score": 1900,
+      "video_count": 9,
+      "badges": ["🔥"],
+      "badge_descriptions": {
+        "🔥": "바이럴 메이커: Top 3 평균이 중앙값의 10배 이상"
+      }
+    },
+    {
+      "rank": 3,
+      "name": "뜬뜬",
+      "channel_name": "@ddeunddeun",
+      "channel_url": "https://www.youtube.com/@ddeunddeun",
+      "total_score": 32100,
+      "basic_score": 18500,
+      "engagement_score": 9200,
+      "viral_score": 2800,
+      "growth_score": 1600,
+      "video_count": 8,
+      "badges": ["📈"],
+      "badge_descriptions": {
+        "📈": "성장 로켓: 성장 비율 1.5 이상"
+      }
+    },
+    {
+      "rank": 4,
+      "name": "새니",
+      "channel_name": "@saeni_",
+      "channel_url": "https://www.youtube.com/@saeni_",
+      "total_score": 28900,
+      "basic_score": 16000,
+      "engagement_score": 8500,
+      "viral_score": 2500,
+      "growth_score": 1900,
+      "video_count": 7,
+      "badges": [],
+      "badge_descriptions": {}
+    },
+    {
+      "rank": 5,
+      "name": "지니",
+      "channel_name": "@jinny",
+      "channel_url": "https://www.youtube.com/@jinny",
+      "total_score": 24300,
+      "basic_score": 14200,
+      "engagement_score": 7100,
+      "viral_score": 1800,
+      "growth_score": 1200,
+      "video_count": 10,
+      "badges": ["⭐"],
+      "badge_descriptions": {
+        "⭐": "올라운더: 모든 지표 평균 이상"
+      }
+    }
+  ]
+}
