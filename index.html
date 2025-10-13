@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="YouTube 크리에이터 리더보드 - 2025년 10월 2일부터 12월 14일까지의 영상 성과 평가">
+    <title>YouTube 크리에이터 리더보드</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">🏆 YouTube 크리에이터 리더보드</h1>
+            <div class="header-info">
+                <p class="update-time">마지막 업데이트: <span id="lastUpdate">로딩 중...</span></p>
+                <p class="period">평가 기간: 2025.10.02 ~ 2025.12.14</p>
+            </div>
+            <button id="refreshBtn" class="refresh-btn" aria-label="새로고침">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/>
+                </svg>
+                새로고침
+            </button>
+            <button id="themeToggle" class="theme-toggle" aria-label="테마 변경">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- 뱃지 설명 -->
+    <section class="badge-legend">
+        <div class="container">
+            <h2>뱃지 가이드</h2>
+            <div class="badge-grid">
+                <div class="badge-item">
+                    <span class="badge">🎯</span>
+                    <span class="badge-name">안정 러너</span>
+                    <span class="badge-desc">중앙값 5,000점 이상</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge">💬</span>
+                    <span class="badge-name">인게이지먼트 킹</span>
+                    <span class="badge-desc">평균 인게이지먼트율 5% 이상</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge">🔥</span>
+                    <span class="badge-name">바이럴 메이커</span>
+                    <span class="badge-desc">Top 3 평균이 중앙값의 10배 이상</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge">📈</span>
+                    <span class="badge-name">성장 로켓</span>
+                    <span class="badge-desc">성장 비율 1.5 이상</span>
+                </div>
+                <div class="badge-item">
+                    <span class="badge">⭐</span>
+                    <span class="badge-name">올라운더</span>
+                    <span class="badge-desc">모든 지표 평균 이상</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 리더보드 리스트 -->
+    <main class="main">
+        <div class="container">
+            <div id="leaderboard" class="leaderboard">
+                <!-- 로딩 상태 -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>리더보드를 불러오는 중...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 YouTube Creator Leaderboard</p>
+            <p>평가 기준: 기본(60%) + 인게이지먼트(30%) + 바이럴(5%) + 성장(5%)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

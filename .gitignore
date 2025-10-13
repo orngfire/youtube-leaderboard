@@ -1,0 +1,45 @@
+# 환경 변수
+.env
+.env.local
+
+# Google Sheets 인증 파일
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# 로그 파일
+*.log
+
+# 출력 파일 (로컬 테스트용)
+leaderboard.json
+leaderboard.xlsx
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 임시 파일
+*.tmp
+*.bak
