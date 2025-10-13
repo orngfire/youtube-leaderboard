@@ -562,7 +562,7 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         # 영상 상세 데이터 준비
         video_headers = [
-            '이름', '채널명', '영상제목', '업로드날짜',
+            '업로드날짜', '이름', '채널명', '영상제목',
             '조회수', '좋아요', '댓글', '기본점수', 'URL'
         ]
 
@@ -587,10 +587,10 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
                         formatted_date = ''
 
                     row = [
+                        formatted_date,  # 업로드날짜를 첫 번째로
                         channel['name'],
                         f"@{channel.get('channel_handle', '')}",
                         video.get('title', ''),
-                        formatted_date,  # 변환된 날짜
                         video.get('views', 0),
                         video.get('likes', 0),
                         video.get('comments', 0),
