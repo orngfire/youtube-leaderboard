@@ -404,9 +404,10 @@ body {
 }
 
 .expanded-content.show {
-    max-height: 300px;
+    max-height: 400px;  /* Increased from 300px to accommodate button */
     padding: 20px;
     border-top: 1px solid var(--gray-200);
+    overflow: visible;  /* Allow button to be fully visible */
 }
 
 .detail-section {
@@ -549,7 +550,7 @@ body {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 900px) {
     .th-viral,
     .th-growth,
     .viral-cell,

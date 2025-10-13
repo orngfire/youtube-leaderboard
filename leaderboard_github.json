@@ -1,0 +1,169 @@
+{
+  "last_updated": "2025-10-13T13:37:46.110530+00:00",
+  "period": {
+    "start": "2025-10-02T00:00:00Z",
+    "end": "2025-12-14T23:59:59Z"
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "name": "리로",
+      "channel_handle": "lee-lo-4u",
+      "channel_url": "https://www.youtube.com/@lee-lo-4u",
+      "badges": [],
+      "total_score": 700,
+      "score_breakdown": {
+        "basic": 560,
+        "engagement": 6,
+        "viral": 128,
+        "growth": 6
+      },
+      "metrics": {
+        "median_score": 933,
+        "avg_engagement": 0.21,
+        "top3_avg": 2553,
+        "growth_ratio": 1.18,
+        "video_count": 12
+      },
+      "status": "success"
+    },
+    {
+      "rank": 2,
+      "name": "조한준",
+      "channel_handle": "Desde_Seúl",
+      "channel_url": "https://www.youtube.com/@Desde_Seúl",
+      "badges": [],
+      "total_score": 256,
+      "score_breakdown": {
+        "basic": 162,
+        "engagement": 75,
+        "viral": 14,
+        "growth": 5
+      },
+      "metrics": {
+        "median_score": 270,
+        "avg_engagement": 2.5,
+        "top3_avg": 270,
+        "growth_ratio": 1.0,
+        "video_count": 1
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
+      "name": "김소윤",
+      "channel_handle": "catmocotto",
+      "channel_url": "https://www.youtube.com/@catmocotto",
+      "badges": [
+        "🔥"
+      ],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [
+        "🔥"
+      ],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
+      "name": "김수정",
+      "channel_handle": "kokonyang-p6l",
+      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
+      "badges": [
+        "🔥"
+      ],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
+      "name": "강민성",
+      "channel_handle": "IQ160건강깡패",
+      "channel_url": "https://www.youtube.com/@IQ160건강깡패",
+      "badges": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "channel_not_found"
+    },
+    {
+      "rank": 7,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "channel_not_found"
+    }
+  ]
+}

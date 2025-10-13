@@ -20,12 +20,17 @@ async function loadLeaderboard() {
         showLoading();
 
         // Fetch leaderboard data
-        // Use test data if available, otherwise use real data
-        let response = await fetch('leaderboard_test.json');
+        // Try GitHub Pages data first (most up-to-date)
+        let response = await fetch('https://orngfire.github.io/youtube-leaderboard/leaderboard.json');
 
-        // If test data doesn't exist, fall back to real data
+        // If GitHub data doesn't work, try local data
         if (!response.ok) {
             response = await fetch('leaderboard.json');
+        }
+
+        // If local data doesn't work, try test data
+        if (!response.ok) {
+            response = await fetch('leaderboard_test.json');
         }
 
         if (!response.ok) {
@@ -165,7 +170,7 @@ function createMobileCard(channel) {
         <div class="mobile-channel">${channel.channel_name}</div>
         <div class="mobile-scores">
             <div class="mobile-score-item">
-                <div class="mobile-score-label">기본</div>
+                <div class="mobile-score-label">채널</div>
                 <div class="mobile-score-value">${formatNumber(channel.basic_score)}</div>
             </div>
             <div class="mobile-score-item">
@@ -269,7 +274,7 @@ function createExpandedDetails(channel) {
                 <div class="detail-title">📊 상세 점수 분석</div>
                 <div class="score-breakdown">
                     <div class="score-item">
-                        <span class="score-label">기본 점수</span>
+                        <span class="score-label">채널 점수</span>
                         <span class="score-value">${formatNumber(channel.basic_score)}점 (${basicPercent}%)</span>
                     </div>
                     <div class="score-item">
