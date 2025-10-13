@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-13T13:37:46.110530+00:00",
+  "last_updated": "2025-10-13T15:23:56.307732+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -19,7 +19,7 @@
         "growth": 6
       },
       "metrics": {
-        "median_score": 933,
+        "median_score": 934,
         "avg_engagement": 0.21,
         "top3_avg": 2553,
         "growth_ratio": 1.18,
