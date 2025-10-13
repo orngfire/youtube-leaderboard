@@ -437,7 +437,7 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         # 환경 변수 확인
         credentials_file = os.getenv('GOOGLE_SHEETS_CREDENTIALS_FILE', 'credentials.json')
-        spreadsheet_id = os.getenv('GOOGLE_SHEET_ID', '1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0')
+        spreadsheet_id = os.getenv('GOOGLE_SHEET_ID')
 
         logger.info(f"Credentials file: {credentials_file}")
         logger.info(f"Spreadsheet ID: {spreadsheet_id}")

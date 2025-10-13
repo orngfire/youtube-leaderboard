@@ -37,7 +37,7 @@ jobs:
         YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         GOOGLE_SHEETS_ENABLED: 'true'
         GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
-        GOOGLE_SHEET_ID: '1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0'
+        GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
       run: |
         # Create credentials file from secret if Google Sheets is enabled
         if [ "$GOOGLE_SHEETS_ENABLED" = "true" ] && [ -n "$GOOGLE_SHEETS_CREDENTIALS" ]; then

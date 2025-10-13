@@ -383,9 +383,30 @@ function updateLastUpdated() {
 
     const lastUpdatedElement = document.getElementById('last-updated');
     if (lastUpdatedElement) {
-        // Format the date/time string
-        const dateStr = leaderboardData.last_updated;
-        lastUpdatedElement.textContent = `업데이트: ${dateStr}`;
+        // Parse ISO date string and convert to Korean timezone
+        const date = new Date(leaderboardData.last_updated);
+
+        // Format as Korean date/time
+        const options = {
+            timeZone: 'Asia/Seoul',
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: false
+        };
+
+        const formatter = new Intl.DateTimeFormat('ko-KR', options);
+        const formattedDate = formatter.format(date);
+
+        // Replace format to be more readable: "2024.10.14 15:30"
+        const cleanDate = formattedDate
+            .replace(/\. /g, '.')
+            .replace(/\.$/, '')
+            .replace(' ', ' ');
+
+        lastUpdatedElement.innerHTML = `<span style="color: #666;">마지막 업데이트:</span> <strong>${cleanDate} (KST)</strong>`;
     }
 }
 
