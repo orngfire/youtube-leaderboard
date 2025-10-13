@@ -129,9 +129,7 @@ body {
 
 .header-content {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -141,10 +139,19 @@ body {
     color: var(--text-primary);
 }
 
+.evaluation-period {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: -8px;
+}
+
 .header-actions {
     display: flex;
     align-items: center;
     gap: 16px;
+    margin-left: auto;
+    margin-top: -50px;
 }
 
 .last-updated {
