@@ -41,8 +41,23 @@ jobs:
       run: |
         # Create credentials file from secret if Google Sheets is enabled
         if [ "$GOOGLE_SHEETS_ENABLED" = "true" ] && [ -n "$GOOGLE_SHEETS_CREDENTIALS" ]; then
+          echo "Creating credentials.json file..."
           echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json
+          echo "credentials.json created successfully"
+          # 파일 존재 확인
+          if [ -f "credentials.json" ]; then
+            echo "File exists with size: $(wc -c < credentials.json) bytes"
+          else
+            echo "ERROR: credentials.json was not created!"
+          fi
+        else
+          echo "Google Sheets is disabled or credentials not found"
         fi
+
+        # 현재 디렉토리 파일 목록 출력
+        echo "Current directory files:"
+        ls -la
+
         python leaderboard.py
 
     - name: Move files to docs folder

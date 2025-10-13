@@ -433,9 +433,14 @@ def create_excel(leaderboard: List[Dict], filename: str):
 def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict]):
     """Google Sheets에 데이터 업로드"""
     try:
+        logger.info("Google Sheets 업로드 시작...")
+
         # 환경 변수 확인
         credentials_file = os.getenv('GOOGLE_SHEETS_CREDENTIALS_FILE', 'credentials.json')
         spreadsheet_id = os.getenv('GOOGLE_SHEET_ID', '1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0')
+
+        logger.info(f"Credentials file: {credentials_file}")
+        logger.info(f"Spreadsheet ID: {spreadsheet_id}")
 
         if not spreadsheet_id:
             logger.error("GOOGLE_SHEET_ID 환경 변수가 설정되지 않았습니다.")
@@ -449,10 +454,15 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         if not os.path.exists(credentials_file):
             logger.error(f"인증 파일을 찾을 수 없습니다: {credentials_file}")
+            # 현재 디렉토리 파일 목록 출력
+            logger.error(f"현재 디렉토리 파일: {os.listdir('.')}")
             return
+
+        logger.info("인증 파일 존재 확인 완료")
 
         creds = Credentials.from_service_account_file(credentials_file, scopes=scope)
         client = gspread.authorize(creds)
+        logger.info("Google API 인증 성공")
 
         # 스프레드시트 열기
         spreadsheet = client.open_by_key(spreadsheet_id)
@@ -574,8 +584,17 @@ def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict
 
         logger.info(f"Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/{spreadsheet_id}")
 
+    except gspread.exceptions.APIError as e:
+        logger.error(f"Google Sheets API 오류: {e}")
+        if 'PERMISSION_DENIED' in str(e):
+            logger.error("권한 오류: 서비스 계정에 스프레드시트 편집 권한이 없습니다.")
+            logger.error("해결 방법: Google Sheets에서 서비스 계정 이메일에 편집자 권한을 부여하세요.")
+    except FileNotFoundError as e:
+        logger.error(f"인증 파일 오류: {e}")
     except Exception as e:
-        logger.error(f"Google Sheets 업로드 실패: {e}")
+        logger.error(f"Google Sheets 업로드 실패: {type(e).__name__}: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
 
 
 def create_json(leaderboard: List[Dict], filename: str):
