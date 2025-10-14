@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-13T17:25:09.668659+00:00",
+  "last_updated": "2025-10-14T03:32:11.658709+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -11,19 +11,19 @@
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
-      "total_score": 702,
+      "total_score": 663,
       "score_breakdown": {
-        "basic": 560,
-        "engagement": 9,
+        "basic": 521,
+        "engagement": 8,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 932,
-        "avg_engagement": 0.29,
+        "median_score": 868,
+        "avg_engagement": 0.28,
         "top3_avg": 2553,
-        "growth_ratio": 1.18,
-        "video_count": 12
+        "growth_ratio": 1.27,
+        "video_count": 13
       },
       "status": "success"
     },
@@ -35,15 +35,15 @@
       "badges": [],
       "total_score": 256,
       "score_breakdown": {
-        "basic": 162,
-        "engagement": 75,
+        "basic": 163,
+        "engagement": 74,
         "viral": 14,
         "growth": 5
       },
       "metrics": {
-        "median_score": 270,
-        "avg_engagement": 2.5,
-        "top3_avg": 270,
+        "median_score": 271,
+        "avg_engagement": 2.48,
+        "top3_avg": 271,
         "growth_ratio": 1.0,
         "video_count": 1
       },
