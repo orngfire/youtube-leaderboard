@@ -950,3 +950,217 @@ Google Sheets 업로드 중...
 2025-10-14 22:54:54,699 - INFO - 데이터 부족 채널: 7개
 2025-10-14 22:54:54,699 - INFO - ============================================================
 2025-10-14 22:54:54,699 - INFO - 완료!
+2025-10-14 16:08:05,000 - INFO - ============================================================
+2025-10-14 16:08:05,000 - INFO - YouTube Creator Leaderboard 생성 시작
+2025-10-14 16:08:05,000 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
+2025-10-14 16:08:05,000 - INFO - ============================================================
+2025-10-14 16:08:05,001 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-10-14 16:08:05,004 - INFO - 총 8개 채널 로드
+2025-10-14 16:08:05,004 - INFO - 
+[1/8] 김소윤 처리 중...
+2025-10-14 16:08:05,004 - INFO - ===== 채널 검색 시작: @catmocotto =====
+2025-10-14 16:08:05,004 - INFO - 원본 URL: https://www.youtube.com/@catmocotto
+2025-10-14 16:08:05,004 - INFO - 방법 1: @catmocotto으로 채널 검색
+2025-10-14 16:08:05,146 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,147 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40catmocotto&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,147 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:05,204 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,204 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40catmocotto&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,204 - INFO - 방법 3: username만으로 검색 (catmocotto)
+2025-10-14 16:08:05,270 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,271 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=catmocotto&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,271 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:05,337 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,337 - WARNING - 방법 4 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet&forUsername=catmocotto&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,337 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:05,445 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,445 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40catmocotto&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,446 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@catmocotto
+2025-10-14 16:08:05,446 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@catmocotto
+2025-10-14 16:08:05,446 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김소윤
+2025-10-14 16:08:05,446 - INFO - 
+[2/8] 조준철 처리 중...
+2025-10-14 16:08:05,446 - INFO - ===== 채널 검색 시작: @lee-lo-4u =====
+2025-10-14 16:08:05,446 - INFO - 원본 URL: https://www.youtube.com/@lee-lo-4u
+2025-10-14 16:08:05,446 - INFO - 방법 1: @lee-lo-4u으로 채널 검색
+2025-10-14 16:08:05,505 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,505 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40lee-lo-4u&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,506 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:05,561 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,561 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40lee-lo-4u&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,561 - INFO - 방법 3: username만으로 검색 (lee-lo-4u)
+2025-10-14 16:08:05,610 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,611 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=lee-lo-4u&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,611 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:05,666 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:05,725 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,725 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40lee-lo-4u&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,725 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@lee-lo-4u
+2025-10-14 16:08:05,725 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@lee-lo-4u
+2025-10-14 16:08:05,725 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 조준철
+2025-10-14 16:08:05,725 - INFO - 
+[3/8] 강민성 처리 중...
+2025-10-14 16:08:05,725 - INFO - ===== 채널 검색 시작: @IQ160건강깡패 =====
+2025-10-14 16:08:05,726 - INFO - 원본 URL: https://www.youtube.com/@IQ160건강깡패
+2025-10-14 16:08:05,726 - INFO - 방법 1: @IQ160건강깡패으로 채널 검색
+2025-10-14 16:08:05,807 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,807 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,807 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:05,876 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,876 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,876 - INFO - 방법 3: username만으로 검색 (IQ160건강깡패)
+2025-10-14 16:08:05,948 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:05,948 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:05,948 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:05,994 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:06,052 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,052 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,052 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@IQ160건강깡패
+2025-10-14 16:08:06,052 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@IQ160건강깡패
+2025-10-14 16:08:06,052 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 강민성
+2025-10-14 16:08:06,052 - INFO - 
+[4/8] 김예림 처리 중...
+2025-10-14 16:08:06,052 - INFO - ===== 채널 검색 시작: @vitaminute4u =====
+2025-10-14 16:08:06,052 - INFO - 원본 URL: https://www.youtube.com/@vitaminute4u
+2025-10-14 16:08:06,052 - INFO - 방법 1: @vitaminute4u으로 채널 검색
+2025-10-14 16:08:06,106 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,106 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40vitaminute4u&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,106 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:06,154 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,154 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40vitaminute4u&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,154 - INFO - 방법 3: username만으로 검색 (vitaminute4u)
+2025-10-14 16:08:06,222 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,222 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=vitaminute4u&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,222 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:06,274 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,275 - WARNING - 방법 4 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet&forUsername=vitaminute4u&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,275 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:06,325 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,325 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40vitaminute4u&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,325 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@vitaminute4u
+2025-10-14 16:08:06,325 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@vitaminute4u
+2025-10-14 16:08:06,325 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김예림
+2025-10-14 16:08:06,325 - INFO - 
+[5/8] 조한준 처리 중...
+2025-10-14 16:08:06,325 - INFO - ===== 채널 검색 시작: @Desde_Seúl =====
+2025-10-14 16:08:06,325 - INFO - 원본 URL: https://www.youtube.com/@Desde_Seúl
+2025-10-14 16:08:06,325 - INFO - 방법 1: @Desde_Seúl으로 채널 검색
+2025-10-14 16:08:06,369 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,369 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40Desde_Se%C3%BAl&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,369 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:06,414 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,415 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40Desde_Se%C3%BAl&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,415 - INFO - 방법 3: username만으로 검색 (Desde_Seúl)
+2025-10-14 16:08:06,464 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,464 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=Desde_Se%C3%BAl&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,464 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:06,511 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,511 - WARNING - 방법 4 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet&forUsername=Desde_Se%C3%BAl&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,511 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:06,560 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,560 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40Desde_Se%C3%BAl&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,560 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@Desde_Seúl
+2025-10-14 16:08:06,561 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@Desde_Seúl
+2025-10-14 16:08:06,561 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 조한준
+2025-10-14 16:08:06,561 - INFO - 
+[6/8] 임동한 처리 중...
+2025-10-14 16:08:06,561 - INFO - ===== 채널 검색 시작: @easyfood369 =====
+2025-10-14 16:08:06,561 - INFO - 원본 URL: https://www.youtube.com/@easyfood369
+2025-10-14 16:08:06,561 - INFO - 방법 1: @easyfood369으로 채널 검색
+2025-10-14 16:08:06,627 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,627 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40easyfood369&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,627 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:06,666 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,666 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40easyfood369&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,666 - INFO - 방법 3: username만으로 검색 (easyfood369)
+2025-10-14 16:08:06,756 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,756 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=easyfood369&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,756 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:06,790 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,790 - WARNING - 방법 4 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet&forUsername=easyfood369&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,790 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:06,805 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,805 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40easyfood369&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,805 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@easyfood369
+2025-10-14 16:08:06,805 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@easyfood369
+2025-10-14 16:08:06,805 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 임동한
+2025-10-14 16:08:06,805 - INFO - 
+[7/8] 김수정 처리 중...
+2025-10-14 16:08:06,806 - INFO - ===== 채널 검색 시작: @kokonyang-p6l =====
+2025-10-14 16:08:06,806 - INFO - 원본 URL: https://www.youtube.com/@kokonyang-p6l
+2025-10-14 16:08:06,806 - INFO - 방법 1: @kokonyang-p6l으로 채널 검색
+2025-10-14 16:08:06,835 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,835 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40kokonyang-p6l&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,835 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:06,860 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,861 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40kokonyang-p6l&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,861 - INFO - 방법 3: username만으로 검색 (kokonyang-p6l)
+2025-10-14 16:08:06,892 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,892 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=kokonyang-p6l&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,892 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:06,943 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:06,971 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:06,971 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40kokonyang-p6l&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:06,971 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@kokonyang-p6l
+2025-10-14 16:08:06,971 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@kokonyang-p6l
+2025-10-14 16:08:06,971 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김수정
+2025-10-14 16:08:06,972 - INFO - 
+[8/8] 서혜리 처리 중...
+2025-10-14 16:08:06,972 - INFO - ===== 채널 검색 시작: @quick_bite_english =====
+2025-10-14 16:08:06,972 - INFO - 원본 URL: https://www.youtube.com/@quick_bite_english
+2025-10-14 16:08:06,972 - INFO - 방법 1: @quick_bite_english으로 채널 검색
+2025-10-14 16:08:07,041 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:07,041 - WARNING - 방법 1 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40quick_bite_english&type=channel&maxResults=20&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:07,041 - INFO - 방법 2: 전체 URL로 검색
+2025-10-14 16:08:07,120 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:07,120 - WARNING - 방법 2 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=https%3A%2F%2Fwww.youtube.com%2F%40quick_bite_english&type=channel&maxResults=5&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:07,120 - INFO - 방법 3: username만으로 검색 (quick_bite_english)
+2025-10-14 16:08:07,147 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:07,147 - ERROR - 방법 3 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=quick_bite_english&type=channel&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:07,147 - INFO - 방법 4: forUsername 파라미터로 검색
+2025-10-14 16:08:07,223 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:07,223 - WARNING - 방법 4 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet&forUsername=quick_bite_english&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:07,224 - INFO - 방법 5: 영상을 통한 채널 ID 역추적
+2025-10-14 16:08:07,290 - WARNING - Encountered 403 Forbidden with reason "quotaExceeded"
+2025-10-14 16:08:07,290 - WARNING - 방법 5 실패: <HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40quick_bite_english&type=video&order=date&maxResults=10&key=AIzaSyAdOhSSMV-eTo2uO0fII0HC8FFy3to1yoo&alt=json returned "The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.". Details: "[{'message': 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]">
+2025-10-14 16:08:07,290 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@quick_bite_english
+2025-10-14 16:08:07,290 - ERROR - ❌ 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@quick_bite_english
+2025-10-14 16:08:07,290 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 서혜리
+2025-10-14 16:08:07,290 - INFO - 
+============================================================
+2025-10-14 16:08:07,290 - INFO - 최종 순위
+2025-10-14 16:08:07,290 - INFO - ============================================================
+2025-10-14 16:08:07,291 - INFO - 1위: 김소윤 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 2위: 조준철 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 3위: 강민성 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 4위: 김예림 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 5위: 조한준 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 6위: 임동한 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 7위: 김수정 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 8위: 서혜리 - 데이터 부족
+2025-10-14 16:08:07,291 - INFO - 
+파일 생성 중...
+2025-10-14 16:08:07,292 - INFO - JSON 파일 생성 완료: leaderboard.json
+2025-10-14 16:08:07,292 - INFO - 
+Google Sheets 업로드 중...
+2025-10-14 16:08:07,292 - INFO - Google Sheets 업로드 시작...
+2025-10-14 16:08:07,292 - INFO - Credentials file: credentials.json
+2025-10-14 16:08:07,292 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-14 16:08:07,292 - INFO - 인증 파일 존재 확인 완료
+2025-10-14 16:08:07,294 - INFO - Google API 인증 성공
+2025-10-14 16:08:08,094 - INFO - 리더보드 데이터 준비 중... 총 8개 채널
+2025-10-14 16:08:08,094 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_handle', 'status', 'badges', 'badge_descriptions'])
+2025-10-14 16:08:08,094 - INFO - 리더보드 데이터 준비 완료: 9행
+2025-10-14 16:08:08,987 - INFO - 리더보드 시트 업데이트 완료
+2025-10-14 16:08:10,370 - INFO - 영상 상세 데이터 준비 완료: 0개 영상
+2025-10-14 16:08:10,883 - INFO - 영상 상세 시트 업데이트 완료
+2025-10-14 16:08:11,523 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-14 16:08:11,525 - INFO - 
+============================================================
+2025-10-14 16:08:11,525 - INFO - 실행 통계
+2025-10-14 16:08:11,525 - INFO - ============================================================
+2025-10-14 16:08:11,526 - INFO - 총 API 호출 횟수: 40
+2025-10-14 16:08:11,526 - INFO - 성공적으로 처리된 채널: 0개
+2025-10-14 16:08:11,526 - INFO - 데이터 부족 채널: 8개
+2025-10-14 16:08:11,526 - INFO - ============================================================
+2025-10-14 16:08:11,526 - INFO - 완료!
