@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-14T13:45:12.304291+00:00",
+  "last_updated": "2025-10-14T14:13:08.711149+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,7 +7,7 @@
   "leaderboard": [
     {
       "rank": 1,
-      "name": "리로",
+      "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
@@ -123,6 +123,30 @@
     },
     {
       "rank": 6,
+      "name": "서혜리",
+      "channel_handle": "quick_bite_english",
+      "channel_url": "https://www.youtube.com/@quick_bite_english",
+      "badges": [
+        "🔥"
+      ],
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 7,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
@@ -144,7 +168,7 @@
       "status": "channel_not_found"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
