@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-14T14:13:08.711149+00:00",
+  "last_updated": "2025-10-14T14:33:47.782557+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -11,6 +11,7 @@
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
+      "badge_descriptions": {},
       "total_score": 663,
       "score_breakdown": {
         "basic": 521,
@@ -33,6 +34,7 @@
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
       "badges": [],
+      "badge_descriptions": {},
       "total_score": 256,
       "score_breakdown": {
         "basic": 163,
@@ -54,9 +56,8 @@
       "name": "김소윤",
       "channel_handle": "catmocotto",
       "channel_url": "https://www.youtube.com/@catmocotto",
-      "badges": [
-        "🔥"
-      ],
+      "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
@@ -78,9 +79,8 @@
       "name": "임동한",
       "channel_handle": "easyfood369",
       "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [
-        "🔥"
-      ],
+      "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
@@ -102,9 +102,8 @@
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
-      "badges": [
-        "🔥"
-      ],
+      "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
@@ -126,9 +125,8 @@
       "name": "서혜리",
       "channel_handle": "quick_bite_english",
       "channel_url": "https://www.youtube.com/@quick_bite_english",
-      "badges": [
-        "🔥"
-      ],
+      "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
@@ -151,6 +149,7 @@
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
       "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
@@ -173,6 +172,7 @@
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
+      "badge_descriptions": {},
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,
