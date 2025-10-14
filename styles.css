@@ -154,6 +154,40 @@ body {
     margin-top: -50px;
 }
 
+/* View Tabs */
+.view-tabs {
+    display: flex;
+    gap: 8px;
+    margin: 20px 0;
+    padding: 4px;
+    background: var(--gray-50);
+    border-radius: 12px;
+}
+
+.view-tab {
+    flex: 1;
+    padding: 10px 16px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+
+.view-tab:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.view-tab.active {
+    background: var(--white);
+    color: var(--primary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
 .last-updated {
     font-size: 15px;
     color: var(--text-secondary);
@@ -647,6 +681,17 @@ body {
         padding: 20px;
         margin-bottom: 16px;
         box-shadow: var(--shadow-sm);
+    }
+
+    .view-tabs {
+        gap: 4px;
+        padding: 2px;
+        margin: 15px 0;
+    }
+
+    .view-tab {
+        padding: 8px 12px;
+        font-size: 13px;
     }
 
     .mobile-title {

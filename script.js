@@ -487,6 +487,211 @@ function showError() {
 }
 
 /**
+ * Switch between different view tabs
+ */
+let currentView = 'top-creators';
+
+function switchView(viewType) {
+    // Update active tab
+    document.querySelectorAll('.view-tab').forEach(tab => {
+        tab.classList.remove('active');
+        if (tab.dataset.view === viewType) {
+            tab.classList.add('active');
+        }
+    });
+
+    currentView = viewType;
+
+    // Render appropriate view
+    switch(viewType) {
+        case 'top-creators':
+            renderLeaderboard();
+            break;
+        case 'most-active':
+            renderMostActiveView();
+            break;
+        case 'most-subscribed':
+            renderMostSubscribedView();
+            break;
+        case 'viral-hit':
+            renderViralHitView();
+            break;
+    }
+}
+
+/**
+ * Render Most Active view (게재 영상 수)
+ */
+function renderMostActiveView() {
+    const table = document.getElementById('leaderboard-table');
+
+    // Sort by video count
+    const sortedData = [...leaderboardData.leaderboard]
+        .filter(channel => channel.status === 'success')
+        .sort((a, b) => (b.metrics?.video_count || 0) - (a.metrics?.video_count || 0));
+
+    let html = `
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>이름</th>
+                <th>게재 영상 수</th>
+                <th>평균 조회수</th>
+                <th>최고 조회수</th>
+            </tr>
+        </thead>
+        <tbody>
+    `;
+
+    sortedData.forEach((channel, index) => {
+        const rank = index + 1;
+        const rankClass = rank <= 3 ? `rank-${rank}` : '';
+        const medalEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
+
+        html += `
+            <tr class="${rankClass}">
+                <td class="rank-cell">${medalEmoji} ${rank}</td>
+                <td class="name-cell">
+                    <div class="name-wrapper">
+                        <div class="name-text">${channel.name}</div>
+                        <div class="channel-name">@${channel.channel_handle}</div>
+                    </div>
+                </td>
+                <td class="score-cell">
+                    🎬 ${channel.metrics?.video_count || 0}개
+                </td>
+                <td class="score-cell">
+                    ${formatNumber(channel.metrics?.avg_views || 0)}
+                </td>
+                <td class="score-cell">
+                    ${formatNumber(channel.metrics?.max_views || 0)}
+                </td>
+            </tr>
+        `;
+    });
+
+    html += '</tbody>';
+    table.innerHTML = html;
+}
+
+/**
+ * Render Most Subscribed view (구독자 수)
+ */
+function renderMostSubscribedView() {
+    const table = document.getElementById('leaderboard-table');
+
+    // For now, use dummy data as we don't have subscriber counts
+    const sortedData = [...leaderboardData.leaderboard]
+        .filter(channel => channel.status === 'success');
+
+    let html = `
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>이름</th>
+                <th>구독자 수</th>
+                <th>평가 기간 증가</th>
+                <th>영상 수</th>
+            </tr>
+        </thead>
+        <tbody>
+    `;
+
+    sortedData.forEach((channel, index) => {
+        const rank = index + 1;
+        const rankClass = rank <= 3 ? `rank-${rank}` : '';
+        const medalEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
+
+        // Dummy subscriber data for now
+        const subscriberCount = Math.floor(Math.random() * 2000) + 500;
+        const subscriberGrowth = Math.floor(Math.random() * 300) + 50;
+
+        html += `
+            <tr class="${rankClass}">
+                <td class="rank-cell">${medalEmoji} ${rank}</td>
+                <td class="name-cell">
+                    <div class="name-wrapper">
+                        <div class="name-text">${channel.name}</div>
+                        <div class="channel-name">@${channel.channel_handle}</div>
+                    </div>
+                </td>
+                <td class="score-cell">
+                    👥 ${formatNumber(subscriberCount)}
+                </td>
+                <td class="score-cell" style="color: #10b981;">
+                    +${subscriberGrowth}
+                </td>
+                <td class="score-cell">
+                    ${channel.metrics?.video_count || 0}개
+                </td>
+            </tr>
+        `;
+    });
+
+    html += '</tbody>';
+    table.innerHTML = html;
+}
+
+/**
+ * Render Viral Hit view (최고 조회수 영상)
+ */
+function renderViralHitView() {
+    const table = document.getElementById('leaderboard-table');
+
+    // Sort by max views
+    const sortedData = [...leaderboardData.leaderboard]
+        .filter(channel => channel.status === 'success')
+        .sort((a, b) => (b.metrics?.max_views || 0) - (a.metrics?.max_views || 0));
+
+    let html = `
+        <thead>
+            <tr>
+                <th>순위</th>
+                <th>이름</th>
+                <th>최고 조회수</th>
+                <th>좋아요</th>
+                <th>댓글</th>
+                <th>인게이지먼트</th>
+            </tr>
+        </thead>
+        <tbody>
+    `;
+
+    sortedData.forEach((channel, index) => {
+        const rank = index + 1;
+        const rankClass = rank <= 3 ? `rank-${rank}` : '';
+        const medalEmoji = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '';
+
+        html += `
+            <tr class="${rankClass}">
+                <td class="rank-cell">${medalEmoji} ${rank}</td>
+                <td class="name-cell">
+                    <div class="name-wrapper">
+                        <div class="name-text">${channel.name}</div>
+                        <div class="channel-name">@${channel.channel_handle}</div>
+                    </div>
+                </td>
+                <td class="score-cell">
+                    🔥 ${formatNumber(channel.metrics?.max_views || 0)}
+                </td>
+                <td class="score-cell">
+                    ${formatNumber(channel.metrics?.max_views_video_likes || 0)}
+                </td>
+                <td class="score-cell">
+                    ${formatNumber(channel.metrics?.max_views_video_comments || 0)}
+                </td>
+                <td class="score-cell">
+                    ${(channel.metrics?.max_views_video_engagement || 0).toFixed(2)}%
+                </td>
+            </tr>
+        `;
+    });
+
+    html += '</tbody>';
+    table.innerHTML = html;
+}
+
+/**
  * Show empty state
  */
 function showEmpty() {

@@ -822,7 +822,15 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'avg_engagement': round(item['avg_engagement'], 2),
                     'top3_avg': round(item['top3_avg']),
                     'growth_ratio': round(item['growth_ratio'], 2),
-                    'video_count': item['video_count']
+                    'video_count': item['video_count'],
+                    'avg_views': round(item.get('avg_views', 0)),
+                    'max_views': item.get('max_views', 0),
+                    'max_views_video_title': item.get('max_views_video_title', ''),
+                    'max_views_video_likes': item.get('max_views_video_likes', 0),
+                    'max_views_video_comments': item.get('max_views_video_comments', 0),
+                    'max_views_video_engagement': round(item.get('max_views_video_engagement', 0), 2),
+                    'subscriber_count': item.get('subscriber_count', 0),
+                    'subscriber_growth': item.get('subscriber_growth', 0)
                 },
                 'status': 'success'
             })
@@ -903,9 +911,31 @@ def main():
         # 점수 계산
         scores = ScoreCalculator.calculate_channel_scores(videos)
 
+        # 추가 지표 계산
+        if videos:
+            all_views = [v['views'] for v in videos]
+            avg_views = sum(all_views) / len(all_views) if all_views else 0
+            max_views_video = max(videos, key=lambda v: v['views'])
+            max_views = max_views_video['views']
+            max_views_engagement = ((max_views_video['likes'] + max_views_video['comments']) / max_views * 100) if max_views > 0 else 0
+        else:
+            avg_views = 0
+            max_views = 0
+            max_views_video = {'title': '', 'likes': 0, 'comments': 0}
+            max_views_engagement = 0
+
         all_channel_data.append({
             **channel_info,
-            **scores
+            **scores,
+            'avg_views': avg_views,
+            'max_views': max_views,
+            'max_views_video_title': max_views_video.get('title', ''),
+            'max_views_video_likes': max_views_video.get('likes', 0),
+            'max_views_video_comments': max_views_video.get('comments', 0),
+            'max_views_video_engagement': max_views_engagement,
+            # 구독자 수는 나중에 API에서 가져와야 하므로 일단 0으로 설정
+            'subscriber_count': 0,
+            'subscriber_growth': 0
         })
 
     # 뱃지 계산

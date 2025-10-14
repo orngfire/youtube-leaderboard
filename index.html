@@ -35,6 +35,23 @@
                     평가 기간: 25.10.02(목) ~ 25.12.14(일)<br>
                     이 기간에 게재된 영상만 점수 집계 대상입니다.
                 </div>
+
+                <!-- View Tabs -->
+                <div class="view-tabs">
+                    <button class="view-tab active" data-view="top-creators" onclick="switchView('top-creators')">
+                        🏆 Top Creators
+                    </button>
+                    <button class="view-tab" data-view="most-active" onclick="switchView('most-active')">
+                        🎬 Most Active
+                    </button>
+                    <button class="view-tab" data-view="most-subscribed" onclick="switchView('most-subscribed')">
+                        👥 Most Subscribed
+                    </button>
+                    <button class="view-tab" data-view="viral-hit" onclick="switchView('viral-hit')">
+                        🔥 Viral Hit
+                    </button>
+                </div>
+
                 <div class="header-actions">
                     <span id="last-updated" class="last-updated">업데이트: -</span>
                     <button id="refresh-btn" class="refresh-btn" onclick="refreshData()" aria-label="새로고침">
