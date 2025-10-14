@@ -12,7 +12,6 @@ from datetime import datetime, timezone, timedelta
 from typing import Dict, List, Optional, Tuple
 import statistics
 
-import pandas as pd
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 from dotenv import load_dotenv
@@ -559,28 +558,8 @@ def create_excel(leaderboard: List[Dict], filename: str):
                 '성장': 0
             })
 
-    df = pd.DataFrame(rows)
-
-    # Excel 저장
-    with pd.ExcelWriter(filename, engine='openpyxl') as writer:
-        df.to_excel(writer, index=False, sheet_name='Leaderboard')
-
-        # 서식 설정
-        workbook = writer.book
-        worksheet = writer.sheets['Leaderboard']
-
-        # 열 너비 조정
-        worksheet.column_dimensions['A'].width = 25
-        for col in ['B', 'C', 'D', 'E', 'F']:
-            worksheet.column_dimensions[col].width = 12
-
-        # 텍스트 줄바꿈 설정
-        from openpyxl.styles import Alignment
-        for row in worksheet.iter_rows(min_row=2, max_row=worksheet.max_row, min_col=1, max_col=1):
-            for cell in row:
-                cell.alignment = Alignment(wrap_text=True, vertical='center')
-
-    logger.info(f"Excel 파일 생성 완료: {filename}")
+    # Excel 생성 스킵 - Google Sheets 사용 중
+    logger.info(f"Excel 생성 스킵 (Google Sheets 사용 중): {filename}")
 
 
 def upload_to_google_sheets(leaderboard: List[Dict], all_channel_data: List[Dict]):
