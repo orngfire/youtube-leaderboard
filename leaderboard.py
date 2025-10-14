@@ -66,21 +66,25 @@ class YouTubeAPI:
             # @username 형식 처리
             if '@' in channel_url:
                 username = channel_url.split('@')[-1].strip()
+                logger.info(f"채널 검색: @{username}")
 
-                # 방법 1: forHandle 파라미터 사용 (최신 API)
+                # 방법 1: search API로 직접 @handle 검색
                 try:
                     self.api_calls += 1
-                    request = self.youtube.channels().list(
-                        part='id',
-                        forHandle=username
+                    search_request = self.youtube.search().list(
+                        part='snippet',
+                        q=f"@{username}",
+                        type='channel',
+                        maxResults=5
                     )
-                    response = request.execute()
+                    search_response = search_request.execute()
 
-                    if response.get('items'):
-                        logger.info(f"채널 ID 찾음 (forHandle): {response['items'][0]['id']}")
-                        return response['items'][0]['id']
-                except (HttpError, TypeError) as e:
-                    logger.warning(f"forHandle 실패, search API 시도 중: {e}")
+                    if search_response.get('items'):
+                        channel_id = search_response['items'][0]['snippet']['channelId']
+                        logger.info(f"채널 ID 찾음 (search @handle): {channel_id}")
+                        return channel_id
+                except HttpError as e:
+                    logger.warning(f"@handle 검색 실패, forUsername 시도 중: {e}")
 
                 # 방법 2: forUsername 파라미터 사용 (레거시 API)
                 try:
