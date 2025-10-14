@@ -328,36 +328,85 @@ body {
 }
 
 .badges {
-    display: flex;
+    display: inline-flex;
+    align-items: center;
     gap: 4px;
+    margin-left: 8px;
 }
 
 .badge {
     font-size: 20px;
     position: relative;
     cursor: help;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.badge:hover {
+    transform: scale(1.2);
 }
 
 .badge-tooltip {
     position: absolute;
-    bottom: 100%;
+    bottom: calc(100% + 8px);
     left: 50%;
     transform: translateX(-50%);
-    background: var(--text-primary);
+    background: rgba(33, 33, 33, 0.95);
+    backdrop-filter: blur(8px);
     color: var(--white);
-    padding: 6px 10px;
-    border-radius: 4px;
-    font-size: 12px;
-    white-space: nowrap;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    min-width: 200px;
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
-    transition: opacity 0.2s;
-    margin-bottom: 4px;
-    z-index: 100;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .badge:hover .badge-tooltip {
     opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+}
+
+.badge-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid rgba(33, 33, 33, 0.95);
+}
+
+.tooltip-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tooltip-emoji {
+    font-size: 20px;
+}
+
+.tooltip-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.tooltip-message {
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .channel-name {
@@ -669,12 +718,60 @@ body {
         font-size: 18px;
         font-weight: 600;
         margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .mobile-badges-inline {
+        display: inline-flex;
+        gap: 2px;
+        margin-left: 4px;
+        font-size: 18px;
     }
 
     .mobile-channel {
         font-size: 14px;
         color: var(--text-secondary);
         margin-bottom: 12px;
+    }
+
+    .mobile-badges {
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid var(--gray-100);
+    }
+
+    .mobile-badge-item {
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 8px;
+        padding: 8px;
+        background: var(--gray-50);
+        border-radius: 8px;
+    }
+
+    .mobile-badge-icon {
+        font-size: 24px;
+        flex-shrink: 0;
+    }
+
+    .mobile-badge-info {
+        flex: 1;
+    }
+
+    .mobile-badge-title {
+        font-weight: 600;
+        font-size: 14px;
+        color: var(--text-primary);
+        margin-bottom: 4px;
+    }
+
+    .mobile-badge-message {
+        font-size: 13px;
+        color: var(--text-secondary);
+        line-height: 1.4;
     }
 
     .mobile-scores {
