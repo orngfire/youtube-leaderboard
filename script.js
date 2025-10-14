@@ -110,7 +110,7 @@ function createTableRow(channel) {
                         ${createBadges(channel.badges, channel.badge_descriptions)}
                     </div>
                 </div>
-                <div class="channel-name">${channel.channel_handle || channel.channel_name || ''}</div>
+                <div class="channel-name">${channel.channel_handle ? '@' + channel.channel_handle : (channel.channel_name || '')}</div>
             </div>
         </td>
         <td class="total-score-cell">
@@ -167,7 +167,7 @@ function createMobileCard(channel) {
             </div>
         </div>
         <div class="mobile-name">${channel.name} ${channel.badges ? channel.badges.join(' ') : ''}</div>
-        <div class="mobile-channel">${channel.channel_handle || channel.channel_name || ''}</div>
+        <div class="mobile-channel">${channel.channel_handle ? '@' + channel.channel_handle : (channel.channel_name || '')}</div>
         <div class="mobile-scores">
             <div class="mobile-score-item">
                 <div class="mobile-score-label">채널</div>
