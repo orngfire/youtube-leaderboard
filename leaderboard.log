@@ -851,81 +851,102 @@ Google Sheets 업로드 중...
 2025-10-14 03:32:14,188 - INFO - 데이터 부족 채널: 2개
 2025-10-14 03:32:14,188 - INFO - ============================================================
 2025-10-14 03:32:14,188 - INFO - 완료!
-2025-10-14 13:45:07,633 - INFO - ============================================================
-2025-10-14 13:45:07,633 - INFO - YouTube Creator Leaderboard 생성 시작
-2025-10-14 13:45:07,633 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
-2025-10-14 13:45:07,633 - INFO - ============================================================
-2025-10-14 13:45:07,634 - INFO - file_cache is only supported with oauth2client<4.0.0
-2025-10-14 13:45:07,637 - INFO - 총 7개 채널 로드
-2025-10-14 13:45:07,637 - INFO - 
+2025-10-14 22:54:46,960 - INFO - ============================================================
+2025-10-14 22:54:46,961 - INFO - YouTube Creator Leaderboard 생성 시작
+2025-10-14 22:54:46,961 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
+2025-10-14 22:54:46,961 - INFO - ============================================================
+2025-10-14 22:54:46,962 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-10-14 22:54:46,966 - INFO - 총 7개 채널 로드
+2025-10-14 22:54:46,966 - INFO - 
 [1/7] 김소윤 처리 중...
-2025-10-14 13:45:07,637 - INFO - 채널 검색: @catmocotto
-2025-10-14 13:45:08,009 - INFO - 채널 ID 찾음 (search @handle): UCej2A7vjwQnGDuytjUIM0Xw
-2025-10-14 13:45:09,003 - INFO - 채널 UCej2A7vjwQnGDuytjUIM0Xw: 0개 영상 수집
-2025-10-14 13:45:09,003 - INFO - 
+2025-10-14 22:54:46,966 - INFO - 채널 검색: @catmocotto
+2025-10-14 22:54:47,176 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40catmocotto&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,238 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=catmocotto&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,301 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=catmocotto&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,301 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@catmocotto
+2025-10-14 22:54:47,302 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김소윤
+2025-10-14 22:54:47,302 - INFO - 
 [2/7] 리로 처리 중...
-2025-10-14 13:45:09,003 - INFO - 채널 검색: @lee-lo-4u
-2025-10-14 13:45:09,284 - INFO - 채널 ID 찾음 (search @handle): UCcMRADwvMuSTWiB69qNSSUA
-2025-10-14 13:45:09,497 - INFO - 채널 UCcMRADwvMuSTWiB69qNSSUA: 13개 영상 수집
-2025-10-14 13:45:09,497 - INFO - 
+2025-10-14 22:54:47,302 - INFO - 채널 검색: @lee-lo-4u
+2025-10-14 22:54:47,373 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40lee-lo-4u&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,441 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=lee-lo-4u&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,515 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=lee-lo-4u&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,516 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@lee-lo-4u
+2025-10-14 22:54:47,516 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 리로
+2025-10-14 22:54:47,516 - INFO - 
 [3/7] 강민성 처리 중...
-2025-10-14 13:45:09,497 - INFO - 채널 검색: @IQ160건강깡패
-2025-10-14 13:45:10,071 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@IQ160건강깡패
-2025-10-14 13:45:10,071 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 강민성
-2025-10-14 13:45:10,071 - INFO - 
+2025-10-14 22:54:47,516 - INFO - 채널 검색: @IQ160건강깡패
+2025-10-14 22:54:47,585 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,650 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,748 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=IQ160%EA%B1%B4%EA%B0%95%EA%B9%A1%ED%8C%A8&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,749 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@IQ160건강깡패
+2025-10-14 22:54:47,749 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 강민성
+2025-10-14 22:54:47,749 - INFO - 
 [4/7] 김예림 처리 중...
-2025-10-14 13:45:10,071 - INFO - 채널 검색: @vitaminute4u
-2025-10-14 13:45:10,677 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@vitaminute4u
-2025-10-14 13:45:10,677 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김예림
-2025-10-14 13:45:10,677 - INFO - 
+2025-10-14 22:54:47,749 - INFO - 채널 검색: @vitaminute4u
+2025-10-14 22:54:47,810 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40vitaminute4u&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,872 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=vitaminute4u&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,935 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=vitaminute4u&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:47,935 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@vitaminute4u
+2025-10-14 22:54:47,935 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김예림
+2025-10-14 22:54:47,935 - INFO - 
 [5/7] 조한준 처리 중...
-2025-10-14 13:45:10,677 - INFO - 채널 검색: @Desde_Seúl
-2025-10-14 13:45:11,080 - INFO - 채널 ID 찾음 (search @handle): UCp172WWQsW0Vvc924md6Giw
-2025-10-14 13:45:11,232 - INFO - 채널 UCp172WWQsW0Vvc924md6Giw: 1개 영상 수집
-2025-10-14 13:45:11,232 - INFO - 
+2025-10-14 22:54:47,935 - INFO - 채널 검색: @Desde_Seúl
+2025-10-14 22:54:48,002 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40Desde_Se%C3%BAl&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,068 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=Desde_Se%C3%BAl&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,139 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=Desde_Se%C3%BAl&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,139 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@Desde_Seúl
+2025-10-14 22:54:48,139 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 조한준
+2025-10-14 22:54:48,139 - INFO - 
 [6/7] 임동한 처리 중...
-2025-10-14 13:45:11,233 - INFO - 채널 검색: @easyfood369
-2025-10-14 13:45:11,521 - INFO - 채널 ID 찾음 (search @handle): UCJc4X5ZWGHonb4Bik6IVTgw
-2025-10-14 13:45:11,835 - INFO - 채널 UCJc4X5ZWGHonb4Bik6IVTgw: 0개 영상 수집
-2025-10-14 13:45:11,835 - INFO - 
+2025-10-14 22:54:48,139 - INFO - 채널 검색: @easyfood369
+2025-10-14 22:54:48,211 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40easyfood369&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,272 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=easyfood369&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,349 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=easyfood369&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,349 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@easyfood369
+2025-10-14 22:54:48,349 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 임동한
+2025-10-14 22:54:48,349 - INFO - 
 [7/7] 김수정 처리 중...
-2025-10-14 13:45:11,835 - INFO - 채널 검색: @kokonyang-p6l
-2025-10-14 13:45:12,077 - INFO - 채널 ID 찾음 (search @handle): UCSuyRNFqR7_N2RpWNXJoLnw
-2025-10-14 13:45:12,303 - INFO - 채널 UCSuyRNFqR7_N2RpWNXJoLnw: 0개 영상 수집
-2025-10-14 13:45:12,303 - INFO - 
+2025-10-14 22:54:48,349 - INFO - 채널 검색: @kokonyang-p6l
+2025-10-14 22:54:48,427 - WARNING - @handle 검색 실패, forUsername 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=%40kokonyang-p6l&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,492 - WARNING - forUsername 실패, search API 시도 중: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=kokonyang-p6l&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,558 - ERROR - search API 실패: <HttpError 400 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&q=kokonyang-p6l&type=channel&maxResults=5&key=YOUR_API_KEY_HERE&alt=json returned "API key not valid. Please pass a valid API key.". Details: "[{'message': 'API key not valid. Please pass a valid API key.', 'domain': 'global', 'reason': 'badRequest'}]">
+2025-10-14 22:54:48,558 - WARNING - 채널 ID를 찾을 수 없습니다: https://www.youtube.com/@kokonyang-p6l
+2025-10-14 22:54:48,558 - WARNING - 채널 ID를 찾을 수 없어 건너뜁니다: 김수정
+2025-10-14 22:54:48,558 - INFO - 
 ============================================================
-2025-10-14 13:45:12,303 - INFO - 최종 순위
-2025-10-14 13:45:12,303 - INFO - ============================================================
-2025-10-14 13:45:12,303 - INFO - 1위: 리로  - 663점
-2025-10-14 13:45:12,303 - INFO - 2위: 조한준  - 256점
-2025-10-14 13:45:12,303 - INFO - 3위: 김소윤 🔥 - 0점
-2025-10-14 13:45:12,304 - INFO - 4위: 임동한 🔥 - 0점
-2025-10-14 13:45:12,304 - INFO - 5위: 김수정 🔥 - 0점
-2025-10-14 13:45:12,304 - INFO - 6위: 강민성 - 데이터 부족
-2025-10-14 13:45:12,304 - INFO - 7위: 김예림 - 데이터 부족
-2025-10-14 13:45:12,304 - INFO - 
+2025-10-14 22:54:48,558 - INFO - 최종 순위
+2025-10-14 22:54:48,558 - INFO - ============================================================
+2025-10-14 22:54:48,558 - INFO - 1위: 김소윤 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 2위: 리로 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 3위: 강민성 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 4위: 김예림 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 5위: 조한준 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 6위: 임동한 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 7위: 김수정 - 데이터 부족
+2025-10-14 22:54:48,558 - INFO - 
 파일 생성 중...
-2025-10-14 13:45:12,304 - INFO - JSON 파일 생성 완료: leaderboard.json
-2025-10-14 13:45:12,304 - INFO - 
+2025-10-14 22:54:48,560 - INFO - JSON 파일 생성 완료: leaderboard.json
+2025-10-14 22:54:48,560 - INFO - 
 Google Sheets 업로드 중...
-2025-10-14 13:45:12,304 - INFO - Google Sheets 업로드 시작...
-2025-10-14 13:45:12,304 - INFO - Credentials file: credentials.json
-2025-10-14 13:45:12,305 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
-2025-10-14 13:45:12,305 - INFO - 인증 파일 존재 확인 완료
-2025-10-14 13:45:12,306 - INFO - Google API 인증 성공
-2025-10-14 13:45:13,076 - INFO - 리더보드 데이터 준비 중... 총 7개 채널
-2025-10-14 13:45:13,076 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_handle', 'status', 'video_count', 'median_score', 'avg_engagement', 'top3_avg', 'growth_ratio', 'score_median', 'score_engagement', 'score_viral', 'score_growth', 'total_score', 'videos', 'video_details', 'badges'])
-2025-10-14 13:45:13,076 - INFO - 리더보드 데이터 준비 완료: 8행
-2025-10-14 13:45:13,528 - INFO - 리더보드 시트 업데이트 완료
-2025-10-14 13:45:15,160 - INFO - 영상 상세 데이터 준비 완료: 14개 영상
-2025-10-14 13:45:15,511 - INFO - 영상 상세 시트 업데이트 완료
-2025-10-14 13:45:15,887 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
-2025-10-14 13:45:15,889 - INFO - 
+2025-10-14 22:54:48,560 - INFO - Google Sheets 업로드 시작...
+2025-10-14 22:54:48,560 - INFO - Credentials file: credentials.json
+2025-10-14 22:54:48,560 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-14 22:54:48,560 - INFO - 인증 파일 존재 확인 완료
+2025-10-14 22:54:48,562 - INFO - Google API 인증 성공
+2025-10-14 22:54:49,918 - INFO - 리더보드 데이터 준비 중... 총 7개 채널
+2025-10-14 22:54:49,918 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_handle', 'status', 'badges'])
+2025-10-14 22:54:49,918 - INFO - 리더보드 데이터 준비 완료: 8행
+2025-10-14 22:54:51,014 - INFO - 리더보드 시트 업데이트 완료
+2025-10-14 22:54:53,175 - INFO - 영상 상세 데이터 준비 완료: 0개 영상
+2025-10-14 22:54:53,899 - INFO - 영상 상세 시트 업데이트 완료
+2025-10-14 22:54:54,697 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-14 22:54:54,699 - INFO - 
 ============================================================
-2025-10-14 13:45:15,890 - INFO - 실행 통계
-2025-10-14 13:45:15,890 - INFO - ============================================================
-2025-10-14 13:45:15,890 - INFO - 총 API 호출 횟수: 32
-2025-10-14 13:45:15,890 - INFO - 성공적으로 처리된 채널: 5개
-2025-10-14 13:45:15,890 - INFO - 데이터 부족 채널: 2개
-2025-10-14 13:45:15,890 - INFO - ============================================================
-2025-10-14 13:45:15,890 - INFO - 완료!
+2025-10-14 22:54:54,699 - INFO - 실행 통계
+2025-10-14 22:54:54,699 - INFO - ============================================================
+2025-10-14 22:54:54,699 - INFO - 총 API 호출 횟수: 21
+2025-10-14 22:54:54,699 - INFO - 성공적으로 처리된 채널: 0개
+2025-10-14 22:54:54,699 - INFO - 데이터 부족 채널: 7개
+2025-10-14 22:54:54,699 - INFO - ============================================================
+2025-10-14 22:54:54,699 - INFO - 완료!

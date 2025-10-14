@@ -66,42 +66,59 @@ class YouTubeAPI:
             # @username 형식 처리
             if '@' in channel_url:
                 username = channel_url.split('@')[-1].strip()
-                logger.info(f"채널 검색: @{username}")
+                logger.info(f"===== 채널 검색 시작: @{username} =====")
+                logger.info(f"원본 URL: {channel_url}")
 
                 # 방법 1: search API로 직접 @handle 검색 (가장 정확)
                 try:
+                    logger.info(f"방법 1: @{username}으로 채널 검색")
                     self.api_calls += 1
                     search_request = self.youtube.search().list(
                         part='snippet',
                         q=f"@{username}",
                         type='channel',
-                        maxResults=10  # 더 많은 결과 검색
+                        maxResults=20  # 충분한 결과 검색
                     )
                     search_response = search_request.execute()
 
+                    logger.info(f"검색 결과: {len(search_response.get('items', []))}개 채널")
+
                     # 정확한 handle 매치 찾기
-                    for item in search_response.get('items', []):
+                    for idx, item in enumerate(search_response.get('items', [])):
                         # customUrl이나 channelTitle에서 매치 찾기
-                        channel_title = item['snippet'].get('title', '').lower()
-                        channel_desc = item['snippet'].get('description', '').lower()
+                        channel_title = item['snippet'].get('title', '')
+                        channel_desc = item['snippet'].get('description', '')
+                        channel_id_temp = item['snippet']['channelId']
+
+                        logger.debug(f"  [{idx}] 채널명: {channel_title}, ID: {channel_id_temp[:10]}...")
 
                         # @username과 정확히 매치되는 채널 찾기
-                        if username.lower() in channel_title.replace(' ', '') or f"@{username.lower()}" in channel_desc:
-                            channel_id = item['snippet']['channelId']
-                            logger.info(f"채널 ID 찾음 (exact match): {channel_id}")
-                            return channel_id
+                        title_lower = channel_title.lower().replace(' ', '').replace('-', '')
+                        username_lower = username.lower().replace(' ', '').replace('-', '')
+
+                        # 정확한 매치 확인
+                        if username_lower == title_lower or f"@{username_lower}" in channel_desc.lower():
+                            logger.info(f"✓ 정확한 채널 ID 찾음: {channel_id_temp} (채널명: {channel_title})")
+                            return channel_id_temp
+
+                        # 부분 매치 확인
+                        if username_lower in title_lower or title_lower in username_lower:
+                            logger.info(f"✓ 부분 매치 채널 ID 찾음: {channel_id_temp} (채널명: {channel_title})")
+                            return channel_id_temp
 
                     # 정확한 매치가 없으면 첫 번째 결과 사용
                     if search_response.get('items'):
                         channel_id = search_response['items'][0]['snippet']['channelId']
-                        logger.info(f"채널 ID 찾음 (first result): {channel_id}")
+                        channel_title = search_response['items'][0]['snippet']['title']
+                        logger.warning(f"⚠ 정확한 매치 없음, 첫 번째 결과 사용: {channel_id} (채널명: {channel_title})")
                         return channel_id
 
                 except HttpError as e:
-                    logger.warning(f"@handle 검색 실패: {e}")
+                    logger.warning(f"방법 1 실패: {e}")
 
                 # 방법 2: 전체 URL로 검색
                 try:
+                    logger.info(f"방법 2: 전체 URL로 검색")
                     self.api_calls += 1
                     search_request = self.youtube.search().list(
                         part='snippet',
@@ -113,13 +130,15 @@ class YouTubeAPI:
 
                     if search_response.get('items'):
                         channel_id = search_response['items'][0]['snippet']['channelId']
-                        logger.info(f"채널 ID 찾음 (URL search): {channel_id}")
+                        channel_title = search_response['items'][0]['snippet']['title']
+                        logger.info(f"✓ URL 검색으로 채널 ID 찾음: {channel_id} (채널명: {channel_title})")
                         return channel_id
                 except HttpError as e:
-                    logger.warning(f"URL 검색 실패: {e}")
+                    logger.warning(f"방법 2 실패: {e}")
 
                 # 방법 3: username만으로 검색 (@ 제외)
                 try:
+                    logger.info(f"방법 3: username만으로 검색 ({username})")
                     self.api_calls += 1
                     search_request = self.youtube.search().list(
                         part='snippet',
@@ -135,59 +154,110 @@ class YouTubeAPI:
                         # username과 채널명 비교
                         if username.lower() in channel_title.replace(' ', ''):
                             channel_id = item['snippet']['channelId']
-                            logger.info(f"채널 ID 찾음 (username match): {channel_id}")
+                            logger.info(f"✓ username 매치로 채널 ID 찾음: {channel_id} (채널명: {item['snippet'].get('title', '')})")
                             return channel_id
 
                     # 매치가 없으면 첫 번째 결과
                     if search_response.get('items'):
                         channel_id = search_response['items'][0]['snippet']['channelId']
-                        logger.warning(f"정확한 매치 없음, 첫 결과 사용: {channel_id}")
+                        channel_title = search_response['items'][0]['snippet']['title']
+                        logger.warning(f"⚠ 정확한 매치 없음, 첫 결과 사용: {channel_id} (채널명: {channel_title})")
                         return channel_id
 
                 except HttpError as e:
-                    logger.error(f"username 검색 실패: {e}")
+                    logger.error(f"방법 3 실패: {e}")
 
                 # 방법 4: forUsername 파라미터 사용 (레거시)
                 try:
+                    logger.info(f"방법 4: forUsername 파라미터로 검색")
                     self.api_calls += 1
                     request = self.youtube.channels().list(
-                        part='id',
+                        part='id,snippet',
                         forUsername=username
                     )
                     response = request.execute()
 
                     if response.get('items'):
-                        logger.info(f"채널 ID 찾음 (forUsername): {response['items'][0]['id']}")
-                        return response['items'][0]['id']
+                        channel_id = response['items'][0]['id']
+                        channel_title = response['items'][0]['snippet']['title']
+                        logger.info(f"✓ forUsername으로 채널 ID 찾음: {channel_id} (채널명: {channel_title})")
+                        return channel_id
                 except (HttpError, TypeError) as e:
-                    logger.warning(f"forUsername 실패: {e}")
+                    logger.warning(f"방법 4 실패: {e}")
 
-                # 방법 5: 채널의 최근 영상으로 역추적 (최후의 수단)
-                # vitaminute4u의 알려진 영상 ID로 채널 찾기
-                if username.lower() == "vitaminute4u":
-                    try:
-                        logger.info("vitaminute4u 특별 처리: 알려진 영상으로 채널 ID 찾기")
-                        self.api_calls += 1
-                        video_request = self.youtube.videos().list(
-                            part='snippet',
-                            id='t7qnnHaeZl0'  # vitaminute4u의 알려진 Shorts
-                        )
-                        video_response = video_request.execute()
+                # 방법 5: 채널의 최근 영상을 통한 역추적
+                # 채널 URL로 영상을 먼저 검색하고, 그 영상의 채널 ID를 가져오기
+                try:
+                    logger.info(f"방법 5: 영상을 통한 채널 ID 역추적")
+                    self.api_calls += 1
+                    # 채널 URL 또는 @handle로 최근 영상 검색
+                    search_request = self.youtube.search().list(
+                        part='snippet',
+                        q=f"@{username}",  # @handle로 영상 검색
+                        type='video',
+                        order='date',
+                        maxResults=10
+                    )
+                    search_response = search_request.execute()
 
-                        if video_response.get('items'):
-                            channel_id = video_response['items'][0]['snippet']['channelId']
-                            logger.info(f"영상을 통해 채널 ID 찾음: {channel_id}")
-                            return channel_id
-                    except HttpError as e:
-                        logger.warning(f"영상을 통한 채널 검색 실패: {e}")
+                    logger.info(f"영상 검색 결과: {len(search_response.get('items', []))}개")
+
+                    # 영상을 찾았다면 그 채널 ID를 사용
+                    if search_response.get('items'):
+                        for idx, video_item in enumerate(search_response['items']):
+                            video_channel_id = video_item['snippet']['channelId']
+                            video_channel_title = video_item['snippet']['channelTitle']
+                            video_title = video_item['snippet']['title']
+
+                            logger.debug(f"  [{idx}] 영상: {video_title[:30]}... / 채널: {video_channel_title}")
+
+                            # 채널 이름이 username과 유사한지 확인
+                            if username.lower().replace('-', '') in video_channel_title.lower().replace(' ', '').replace('-', ''):
+                                logger.info(f"✓ 영상을 통해 채널 ID 찾음: {video_channel_id} (채널: {video_channel_title})")
+                                return video_channel_id
+
+                        # 유사한 이름이 없으면 첫 번째 영상의 채널 사용
+                        video_channel_id = search_response['items'][0]['snippet']['channelId']
+                        video_channel_title = search_response['items'][0]['snippet']['channelTitle']
+                        logger.warning(f"⚠ 영상의 채널 ID 사용 (첫 번째 결과): {video_channel_id} (채널: {video_channel_title})")
+                        return video_channel_id
+
+                except HttpError as e:
+                    logger.warning(f"방법 5 실패: {e}")
+
+                # 모든 방법 실패
+                logger.error(f"❌ 채널 ID를 찾을 수 없습니다: {channel_url}")
 
             # /channel/UC... 형식 처리
             elif '/channel/' in channel_url:
                 channel_id = channel_url.split('/channel/')[-1].strip()
-                logger.info(f"채널 ID 추출 (URL): {channel_id}")
+                logger.info(f"✓ 채널 ID 직접 추출 (URL): {channel_id}")
                 return channel_id
 
-            logger.warning(f"채널 ID를 찾을 수 없습니다: {channel_url}")
+            # /c/customname 형식 처리
+            elif '/c/' in channel_url:
+                custom_name = channel_url.split('/c/')[-1].strip()
+                logger.info(f"Custom URL 감지: /c/{custom_name}")
+                # Custom URL은 search API로 검색
+                try:
+                    self.api_calls += 1
+                    search_request = self.youtube.search().list(
+                        part='snippet',
+                        q=custom_name,
+                        type='channel',
+                        maxResults=5
+                    )
+                    search_response = search_request.execute()
+
+                    if search_response.get('items'):
+                        channel_id = search_response['items'][0]['snippet']['channelId']
+                        channel_title = search_response['items'][0]['snippet']['title']
+                        logger.info(f"✓ Custom URL로 채널 ID 찾음: {channel_id} (채널명: {channel_title})")
+                        return channel_id
+                except HttpError as e:
+                    logger.warning(f"Custom URL 검색 실패: {e}")
+
+            logger.error(f"❌ 채널 ID를 찾을 수 없습니다: {channel_url}")
             return None
 
         except Exception as e:
