@@ -166,7 +166,11 @@ function createMobileCard(channel) {
                 ★ ${formatNumber(channel.total_score)}
             </div>
         </div>
-        <div class="mobile-name">${channel.name} ${channel.badges ? channel.badges.join(' ') : ''}</div>
+        <div class="mobile-name">
+            ${channel.name}
+            ${channel.badges && channel.badges.length > 0 ?
+                `<span class="mobile-badges-inline">${channel.badges.join('')}</span>` : ''}
+        </div>
         <div class="mobile-channel">${channel.channel_handle ? '@' + channel.channel_handle : (channel.channel_name || '')}</div>
         <div class="mobile-scores">
             <div class="mobile-score-item">
@@ -186,14 +190,21 @@ function createMobileCard(channel) {
                 <div class="mobile-score-value">${formatNumber(channel.score_breakdown?.growth || channel.growth_score || 0)}</div>
             </div>
         </div>
-        ${channel.badges && channel.badges.length > 0 ? `
+        ${channel.badges && channel.badges.length > 0 && channel.badge_descriptions ? `
             <div class="mobile-badges">
-                ${channel.badges.map(badge => `
-                    <div class="mobile-badge-item">
-                        <span>${badge}</span>
-                        <span>${channel.badge_descriptions && channel.badge_descriptions[badge] ? channel.badge_descriptions[badge] : ''}</span>
-                    </div>
-                `).join('')}
+                ${channel.badges.map(badge => {
+                    const desc = channel.badge_descriptions[badge];
+                    if (!desc) return '';
+                    return `
+                        <div class="mobile-badge-item">
+                            <span class="mobile-badge-icon">${badge}</span>
+                            <div class="mobile-badge-info">
+                                <div class="mobile-badge-title">${desc.name}</div>
+                                <div class="mobile-badge-message">${desc.message}</div>
+                            </div>
+                        </div>
+                    `;
+                }).join('')}
             </div>
         ` : ''}
         <a href="${channel.channel_url}" target="_blank" class="mobile-channel-link">
@@ -230,13 +241,24 @@ function getRankDisplay(rank, mobile = false) {
 function createBadges(badges, descriptions) {
     if (!badges || badges.length === 0) return '';
 
-    return badges.map(badge => `
-        <span class="badge">
-            ${badge}
-            ${descriptions && descriptions[badge] ?
-                `<span class="badge-tooltip">${descriptions[badge]}</span>` : ''}
-        </span>
-    `).join('');
+    return badges.map(badge => {
+        const desc = descriptions && descriptions[badge];
+        const tooltipContent = desc ?
+            `<div class="badge-tooltip">
+                <div class="tooltip-header">
+                    <span class="tooltip-emoji">${badge}</span>
+                    <span class="tooltip-title">${desc.name}</span>
+                </div>
+                <div class="tooltip-message">${desc.message}</div>
+            </div>` : '';
+
+        return `
+            <span class="badge" data-badge="${badge}">
+                ${badge}
+                ${tooltipContent}
+            </span>
+        `;
+    }).join('');
 }
 
 /**

@@ -9,7 +9,7 @@ import logging
 import os
 import sys
 from datetime import datetime, timezone, timedelta
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 import statistics
 
 import pandas as pd
@@ -47,10 +47,34 @@ WEIGHT_VIRAL = 0.05
 WEIGHT_GROWTH = 0.05
 
 # 뱃지 기준
-BADGE_STABLE_THRESHOLD = 5000
-BADGE_ENGAGEMENT_THRESHOLD = 5.0
-BADGE_VIRAL_MULTIPLIER = 10
-BADGE_GROWTH_THRESHOLD = 1.5
+BADGE_STABLE_THRESHOLD = 3000  # 꾸준러: 중앙값 3,000점 이상
+BADGE_ENGAGEMENT_THRESHOLD = 5.0  # 인게이지먼트 킹: 평균 인게이지먼트율 5% 이상
+BADGE_VIRAL_MULTIPLIER = 10  # 바이럴 메이커: Top 3 평균이 중앙값의 10배 이상
+BADGE_GROWTH_THRESHOLD = 1.5  # 성장 로켓: 성장 비율 1.5 이상
+
+# 뱃지 정보
+BADGE_INFO = {
+    '🎯': {
+        'name': '꾸준러',
+        'message': '꾸준히 좋은 콘텐츠를 만들고 있어요!'
+    },
+    '💬': {
+        'name': '인게이지먼트 킹',
+        'message': '진짜 팬을 만드는 능력자!'
+    },
+    '🔥': {
+        'name': '바이럴 메이커',
+        'message': '히트 영상을 만들어내는 감각이 있으시네요 🚀'
+    },
+    '📈': {
+        'name': '성장 로켓',
+        'message': '최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?'
+    },
+    '⭐': {
+        'name': '올라운더',
+        'message': '모든 면에서 완벽! 골고루 잘하는 밸런스형 크리에이터예요!'
+    }
+}
 
 
 class YouTubeAPI:
@@ -450,44 +474,47 @@ class BadgeSystem:
     """뱃지 시스템"""
 
     @staticmethod
-    def calculate_badges(channel_data: Dict, all_channels: List[Dict]) -> List[str]:
-        """채널의 뱃지 계산"""
+    def calculate_badges(channel_data: Dict, all_channels: List[Dict]) -> Tuple[List[str], Dict[str, Dict]]:
+        """채널의 뱃지 계산
+
+        Returns:
+            badges: 획득한 뱃지 이모지 리스트
+            badge_descriptions: 각 뱃지의 상세 정보
+        """
         if channel_data['status'] != 'success':
-            return []
+            return [], {}
 
         badges = []
+        badge_descriptions = {}
 
-        # 안정 러너
+        # 🎯 꾸준러: 중앙값 3,000점 이상
         if channel_data['median_score'] >= BADGE_STABLE_THRESHOLD:
             badges.append('🎯')
+            badge_descriptions['🎯'] = BADGE_INFO['🎯']
 
-        # 인게이지먼트 킹
+        # 💬 인게이지먼트 킹: 평균 인게이지먼트율 5% 이상
         if channel_data['avg_engagement'] >= BADGE_ENGAGEMENT_THRESHOLD:
             badges.append('💬')
+            badge_descriptions['💬'] = BADGE_INFO['💬']
 
-        # 바이럴 메이커
-        if channel_data['top3_avg'] >= channel_data['median_score'] * BADGE_VIRAL_MULTIPLIER:
+        # 🔥 바이럴 메이커: Top 3 평균이 중앙값의 10배 이상
+        if channel_data['median_score'] > 0 and channel_data['top3_avg'] >= channel_data['median_score'] * BADGE_VIRAL_MULTIPLIER:
             badges.append('🔥')
+            badge_descriptions['🔥'] = BADGE_INFO['🔥']
 
-        # 성장 로켓
+        # 📈 성장 로켓: 성장 비율 1.5 이상
         if channel_data['growth_ratio'] >= BADGE_GROWTH_THRESHOLD:
             badges.append('📈')
+            badge_descriptions['📈'] = BADGE_INFO['📈']
 
-        # 올라운더: 모든 지표가 전체 평균 이상
-        successful_channels = [c for c in all_channels if c['status'] == 'success']
-        if successful_channels:
-            avg_median = statistics.mean([c['median_score'] for c in successful_channels])
-            avg_engagement_all = statistics.mean([c['avg_engagement'] for c in successful_channels])
-            avg_top3 = statistics.mean([c['top3_avg'] for c in successful_channels])
-            avg_growth = statistics.mean([c['growth_ratio'] for c in successful_channels])
+        # ⭐ 올라운더: 중앙값 2,000점 이상, 인게이지먼트율 3% 이상, Top3 평균 4,000점 이상
+        if (channel_data['median_score'] >= 2000 and
+            channel_data['avg_engagement'] >= 3.0 and
+            channel_data['top3_avg'] >= 4000):
+            badges.append('⭐')
+            badge_descriptions['⭐'] = BADGE_INFO['⭐']
 
-            if (channel_data['median_score'] >= avg_median and
-                channel_data['avg_engagement'] >= avg_engagement_all and
-                channel_data['top3_avg'] >= avg_top3 and
-                channel_data['growth_ratio'] >= avg_growth):
-                badges.append('⭐')
-
-        return badges
+        return badges, badge_descriptions
 
 
 def load_channels(filename: str) -> List[Dict]:
@@ -782,6 +809,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'channel_handle': channel_handle,
                 'channel_url': item['channel_url'],
                 'badges': item.get('badges', []),
+                'badge_descriptions': item.get('badge_descriptions', {}),
                 'total_score': round(item['total_score']),
                 'score_breakdown': {
                     'basic': round(item['score_median']),
@@ -806,6 +834,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'channel_handle': channel_handle,
                 'channel_url': item['channel_url'],
                 'badges': [],
+                'badge_descriptions': {},
                 'total_score': 0,
                 'score_breakdown': {
                     'basic': 0,
@@ -882,9 +911,12 @@ def main():
     # 뱃지 계산
     for channel_data in all_channel_data:
         if channel_data['status'] == 'success':
-            channel_data['badges'] = BadgeSystem.calculate_badges(channel_data, all_channel_data)
+            badges, badge_descriptions = BadgeSystem.calculate_badges(channel_data, all_channel_data)
+            channel_data['badges'] = badges
+            channel_data['badge_descriptions'] = badge_descriptions
         else:
             channel_data['badges'] = []
+            channel_data['badge_descriptions'] = {}
 
     # 순위 정렬
     leaderboard = sorted(
