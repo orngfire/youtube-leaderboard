@@ -337,7 +337,7 @@ body {
 .badge {
     font-size: 20px;
     position: relative;
-    cursor: help;
+    cursor: pointer;
     display: inline-block;
     transition: transform 0.2s ease;
 }

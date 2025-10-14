@@ -497,13 +497,13 @@ class BadgeSystem:
             badges.append('💬')
             badge_descriptions['💬'] = BADGE_INFO['💬']
 
-        # 🔥 바이럴 메이커: Top 3 평균이 중앙값의 10배 이상
-        if channel_data['median_score'] > 0 and channel_data['top3_avg'] >= channel_data['median_score'] * BADGE_VIRAL_MULTIPLIER:
+        # 🔥 바이럴 메이커: Top 3 평균이 중앙값의 10배 이상 (둘 다 0보다 큰 경우만)
+        if channel_data['median_score'] > 0 and channel_data['top3_avg'] > 0 and channel_data['top3_avg'] >= channel_data['median_score'] * BADGE_VIRAL_MULTIPLIER:
             badges.append('🔥')
             badge_descriptions['🔥'] = BADGE_INFO['🔥']
 
-        # 📈 성장 로켓: 성장 비율 1.5 이상
-        if channel_data['growth_ratio'] >= BADGE_GROWTH_THRESHOLD:
+        # 📈 성장 로켓: 성장 비율 1.5 이상 (실제 성장이 있는 경우만)
+        if channel_data['growth_ratio'] >= BADGE_GROWTH_THRESHOLD and channel_data.get('video_count', 0) > 0:
             badges.append('📈')
             badge_descriptions['📈'] = BADGE_INFO['📈']
 
