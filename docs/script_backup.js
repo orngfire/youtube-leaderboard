@@ -629,7 +629,7 @@ function displayMostActive(channels) {
     sortedChannels.forEach((channel, index) => {
         const row = document.createElement('tr');
         const videoCount = channel.metrics?.video_count || 0;
-        const avgViews = Math.round(channel.metrics?.median_score || 0);
+        const avgViews = Math.round(channel.metrics?.average_views || 0);
         // Use max_single_views for the highest view count of a single video
         const maxViews = Math.round(channel.metrics?.max_single_views || 0);
 
