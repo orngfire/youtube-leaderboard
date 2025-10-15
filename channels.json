@@ -1,35 +1,42 @@
 [
   {
     "name": "김소윤",
-    "channel_url": "https://www.youtube.com/@catmocotto"
+    "channel_url": "https://www.youtube.com/@catmocotto",
+    "channel_id": "UCej2A7vjwQnGDuytjUIM0Xw"
   },
   {
     "name": "조준철",
-    "channel_url": "https://www.youtube.com/@lee-lo-4u"
+    "channel_url": "https://www.youtube.com/@lee-lo-4u",
+    "channel_id": "UCcMRADwvMuSTWiB69qNSSUA"
   },
   {
     "name": "강민성",
-    "channel_url": "https://www.youtube.com/@IQ160건강깡패"
+    "channel_url": "https://www.youtube.com/@IQ160건강깡패",
+    "channel_id": null
   },
   {
     "name": "김예림",
-    "channel_url": "https://www.youtube.com/@vitaminute4u"
+    "channel_url": "https://www.youtube.com/@vitaminute4u",
+    "channel_id": "UCMt0CZ3LQ7MXnpTSLOm2WIw"
   },
   {
     "name": "조한준",
-    "channel_url": "https://www.youtube.com/@Desde_Seúl"
+    "channel_url": "https://www.youtube.com/@Desde_Seúl",
+    "channel_id": "UCp172WWQsW0Vvc924md6Giw"
   },
   {
     "name": "임동한",
-    "channel_url": "https://www.youtube.com/@easyfood369"
+    "channel_url": "https://www.youtube.com/@easyfood369",
+    "channel_id": "UCJc4X5ZWGHonb4Bik6IVTgw"
   },
   {
     "name": "김수정",
-    "channel_url": "https://www.youtube.com/@kokonyang-p6l"
+    "channel_url": "https://www.youtube.com/@kokonyang-p6l",
+    "channel_id": "UCSuyRNFqR7_N2RpWNXJoLnw"
   },
   {
     "name": "서혜리",
-    "channel_url": "https://www.youtube.com/@quick_bite_english"
+    "channel_url": "https://www.youtube.com/@quick_bite_english",
+    "channel_id": "UC_c2yUaR-70MTy7jy9vdCEA"
   }
-  
 ]

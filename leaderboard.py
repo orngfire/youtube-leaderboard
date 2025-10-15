@@ -775,8 +775,12 @@ def main():
         channel_handle = channel_info['channel_url'].split('@')[-1] if '@' in channel_info['channel_url'] else ''
         channel_info['channel_handle'] = channel_handle
 
-        # 채널 ID 가져오기
-        channel_id = api.get_channel_id(channel_info['channel_url'])
+        # 채널 ID 가져오기 (channel_id가 있으면 바로 사용, 없으면 검색)
+        if channel_info.get('channel_id'):
+            channel_id = channel_info['channel_id']
+            logger.info(f"✓ 저장된 채널 ID 사용: {channel_id}")
+        else:
+            channel_id = api.get_channel_id(channel_info['channel_url'])
         if not channel_id:
             logger.warning(f"채널 ID를 찾을 수 없어 건너뜁니다: {channel_info['name']}")
             all_channel_data.append({
