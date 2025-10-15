@@ -599,6 +599,24 @@ function updateTableHeaders() {
             `;
             break;
     }
+
+    // Force rank column width after DOM update
+    setTimeout(() => {
+        const rankHeaders = document.querySelectorAll('.th-rank');
+        const rankCells = document.querySelectorAll('.rank-cell');
+
+        rankHeaders.forEach(th => {
+            th.style.width = '100px';
+            th.style.minWidth = '100px';
+            th.style.maxWidth = '100px';
+        });
+
+        rankCells.forEach(td => {
+            td.style.width = '100px';
+            td.style.minWidth = '100px';
+            td.style.maxWidth = '100px';
+        });
+    }, 0);
 }
 
 /**
@@ -708,7 +726,6 @@ function displayMostSubscribed(channels) {
 
     sortedChannels.forEach((channel, index) => {
         const subData = mockSubscribers[channel.channel_handle] || { current: 0, initial: 0 };
-        const increase = subData.current - subData.initial;
         const videoCount = channel.metrics?.video_count || 0;
 
         const row = document.createElement('tr');
@@ -727,8 +744,8 @@ function displayMostSubscribed(channels) {
             <td class="score-cell">
                 <span class="score-badge">👥 ${subData.current >= 1000 ? (subData.current / 1000).toFixed(1) + 'K' : subData.current}</span>
             </td>
-            <td class="score-cell" style="color: ${increase > 0 ? '#4CAF50' : '#666'}">
-                ${increase > 0 ? '+' : ''}${increase}
+            <td class="score-cell" style="color: #666">
+                -
             </td>
             <td class="score-cell">${videoCount}개</td>
         `;
