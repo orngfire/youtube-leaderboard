@@ -338,8 +338,9 @@ class ScoreCalculator:
         # 중앙값
         median_score = statistics.median(basic_scores) if basic_scores else 0
 
-        # 평균값 (Most Active 탭용)
-        average_views = statistics.mean(basic_scores) if basic_scores else 0
+        # 평균 조회수 (Most Active 탭용) - 모든 영상의 조회수 평균
+        views_list = [v['views'] for v in videos]
+        average_views = statistics.mean(views_list) if views_list else 0
 
         # 전체 합산 방식의 인게이지먼트율 계산
         if total_views > 0:
