@@ -630,6 +630,16 @@ function displayMostActive(channels) {
         const row = document.createElement('tr');
         const videoCount = channel.metrics?.video_count || 0;
         const avgViews = Math.round(channel.metrics?.average_views || 0);
+        // Debug logging
+        if (index === 0) {
+            console.log('Most Active Tab Debug:', {
+                channel: channel.name,
+                metrics: channel.metrics,
+                average_views: channel.metrics?.average_views,
+                median_score: channel.metrics?.median_score,
+                avgViews_calculated: avgViews
+            });
+        }
         // Use max_single_views for the highest view count of a single video
         const maxViews = Math.round(channel.metrics?.max_single_views || 0);
 
