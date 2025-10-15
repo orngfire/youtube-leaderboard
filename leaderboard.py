@@ -296,6 +296,14 @@ class ScoreCalculator:
                 'avg_engagement': 0,
                 'top3_avg': 0,
                 'max_single_views': 0,  # 단일 최고 조회수
+                'viral_video': {  # 최고 조회수 영상 상세 정보
+                    'views': 0,
+                    'likes': 0,
+                    'comments': 0,
+                    'title': '',
+                    'video_id': '',
+                    'url': ''
+                },
                 'growth_ratio': 0,
                 'score_median': 0,
                 'score_engagement': 0,
@@ -355,8 +363,12 @@ class ScoreCalculator:
         else:
             top3_avg = 0  # 영상 3개 미만이면 0점
 
-        # 단일 최고 조회수 (Most Active 탭용)
-        max_single_views = max([v['views'] for v in videos]) if videos else 0
+        # 최고 조회수 영상 정보 (Viral Hit 탭용)
+        viral_video = None
+        max_single_views = 0
+        if videos:
+            viral_video = max(videos, key=lambda v: v['views'])
+            max_single_views = viral_video['views']
 
         # 성장 비율 (영상이 3개 이상일 때만 계산)
         if len(basic_scores) >= 3:
@@ -382,6 +394,14 @@ class ScoreCalculator:
             'avg_engagement': total_engagement_rate,
             'top3_avg': top3_avg,
             'max_single_views': max_single_views,  # 단일 최고 조회수 추가
+            'viral_video': {  # 최고 조회수 영상 상세 정보
+                'views': viral_video['views'] if viral_video else 0,
+                'likes': viral_video['likes'] if viral_video else 0,
+                'comments': viral_video['comments'] if viral_video else 0,
+                'title': viral_video.get('title', '') if viral_video else '',
+                'video_id': viral_video.get('video_id', '') if viral_video else '',
+                'url': viral_video.get('url', '') if viral_video else ''
+            },
             'growth_ratio': growth_ratio,
             'score_median': score_median,
             'score_engagement': score_engagement,
@@ -726,6 +746,14 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'avg_engagement': round(item['avg_engagement'], 2),
                     'top3_avg': round(item['top3_avg']),
                     'max_single_views': round(item.get('max_single_views', 0)),  # 단일 최고 조회수 추가
+                    'viral_video': item.get('viral_video', {  # 최고 조회수 영상 상세 정보
+                        'views': 0,
+                        'likes': 0,
+                        'comments': 0,
+                        'title': '',
+                        'video_id': '',
+                        'url': ''
+                    }),
                     'growth_ratio': round(item['growth_ratio'], 2),
                     'video_count': item['video_count']
                 },
@@ -753,6 +781,14 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'avg_engagement': 0,
                     'top3_avg': 0,
                     'max_single_views': 0,  # 단일 최고 조회수
+                    'viral_video': {  # 최고 조회수 영상 상세 정보
+                        'views': 0,
+                        'likes': 0,
+                        'comments': 0,
+                        'title': '',
+                        'video_id': '',
+                        'url': ''
+                    },
                     'growth_ratio': 0,
                     'video_count': item.get('video_count', 0)
                 },

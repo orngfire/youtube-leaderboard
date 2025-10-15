@@ -742,24 +742,16 @@ function displayMostSubscribed(channels) {
 function displayViralHit(channels) {
     const tableBody = document.getElementById('table-body');
 
-    // Mock data for viral videos from evaluation period (replace with actual API data)
-    const viralVideos = {
-        'easyfood369': { views: 47000, likes: 1410, comments: 235 },
-        'catmocotto': { views: 12500, likes: 625, comments: 95 },
-        'Desde_Seúl': { views: 8200, likes: 410, comments: 65 },
-        'lee-lo-4u': { views: 2500, likes: 125, comments: 32 },
-        'cherryblossom0411': { views: 1800, likes: 90, comments: 18 }
-    };
-
-    // Sort by highest view count
+    // Sort by highest view count from actual data
     const sortedChannels = [...channels].sort((a, b) => {
-        const aViews = viralVideos[a.channel_handle]?.views || 0;
-        const bViews = viralVideos[b.channel_handle]?.views || 0;
+        const aViews = a.metrics?.viral_video?.views || 0;
+        const bViews = b.metrics?.viral_video?.views || 0;
         return bViews - aViews;
     });
 
     sortedChannels.forEach((channel, index) => {
-        const video = viralVideos[channel.channel_handle] || { views: 0, likes: 0, comments: 0 };
+        // Use actual viral_video data from metrics
+        const video = channel.metrics?.viral_video || { views: 0, likes: 0, comments: 0 };
         const engagement = video.views > 0 ?
             ((video.likes + video.comments) / video.views * 100).toFixed(2) : 0;
 
