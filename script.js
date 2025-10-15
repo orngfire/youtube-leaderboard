@@ -614,11 +614,12 @@ function displayTopCreators(channels) {
 
 /**
  * Display Most Active tab (by video count)
+ * Based on videos published during evaluation period (2025.10.02 - 2025.12.14)
  */
 function displayMostActive(channels) {
     const tableBody = document.getElementById('table-body');
 
-    // Sort by video count
+    // Sort by video count (videos from evaluation period)
     const sortedChannels = [...channels].sort((a, b) => {
         const aCount = a.metrics?.video_count || 0;
         const bCount = b.metrics?.video_count || 0;
@@ -657,6 +658,7 @@ function displayMostActive(channels) {
 
 /**
  * Display Most Subscribed tab
+ * Based on current subscriber count (not limited to evaluation period)
  */
 function displayMostSubscribed(channels) {
     const tableBody = document.getElementById('table-body');
@@ -667,7 +669,7 @@ function displayMostSubscribed(channels) {
         subscriberData = JSON.parse(storedData);
     }
 
-    // Mock data for demonstration (replace with actual API data)
+    // Mock data for demonstration - current subscriber counts (replace with actual API data)
     const mockSubscribers = {
         'catmocotto': { current: 1200, initial: 960 },
         'Desde_Seúl': { current: 850, initial: 730 },
@@ -717,11 +719,12 @@ function displayMostSubscribed(channels) {
 
 /**
  * Display Viral Hit tab (highest view video)
+ * Based on videos published during evaluation period (2025.10.02 - 2025.12.14)
  */
 function displayViralHit(channels) {
     const tableBody = document.getElementById('table-body');
 
-    // Mock data for viral videos (replace with actual API data)
+    // Mock data for viral videos from evaluation period (replace with actual API data)
     const viralVideos = {
         'easyfood369': { views: 47000, likes: 1410, comments: 235 },
         'catmocotto': { views: 12500, likes: 625, comments: 95 },
