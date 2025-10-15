@@ -109,11 +109,11 @@ function displayLeaderboard() {
         case 'most-active':
             displayMostActive(channels);
             break;
-        case 'most-subscribed':
-            displayMostSubscribed(channels);
-            break;
         case 'viral-hit':
             displayViralHit(channels);
+            break;
+        case 'most-subscribed':
+            displayMostSubscribed(channels);
             break;
         case 'top-creators':
         default:
@@ -564,15 +564,6 @@ function updateTableHeaders() {
                 <th class="th-engagement">평균 좋아요</th>
             `;
             break;
-        case 'most-subscribed':
-            thead.innerHTML = `
-                <th class="th-rank">순위</th>
-                <th class="th-name">이름</th>
-                <th class="th-total">구독자 수</th>
-                <th class="th-basic">평가 기간 증가</th>
-                <th class="th-engagement">영상 수</th>
-            `;
-            break;
         case 'viral-hit':
             thead.innerHTML = `
                 <th class="th-rank">순위</th>
@@ -581,6 +572,15 @@ function updateTableHeaders() {
                 <th class="th-basic">좋아요</th>
                 <th class="th-engagement">댓글</th>
                 <th class="th-viral">인게이지먼트</th>
+            `;
+            break;
+        case 'most-subscribed':
+            thead.innerHTML = `
+                <th class="th-rank">순위</th>
+                <th class="th-name">이름</th>
+                <th class="th-total">구독자 수</th>
+                <th class="th-basic">평가 기간 증가</th>
+                <th class="th-engagement">영상 수</th>
             `;
             break;
         case 'top-creators':
