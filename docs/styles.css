@@ -351,6 +351,7 @@ body {
 
 /* Rank Cell Styles */
 .rank-cell {
+    width: 80px;
     text-align: center;
     font-weight: 600;
     padding: 16px;
