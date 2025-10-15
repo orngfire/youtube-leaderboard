@@ -750,10 +750,11 @@ function displayViralHit(channels) {
     });
 
     sortedChannels.forEach((channel, index) => {
-        // Use actual viral_video data from metrics
+        // Use actual viral_video data from metrics (single highest view video from evaluation period)
         const video = channel.metrics?.viral_video || { views: 0, likes: 0, comments: 0 };
+        // Calculate engagement with 2x weight for comments (same as main leaderboard)
         const engagement = video.views > 0 ?
-            ((video.likes + video.comments) / video.views * 100).toFixed(2) : 0;
+            ((video.likes + video.comments * 2) / video.views * 100).toFixed(2) : 0;
 
         const row = document.createElement('tr');
         row.innerHTML = `
