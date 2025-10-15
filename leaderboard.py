@@ -342,16 +342,20 @@ class ScoreCalculator:
         else:
             total_engagement_rate = 0
 
-        # Top 3 평균 (영상이 3개 미만이면 있는 만큼만 사용)
-        top3_scores = sorted(basic_scores, reverse=True)[:min(3, len(basic_scores))]
-        top3_avg = statistics.mean(top3_scores) if top3_scores else 0
+        # Top 3 평균 (영상이 3개 이상일 때만 계산)
+        if len(basic_scores) >= 3:
+            top3_scores = sorted(basic_scores, reverse=True)[:3]
+            top3_avg = statistics.mean(top3_scores)
+        else:
+            top3_avg = 0  # 영상 3개 미만이면 0점
 
-        # 성장 비율 (최근 3개 영상의 평균 / 전체 중앙값)
-        # 영상이 3개 미만이면 있는 만큼만 사용
-        recent_count = min(3, len(basic_scores))
-        recent3_scores = basic_scores[-recent_count:] if basic_scores else []
-        recent3_avg = statistics.mean(recent3_scores) if recent3_scores else 0
-        growth_ratio = recent3_avg / median_score if median_score > 0 else 0
+        # 성장 비율 (영상이 3개 이상일 때만 계산)
+        if len(basic_scores) >= 3:
+            recent3_scores = basic_scores[-3:]  # 최근 3개
+            recent3_avg = statistics.mean(recent3_scores)
+            growth_ratio = recent3_avg / median_score if median_score > 0 else 0
+        else:
+            growth_ratio = 0  # 영상 3개 미만이면 0
 
         # 최종 점수
         score_median = median_score * WEIGHT_MEDIAN
