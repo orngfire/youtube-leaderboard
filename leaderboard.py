@@ -265,6 +265,27 @@ class YouTubeAPI:
             logger.error(f"API 에러 (영상 목록): {e}")
             return videos
 
+    def get_total_video_count(self, channel_id: str) -> int:
+        """채널의 전체 영상 개수 조회 (기간 제한 없음)"""
+        try:
+            # 채널 통계 정보 가져오기
+            self.api_calls += 1
+            request = self.youtube.channels().list(
+                part='statistics',
+                id=channel_id
+            )
+            response = request.execute()
+
+            if response.get('items'):
+                video_count = int(response['items'][0]['statistics'].get('videoCount', 0))
+                logger.info(f"채널 {channel_id}: 전체 영상 {video_count}개")
+                return video_count
+
+            return 0
+        except HttpError as e:
+            logger.error(f"API 에러 (전체 영상 개수): {e}")
+            return 0
+
 
 class ScoreCalculator:
     """점수 계산 클래스"""
@@ -762,7 +783,8 @@ def create_json(leaderboard: List[Dict], filename: str):
                         'url': ''
                     }),
                     'growth_ratio': round(item['growth_ratio'], 2),
-                    'video_count': item['video_count']
+                    'video_count': item['video_count'],
+                    'total_video_count': item.get('total_video_count', 0)
                 },
                 'status': 'success'
             })
@@ -798,7 +820,8 @@ def create_json(leaderboard: List[Dict], filename: str):
                         'url': ''
                     },
                     'growth_ratio': 0,
-                    'video_count': item.get('video_count', 0)
+                    'video_count': item.get('video_count', 0),
+                    'total_video_count': item.get('total_video_count', 0)
                 },
                 'status': 'channel_not_found'
             })
@@ -855,8 +878,14 @@ def main():
         # 영상 목록 가져오기
         videos = api.get_channel_videos(channel_id, START_DATE, END_DATE)
 
+        # 전체 영상 개수 가져오기 (기간 제한 없음)
+        total_video_count = api.get_total_video_count(channel_id)
+
         # 점수 계산
         scores = ScoreCalculator.calculate_channel_scores(videos)
+
+        # total_video_count 추가
+        scores['total_video_count'] = total_video_count
 
         all_channel_data.append({
             **channel_info,

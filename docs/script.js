@@ -723,7 +723,8 @@ function displayMostSubscribed(channels) {
 
     sortedChannels.forEach((channel, index) => {
         const subData = mockSubscribers[channel.channel_handle] || { current: 0, initial: 0 };
-        const videoCount = channel.metrics?.video_count || 0;
+        // Use total_video_count for all videos, regardless of evaluation period
+        const totalVideoCount = channel.metrics?.total_video_count || 0;
 
         const row = document.createElement('tr');
         row.innerHTML = `
@@ -744,7 +745,7 @@ function displayMostSubscribed(channels) {
             <td class="score-cell" style="color: #666">
                 -
             </td>
-            <td class="score-cell">${videoCount}개</td>
+            <td class="score-cell">${totalVideoCount}개</td>
         `;
 
         row.className = `rank-${index + 1}`;
