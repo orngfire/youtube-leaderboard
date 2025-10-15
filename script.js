@@ -636,9 +636,11 @@ function displayMostActive(channels) {
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
-                <div class="name-container">
-                    <span class="name">${channel.name}</span>
-                    <a href="${channel.channel_url}" target="_blank" class="channel-handle">@${channel.channel_handle}</a>
+                <div class="name-wrapper">
+                    <div class="name-line">
+                        <span class="name-text">${channel.name}</span>
+                    </div>
+                    <div class="channel-name">@${channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">
@@ -692,9 +694,11 @@ function displayMostSubscribed(channels) {
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
-                <div class="name-container">
-                    <span class="name">${channel.name}</span>
-                    <a href="${channel.channel_url}" target="_blank" class="channel-handle">@${channel.channel_handle}</a>
+                <div class="name-wrapper">
+                    <div class="name-line">
+                        <span class="name-text">${channel.name}</span>
+                    </div>
+                    <div class="channel-name">@${channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">
@@ -744,9 +748,11 @@ function displayViralHit(channels) {
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
-                <div class="name-container">
-                    <span class="name">${channel.name}</span>
-                    <a href="${channel.channel_url}" target="_blank" class="channel-handle">@${channel.channel_handle}</a>
+                <div class="name-wrapper">
+                    <div class="name-line">
+                        <span class="name-text">${channel.name}</span>
+                    </div>
+                    <div class="channel-name">@${channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">

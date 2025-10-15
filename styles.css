@@ -191,8 +191,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2px;
-    margin: 32px auto 24px;
-    max-width: 900px;
+    margin: 0 auto 24px;
+    max-width: 1400px;
     width: calc(100% - 48px);
     padding: 8px;
     background: #f8f9fa;
