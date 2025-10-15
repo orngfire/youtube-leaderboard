@@ -303,10 +303,11 @@ body {
 }
 
 .th-rank {
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .th-name {
@@ -353,13 +354,22 @@ body {
 
 /* Rank Cell Styles */
 .rank-cell {
-    width: 100px;
-    min-width: 100px;
-    max-width: 100px;
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
     text-align: center;
     font-weight: 600;
     padding: 16px;
     vertical-align: middle;
+    box-sizing: border-box;
+}
+
+/* Ensure first column consistency */
+.leaderboard-table td:first-child,
+.leaderboard-table th:first-child {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
 }
 
 .rank-medal {
@@ -728,9 +738,9 @@ body {
     /* 작은 화면에서는 순위 칼럼 너비를 더 유연하게 */
     .th-rank,
     .rank-cell {
-        width: 80px;
-        min-width: 80px;
-        max-width: 80px;
+        width: 80px !important;
+        min-width: 80px !important;
+        max-width: 80px !important;
     }
 
     .tab-navigation {
