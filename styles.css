@@ -185,6 +185,47 @@ body {
     animation: spin 1s linear infinite;
 }
 
+/* Tab Navigation */
+.tab-navigation {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px auto 24px;
+    max-width: 1400px;
+    width: calc(100% - 48px);
+    padding: 16px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+}
+
+.tab-button {
+    padding: 12px 24px;
+    background: var(--gray-50);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tab-button:hover {
+    background: var(--gray-100);
+    transform: translateY(-2px);
+}
+
+.tab-button.active {
+    background: linear-gradient(135deg, var(--score-bg-start), var(--score-bg-end));
+    color: var(--primary-dark);
+    border-color: var(--score-border);
+    box-shadow: var(--shadow-primary);
+}
+
 /* Table Container */
 .table-container {
     background: var(--white);
