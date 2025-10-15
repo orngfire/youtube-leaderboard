@@ -189,41 +189,58 @@ body {
 .tab-navigation {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 4px;
     margin: 32px auto 24px;
-    max-width: 1400px;
+    max-width: 650px;
     width: calc(100% - 48px);
-    padding: 16px;
-    background: var(--white);
-    border-radius: 12px;
-    box-shadow: var(--shadow-md);
+    padding: 5px;
+    background: linear-gradient(135deg, #f5f5f5, #e8e8e8);
+    border-radius: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), inset 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .tab-button {
-    padding: 12px 24px;
-    background: var(--gray-50);
-    border: 2px solid transparent;
-    border-radius: 8px;
-    font-size: 15px;
+    position: relative;
+    padding: 11px 22px;
+    background: transparent;
+    border: none;
+    border-radius: 35px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--text-secondary);
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
-    gap: 8px;
+    justify-content: center;
+    gap: 6px;
+    flex: 1;
+    white-space: nowrap;
 }
 
 .tab-button:hover {
-    background: var(--gray-100);
-    transform: translateY(-2px);
+    color: var(--text-primary);
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .tab-button.active {
-    background: linear-gradient(135deg, var(--score-bg-start), var(--score-bg-end));
+    background: var(--white);
     color: var(--primary-dark);
-    border-color: var(--score-border);
-    box-shadow: var(--shadow-primary);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transform: scale(1.02);
+}
+
+.tab-button.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    border-radius: 2px;
+    opacity: 0.8;
 }
 
 /* Table Container */
@@ -680,6 +697,17 @@ body {
     .mobile-container {
         display: block;
         padding: 16px;
+    }
+
+    .tab-navigation {
+        max-width: 100%;
+        margin: 16px 8px;
+        padding: 4px;
+    }
+
+    .tab-button {
+        padding: 8px 12px;
+        font-size: 11px;
     }
 
     .mobile-header {
