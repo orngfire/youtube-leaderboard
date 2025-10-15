@@ -132,7 +132,7 @@ function createTableRow(channel) {
 
     // Create main row content
     const mainRow = `
-        <td class="rank-cell" style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;">
+        <td class="rank-cell">
             ${getRankDisplay(channel.rank)}
         </td>
         <td class="name-cell">
@@ -553,23 +553,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
  */
 function updateTableHeaders() {
     const thead = document.querySelector('.leaderboard-table thead tr');
-    const colgroup = document.getElementById('table-colgroup');
-
-    // Style for fixed rank column width
-    const rankStyle = 'style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;"';
 
     switch(currentTab) {
         case 'most-active':
-            // Update colgroup for 5 columns
-            colgroup.innerHTML = `
-                <col style="width: 100px !important;">
-                <col>
-                <col>
-                <col>
-                <col>
-            `;
             thead.innerHTML = `
-                <th class="th-rank" ${rankStyle}>순위</th>
+                <th class="th-rank">순위</th>
                 <th class="th-name">이름</th>
                 <th class="th-total">게재 영상 수</th>
                 <th class="th-basic">평균 조회수</th>
@@ -577,16 +565,8 @@ function updateTableHeaders() {
             `;
             break;
         case 'most-subscribed':
-            // Update colgroup for 5 columns
-            colgroup.innerHTML = `
-                <col style="width: 100px !important;">
-                <col>
-                <col>
-                <col>
-                <col>
-            `;
             thead.innerHTML = `
-                <th class="th-rank" ${rankStyle}>순위</th>
+                <th class="th-rank">순위</th>
                 <th class="th-name">이름</th>
                 <th class="th-total">구독자 수</th>
                 <th class="th-basic">평가 기간 증가</th>
@@ -594,17 +574,8 @@ function updateTableHeaders() {
             `;
             break;
         case 'viral-hit':
-            // Update colgroup for 6 columns
-            colgroup.innerHTML = `
-                <col style="width: 100px !important;">
-                <col>
-                <col>
-                <col>
-                <col>
-                <col>
-            `;
             thead.innerHTML = `
-                <th class="th-rank" ${rankStyle}>순위</th>
+                <th class="th-rank">순위</th>
                 <th class="th-name">이름</th>
                 <th class="th-total">최고 조회수</th>
                 <th class="th-basic">좋아요</th>
@@ -614,18 +585,8 @@ function updateTableHeaders() {
             break;
         case 'top-creators':
         default:
-            // Update colgroup for 7 columns
-            colgroup.innerHTML = `
-                <col style="width: 100px !important;">
-                <col>
-                <col>
-                <col>
-                <col>
-                <col>
-                <col>
-            `;
             thead.innerHTML = `
-                <th class="th-rank" ${rankStyle}>순위</th>
+                <th class="th-rank">순위</th>
                 <th class="th-name">이름</th>
                 <th class="th-total">총 점수</th>
                 <th class="th-basic">채널</th>
@@ -708,7 +669,7 @@ function displayMostActive(channels) {
         const avgLikes = Math.round(channel.metrics?.average_likes || 0);
 
         row.innerHTML = `
-            <td class="rank-cell" style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;">
+            <td class="rank-cell">
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
@@ -766,7 +727,7 @@ function displayMostSubscribed(channels) {
 
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="rank-cell" style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;">
+            <td class="rank-cell">
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
@@ -814,7 +775,7 @@ function displayViralHit(channels) {
 
         const row = document.createElement('tr');
         row.innerHTML = `
-            <td class="rank-cell" style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;">
+            <td class="rank-cell">
                 ${index < 3 ? `<span class="rank-medal">${['🥇', '🥈', '🥉'][index]}</span>` : `<span class="rank-number">${index + 1}</span>`}
             </td>
             <td class="name-cell">
