@@ -814,7 +814,7 @@ def main():
     # 뱃지 계산
     for channel_data in all_channel_data:
         if channel_data['status'] == 'success':
-            badges, badge_descriptions = BadgeSystem.calculate_badges(channel_data, all_channel_data)
+            badges, badge_descriptions = BadgeSystem.calculate_badges(channel_data)
             channel_data['badges'] = badges
             channel_data['badge_descriptions'] = badge_descriptions
         else:
