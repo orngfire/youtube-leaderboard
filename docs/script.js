@@ -23,7 +23,8 @@ async function loadLeaderboard() {
 
         // Fetch leaderboard data
         // Try GitHub Pages data first (most up-to-date)
-        let response = await fetch('https://orngfire.github.io/youtube-leaderboard/leaderboard.json');
+        const timestamp = new Date().getTime();
+        let response = await fetch(`https://orngfire.github.io/youtube-leaderboard/leaderboard.json?t=${timestamp}`);
 
         // If GitHub data doesn't work, try local data
         if (!response.ok) {
@@ -40,6 +41,12 @@ async function loadLeaderboard() {
         }
 
         leaderboardData = await response.json();
+
+        // Debug: Check if average_views exists in data
+        if (leaderboardData && leaderboardData.length > 0) {
+            console.log('Data loaded. First channel metrics:', leaderboardData[0].metrics);
+            console.log('Has average_views?', 'average_views' in leaderboardData[0].metrics);
+        }
 
         // Display data
         displayLeaderboard();
