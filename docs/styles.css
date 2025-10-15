@@ -757,13 +757,65 @@ body {
 }
 
 @media (max-width: 768px) {
+    /* Show main container on mobile with adjustments */
     .main-container {
+        padding: 8px;
+        max-width: 100%;
+    }
+
+    /* Hide mobile container since we're showing table */
+    .mobile-container {
         display: none;
     }
 
-    .mobile-container {
-        display: block;
-        padding: 16px;
+    /* Make table scrollable on mobile */
+    .table-container {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .leaderboard-table {
+        min-width: 600px;
+        font-size: 12px;
+    }
+
+    .leaderboard-table th,
+    .leaderboard-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .rank-medal {
+        font-size: 24px;
+    }
+
+    .rank-number {
+        font-size: 16px;
+    }
+
+    .total-score {
+        font-size: 14px;
+    }
+
+    /* Adjust rank column for mobile */
+    .th-rank,
+    .rank-cell {
+        width: 60px !important;
+        min-width: 60px !important;
+        max-width: 60px !important;
+    }
+
+    /* Adjust name column for mobile */
+    .th-name {
+        width: 150px;
+    }
+
+    .name-text {
+        font-size: 13px;
+    }
+
+    .channel-name {
+        font-size: 11px;
     }
 
     .tab-navigation {
