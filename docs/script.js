@@ -553,12 +553,21 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
  */
 function updateTableHeaders() {
     const thead = document.querySelector('.leaderboard-table thead tr');
+    const colgroup = document.getElementById('table-colgroup');
 
     // Style for fixed rank column width
     const rankStyle = 'style="width: 100px !important; min-width: 100px !important; max-width: 100px !important;"';
 
     switch(currentTab) {
         case 'most-active':
+            // Update colgroup for 5 columns
+            colgroup.innerHTML = `
+                <col style="width: 100px !important;">
+                <col>
+                <col>
+                <col>
+                <col>
+            `;
             thead.innerHTML = `
                 <th class="th-rank" ${rankStyle}>순위</th>
                 <th class="th-name">이름</th>
@@ -568,6 +577,14 @@ function updateTableHeaders() {
             `;
             break;
         case 'most-subscribed':
+            // Update colgroup for 5 columns
+            colgroup.innerHTML = `
+                <col style="width: 100px !important;">
+                <col>
+                <col>
+                <col>
+                <col>
+            `;
             thead.innerHTML = `
                 <th class="th-rank" ${rankStyle}>순위</th>
                 <th class="th-name">이름</th>
@@ -577,6 +594,15 @@ function updateTableHeaders() {
             `;
             break;
         case 'viral-hit':
+            // Update colgroup for 6 columns
+            colgroup.innerHTML = `
+                <col style="width: 100px !important;">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            `;
             thead.innerHTML = `
                 <th class="th-rank" ${rankStyle}>순위</th>
                 <th class="th-name">이름</th>
@@ -588,6 +614,16 @@ function updateTableHeaders() {
             break;
         case 'top-creators':
         default:
+            // Update colgroup for 7 columns
+            colgroup.innerHTML = `
+                <col style="width: 100px !important;">
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+                <col>
+            `;
             thead.innerHTML = `
                 <th class="th-rank" ${rankStyle}>순위</th>
                 <th class="th-name">이름</th>
