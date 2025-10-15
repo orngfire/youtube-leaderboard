@@ -292,6 +292,7 @@ class ScoreCalculator:
                 'status': 'success',
                 'video_count': 0,
                 'median_score': 0,
+                'average_views': 0,  # 평균 조회수
                 'avg_engagement': 0,
                 'top3_avg': 0,
                 'max_single_views': 0,  # 단일 최고 조회수
@@ -337,6 +338,9 @@ class ScoreCalculator:
         # 중앙값
         median_score = statistics.median(basic_scores) if basic_scores else 0
 
+        # 평균값 (Most Active 탭용)
+        average_views = statistics.mean(basic_scores) if basic_scores else 0
+
         # 전체 합산 방식의 인게이지먼트율 계산
         if total_views > 0:
             total_engagement_rate = ((total_likes + total_comments * 2) / total_views) * 100
@@ -373,6 +377,7 @@ class ScoreCalculator:
             'status': 'success',
             'video_count': video_count,
             'median_score': median_score,
+            'average_views': average_views,  # 평균 조회수 추가
             'avg_engagement': total_engagement_rate,
             'top3_avg': top3_avg,
             'max_single_views': max_single_views,  # 단일 최고 조회수 추가
@@ -716,6 +721,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 },
                 'metrics': {
                     'median_score': round(item['median_score']),
+                    'average_views': round(item.get('average_views', 0)),  # 평균 조회수 추가
                     'avg_engagement': round(item['avg_engagement'], 2),
                     'top3_avg': round(item['top3_avg']),
                     'max_single_views': round(item.get('max_single_views', 0)),  # 단일 최고 조회수 추가
@@ -742,6 +748,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 },
                 'metrics': {
                     'median_score': 0,
+                    'average_views': 0,  # 평균 조회수
                     'avg_engagement': 0,
                     'top3_avg': 0,
                     'max_single_views': 0,  # 단일 최고 조회수
