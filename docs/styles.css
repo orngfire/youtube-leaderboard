@@ -725,6 +725,14 @@ body {
         width: 150px;
     }
 
+    /* 작은 화면에서는 순위 칼럼 너비를 더 유연하게 */
+    .th-rank,
+    .rank-cell {
+        width: 80px;
+        min-width: 80px;
+        max-width: 80px;
+    }
+
     .tab-navigation {
         padding: 6px;
     }
