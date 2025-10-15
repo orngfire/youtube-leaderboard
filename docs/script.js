@@ -561,7 +561,7 @@ function updateTableHeaders() {
                 <th class="th-name">이름</th>
                 <th class="th-total">게재 영상 수</th>
                 <th class="th-basic">평균 조회수</th>
-                <th class="th-engagement">최고 조회수</th>
+                <th class="th-engagement">평균 좋아요</th>
             `;
             break;
         case 'most-subscribed':
@@ -647,8 +647,8 @@ function displayMostActive(channels) {
                 avgViews_calculated: avgViews
             });
         }
-        // Use max_single_views for the highest view count of a single video
-        const maxViews = Math.round(channel.metrics?.max_single_views || 0);
+        // Use average_likes for the average likes count
+        const avgLikes = Math.round(channel.metrics?.average_likes || 0);
 
         row.innerHTML = `
             <td class="rank-cell">
@@ -666,7 +666,7 @@ function displayMostActive(channels) {
                 <span class="score-badge">🎬 ${videoCount}개</span>
             </td>
             <td class="score-cell">${avgViews.toLocaleString()}</td>
-            <td class="score-cell">${maxViews.toLocaleString()}</td>
+            <td class="score-cell">${avgLikes.toLocaleString()}</td>
         `;
 
         row.className = `rank-${index + 1}`;

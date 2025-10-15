@@ -293,6 +293,7 @@ class ScoreCalculator:
                 'video_count': 0,
                 'median_score': 0,
                 'average_views': 0,  # 평균 조회수
+                'average_likes': 0,  # 평균 좋아요 수
                 'avg_engagement': 0,
                 'top3_avg': 0,
                 'max_single_views': 0,  # 단일 최고 조회수
@@ -350,6 +351,10 @@ class ScoreCalculator:
         views_list = [v['views'] for v in videos]
         average_views = statistics.mean(views_list) if views_list else 0
 
+        # 평균 좋아요 수 (Most Active 탭용) - 모든 영상의 좋아요 수 평균
+        likes_list = [v['likes'] for v in videos]
+        average_likes = statistics.mean(likes_list) if likes_list else 0
+
         # 전체 합산 방식의 인게이지먼트율 계산
         if total_views > 0:
             total_engagement_rate = ((total_likes + total_comments * 2) / total_views) * 100
@@ -391,6 +396,7 @@ class ScoreCalculator:
             'video_count': video_count,
             'median_score': median_score,
             'average_views': average_views,  # 평균 조회수 추가
+            'average_likes': average_likes,  # 평균 좋아요 수 추가
             'avg_engagement': total_engagement_rate,
             'top3_avg': top3_avg,
             'max_single_views': max_single_views,  # 단일 최고 조회수 추가
@@ -743,6 +749,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'metrics': {
                     'median_score': round(item['median_score']),
                     'average_views': round(item.get('average_views', 0)),  # 평균 조회수 추가
+                    'average_likes': round(item.get('average_likes', 0)),  # 평균 좋아요 수 추가
                     'avg_engagement': round(item['avg_engagement'], 2),
                     'top3_avg': round(item['top3_avg']),
                     'max_single_views': round(item.get('max_single_views', 0)),  # 단일 최고 조회수 추가
@@ -778,6 +785,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'metrics': {
                     'median_score': 0,
                     'average_views': 0,  # 평균 조회수
+                    'average_likes': 0,  # 평균 좋아요 수
                     'avg_engagement': 0,
                     'top3_avg': 0,
                     'max_single_views': 0,  # 단일 최고 조회수
