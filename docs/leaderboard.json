@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-14T16:16:49.208110+00:00",
+  "last_updated": "2025-10-15T03:35:46.971294+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -26,10 +26,33 @@
         "growth_ratio": 0,
         "video_count": 0
       },
-      "status": "channel_not_found"
+      "status": "success"
     },
     {
       "rank": 2,
+      "name": "조한준",
+      "channel_handle": "Desde_Seúl",
+      "channel_url": "https://www.youtube.com/@Desde_Seúl",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "growth_ratio": 0,
+        "video_count": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
@@ -52,7 +75,7 @@
       "status": "channel_not_found"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
@@ -75,33 +98,10 @@
       "status": "channel_not_found"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "growth_ratio": 0,
-        "video_count": 0
-      },
-      "status": "channel_not_found"
-    },
-    {
-      "rank": 5,
-      "name": "조한준",
-      "channel_handle": "Desde_Seúl",
-      "channel_url": "https://www.youtube.com/@Desde_Seúl",
       "badges": [],
       "badge_descriptions": {},
       "total_score": 0,
