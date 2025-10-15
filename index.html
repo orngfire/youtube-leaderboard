@@ -47,6 +47,26 @@
             </div>
         </header>
 
+        <!-- Tab Navigation -->
+        <div class="tab-navigation">
+            <button class="tab-button active" data-tab="top-creators" onclick="switchTab('top-creators')">
+                <span class="tab-icon">🏆</span>
+                <span class="tab-text">Top Creators</span>
+            </button>
+            <button class="tab-button" data-tab="most-active" onclick="switchTab('most-active')">
+                <span class="tab-icon">📊</span>
+                <span class="tab-text">Most Active</span>
+            </button>
+            <button class="tab-button" data-tab="most-subscribed" onclick="switchTab('most-subscribed')">
+                <span class="tab-icon">👥</span>
+                <span class="tab-text">Most Subscribed</span>
+            </button>
+            <button class="tab-button" data-tab="viral-hit" onclick="switchTab('viral-hit')">
+                <span class="tab-icon">🔥</span>
+                <span class="tab-text">Viral Hit</span>
+            </button>
+        </div>
+
         <!-- Table Container -->
         <div class="table-container">
             <table id="leaderboard-table" class="leaderboard-table">

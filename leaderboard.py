@@ -294,6 +294,7 @@ class ScoreCalculator:
                 'median_score': 0,
                 'avg_engagement': 0,
                 'top3_avg': 0,
+                'max_single_views': 0,  # 단일 최고 조회수
                 'growth_ratio': 0,
                 'score_median': 0,
                 'score_engagement': 0,
@@ -349,6 +350,9 @@ class ScoreCalculator:
         else:
             top3_avg = 0  # 영상 3개 미만이면 0점
 
+        # 단일 최고 조회수 (Most Active 탭용)
+        max_single_views = max([v['views'] for v in videos]) if videos else 0
+
         # 성장 비율 (영상이 3개 이상일 때만 계산)
         if len(basic_scores) >= 3:
             recent3_scores = basic_scores[-3:]  # 최근 3개
@@ -371,6 +375,7 @@ class ScoreCalculator:
             'median_score': median_score,
             'avg_engagement': total_engagement_rate,
             'top3_avg': top3_avg,
+            'max_single_views': max_single_views,  # 단일 최고 조회수 추가
             'growth_ratio': growth_ratio,
             'score_median': score_median,
             'score_engagement': score_engagement,
@@ -386,7 +391,7 @@ class BadgeSystem:
     """뱃지 시스템"""
 
     @staticmethod
-    def calculate_badges(channel_data: Dict, all_channels: List[Dict]) -> Tuple[List[str], Dict[str, Dict]]:
+    def calculate_badges(channel_data: Dict) -> Tuple[List[str], Dict[str, Dict]]:
         """채널의 뱃지 계산
 
         Returns:
@@ -713,6 +718,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'median_score': round(item['median_score']),
                     'avg_engagement': round(item['avg_engagement'], 2),
                     'top3_avg': round(item['top3_avg']),
+                    'max_single_views': round(item.get('max_single_views', 0)),  # 단일 최고 조회수 추가
                     'growth_ratio': round(item['growth_ratio'], 2),
                     'video_count': item['video_count']
                 },
@@ -738,6 +744,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'median_score': 0,
                     'avg_engagement': 0,
                     'top3_avg': 0,
+                    'max_single_views': 0,  # 단일 최고 조회수
                     'growth_ratio': 0,
                     'video_count': item.get('video_count', 0)
                 },
