@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-15T15:10:21.687141+00:00",
+  "last_updated": "2025-10-15T15:33:56.732859+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -15,7 +15,7 @@
       "total_score": 607,
       "score_breakdown": {
         "basic": 464,
-        "engagement": 9,
+        "engagement": 8,
         "viral": 128,
         "growth": 7
       },
@@ -23,6 +23,7 @@
         "median_score": 774,
         "avg_engagement": 0.28,
         "top3_avg": 2553,
+        "max_single_views": 2512,
         "growth_ratio": 1.42,
         "video_count": 14
       },
@@ -46,6 +47,7 @@
         "median_score": 271,
         "avg_engagement": 2.48,
         "top3_avg": 0,
+        "max_single_views": 121,
         "growth_ratio": 0,
         "video_count": 1
       },
@@ -69,6 +71,7 @@
         "median_score": 4,
         "avg_engagement": 0.0,
         "top3_avg": 0,
+        "max_single_views": 4,
         "growth_ratio": 0,
         "video_count": 1
       },
@@ -92,6 +95,7 @@
         "median_score": 0,
         "avg_engagement": 0,
         "top3_avg": 0,
+        "max_single_views": 0,
         "growth_ratio": 0,
         "video_count": 0
       },
@@ -115,6 +119,7 @@
         "median_score": 0,
         "avg_engagement": 0,
         "top3_avg": 0,
+        "max_single_views": 0,
         "growth_ratio": 0,
         "video_count": 0
       },
@@ -138,6 +143,7 @@
         "median_score": 0,
         "avg_engagement": 0,
         "top3_avg": 0,
+        "max_single_views": 0,
         "growth_ratio": 0,
         "video_count": 0
       },
@@ -161,6 +167,7 @@
         "median_score": 0,
         "avg_engagement": 0,
         "top3_avg": 0,
+        "max_single_views": 0,
         "growth_ratio": 0,
         "video_count": 0
       },
@@ -184,6 +191,7 @@
         "median_score": 0,
         "avg_engagement": 0,
         "top3_avg": 0,
+        "max_single_views": 0,
         "growth_ratio": 0,
         "video_count": 0
       },
