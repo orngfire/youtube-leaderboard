@@ -466,17 +466,19 @@ function updateLastUpdated() {
 }
 
 /**
- * Refresh data
+ * Refresh data - DISABLED
+ * Manual refresh is no longer allowed
+ * Updates happen automatically at 00:00, 08:00, 16:00 KST
  */
-function refreshData() {
-    const refreshBtn = document.getElementById('refresh-btn');
-    refreshBtn.classList.add('loading');
-
-    // Reload the page to fetch fresh data
-    setTimeout(() => {
-        location.reload();
-    }, 500);
-}
+// function refreshData() {
+//     const refreshBtn = document.getElementById('refresh-btn');
+//     refreshBtn.classList.add('loading');
+//
+//     // Reload the page to fetch fresh data
+//     setTimeout(() => {
+//         location.reload();
+//     }, 500);
+// }
 
 /**
  * Show loading state
