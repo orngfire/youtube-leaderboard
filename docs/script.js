@@ -722,30 +722,19 @@ function displayMostActive(channels) {
 function displayMostSubscribed(channels) {
     const tableBody = document.getElementById('table-body');
 
-    // Get subscriber counts from localStorage or initialize
-    const storedData = localStorage.getItem('subscriberData');
-    if (storedData) {
-        subscriberData = JSON.parse(storedData);
-    }
-
-    // Mock data for demonstration - current subscriber counts (replace with actual API data)
-    const mockSubscribers = {
-        'catmocotto': { current: 1200, initial: 960 },
-        'Desde_Seúl': { current: 850, initial: 730 },
-        'lee-lo-4u': { current: 650, initial: 470 },
-        'easyfood369': { current: 540, initial: 420 },
-        'cherryblossom0411': { current: 380, initial: 310 }
-    };
-
-    // Sort by subscriber count
+    // Sort by actual subscriber count from metrics
     const sortedChannels = [...channels].sort((a, b) => {
-        const aSubs = mockSubscribers[a.channel_handle]?.current || 0;
-        const bSubs = mockSubscribers[b.channel_handle]?.current || 0;
+        const aSubs = a.metrics?.subscriber_count || 0;
+        const bSubs = b.metrics?.subscriber_count || 0;
         return bSubs - aSubs;
     });
 
     sortedChannels.forEach((channel, index) => {
-        const subData = mockSubscribers[channel.channel_handle] || { current: 0, initial: 0 };
+        // Use actual subscriber count from metrics
+        const currentSubs = channel.metrics?.subscriber_count || 0;
+        const subsChange = channel.metrics?.subscriber_change || 0;
+        const subsChangePercent = channel.metrics?.subscriber_change_percent || 0;
+
         // Use total_video_count for all videos, regardless of evaluation period
         const totalVideoCount = channel.metrics?.total_video_count || 0;
 
@@ -763,10 +752,13 @@ function displayMostSubscribed(channels) {
                 </div>
             </td>
             <td class="score-cell">
-                <span class="score-badge">👥 ${subData.current >= 1000 ? (subData.current / 1000).toFixed(1) + 'K' : subData.current}</span>
+                <span class="score-badge">👥 ${currentSubs >= 1000 ? (currentSubs / 1000).toFixed(1) + 'K' : currentSubs.toLocaleString()}</span>
             </td>
-            <td class="score-cell" style="color: #666">
-                -
+            <td class="score-cell">
+                <span style="color: ${subsChange >= 0 ? '#22c55e' : '#ef4444'}">
+                    ${subsChange >= 0 ? '+' : ''}${subsChange}
+                    ${subsChangePercent !== 0 ? ` (${subsChangePercent > 0 ? '+' : ''}${subsChangePercent.toFixed(1)}%)` : ''}
+                </span>
             </td>
             <td class="score-cell">${totalVideoCount}개</td>
         `;
