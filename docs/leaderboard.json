@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-16T18:33:08.481438+00:00",
+  "last_updated": "2025-10-16T18:43:35.856480+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,7 +21,7 @@
       },
       "metrics": {
         "median_score": 870,
-        "average_views": 974,
+        "average_views": 991,
         "average_likes": 3,
         "avg_engagement": 0.26,
         "top3_avg": 2555,
@@ -45,51 +45,6 @@
     },
     {
       "rank": 2,
-      "name": "클로이",
-      "channel_handle": "neo_chloe",
-      "channel_url": "https://www.youtube.com/@neo_chloe",
-      "badges": [
-        "💬"
-      ],
-      "badge_descriptions": {
-        "💬": {
-          "name": "인게이지먼트 킹",
-          "message": "진짜 팬을 만드는 능력자!"
-        }
-      },
-      "total_score": 551,
-      "score_breakdown": {
-        "basic": 137,
-        "engagement": 414,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 229,
-        "average_views": 29,
-        "average_likes": 4,
-        "avg_engagement": 13.79,
-        "top3_avg": 0,
-        "max_single_views": 29,
-        "viral_video": {
-          "views": 29,
-          "likes": 4,
-          "comments": 0,
-          "title": "I dropped my lipgloss🤭#trending",
-          "video_id": "39Y_dpRMgiA",
-          "url": "https://www.youtube.com/watch?v=39Y_dpRMgiA"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 3,
-        "subscriber_count": 24,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 3,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -127,7 +82,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
@@ -160,12 +115,12 @@
         "total_video_count": 1,
         "subscriber_count": 0,
         "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
+        "subscriber_change_percent": 0
       },
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
@@ -203,7 +158,7 @@
       "status": "success"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "김소윤",
       "channel_handle": "catmocotto",
       "channel_url": "https://www.youtube.com/@catmocotto",
@@ -237,6 +192,44 @@
         "subscriber_count": 1330,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
+      "name": "강민성",
+      "channel_handle": "IQ160건강깡패",
+      "channel_url": "https://www.youtube.com/@IQ160건강깡패",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "title": "",
+          "video_id": "",
+          "url": ""
+        },
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0
       },
       "status": "success"
     },
@@ -347,10 +340,10 @@
         },
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 17,
-        "subscriber_count": 34100,
+        "total_video_count": 0,
+        "subscriber_count": 0,
         "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
+        "subscriber_change_percent": 0
       },
       "status": "success"
     },
@@ -394,44 +387,6 @@
     },
     {
       "rank": 11,
-      "name": "강민성",
-      "channel_handle": "IQ160건강깡패",
-      "channel_url": "https://www.youtube.com/@IQ160건강깡패",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 0,
-        "subscriber_count": 0,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0
-      },
-      "status": "channel_not_found"
-    },
-    {
-      "rank": 12,
       "name": "이응곤",
       "channel_handle": "talkerrypop",
       "channel_url": "https://www.youtube.com/@talkerrypop",
@@ -466,10 +421,10 @@
         "subscriber_change": 0,
         "subscriber_change_percent": 0
       },
-      "status": "channel_not_found"
+      "status": "success"
     },
     {
-      "rank": 13,
+      "rank": 12,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_url": "https://www.youtube.com/@nana.imou22",
@@ -504,7 +459,45 @@
         "subscriber_change": 0,
         "subscriber_change_percent": 0
       },
-      "status": "channel_not_found"
+      "status": "success"
+    },
+    {
+      "rank": 13,
+      "name": "클로이",
+      "channel_handle": "neo_chloe",
+      "channel_url": "https://www.youtube.com/@neo_chloe",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": {
+          "views": 0,
+          "likes": 0,
+          "comments": 0,
+          "title": "",
+          "video_id": "",
+          "url": ""
+        },
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
     }
   ]
 }

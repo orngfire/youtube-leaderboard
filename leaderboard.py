@@ -95,10 +95,15 @@ class YouTubeAPI:
                 # 방법 1: search API로 직접 @handle 검색 (가장 정확)
                 try:
                     logger.info(f"방법 1: @{username}으로 채널 검색")
+
+                    # 특별 처리: neo_chloe는 언더스코어가 포함된 특수 handle
+                    search_query = f"@{username}" if username != "neo_chloe" else "neo chloe channel"
+                    logger.info(f"검색 쿼리: {search_query}")
+
                     self.api_calls += 1
                     search_request = self.youtube.search().list(
                         part='snippet',
-                        q=f"@{username}",
+                        q=search_query,
                         type='channel',
                         maxResults=20  # 충분한 결과 검색
                     )
@@ -225,7 +230,15 @@ class YouTubeAPI:
                     maxResults=50,
                     pageToken=next_page_token
                 )
-                response = request.execute()
+
+                try:
+                    response = request.execute()
+                except HttpError as e:
+                    if e.resp.status == 404:
+                        # 플레이리스트가 없는 경우 (영상이 없는 채널)
+                        return videos  # 빈 리스트 반환
+                    else:
+                        raise  # 다른 에러는 재발생
 
                 video_ids = [item['contentDetails']['videoId'] for item in response.get('items', [])]
 
@@ -244,6 +257,7 @@ class YouTubeAPI:
                         # 날짜 필터링
                         if start_date <= published_at <= end_date:
                             stats = video['statistics']
+
                             videos.append({
                                 'video_id': video['id'],
                                 'title': video['snippet']['title'],

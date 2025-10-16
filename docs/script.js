@@ -311,21 +311,42 @@ function createExpandedDetails(channel) {
 
     let badgeHtml = '';
     if (channel.badges && channel.badges.length > 0 && channel.badge_descriptions) {
-        const badgeDetails = channel.badges.map(badge => `
-            <div class="badge-detail">
-                <span class="badge-detail-icon">${badge}</span>
-                <span class="badge-detail-text">${channel.badge_descriptions[badge] || ''}</span>
-            </div>
-        `).join('');
+        const badgeDetails = channel.badges.map(badge => {
+            const desc = channel.badge_descriptions[badge];
+            if (!desc) return '';
 
-        badgeHtml = `
-            <div class="detail-section">
-                <div class="detail-title">🏅 획득 뱃지</div>
-                <div class="badge-list">
-                    ${badgeDetails}
+            // Handle object format with name and message
+            let badgeName = '';
+            let badgeMessage = '';
+
+            if (typeof desc === 'object' && desc !== null) {
+                badgeName = desc.name || '';
+                badgeMessage = desc.message || '';
+            } else if (typeof desc === 'string') {
+                badgeMessage = desc;
+            }
+
+            return `
+                <div class="badge-detail">
+                    <span class="badge-detail-icon">${badge}</span>
+                    <div class="badge-detail-info">
+                        ${badgeName ? `<div class="badge-name">${badgeName}</div>` : ''}
+                        ${badgeMessage ? `<div class="badge-message">${badgeMessage}</div>` : ''}
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        }).join('');
+
+        if (badgeDetails) {
+            badgeHtml = `
+                <div class="detail-section">
+                    <div class="detail-title">🏅 획득 뱃지</div>
+                    <div class="badge-list">
+                        ${badgeDetails}
+                    </div>
+                </div>
+            `;
+        }
     }
 
     return `
