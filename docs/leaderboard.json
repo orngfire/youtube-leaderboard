@@ -415,6 +415,36 @@
         "subscriber_change": 0
       },
       "status": "success"
+    },
+    {
+      "rank": 14,
+      "name": "클로이",
+      "channel_handle": "neo_chloe",
+      "channel_url": "https://www.youtube.com/@neo_chloe",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0
+      },
+      "status": "success"
     }
   ]
 }
