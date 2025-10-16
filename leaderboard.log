@@ -3267,3 +3267,490 @@ Google Sheets 업로드 중...
 2025-10-15 17:42:31,031 - INFO - 데이터 부족 채널: 1개
 2025-10-15 17:42:31,031 - INFO - ============================================================
 2025-10-15 17:42:31,031 - INFO - 완료!
+2025-10-17 03:18:09,214 - INFO - ============================================================
+2025-10-17 03:18:09,215 - INFO - YouTube Creator Leaderboard 생성 시작
+2025-10-17 03:18:09,215 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
+2025-10-17 03:18:09,215 - INFO - ============================================================
+2025-10-17 03:18:09,216 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-10-17 03:18:09,218 - INFO - 구독자 기준선 데이터 로드: 0개 채널
+2025-10-17 03:18:09,219 - INFO - 총 13개 채널 로드
+2025-10-17 03:18:09,219 - INFO - 
+[1/13] 김소윤 처리 중...
+2025-10-17 03:18:09,219 - INFO - ✓ 저장된 채널 ID 사용: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:09,547 - INFO - 신규 채널 추가: 김소윤 - 초기 구독자: 1,330
+2025-10-17 03:18:09,547 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:09,650 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCej2A7vjwQnGDuytjUIM0Xw, 실제 채널: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:09,651 - INFO - [DEBUG] uploads_playlist_id: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:09,651 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:10,116 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:10,526 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:10,981 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:11,330 - INFO - 채널 UCej2A7vjwQnGDuytjUIM0Xw: 0개 영상 수집
+2025-10-17 03:18:11,330 - INFO - 
+[2/13] 조준철 처리 중...
+2025-10-17 03:18:11,330 - INFO - ✓ 저장된 채널 ID 사용: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:11,441 - INFO - 신규 채널 추가: 조준철 - 초기 구독자: 7
+2025-10-17 03:18:11,441 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:11,543 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCcMRADwvMuSTWiB69qNSSUA, 실제 채널: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:11,543 - INFO - [DEBUG] uploads_playlist_id: UUcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:11,544 - INFO - [DEBUG] Playlist 조회 - playlistId: UUcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:11,924 - INFO - 채널 UCcMRADwvMuSTWiB69qNSSUA: 15개 영상 수집
+2025-10-17 03:18:11,925 - INFO - 
+[3/13] 강민성 처리 중...
+2025-10-17 03:18:11,925 - INFO - ✓ 저장된 채널 ID 사용: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:12,022 - WARNING - 채널 건강깡패: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:12,022 - INFO - 신규 채널 추가: 강민성 - 초기 구독자: 0
+2025-10-17 03:18:12,022 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:12,120 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCSvpGbvdyNYvYopKyxTY7yQ, 실제 채널: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:12,120 - INFO - [DEBUG] uploads_playlist_id: UUSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:12,121 - INFO - [DEBUG] Playlist 조회 - playlistId: UUSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:12,340 - WARNING - [DEBUG] Playlist UUSvpGbvdyNYvYopKyxTY7yQ를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:12,340 - INFO - 
+[4/13] 김예림 처리 중...
+2025-10-17 03:18:12,340 - INFO - ✓ 저장된 채널 ID 사용: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:12,459 - WARNING - 채널 Vitaminute: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:12,459 - INFO - 신규 채널 추가: 김예림 - 초기 구독자: 0
+2025-10-17 03:18:12,459 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:12,567 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCMt0CZ3LQ7MXnpTSLOm2WIw, 실제 채널: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:12,567 - INFO - [DEBUG] uploads_playlist_id: UUMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:12,569 - INFO - [DEBUG] Playlist 조회 - playlistId: UUMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:12,932 - INFO - 채널 UCMt0CZ3LQ7MXnpTSLOm2WIw: 1개 영상 수집
+2025-10-17 03:18:12,932 - INFO - 
+[5/13] 조한준 처리 중...
+2025-10-17 03:18:12,932 - INFO - ✓ 저장된 채널 ID 사용: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:13,029 - INFO - 신규 채널 추가: 조한준 - 초기 구독자: 8
+2025-10-17 03:18:13,029 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:13,132 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCp172WWQsW0Vvc924md6Giw, 실제 채널: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:13,132 - INFO - [DEBUG] uploads_playlist_id: UUp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:13,133 - INFO - [DEBUG] Playlist 조회 - playlistId: UUp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:13,480 - INFO - 채널 UCp172WWQsW0Vvc924md6Giw: 1개 영상 수집
+2025-10-17 03:18:13,480 - INFO - 
+[6/13] 임동한 처리 중...
+2025-10-17 03:18:13,480 - INFO - ✓ 저장된 채널 ID 사용: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:13,579 - INFO - 신규 채널 추가: 임동한 - 초기 구독자: 368
+2025-10-17 03:18:13,579 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:13,671 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCJc4X5ZWGHonb4Bik6IVTgw, 실제 채널: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:13,671 - INFO - [DEBUG] uploads_playlist_id: UUJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:13,672 - INFO - [DEBUG] Playlist 조회 - playlistId: UUJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:14,205 - INFO - 채널 UCJc4X5ZWGHonb4Bik6IVTgw: 0개 영상 수집
+2025-10-17 03:18:14,205 - INFO - 
+[7/13] 김수정 처리 중...
+2025-10-17 03:18:14,205 - INFO - ✓ 저장된 채널 ID 사용: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:14,381 - INFO - 신규 채널 추가: 김수정 - 초기 구독자: 34
+2025-10-17 03:18:14,381 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:14,477 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCSuyRNFqR7_N2RpWNXJoLnw, 실제 채널: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:14,477 - INFO - [DEBUG] uploads_playlist_id: UUSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:14,479 - INFO - [DEBUG] Playlist 조회 - playlistId: UUSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:14,847 - INFO - 채널 UCSuyRNFqR7_N2RpWNXJoLnw: 1개 영상 수집
+2025-10-17 03:18:14,847 - INFO - 
+[8/13] 서혜리 처리 중...
+2025-10-17 03:18:14,848 - INFO - ✓ 저장된 채널 ID 사용: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:14,980 - INFO - 신규 채널 추가: 서혜리 - 초기 구독자: 334
+2025-10-17 03:18:14,980 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:15,080 - INFO - [DEBUG] 채널 API 응답 - channel_id: UC_c2yUaR-70MTy7jy9vdCEA, 실제 채널: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:15,080 - INFO - [DEBUG] uploads_playlist_id: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:15,081 - INFO - [DEBUG] Playlist 조회 - playlistId: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:15,490 - INFO - [DEBUG] Playlist 조회 - playlistId: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:15,833 - INFO - 채널 UC_c2yUaR-70MTy7jy9vdCEA: 0개 영상 수집
+2025-10-17 03:18:15,833 - INFO - 
+[9/13] 김태수 처리 중...
+2025-10-17 03:18:15,833 - INFO - ✓ 저장된 채널 ID 사용: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:15,941 - INFO - 신규 채널 추가: 김태수 - 초기 구독자: 34,100
+2025-10-17 03:18:15,941 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:16,042 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCR5RUvmhq4vvc5DZCy8eF5g, 실제 채널: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:16,043 - INFO - [DEBUG] uploads_playlist_id: UUR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:16,044 - INFO - [DEBUG] Playlist 조회 - playlistId: UUR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:16,471 - INFO - 채널 UCR5RUvmhq4vvc5DZCy8eF5g: 0개 영상 수집
+2025-10-17 03:18:16,471 - INFO - 
+[10/13] 전우형 처리 중...
+2025-10-17 03:18:16,471 - INFO - ✓ 저장된 채널 ID 사용: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:16,574 - INFO - 신규 채널 추가: 전우형 - 초기 구독자: 110
+2025-10-17 03:18:16,574 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:16,670 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCE_fO6R5HcM86Zyv-oecG_g, 실제 채널: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:16,670 - INFO - [DEBUG] uploads_playlist_id: UUE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:16,670 - INFO - [DEBUG] Playlist 조회 - playlistId: UUE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:17,118 - INFO - 채널 UCE_fO6R5HcM86Zyv-oecG_g: 0개 영상 수집
+2025-10-17 03:18:17,119 - INFO - 
+[11/13] 이응곤 처리 중...
+2025-10-17 03:18:17,119 - INFO - ✓ 저장된 채널 ID 사용: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:17,220 - WARNING - 채널 Barten: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:17,221 - INFO - 신규 채널 추가: 이응곤 - 초기 구독자: 0
+2025-10-17 03:18:17,221 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:17,324 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCLT46O02dMewCafHz5me0cQ, 실제 채널: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:17,324 - INFO - [DEBUG] uploads_playlist_id: UULT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:17,325 - INFO - [DEBUG] Playlist 조회 - playlistId: UULT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:17,537 - WARNING - [DEBUG] Playlist UULT46O02dMewCafHz5me0cQ를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:17,537 - INFO - 
+[12/13] 국해란 처리 중...
+2025-10-17 03:18:17,537 - INFO - ✓ 저장된 채널 ID 사용: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:17,634 - WARNING - 채널 나나이모: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:17,634 - INFO - 신규 채널 추가: 국해란 - 초기 구독자: 0
+2025-10-17 03:18:17,634 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:17,733 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCGDddZb7QW7f76q4wiSAQ7Q, 실제 채널: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:17,733 - INFO - [DEBUG] uploads_playlist_id: UUGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:17,734 - INFO - [DEBUG] Playlist 조회 - playlistId: UUGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:17,963 - WARNING - [DEBUG] Playlist UUGDddZb7QW7f76q4wiSAQ7Q를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:17,964 - INFO - 
+[13/13] 클로이 처리 중...
+2025-10-17 03:18:17,964 - INFO - [DEBUG] 클로이 채널 정보: {"name": "클로이", "channel_url": "https://www.youtube.com/@neo_chloe", "channel_id": "UC59F8hHuNyS9aP4fvSTD6Og"}
+2025-10-17 03:18:17,965 - INFO - ✓ 저장된 채널 ID 사용: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:17,965 - INFO - [DEBUG] 클로이 채널 ID 사용 중: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,060 - INFO - 신규 채널 추가: 클로이 - 초기 구독자: 24
+2025-10-17 03:18:18,060 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,149 - INFO - [DEBUG] 채널 API 응답 - channel_id: UC59F8hHuNyS9aP4fvSTD6Og, 실제 채널: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,149 - INFO - [DEBUG] uploads_playlist_id: UU59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,150 - INFO - [DEBUG] Playlist 조회 - playlistId: UU59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,483 - INFO - [DEBUG] 영상 발견 - 채널: Chloe Neo, 제목: I dropped my lipgloss🤭#trendin...
+2025-10-17 03:18:18,484 - INFO - [DEBUG] 영상 발견 - 채널: Chloe Neo, 제목: Why does he look so mad-😔😔  #s...
+2025-10-17 03:18:18,484 - INFO - 채널 UC59F8hHuNyS9aP4fvSTD6Og: 2개 영상 수집
+2025-10-17 03:18:18,484 - INFO - [DEBUG] 클로이 채널 영상 조회 결과:
+2025-10-17 03:18:18,484 - INFO - [DEBUG] - 사용한 channel_id: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:18,485 - INFO - [DEBUG] - 반환된 영상 개수: 2
+2025-10-17 03:18:18,485 - WARNING - [WARNING] 클로이 채널은 영상이 0개여야 하는데 2개가 반환됨!
+2025-10-17 03:18:18,485 - WARNING - [WARNING] 첫 번째 영상: 제목=I dropped my lipgloss🤭#trending, ID=39Y_dpRMgiA, URL=https://www.youtube.com/watch?v=39Y_dpRMgiA
+2025-10-17 03:18:18,486 - INFO - 
+============================================================
+2025-10-17 03:18:18,486 - INFO - 최종 순위
+2025-10-17 03:18:18,486 - INFO - ============================================================
+2025-10-17 03:18:18,486 - INFO - 1위: 조준철  - 664점
+2025-10-17 03:18:18,486 - INFO - 2위: 클로이 💬 - 551점
+2025-10-17 03:18:18,486 - INFO - 3위: 조한준  - 237점
+2025-10-17 03:18:18,486 - INFO - 4위: 김예림  - 5점
+2025-10-17 03:18:18,486 - INFO - 5위: 김수정  - 1점
+2025-10-17 03:18:18,487 - INFO - 6위: 김소윤  - 0점
+2025-10-17 03:18:18,487 - INFO - 7위: 강민성  - 0점
+2025-10-17 03:18:18,487 - INFO - 8위: 임동한  - 0점
+2025-10-17 03:18:18,487 - INFO - 9위: 서혜리  - 0점
+2025-10-17 03:18:18,487 - INFO - 10위: 김태수  - 0점
+2025-10-17 03:18:18,487 - INFO - 11위: 전우형  - 0점
+2025-10-17 03:18:18,487 - INFO - 12위: 이응곤  - 0점
+2025-10-17 03:18:18,487 - INFO - 13위: 국해란  - 0점
+2025-10-17 03:18:18,490 - INFO - 구독자 기준선 데이터 저장 완료
+2025-10-17 03:18:18,490 - INFO - 
+파일 생성 중...
+2025-10-17 03:18:18,494 - INFO - JSON 파일 생성 완료: leaderboard.json
+2025-10-17 03:18:18,494 - INFO - 
+Google Sheets 업로드 중...
+2025-10-17 03:18:18,494 - INFO - Google Sheets 업로드 시작...
+2025-10-17 03:18:18,494 - INFO - Credentials file: credentials.json
+2025-10-17 03:18:18,494 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:18:18,494 - INFO - 인증 파일 존재 확인 완료
+2025-10-17 03:18:18,499 - INFO - Google API 인증 성공
+2025-10-17 03:18:20,051 - INFO - 리더보드 데이터 준비 중... 총 13개 채널
+2025-10-17 03:18:20,051 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_id', 'channel_handle', 'status', 'video_count', 'median_score', 'average_views', 'average_likes', 'avg_engagement', 'top3_avg', 'max_single_views', 'viral_video', 'growth_ratio', 'score_median', 'score_engagement', 'score_viral', 'score_growth', 'total_score', 'videos', 'video_details', 'total_video_count', 'subscriber_count', 'subscriber_change', 'subscriber_change_percent', 'badges', 'badge_descriptions'])
+2025-10-17 03:18:20,051 - INFO - 리더보드 데이터 준비 완료: 14행
+2025-10-17 03:18:21,405 - INFO - 리더보드 시트 업데이트 완료
+2025-10-17 03:18:23,533 - INFO - 영상 상세 데이터 준비 완료: 20개 영상
+2025-10-17 03:18:24,337 - INFO - 영상 상세 시트 업데이트 완료
+2025-10-17 03:18:25,223 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:18:25,233 - INFO - 
+============================================================
+2025-10-17 03:18:25,233 - INFO - 실행 통계
+2025-10-17 03:18:25,233 - INFO - ============================================================
+2025-10-17 03:18:25,233 - INFO - 총 API 호출 횟수: 57
+2025-10-17 03:18:25,234 - INFO - 성공적으로 처리된 채널: 13개
+2025-10-17 03:18:25,234 - INFO - 데이터 부족 채널: 0개
+2025-10-17 03:18:25,234 - INFO - ============================================================
+2025-10-17 03:18:25,234 - INFO - 완료!
+2025-10-17 03:18:38,196 - INFO - ============================================================
+2025-10-17 03:18:38,196 - INFO - YouTube Creator Leaderboard 생성 시작
+2025-10-17 03:18:38,196 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
+2025-10-17 03:18:38,196 - INFO - ============================================================
+2025-10-17 03:18:38,197 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-10-17 03:18:38,200 - INFO - 구독자 기준선 데이터 로드: 13개 채널
+2025-10-17 03:18:38,200 - INFO - 총 13개 채널 로드
+2025-10-17 03:18:38,200 - INFO - 
+[1/13] 김소윤 처리 중...
+2025-10-17 03:18:38,200 - INFO - ✓ 저장된 채널 ID 사용: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:38,423 - INFO - 채널 업데이트: 김소윤 - 현재: 1,330, 증감: +0 (+0.0%)
+2025-10-17 03:18:38,423 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:38,502 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCej2A7vjwQnGDuytjUIM0Xw, 실제 채널: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:38,502 - INFO - [DEBUG] uploads_playlist_id: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:38,502 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:38,847 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:39,175 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:39,504 - INFO - [DEBUG] Playlist 조회 - playlistId: UUej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:18:39,813 - INFO - 채널 UCej2A7vjwQnGDuytjUIM0Xw: 0개 영상 수집
+2025-10-17 03:18:39,813 - INFO - 
+[2/13] 조준철 처리 중...
+2025-10-17 03:18:39,813 - INFO - ✓ 저장된 채널 ID 사용: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:39,887 - INFO - 채널 업데이트: 조준철 - 현재: 7, 증감: +0 (+0.0%)
+2025-10-17 03:18:39,887 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:39,970 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCcMRADwvMuSTWiB69qNSSUA, 실제 채널: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:39,971 - INFO - [DEBUG] uploads_playlist_id: UUcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:39,971 - INFO - [DEBUG] Playlist 조회 - playlistId: UUcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:18:40,272 - INFO - 채널 UCcMRADwvMuSTWiB69qNSSUA: 15개 영상 수집
+2025-10-17 03:18:40,272 - INFO - 
+[3/13] 강민성 처리 중...
+2025-10-17 03:18:40,272 - INFO - ✓ 저장된 채널 ID 사용: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:40,363 - WARNING - 채널 건강깡패: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:40,363 - INFO - 채널 업데이트: 강민성 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:18:40,363 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:40,438 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCSvpGbvdyNYvYopKyxTY7yQ, 실제 채널: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:40,438 - INFO - [DEBUG] uploads_playlist_id: UUSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:40,439 - INFO - [DEBUG] Playlist 조회 - playlistId: UUSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:18:40,782 - WARNING - [DEBUG] Playlist UUSvpGbvdyNYvYopKyxTY7yQ를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:40,783 - INFO - 
+[4/13] 김예림 처리 중...
+2025-10-17 03:18:40,783 - INFO - ✓ 저장된 채널 ID 사용: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:40,884 - WARNING - 채널 Vitaminute: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:40,884 - INFO - 채널 업데이트: 김예림 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:18:40,884 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:40,977 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCMt0CZ3LQ7MXnpTSLOm2WIw, 실제 채널: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:40,978 - INFO - [DEBUG] uploads_playlist_id: UUMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:40,979 - INFO - [DEBUG] Playlist 조회 - playlistId: UUMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:18:41,284 - INFO - 채널 UCMt0CZ3LQ7MXnpTSLOm2WIw: 1개 영상 수집
+2025-10-17 03:18:41,284 - INFO - 
+[5/13] 조한준 처리 중...
+2025-10-17 03:18:41,284 - INFO - ✓ 저장된 채널 ID 사용: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:41,369 - INFO - 채널 업데이트: 조한준 - 현재: 8, 증감: +0 (+0.0%)
+2025-10-17 03:18:41,369 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:41,449 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCp172WWQsW0Vvc924md6Giw, 실제 채널: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:41,449 - INFO - [DEBUG] uploads_playlist_id: UUp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:41,450 - INFO - [DEBUG] Playlist 조회 - playlistId: UUp172WWQsW0Vvc924md6Giw
+2025-10-17 03:18:41,743 - INFO - 채널 UCp172WWQsW0Vvc924md6Giw: 1개 영상 수집
+2025-10-17 03:18:41,743 - INFO - 
+[6/13] 임동한 처리 중...
+2025-10-17 03:18:41,744 - INFO - ✓ 저장된 채널 ID 사용: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:41,819 - INFO - 채널 업데이트: 임동한 - 현재: 368, 증감: +0 (+0.0%)
+2025-10-17 03:18:41,820 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:41,904 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCJc4X5ZWGHonb4Bik6IVTgw, 실제 채널: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:41,904 - INFO - [DEBUG] uploads_playlist_id: UUJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:41,905 - INFO - [DEBUG] Playlist 조회 - playlistId: UUJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:18:42,216 - INFO - 채널 UCJc4X5ZWGHonb4Bik6IVTgw: 0개 영상 수집
+2025-10-17 03:18:42,217 - INFO - 
+[7/13] 김수정 처리 중...
+2025-10-17 03:18:42,217 - INFO - ✓ 저장된 채널 ID 사용: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:42,316 - INFO - 채널 업데이트: 김수정 - 현재: 34, 증감: +0 (+0.0%)
+2025-10-17 03:18:42,316 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:42,400 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCSuyRNFqR7_N2RpWNXJoLnw, 실제 채널: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:42,400 - INFO - [DEBUG] uploads_playlist_id: UUSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:42,401 - INFO - [DEBUG] Playlist 조회 - playlistId: UUSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:18:42,749 - INFO - 채널 UCSuyRNFqR7_N2RpWNXJoLnw: 1개 영상 수집
+2025-10-17 03:18:42,749 - INFO - 
+[8/13] 서혜리 처리 중...
+2025-10-17 03:18:42,749 - INFO - ✓ 저장된 채널 ID 사용: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:42,853 - INFO - 채널 업데이트: 서혜리 - 현재: 334, 증감: +0 (+0.0%)
+2025-10-17 03:18:42,853 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:42,930 - INFO - [DEBUG] 채널 API 응답 - channel_id: UC_c2yUaR-70MTy7jy9vdCEA, 실제 채널: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:42,930 - INFO - [DEBUG] uploads_playlist_id: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:42,931 - INFO - [DEBUG] Playlist 조회 - playlistId: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:43,319 - INFO - [DEBUG] Playlist 조회 - playlistId: UU_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:18:43,604 - INFO - 채널 UC_c2yUaR-70MTy7jy9vdCEA: 0개 영상 수집
+2025-10-17 03:18:43,604 - INFO - 
+[9/13] 김태수 처리 중...
+2025-10-17 03:18:43,604 - INFO - ✓ 저장된 채널 ID 사용: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:43,682 - INFO - 채널 업데이트: 김태수 - 현재: 34,100, 증감: +0 (+0.0%)
+2025-10-17 03:18:43,682 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:43,766 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCR5RUvmhq4vvc5DZCy8eF5g, 실제 채널: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:43,766 - INFO - [DEBUG] uploads_playlist_id: UUR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:43,767 - INFO - [DEBUG] Playlist 조회 - playlistId: UUR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:18:44,064 - INFO - 채널 UCR5RUvmhq4vvc5DZCy8eF5g: 0개 영상 수집
+2025-10-17 03:18:44,064 - INFO - 
+[10/13] 전우형 처리 중...
+2025-10-17 03:18:44,064 - INFO - ✓ 저장된 채널 ID 사용: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:44,151 - INFO - 채널 업데이트: 전우형 - 현재: 110, 증감: +0 (+0.0%)
+2025-10-17 03:18:44,151 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:44,240 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCE_fO6R5HcM86Zyv-oecG_g, 실제 채널: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:44,240 - INFO - [DEBUG] uploads_playlist_id: UUE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:44,240 - INFO - [DEBUG] Playlist 조회 - playlistId: UUE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:18:44,621 - INFO - 채널 UCE_fO6R5HcM86Zyv-oecG_g: 0개 영상 수집
+2025-10-17 03:18:44,621 - INFO - 
+[11/13] 이응곤 처리 중...
+2025-10-17 03:18:44,621 - INFO - ✓ 저장된 채널 ID 사용: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:44,724 - WARNING - 채널 Barten: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:44,725 - INFO - 채널 업데이트: 이응곤 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:18:44,725 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:44,816 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCLT46O02dMewCafHz5me0cQ, 실제 채널: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:44,816 - INFO - [DEBUG] uploads_playlist_id: UULT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:44,817 - INFO - [DEBUG] Playlist 조회 - playlistId: UULT46O02dMewCafHz5me0cQ
+2025-10-17 03:18:45,022 - WARNING - [DEBUG] Playlist UULT46O02dMewCafHz5me0cQ를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:45,022 - INFO - 
+[12/13] 국해란 처리 중...
+2025-10-17 03:18:45,022 - INFO - ✓ 저장된 채널 ID 사용: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:45,100 - WARNING - 채널 나나이모: 구독자 수 0명으로 반환됨
+2025-10-17 03:18:45,100 - INFO - 채널 업데이트: 국해란 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:18:45,100 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:45,184 - INFO - [DEBUG] 채널 API 응답 - channel_id: UCGDddZb7QW7f76q4wiSAQ7Q, 실제 채널: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:45,185 - INFO - [DEBUG] uploads_playlist_id: UUGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:45,187 - INFO - [DEBUG] Playlist 조회 - playlistId: UUGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:18:45,409 - WARNING - [DEBUG] Playlist UUGDddZb7QW7f76q4wiSAQ7Q를 찾을 수 없음 (404 에러)
+2025-10-17 03:18:45,409 - INFO - 
+[13/13] 클로이 처리 중...
+2025-10-17 03:18:45,410 - INFO - [DEBUG] 클로이 채널 정보: {"name": "클로이", "channel_url": "https://www.youtube.com/@neo_chloe", "channel_id": "UC59F8hHuNyS9aP4fvSTD6Og"}
+2025-10-17 03:18:45,410 - INFO - ✓ 저장된 채널 ID 사용: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,410 - INFO - [DEBUG] 클로이 채널 ID 사용 중: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,494 - INFO - 채널 업데이트: 클로이 - 현재: 24, 증감: +0 (+0.0%)
+2025-10-17 03:18:45,495 - INFO - [DEBUG] get_channel_videos 호출 - channel_id: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,585 - INFO - [DEBUG] 채널 API 응답 - channel_id: UC59F8hHuNyS9aP4fvSTD6Og, 실제 채널: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,585 - INFO - [DEBUG] uploads_playlist_id: UU59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,586 - INFO - [DEBUG] Playlist 조회 - playlistId: UU59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,881 - INFO - [DEBUG] 영상 발견 - 채널: Chloe Neo, 제목: I dropped my lipgloss🤭#trendin...
+2025-10-17 03:18:45,881 - INFO - [DEBUG] 영상 발견 - 채널: Chloe Neo, 제목: Why does he look so mad-😔😔  #s...
+2025-10-17 03:18:45,881 - INFO - 채널 UC59F8hHuNyS9aP4fvSTD6Og: 2개 영상 수집
+2025-10-17 03:18:45,881 - INFO - [DEBUG] 클로이 채널 영상 조회 결과:
+2025-10-17 03:18:45,881 - INFO - [DEBUG] - 사용한 channel_id: UC59F8hHuNyS9aP4fvSTD6Og
+2025-10-17 03:18:45,881 - INFO - [DEBUG] - 반환된 영상 개수: 2
+2025-10-17 03:18:45,881 - WARNING - [WARNING] 클로이 채널은 영상이 0개여야 하는데 2개가 반환됨!
+2025-10-17 03:18:45,882 - WARNING - [WARNING] 첫 번째 영상: 제목=I dropped my lipgloss🤭#trending, ID=39Y_dpRMgiA, URL=https://www.youtube.com/watch?v=39Y_dpRMgiA
+2025-10-17 03:18:45,882 - INFO - 
+============================================================
+2025-10-17 03:18:45,882 - INFO - 최종 순위
+2025-10-17 03:18:45,882 - INFO - ============================================================
+2025-10-17 03:18:45,882 - INFO - 1위: 조준철  - 664점
+2025-10-17 03:18:45,882 - INFO - 2위: 클로이 💬 - 551점
+2025-10-17 03:18:45,882 - INFO - 3위: 조한준  - 237점
+2025-10-17 03:18:45,882 - INFO - 4위: 김예림  - 5점
+2025-10-17 03:18:45,883 - INFO - 5위: 김수정  - 1점
+2025-10-17 03:18:45,883 - INFO - 6위: 김소윤  - 0점
+2025-10-17 03:18:45,883 - INFO - 7위: 강민성  - 0점
+2025-10-17 03:18:45,883 - INFO - 8위: 임동한  - 0점
+2025-10-17 03:18:45,883 - INFO - 9위: 서혜리  - 0점
+2025-10-17 03:18:45,883 - INFO - 10위: 김태수  - 0점
+2025-10-17 03:18:45,883 - INFO - 11위: 전우형  - 0점
+2025-10-17 03:18:45,883 - INFO - 12위: 이응곤  - 0점
+2025-10-17 03:18:45,883 - INFO - 13위: 국해란  - 0점
+2025-10-17 03:18:45,884 - INFO - 구독자 기준선 데이터 저장 완료
+2025-10-17 03:18:45,885 - INFO - 
+파일 생성 중...
+2025-10-17 03:18:45,887 - INFO - JSON 파일 생성 완료: leaderboard.json
+2025-10-17 03:18:45,887 - INFO - 
+Google Sheets 업로드 중...
+2025-10-17 03:18:45,887 - INFO - Google Sheets 업로드 시작...
+2025-10-17 03:18:45,887 - INFO - Credentials file: credentials.json
+2025-10-17 03:18:45,887 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:18:45,887 - INFO - 인증 파일 존재 확인 완료
+2025-10-17 03:18:45,892 - INFO - Google API 인증 성공
+2025-10-17 03:18:47,076 - INFO - 리더보드 데이터 준비 중... 총 13개 채널
+2025-10-17 03:18:47,077 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_id', 'channel_handle', 'status', 'video_count', 'median_score', 'average_views', 'average_likes', 'avg_engagement', 'top3_avg', 'max_single_views', 'viral_video', 'growth_ratio', 'score_median', 'score_engagement', 'score_viral', 'score_growth', 'total_score', 'videos', 'video_details', 'total_video_count', 'subscriber_count', 'subscriber_change', 'subscriber_change_percent', 'badges', 'badge_descriptions'])
+2025-10-17 03:18:47,077 - INFO - 리더보드 데이터 준비 완료: 14행
+2025-10-17 03:18:47,820 - INFO - 리더보드 시트 업데이트 완료
+2025-10-17 03:18:49,945 - INFO - 영상 상세 데이터 준비 완료: 20개 영상
+2025-10-17 03:18:50,817 - INFO - 영상 상세 시트 업데이트 완료
+2025-10-17 03:18:51,555 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:18:51,560 - INFO - 
+============================================================
+2025-10-17 03:18:51,560 - INFO - 실행 통계
+2025-10-17 03:18:51,560 - INFO - ============================================================
+2025-10-17 03:18:51,560 - INFO - 총 API 호출 횟수: 57
+2025-10-17 03:18:51,560 - INFO - 성공적으로 처리된 채널: 13개
+2025-10-17 03:18:51,560 - INFO - 데이터 부족 채널: 0개
+2025-10-17 03:18:51,560 - INFO - ============================================================
+2025-10-17 03:18:51,560 - INFO - 완료!
+2025-10-17 03:21:11,185 - INFO - ============================================================
+2025-10-17 03:21:11,186 - INFO - YouTube Creator Leaderboard 생성 시작
+2025-10-17 03:21:11,186 - INFO - 평가 기간: 2025-10-02T00:00:00Z ~ 2025-12-14T23:59:59Z
+2025-10-17 03:21:11,186 - INFO - ============================================================
+2025-10-17 03:21:11,189 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-10-17 03:21:11,194 - INFO - 구독자 기준선 데이터 로드: 12개 채널
+2025-10-17 03:21:11,195 - INFO - 총 13개 채널 로드
+2025-10-17 03:21:11,195 - INFO - 
+[1/13] 김소윤 처리 중...
+2025-10-17 03:21:11,195 - INFO - ✓ 저장된 채널 ID 사용: UCej2A7vjwQnGDuytjUIM0Xw
+2025-10-17 03:21:11,422 - INFO - 채널 업데이트: 김소윤 - 현재: 1,330, 증감: +0 (+0.0%)
+2025-10-17 03:21:12,860 - INFO - 채널 UCej2A7vjwQnGDuytjUIM0Xw: 0개 영상 수집
+2025-10-17 03:21:12,860 - INFO - 
+[2/13] 조준철 처리 중...
+2025-10-17 03:21:12,860 - INFO - ✓ 저장된 채널 ID 사용: UCcMRADwvMuSTWiB69qNSSUA
+2025-10-17 03:21:12,949 - INFO - 채널 업데이트: 조준철 - 현재: 7, 증감: +0 (+0.0%)
+2025-10-17 03:21:13,323 - INFO - 채널 UCcMRADwvMuSTWiB69qNSSUA: 15개 영상 수집
+2025-10-17 03:21:13,324 - INFO - 
+[3/13] 강민성 처리 중...
+2025-10-17 03:21:13,324 - INFO - ✓ 저장된 채널 ID 사용: UCSvpGbvdyNYvYopKyxTY7yQ
+2025-10-17 03:21:13,450 - WARNING - 채널 건강깡패: 구독자 수 0명으로 반환됨
+2025-10-17 03:21:13,450 - INFO - 채널 업데이트: 강민성 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:21:13,844 - INFO - 
+[4/13] 김예림 처리 중...
+2025-10-17 03:21:13,845 - INFO - ✓ 저장된 채널 ID 사용: UCMt0CZ3LQ7MXnpTSLOm2WIw
+2025-10-17 03:21:13,927 - WARNING - 채널 Vitaminute: 구독자 수 0명으로 반환됨
+2025-10-17 03:21:13,928 - INFO - 채널 업데이트: 김예림 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:21:14,359 - INFO - 채널 UCMt0CZ3LQ7MXnpTSLOm2WIw: 1개 영상 수집
+2025-10-17 03:21:14,359 - INFO - 
+[5/13] 조한준 처리 중...
+2025-10-17 03:21:14,359 - INFO - ✓ 저장된 채널 ID 사용: UCp172WWQsW0Vvc924md6Giw
+2025-10-17 03:21:14,474 - INFO - 채널 업데이트: 조한준 - 현재: 8, 증감: +0 (+0.0%)
+2025-10-17 03:21:15,176 - INFO - 채널 UCp172WWQsW0Vvc924md6Giw: 1개 영상 수집
+2025-10-17 03:21:15,177 - INFO - 
+[6/13] 임동한 처리 중...
+2025-10-17 03:21:15,177 - INFO - ✓ 저장된 채널 ID 사용: UCJc4X5ZWGHonb4Bik6IVTgw
+2025-10-17 03:21:15,266 - INFO - 채널 업데이트: 임동한 - 현재: 368, 증감: +0 (+0.0%)
+2025-10-17 03:21:15,711 - INFO - 채널 UCJc4X5ZWGHonb4Bik6IVTgw: 0개 영상 수집
+2025-10-17 03:21:15,712 - INFO - 
+[7/13] 김수정 처리 중...
+2025-10-17 03:21:15,712 - INFO - ✓ 저장된 채널 ID 사용: UCSuyRNFqR7_N2RpWNXJoLnw
+2025-10-17 03:21:15,791 - INFO - 채널 업데이트: 김수정 - 현재: 34, 증감: +0 (+0.0%)
+2025-10-17 03:21:16,224 - INFO - 채널 UCSuyRNFqR7_N2RpWNXJoLnw: 1개 영상 수집
+2025-10-17 03:21:16,224 - INFO - 
+[8/13] 서혜리 처리 중...
+2025-10-17 03:21:16,224 - INFO - ✓ 저장된 채널 ID 사용: UC_c2yUaR-70MTy7jy9vdCEA
+2025-10-17 03:21:16,324 - INFO - 채널 업데이트: 서혜리 - 현재: 334, 증감: +0 (+0.0%)
+2025-10-17 03:21:17,141 - INFO - 채널 UC_c2yUaR-70MTy7jy9vdCEA: 0개 영상 수집
+2025-10-17 03:21:17,141 - INFO - 
+[9/13] 김태수 처리 중...
+2025-10-17 03:21:17,142 - INFO - ✓ 저장된 채널 ID 사용: UCR5RUvmhq4vvc5DZCy8eF5g
+2025-10-17 03:21:17,247 - INFO - 채널 업데이트: 김태수 - 현재: 34,100, 증감: +0 (+0.0%)
+2025-10-17 03:21:17,649 - INFO - 채널 UCR5RUvmhq4vvc5DZCy8eF5g: 0개 영상 수집
+2025-10-17 03:21:17,649 - INFO - 
+[10/13] 전우형 처리 중...
+2025-10-17 03:21:17,649 - INFO - ✓ 저장된 채널 ID 사용: UCE_fO6R5HcM86Zyv-oecG_g
+2025-10-17 03:21:17,734 - INFO - 채널 업데이트: 전우형 - 현재: 110, 증감: +0 (+0.0%)
+2025-10-17 03:21:18,145 - INFO - 채널 UCE_fO6R5HcM86Zyv-oecG_g: 0개 영상 수집
+2025-10-17 03:21:18,145 - INFO - 
+[11/13] 이응곤 처리 중...
+2025-10-17 03:21:18,145 - INFO - ✓ 저장된 채널 ID 사용: UCLT46O02dMewCafHz5me0cQ
+2025-10-17 03:21:18,218 - WARNING - 채널 Barten: 구독자 수 0명으로 반환됨
+2025-10-17 03:21:18,219 - INFO - 채널 업데이트: 이응곤 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:21:18,498 - INFO - 
+[12/13] 국해란 처리 중...
+2025-10-17 03:21:18,498 - INFO - ✓ 저장된 채널 ID 사용: UCGDddZb7QW7f76q4wiSAQ7Q
+2025-10-17 03:21:18,579 - WARNING - 채널 나나이모: 구독자 수 0명으로 반환됨
+2025-10-17 03:21:18,579 - INFO - 채널 업데이트: 국해란 - 현재: 0, 증감: +0 (+0.0%)
+2025-10-17 03:21:18,862 - INFO - 
+[13/13] 클로이 처리 중...
+2025-10-17 03:21:18,862 - INFO - ✓ 저장된 채널 ID 사용: UCYY4jQLw225dbINMhDipRzg
+2025-10-17 03:21:18,949 - WARNING - 채널 neo_chloe : 구독자 수 0명으로 반환됨
+2025-10-17 03:21:18,950 - INFO - 신규 채널 추가: 클로이 - 초기 구독자: 0
+2025-10-17 03:21:19,244 - INFO - 
+============================================================
+2025-10-17 03:21:19,244 - INFO - 최종 순위
+2025-10-17 03:21:19,244 - INFO - ============================================================
+2025-10-17 03:21:19,244 - INFO - 1위: 조준철  - 664점
+2025-10-17 03:21:19,244 - INFO - 2위: 조한준  - 237점
+2025-10-17 03:21:19,244 - INFO - 3위: 김예림  - 5점
+2025-10-17 03:21:19,244 - INFO - 4위: 김수정  - 1점
+2025-10-17 03:21:19,244 - INFO - 5위: 김소윤  - 0점
+2025-10-17 03:21:19,244 - INFO - 6위: 강민성  - 0점
+2025-10-17 03:21:19,244 - INFO - 7위: 임동한  - 0점
+2025-10-17 03:21:19,244 - INFO - 8위: 서혜리  - 0점
+2025-10-17 03:21:19,245 - INFO - 9위: 김태수  - 0점
+2025-10-17 03:21:19,245 - INFO - 10위: 전우형  - 0점
+2025-10-17 03:21:19,245 - INFO - 11위: 이응곤  - 0점
+2025-10-17 03:21:19,245 - INFO - 12위: 국해란  - 0점
+2025-10-17 03:21:19,245 - INFO - 13위: 클로이  - 0점
+2025-10-17 03:21:19,246 - INFO - 구독자 기준선 데이터 저장 완료
+2025-10-17 03:21:19,246 - INFO - 
+파일 생성 중...
+2025-10-17 03:21:19,248 - INFO - JSON 파일 생성 완료: leaderboard.json
+2025-10-17 03:21:19,248 - INFO - 
+Google Sheets 업로드 중...
+2025-10-17 03:21:19,249 - INFO - Google Sheets 업로드 시작...
+2025-10-17 03:21:19,249 - INFO - Credentials file: credentials.json
+2025-10-17 03:21:19,249 - INFO - Spreadsheet ID: 1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:21:19,249 - INFO - 인증 파일 존재 확인 완료
+2025-10-17 03:21:19,251 - INFO - Google API 인증 성공
+2025-10-17 03:21:20,480 - INFO - 리더보드 데이터 준비 중... 총 13개 채널
+2025-10-17 03:21:20,481 - INFO - 첫 번째 아이템 키: dict_keys(['name', 'channel_url', 'channel_id', 'channel_handle', 'status', 'video_count', 'median_score', 'average_views', 'average_likes', 'avg_engagement', 'top3_avg', 'max_single_views', 'viral_video', 'growth_ratio', 'score_median', 'score_engagement', 'score_viral', 'score_growth', 'total_score', 'videos', 'video_details', 'total_video_count', 'subscriber_count', 'subscriber_change', 'subscriber_change_percent', 'badges', 'badge_descriptions'])
+2025-10-17 03:21:20,481 - INFO - 리더보드 데이터 준비 완료: 14행
+2025-10-17 03:21:21,259 - INFO - 리더보드 시트 업데이트 완료
+2025-10-17 03:21:24,532 - INFO - 영상 상세 데이터 준비 완료: 18개 영상
+2025-10-17 03:21:25,271 - INFO - 영상 상세 시트 업데이트 완료
+2025-10-17 03:21:26,031 - INFO - Google Sheets 업로드 완료: https://docs.google.com/spreadsheets/d/1u_69cbkGHlrW4OYVLad3H5BEIAPO-hMSNjN1qgYVmC0
+2025-10-17 03:21:26,084 - INFO - 
+============================================================
+2025-10-17 03:21:26,089 - INFO - 실행 통계
+2025-10-17 03:21:26,090 - INFO - ============================================================
+2025-10-17 03:21:26,091 - INFO - 총 API 호출 횟수: 56
+2025-10-17 03:21:26,091 - INFO - 성공적으로 처리된 채널: 13개
+2025-10-17 03:21:26,091 - INFO - 데이터 부족 채널: 0개
+2025-10-17 03:21:26,095 - INFO - ============================================================
+2025-10-17 03:21:26,096 - INFO - 완료!

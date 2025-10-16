@@ -230,7 +230,15 @@ class YouTubeAPI:
                     maxResults=50,
                     pageToken=next_page_token
                 )
-                response = request.execute()
+
+                try:
+                    response = request.execute()
+                except HttpError as e:
+                    if e.resp.status == 404:
+                        # 플레이리스트가 없는 경우 (영상이 없는 채널)
+                        return videos  # 빈 리스트 반환
+                    else:
+                        raise  # 다른 에러는 재발생
 
                 video_ids = [item['contentDetails']['videoId'] for item in response.get('items', [])]
 
@@ -249,6 +257,7 @@ class YouTubeAPI:
                         # 날짜 필터링
                         if start_date <= published_at <= end_date:
                             stats = video['statistics']
+
                             videos.append({
                                 'video_id': video['id'],
                                 'title': video['snippet']['title'],

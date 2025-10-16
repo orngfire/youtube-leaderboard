@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="타입캐스트 크리에이터 크루 대시보드 - TCC 대회 실시간 순위">
+    <title>타입캐스트 크리에이터 크루 대시보드</title>
+    <link rel="stylesheet" href="styles.css?v=1.0.6">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading State -->
+    <div id="loading-state" class="loading-container">
+        <div class="loading-spinner"></div>
+        <p>리더보드 불러오는 중...</p>
+    </div>
+
+    <!-- Error State -->
+    <div id="error-state" class="error-container" style="display: none;">
+        <div class="error-icon">⚠️</div>
+        <h2>데이터를 불러올 수 없습니다</h2>
+        <p>잠시 후 다시 시도해주세요</p>
+        <button onclick="loadLeaderboard()" class="retry-btn">다시 시도</button>
+    </div>
+
+    <!-- Main Container -->
+    <div id="main-container" class="main-container" style="display: none;">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="title">🏆 타입캐스트 크리에이터 크루 대시보드</h1>
+                <div class="evaluation-period">
+                    평가 기간: 25.10.02(목) ~ 25.12.14(일)<br>
+                    이 기간에 게재된 영상만 점수 집계 대상입니다.
+                </div>
+                <div class="header-actions">
+                    <span id="last-updated" class="last-updated">업데이트: -</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="tab-navigation">
+            <button class="tab-button active" data-tab="top-creators" onclick="switchTab('top-creators')">
+                <span class="tab-icon">🏆</span>
+                <span class="tab-text">Top Creators</span>
+            </button>
+            <button class="tab-button" data-tab="most-active" onclick="switchTab('most-active')">
+                <span class="tab-icon">📊</span>
+                <span class="tab-text">Most Active</span>
+            </button>
+            <button class="tab-button" data-tab="viral-hit" onclick="switchTab('viral-hit')">
+                <span class="tab-icon">🔥</span>
+                <span class="tab-text">Viral Hit</span>
+            </button>
+            <button class="tab-button" data-tab="most-subscribed" onclick="switchTab('most-subscribed')">
+                <span class="tab-icon">👥</span>
+                <span class="tab-text">Most Subscribed</span>
+            </button>
+        </div>
+
+        <!-- Table Container -->
+        <div class="table-container">
+            <table id="leaderboard-table" class="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th class="th-rank">순위</th>
+                        <th class="th-name">이름</th>
+                        <th class="th-total">총 점수</th>
+                        <th class="th-basic">채널</th>
+                        <th class="th-engagement">인게이지먼트</th>
+                        <th class="th-viral">바이럴</th>
+                        <th class="th-growth">성장</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <!-- Rows will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Empty State -->
+        <div id="empty-state" class="empty-container" style="display: none;">
+            <div class="empty-icon">📊</div>
+            <h2>아직 데이터가 없습니다</h2>
+            <p>리더보드가 곧 업데이트됩니다</p>
+        </div>
+    </div>
+
+    <!-- Mobile Cards Container -->
+    <div id="mobile-container" class="mobile-container" style="display: none;">
+        <header class="mobile-header">
+            <h1 class="mobile-title">🏆 YouTube 크리에이터 리더보드</h1>
+        </header>
+        <div id="mobile-cards" class="mobile-cards">
+            <!-- Mobile cards will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <script src="script.js?v=1.0.6"></script>
+</body>
+</html>
