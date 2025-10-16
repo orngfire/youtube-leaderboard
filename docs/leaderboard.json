@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-15T17:42:28.163072+00:00",
+  "last_updated": "2025-10-17T12:00:00.000000+09:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -36,7 +36,9 @@
         },
         "growth_ratio": 1.42,
         "video_count": 14,
-        "total_video_count": 14
+        "total_video_count": 150,
+        "subscriber_count": 7,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -49,29 +51,31 @@
       "badge_descriptions": {},
       "total_score": 237,
       "score_breakdown": {
-        "basic": 163,
-        "engagement": 74,
-        "viral": 0,
-        "growth": 0
+        "basic": 184,
+        "engagement": 3,
+        "viral": 49,
+        "growth": 1
       },
       "metrics": {
-        "median_score": 271,
-        "average_views": 121,
+        "median_score": 306,
+        "average_views": 352,
         "average_likes": 1,
-        "avg_engagement": 2.48,
-        "top3_avg": 0,
-        "max_single_views": 121,
+        "avg_engagement": 0.21,
+        "top3_avg": 977,
+        "max_single_views": 970,
         "viral_video": {
-          "views": 121,
-          "likes": 1,
-          "comments": 1,
-          "title": "¡Casi me atrapa la ola gigante de COEX! 🌊 #culturacoreana #coreadelsur  #estudiacoreano",
-          "video_id": "ULSfsaPpOQo",
-          "url": "https://www.youtube.com/watch?v=ULSfsaPpOQo"
+          "views": 970,
+          "likes": 3,
+          "comments": 0,
+          "title": "",
+          "video_id": "",
+          "url": ""
         },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 5
+        "growth_ratio": 0.33,
+        "video_count": 3,
+        "total_video_count": 80,
+        "subscriber_count": 8,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -82,9 +86,9 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 2,
+      "total_score": 4,
       "score_breakdown": {
-        "basic": 2,
+        "basic": 4,
         "engagement": 0,
         "viral": 0,
         "growth": 0
@@ -93,7 +97,7 @@
         "median_score": 4,
         "average_views": 4,
         "average_likes": 0,
-        "avg_engagement": 0.0,
+        "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 4,
         "viral_video": {
@@ -106,7 +110,9 @@
         },
         "growth_ratio": 0,
         "video_count": 1,
-        "total_video_count": 1
+        "total_video_count": 1,
+        "subscriber_count": 250,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -131,17 +137,12 @@
         "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
+        "viral_video": null,
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 155
+        "total_video_count": 155,
+        "subscriber_count": 1200,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -166,17 +167,12 @@
         "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
+        "viral_video": null,
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 25
+        "total_video_count": 45,
+        "subscriber_count": 368,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -201,17 +197,12 @@
         "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
+        "viral_video": null,
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 3
+        "total_video_count": 46,
+        "subscriber_count": 150,
+        "subscriber_change": 0
       },
       "status": "success"
     },
@@ -236,22 +227,47 @@
         "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
+        "viral_video": null,
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 53
+        "total_video_count": 53,
+        "subscriber_count": 250,
+        "subscriber_change": 0
       },
       "status": "success"
     },
     {
       "rank": 8,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 20,
+        "subscriber_count": 110,
+        "subscriber_change": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 9,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
@@ -271,19 +287,134 @@
         "avg_engagement": 0,
         "top3_avg": 0,
         "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
+        "viral_video": null,
         "growth_ratio": 0,
         "video_count": 0,
-        "total_video_count": 0
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0
       },
       "status": "channel_not_found"
+    },
+    {
+      "rank": 10,
+      "name": "이응곤",
+      "channel_handle": "talkerrypop",
+      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0
+      },
+      "status": "channel_not_found"
+    },
+    {
+      "rank": 11,
+      "name": "국해란",
+      "channel_handle": "nana.imou22",
+      "channel_url": "https://www.youtube.com/@nana.imou22",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 0,
+        "subscriber_change": 0
+      },
+      "status": "channel_not_found"
+    },
+    {
+      "rank": 12,
+      "name": "홍문표",
+      "channel_handle": "boombox888",
+      "channel_url": "https://www.youtube.com/@boombox888",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 50,
+        "subscriber_change": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 13,
+      "name": "김태수",
+      "channel_handle": "techshortupdates",
+      "channel_url": "https://youtube.com/@techshortupdates",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 0,
+      "score_breakdown": {
+        "basic": 0,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 0,
+        "average_views": 0,
+        "average_likes": 0,
+        "avg_engagement": 0,
+        "top3_avg": 0,
+        "max_single_views": 0,
+        "viral_video": null,
+        "growth_ratio": 0,
+        "video_count": 0,
+        "total_video_count": 0,
+        "subscriber_count": 85,
+        "subscriber_change": 0
+      },
+      "status": "success"
     }
   ]
 }
