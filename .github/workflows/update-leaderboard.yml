@@ -2,8 +2,12 @@ name: Update Leaderboard
 
 on:
   schedule:
-    # 한국 시간 00:00 (UTC 15:00) - 매일 자정 한 번만 실행
+    # 한국 시간 00:00 (UTC 15:00)
     - cron: '0 15 * * *'
+    # 한국 시간 08:00 (UTC 23:00)
+    - cron: '0 23 * * *'
+    # 한국 시간 16:00 (UTC 07:00)
+    - cron: '0 7 * * *'
   workflow_dispatch:  # 수동 실행 가능
 
 permissions:

@@ -265,6 +265,31 @@ class YouTubeAPI:
             logger.error(f"API 에러 (영상 목록): {e}")
             return videos
 
+    def get_channel_info(self, channel_id: str) -> Optional[Dict]:
+        """채널의 구독자 수와 전체 영상 개수를 포함한 정보 조회"""
+        try:
+            self.api_calls += 1
+            request = self.youtube.channels().list(
+                part='statistics,snippet',
+                id=channel_id
+            )
+            response = request.execute()
+
+            if response.get('items'):
+                item = response['items'][0]
+                stats = item['statistics']
+                return {
+                    'subscriber_count': int(stats.get('subscriberCount', 0)),
+                    'total_videos': int(stats.get('videoCount', 0)),
+                    'total_views': int(stats.get('viewCount', 0)),
+                    'channel_title': item['snippet'].get('title', '')
+                }
+            return None
+
+        except HttpError as e:
+            logger.error(f"API 에러 (채널 정보): {e}")
+            return None
+
     def get_total_video_count(self, channel_id: str) -> int:
         """채널의 전체 영상 개수 조회 (기간 제한 없음)"""
         try:
@@ -285,6 +310,85 @@ class YouTubeAPI:
         except HttpError as e:
             logger.error(f"API 에러 (전체 영상 개수): {e}")
             return 0
+
+
+class SubscriberTracker:
+    """구독자 추적 클래스"""
+
+    def __init__(self, baseline_file: str = 'subscriber_baseline.json'):
+        self.baseline_file = baseline_file
+        self.baseline_data = self.load_baseline()
+
+    def load_baseline(self) -> Dict:
+        """기준선 데이터 로드"""
+        if os.path.exists(self.baseline_file):
+            try:
+                with open(self.baseline_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    logger.info(f"구독자 기준선 데이터 로드: {len(data.get('channels', {}))}개 채널")
+                    return data
+            except Exception as e:
+                logger.error(f"기준선 데이터 로드 실패: {e}")
+
+        # 파일이 없거나 오류가 있으면 새로운 구조 생성
+        return {
+            'description': '구독자 수 기준선 데이터 (최초 조회 시점)',
+            'created_at': None,
+            'updated_at': datetime.now(timezone.utc).isoformat(),
+            'channels': {}
+        }
+
+    def save_baseline(self):
+        """기준선 데이터 저장"""
+        try:
+            self.baseline_data['updated_at'] = datetime.now(timezone.utc).isoformat()
+            with open(self.baseline_file, 'w', encoding='utf-8') as f:
+                json.dump(self.baseline_data, f, ensure_ascii=False, indent=2)
+            logger.info("구독자 기준선 데이터 저장 완료")
+        except Exception as e:
+            logger.error(f"기준선 데이터 저장 실패: {e}")
+
+    def update_channel(self, channel_id: str, name: str, current_subscribers: int) -> Dict:
+        """채널 구독자 정보 업데이트 및 증감 계산"""
+        if channel_id not in self.baseline_data['channels']:
+            # 최초 조회
+            self.baseline_data['channels'][channel_id] = {
+                'name': name,
+                'initial_subscribers': current_subscribers,
+                'initial_date': datetime.now(timezone.utc).isoformat(),
+                'last_subscribers': current_subscribers,
+                'last_update': datetime.now(timezone.utc).isoformat()
+            }
+
+            if self.baseline_data['created_at'] is None:
+                self.baseline_data['created_at'] = datetime.now(timezone.utc).isoformat()
+
+            logger.info(f"신규 채널 추가: {name} - 초기 구독자: {current_subscribers:,}")
+            return {
+                'current': current_subscribers,
+                'initial': current_subscribers,
+                'change': 0,
+                'change_percent': 0.0
+            }
+        else:
+            # 기존 채널 업데이트
+            channel_data = self.baseline_data['channels'][channel_id]
+            initial = channel_data['initial_subscribers']
+            change = current_subscribers - initial
+            change_percent = (change / initial * 100) if initial > 0 else 0
+
+            # 마지막 구독자 수 업데이트
+            channel_data['last_subscribers'] = current_subscribers
+            channel_data['last_update'] = datetime.now(timezone.utc).isoformat()
+
+            logger.info(f"채널 업데이트: {name} - 현재: {current_subscribers:,}, 증감: {change:+,} ({change_percent:+.1f}%)")
+
+            return {
+                'current': current_subscribers,
+                'initial': initial,
+                'change': change,
+                'change_percent': change_percent
+            }
 
 
 class ScoreCalculator:
@@ -784,7 +888,10 @@ def create_json(leaderboard: List[Dict], filename: str):
                     }),
                     'growth_ratio': round(item['growth_ratio'], 2),
                     'video_count': item['video_count'],
-                    'total_video_count': item.get('total_video_count', 0)
+                    'total_video_count': item.get('total_video_count', 0),
+                    'subscriber_count': item.get('subscriber_count', 0),  # 현재 구독자 수
+                    'subscriber_change': item.get('subscriber_change', 0),  # 평가 기간 중 증감
+                    'subscriber_change_percent': round(item.get('subscriber_change_percent', 0), 1)  # 증감률
                 },
                 'status': 'success'
             })
@@ -821,7 +928,10 @@ def create_json(leaderboard: List[Dict], filename: str):
                     },
                     'growth_ratio': 0,
                     'video_count': item.get('video_count', 0),
-                    'total_video_count': item.get('total_video_count', 0)
+                    'total_video_count': item.get('total_video_count', 0),
+                    'subscriber_count': 0,  # 현재 구독자 수
+                    'subscriber_change': 0,  # 평가 기간 중 증감
+                    'subscriber_change_percent': 0  # 증감률
                 },
                 'status': 'channel_not_found'
             })
@@ -846,6 +956,9 @@ def main():
 
     # YouTube API 초기화
     api = YouTubeAPI(API_KEY)
+
+    # 구독자 추적기 초기화
+    subscriber_tracker = SubscriberTracker()
 
     # 채널 목록 로드
     channels = load_channels(CHANNELS_FILE)
@@ -875,17 +988,30 @@ def main():
             })
             continue
 
+        # 채널 정보 가져오기 (구독자 수 포함)
+        channel_stats = api.get_channel_info(channel_id)
+        if not channel_stats:
+            logger.warning(f"채널 정보를 가져올 수 없습니다: {channel_info['name']}")
+            channel_stats = {'subscriber_count': 0, 'total_videos': 0}
+
+        # 구독자 증감 추적
+        subscriber_info = subscriber_tracker.update_channel(
+            channel_id,
+            channel_info['name'],
+            channel_stats['subscriber_count']
+        )
+
         # 영상 목록 가져오기
         videos = api.get_channel_videos(channel_id, START_DATE, END_DATE)
-
-        # 전체 영상 개수 가져오기 (기간 제한 없음)
-        total_video_count = api.get_total_video_count(channel_id)
 
         # 점수 계산
         scores = ScoreCalculator.calculate_channel_scores(videos)
 
-        # total_video_count 추가
-        scores['total_video_count'] = total_video_count
+        # 채널 정보 추가
+        scores['total_video_count'] = channel_stats['total_videos']
+        scores['subscriber_count'] = subscriber_info['current']
+        scores['subscriber_change'] = subscriber_info['change']
+        scores['subscriber_change_percent'] = subscriber_info['change_percent']
 
         all_channel_data.append({
             **channel_info,
@@ -919,6 +1045,9 @@ def main():
             logger.info(f"{rank}위: {item['name']} {badges} - {round(item['total_score'])}점")
         else:
             logger.info(f"{rank}위: {item['name']} - 데이터 부족")
+
+    # 구독자 기준선 데이터 저장
+    subscriber_tracker.save_baseline()
 
     # 파일 생성
     logger.info("\n파일 생성 중...")
