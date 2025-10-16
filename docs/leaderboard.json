@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-15T17:42:28.163072+00:00",
+  "last_updated": "2025-10-16T15:24:49.079488+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,31 +12,31 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 607,
+      "total_score": 664,
       "score_breakdown": {
-        "basic": 464,
+        "basic": 522,
         "engagement": 8,
         "viral": 128,
-        "growth": 7
+        "growth": 6
       },
       "metrics": {
-        "median_score": 774,
-        "average_views": 960,
+        "median_score": 870,
+        "average_views": 970,
         "average_likes": 3,
-        "avg_engagement": 0.28,
-        "top3_avg": 2553,
-        "max_single_views": 2512,
+        "avg_engagement": 0.26,
+        "top3_avg": 2555,
+        "max_single_views": 2514,
         "viral_video": {
-          "views": 2512,
+          "views": 2514,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.42,
-        "video_count": 14,
-        "total_video_count": 14
+        "growth_ratio": 1.27,
+        "video_count": 15,
+        "total_video_count": 15
       },
       "status": "success"
     },
@@ -49,20 +49,20 @@
       "badge_descriptions": {},
       "total_score": 237,
       "score_breakdown": {
-        "basic": 163,
-        "engagement": 74,
+        "basic": 166,
+        "engagement": 71,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 271,
-        "average_views": 121,
+        "median_score": 277,
+        "average_views": 127,
         "average_likes": 1,
-        "avg_engagement": 2.48,
+        "avg_engagement": 2.36,
         "top3_avg": 0,
-        "max_single_views": 121,
+        "max_single_views": 127,
         "viral_video": {
-          "views": 121,
+          "views": 127,
           "likes": 1,
           "comments": 1,
           "title": "¡Casi me atrapa la ola gigante de COEX! 🌊 #culturacoreana #coreadelsur  #estudiacoreano",
@@ -82,22 +82,22 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 2,
+      "total_score": 5,
       "score_breakdown": {
-        "basic": 2,
+        "basic": 5,
         "engagement": 0,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 4,
-        "average_views": 4,
+        "median_score": 8,
+        "average_views": 8,
         "average_likes": 0,
         "avg_engagement": 0.0,
         "top3_avg": 0,
-        "max_single_views": 4,
+        "max_single_views": 8,
         "viral_video": {
-          "views": 4,
+          "views": 8,
           "likes": 0,
           "comments": 0,
           "title": "The vitamin truth doctors won't tell you",
@@ -112,6 +112,41 @@
     },
     {
       "rank": 4,
+      "name": "김수정",
+      "channel_handle": "kokonyang-p6l",
+      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1,
+      "score_breakdown": {
+        "basic": 1,
+        "engagement": 0,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 2,
+        "average_views": 2,
+        "average_likes": 0,
+        "avg_engagement": 0.0,
+        "top3_avg": 0,
+        "max_single_views": 2,
+        "viral_video": {
+          "views": 2,
+          "likes": 0,
+          "comments": 0,
+          "title": "#고양이 #고양이브이로그 #고양이일상 #랙돌 #랙돌고양이 #고양이싸움 #타입캐스트",
+          "video_id": "D076svjmJZ8",
+          "url": "https://www.youtube.com/watch?v=D076svjmJZ8"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 4
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
       "name": "김소윤",
       "channel_handle": "catmocotto",
       "channel_url": "https://www.youtube.com/@catmocotto",
@@ -146,7 +181,7 @@
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "임동한",
       "channel_handle": "easyfood369",
       "channel_url": "https://www.youtube.com/@easyfood369",
@@ -177,41 +212,6 @@
         "growth_ratio": 0,
         "video_count": 0,
         "total_video_count": 25
-      },
-      "status": "success"
-    },
-    {
-      "rank": 6,
-      "name": "김수정",
-      "channel_handle": "kokonyang-p6l",
-      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 3
       },
       "status": "success"
     },
