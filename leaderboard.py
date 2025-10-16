@@ -277,27 +277,35 @@ class YouTubeAPI:
 
             if response.get('items'):
                 item = response['items'][0]
-                stats = item['statistics']
-                snippet = item['snippet']
+                stats = item.get('statistics', {})
+                snippet = item.get('snippet', {})
 
-                # 구독자 수 숨김 여부 확인
-                hidden_subscriber = stats.get('hiddenSubscriberCount', False)
-                subscriber_count = int(stats.get('subscriberCount', 0))
+                # 디버깅: 특정 채널의 전체 응답 로깅
+                channel_title = snippet.get('title', '')
+                if channel_title in ['전우형', '서혜리'] or '@deundeun' in channel_title or '@quick' in channel_title:
+                    logger.info(f"DEBUG - Full API response for {channel_title}:")
+                    logger.info(f"  Statistics: {stats}")
+                    logger.info(f"  Channel ID: {channel_id}")
 
-                if hidden_subscriber:
-                    logger.warning(f"채널 {snippet.get('title', channel_id)}: 구독자 수 비공개 설정됨")
-                elif subscriber_count == 0:
-                    logger.warning(f"채널 {snippet.get('title', channel_id)}: 구독자 수 0명 (실제로 0명이거나 API 오류)")
+                # 구독자 수 확인
+                if 'subscriberCount' not in stats:
+                    logger.error(f"채널 {channel_title} ({channel_id}): subscriberCount 필드가 없음!")
+                    logger.error(f"  Available stats fields: {list(stats.keys())}")
+                    subscriber_count = 0
+                else:
+                    subscriber_count = int(stats.get('subscriberCount', 0))
+                    if subscriber_count == 0:
+                        logger.warning(f"채널 {channel_title}: 구독자 수 0명으로 반환됨")
 
                 return {
                     'subscriber_count': subscriber_count,
                     'total_videos': int(stats.get('videoCount', 0)),
                     'total_views': int(stats.get('viewCount', 0)),
-                    'channel_title': snippet.get('title', ''),
-                    'hidden_subscriber': hidden_subscriber
+                    'channel_title': channel_title,
+                    'hidden_subscriber': stats.get('hiddenSubscriberCount', False)
                 }
             else:
-                logger.warning(f"채널 ID {channel_id}: API 응답에 items가 없음")
+                logger.error(f"채널 ID {channel_id}: API 응답에 items가 없음 - 잘못된 채널 ID일 가능성")
             return None
 
         except HttpError as e:
