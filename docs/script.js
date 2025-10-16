@@ -311,12 +311,22 @@ function createExpandedDetails(channel) {
 
     let badgeHtml = '';
     if (channel.badges && channel.badges.length > 0 && channel.badge_descriptions) {
-        const badgeDetails = channel.badges.map(badge => `
-            <div class="badge-detail">
-                <span class="badge-detail-icon">${badge}</span>
-                <span class="badge-detail-text">${channel.badge_descriptions[badge] || ''}</span>
-            </div>
-        `).join('');
+        const badgeDetails = channel.badges.map(badge => {
+            const desc = channel.badge_descriptions[badge];
+            if (!desc) return '';
+
+            // Handle both string and object formats
+            const badgeText = typeof desc === 'string' ? desc :
+                             (desc.name && desc.message) ? `${desc.name}: ${desc.message}` :
+                             desc.name || desc.message || '';
+
+            return `
+                <div class="badge-detail">
+                    <span class="badge-detail-icon">${badge}</span>
+                    <span class="badge-detail-text">${badgeText}</span>
+                </div>
+            `;
+        }).join('');
 
         badgeHtml = `
             <div class="detail-section">
