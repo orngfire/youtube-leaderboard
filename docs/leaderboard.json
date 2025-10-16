@@ -421,8 +421,13 @@
       "name": "클로이",
       "channel_handle": "neo_chloe",
       "channel_url": "https://www.youtube.com/@neo_chloe",
-      "badges": [],
-      "badge_descriptions": {},
+      "badges": ["⭐"],
+      "badge_descriptions": {
+        "⭐": {
+          "name": "올라운더",
+          "message": "모든 면에서 완벽! 골고루 잘하는 밸런스형 크리에이터예요!"
+        }
+      },
       "total_score": 0,
       "score_breakdown": {
         "basic": 0,

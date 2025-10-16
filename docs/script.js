@@ -315,27 +315,38 @@ function createExpandedDetails(channel) {
             const desc = channel.badge_descriptions[badge];
             if (!desc) return '';
 
-            // Handle both string and object formats
-            const badgeText = typeof desc === 'string' ? desc :
-                             (desc.name && desc.message) ? `${desc.name}: ${desc.message}` :
-                             desc.name || desc.message || '';
+            // Handle object format with name and message
+            let badgeName = '';
+            let badgeMessage = '';
+
+            if (typeof desc === 'object' && desc !== null) {
+                badgeName = desc.name || '';
+                badgeMessage = desc.message || '';
+            } else if (typeof desc === 'string') {
+                badgeMessage = desc;
+            }
 
             return `
                 <div class="badge-detail">
                     <span class="badge-detail-icon">${badge}</span>
-                    <span class="badge-detail-text">${badgeText}</span>
+                    <div class="badge-detail-info">
+                        ${badgeName ? `<div class="badge-name">${badgeName}</div>` : ''}
+                        ${badgeMessage ? `<div class="badge-message">${badgeMessage}</div>` : ''}
+                    </div>
                 </div>
             `;
         }).join('');
 
-        badgeHtml = `
-            <div class="detail-section">
-                <div class="detail-title">🏅 획득 뱃지</div>
-                <div class="badge-list">
-                    ${badgeDetails}
+        if (badgeDetails) {
+            badgeHtml = `
+                <div class="detail-section">
+                    <div class="detail-title">🏅 획득 뱃지</div>
+                    <div class="badge-list">
+                        ${badgeDetails}
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
+        }
     }
 
     return `
