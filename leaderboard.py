@@ -278,16 +278,30 @@ class YouTubeAPI:
             if response.get('items'):
                 item = response['items'][0]
                 stats = item['statistics']
+                snippet = item['snippet']
+
+                # 구독자 수 숨김 여부 확인
+                hidden_subscriber = stats.get('hiddenSubscriberCount', False)
+                subscriber_count = int(stats.get('subscriberCount', 0))
+
+                if hidden_subscriber:
+                    logger.warning(f"채널 {snippet.get('title', channel_id)}: 구독자 수 비공개 설정됨")
+                elif subscriber_count == 0:
+                    logger.warning(f"채널 {snippet.get('title', channel_id)}: 구독자 수 0명 (실제로 0명이거나 API 오류)")
+
                 return {
-                    'subscriber_count': int(stats.get('subscriberCount', 0)),
+                    'subscriber_count': subscriber_count,
                     'total_videos': int(stats.get('videoCount', 0)),
                     'total_views': int(stats.get('viewCount', 0)),
-                    'channel_title': item['snippet'].get('title', '')
+                    'channel_title': snippet.get('title', ''),
+                    'hidden_subscriber': hidden_subscriber
                 }
+            else:
+                logger.warning(f"채널 ID {channel_id}: API 응답에 items가 없음")
             return None
 
         except HttpError as e:
-            logger.error(f"API 에러 (채널 정보): {e}")
+            logger.error(f"API 에러 (채널 정보) - 채널 ID {channel_id}: {e}")
             return None
 
     def get_total_video_count(self, channel_id: str) -> int:
@@ -929,8 +943,8 @@ def create_json(leaderboard: List[Dict], filename: str):
                     'growth_ratio': 0,
                     'video_count': item.get('video_count', 0),
                     'total_video_count': item.get('total_video_count', 0),
-                    'subscriber_count': 0,  # 현재 구독자 수
-                    'subscriber_change': 0,  # 평가 기간 중 증감
+                    'subscriber_count': item.get('subscriber_count', 0),  # 현재 구독자 수
+                    'subscriber_change': item.get('subscriber_change', 0),  # 평가 기간 중 증감
                     'subscriber_change_percent': 0  # 증감률
                 },
                 'status': 'channel_not_found'
