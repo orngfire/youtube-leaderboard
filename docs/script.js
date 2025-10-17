@@ -603,7 +603,7 @@ function updateTableHeaders() {
                 <th class="th-name">이름</th>
                 <th class="th-total">구독자 수</th>
                 <th class="th-basic">평가 기간 증가</th>
-                <th class="th-engagement">영상 수</th>
+                <th class="th-engagement">총 게재 영상 수</th>
             `;
             break;
         case 'top-creators':
