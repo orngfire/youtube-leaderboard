@@ -1,0 +1,191 @@
+name: Update Leaderboard (Improved)
+
+on:
+  schedule:
+    # 한국 시간 00:00 (UTC 15:00)
+    - cron: '0 15 * * *'
+    # 한국 시간 08:00 (UTC 23:00)
+    - cron: '0 23 * * *'
+    # 한국 시간 16:00 (UTC 07:00)
+    - cron: '0 7 * * *'
+  workflow_dispatch:  # 수동 실행 가능
+    inputs:
+      branch:
+        description: 'Branch to use for workflow'
+        required: false
+        default: 'main'
+        type: string
+      debug:
+        description: 'Enable debug logging'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.inputs.branch || 'main' }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Validate channel configuration
+      run: |
+        echo "Validating channels.json..."
+        python -c "
+import json
+import sys
+
+try:
+    with open('channels.json', 'r', encoding='utf-8') as f:
+        channels = json.load(f)
+
+    errors = []
+    for i, channel in enumerate(channels):
+        if 'name' not in channel:
+            errors.append(f'Channel {i}: missing name')
+        if 'channel_id' not in channel:
+            errors.append(f'Channel {channel.get(\"name\", i)}: missing channel_id')
+        elif not channel['channel_id'].startswith('UC'):
+            errors.append(f'Channel {channel.get(\"name\", i)}: invalid channel_id format')
+
+    if errors:
+        print('Validation errors found:')
+        for error in errors:
+            print(f'  - {error}')
+        sys.exit(1)
+    else:
+        print(f'✅ Validation passed: {len(channels)} channels configured')
+        for channel in channels:
+            print(f'  - {channel[\"name\"]}: {channel[\"channel_id\"]}')
+
+except Exception as e:
+    print(f'❌ Failed to validate channels.json: {e}')
+    sys.exit(1)
+        "
+
+    - name: Run leaderboard script
+      env:
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        GOOGLE_SHEETS_ENABLED: 'true'
+        GOOGLE_SHEETS_CREDENTIALS: ${{ secrets.GOOGLE_SHEETS_CREDENTIALS }}
+        GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        DEBUG: ${{ github.event.inputs.debug || 'false' }}
+      run: |
+        # Create credentials file from secret if Google Sheets is enabled
+        if [ "$GOOGLE_SHEETS_ENABLED" = "true" ] && [ -n "$GOOGLE_SHEETS_CREDENTIALS" ]; then
+          echo "Creating credentials.json file..."
+          echo "$GOOGLE_SHEETS_CREDENTIALS" > credentials.json
+          echo "credentials.json created successfully"
+        fi
+
+        # Enable debug logging if requested
+        if [ "$DEBUG" = "true" ]; then
+          export PYTHONUNBUFFERED=1
+          echo "Debug mode enabled"
+        fi
+
+        echo "Current directory files:"
+        ls -la
+
+        python leaderboard.py
+
+    - name: Verify output
+      run: |
+        echo "Verifying leaderboard.json..."
+        python -c "
+import json
+import sys
+
+try:
+    with open('leaderboard.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    if 'leaderboard' not in data:
+        print('❌ Missing leaderboard key in JSON')
+        sys.exit(1)
+
+    channels = data['leaderboard']
+    print(f'✅ Generated leaderboard with {len(channels)} channels')
+
+    # Check for common issues
+    for channel in channels[:5]:
+        print(f'  {channel[\"rank\"]}. {channel[\"name\"]}: {channel[\"total_score\"]}점')
+
+    # Check 클로이 specifically
+    chloe = [c for c in channels if c['name'] == '클로이']
+    if chloe:
+        c = chloe[0]
+        print(f'\\n클로이 확인:')
+        print(f'  - 점수: {c[\"total_score\"]}')
+        print(f'  - 순위: {c[\"rank\"]}')
+        print(f'  - 구독자: {c[\"metrics\"][\"subscriber_count\"]}')
+
+except Exception as e:
+    print(f'❌ Failed to verify output: {e}')
+    sys.exit(1)
+        "
+
+    - name: Move JSON to docs folder
+      run: |
+        mkdir -p docs
+        cp leaderboard.json docs/
+        echo "JSON file moved to docs folder"
+
+    - name: Commit and push if changed
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+        # Add files
+        git add docs/leaderboard.json leaderboard.log channels.json subscriber_baseline.json
+
+        # Check if there are changes
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          # Create detailed commit message
+          TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')
+          git commit -m "Update leaderboard - $TIMESTAMP" -m "Branch: ${{ github.event.inputs.branch || 'main' }}"
+          git push
+          echo "Changes committed and pushed"
+        fi
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'docs'
+
+  deploy:
+    needs: update-leaderboard
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
