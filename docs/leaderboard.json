@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-17T17:11:40.871165+00:00",
+  "last_updated": "2025-10-17T23:12:10.962677+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -96,14 +96,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 8,
-        "average_views": 8,
+        "median_score": 9,
+        "average_views": 9,
         "average_likes": 0,
         "avg_engagement": 0.0,
         "top3_avg": 0,
-        "max_single_views": 8,
+        "max_single_views": 9,
         "viral_video": {
-          "views": 8,
+          "views": 9,
           "likes": 0,
           "comments": 0,
           "title": "The vitamin truth doctors won't tell you #vitamin #health",
