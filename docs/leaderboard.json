@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-16T23:12:37.471177+00:00",
+  "last_updated": "2025-10-17T07:13:46.597454+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,31 +12,31 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 664,
+      "total_score": 708,
       "score_breakdown": {
-        "basic": 522,
-        "engagement": 8,
+        "basic": 567,
+        "engagement": 7,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 870,
-        "average_views": 991,
-        "average_likes": 3,
-        "avg_engagement": 0.26,
-        "top3_avg": 2555,
-        "max_single_views": 2514,
+        "median_score": 945,
+        "average_views": 1012,
+        "average_likes": 2,
+        "avg_engagement": 0.23,
+        "top3_avg": 2556,
+        "max_single_views": 2517,
         "viral_video": {
-          "views": 2514,
+          "views": 2517,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.27,
-        "video_count": 15,
-        "total_video_count": 15,
+        "growth_ratio": 1.17,
+        "video_count": 16,
+        "total_video_count": 16,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
