@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-19T07:12:00.938799+00:00",
+  "last_updated": "2025-10-19T15:19:57.219313+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -45,6 +45,44 @@
     },
     {
       "rank": 2,
+      "name": "김수정",
+      "channel_handle": "kokonyang-p6l",
+      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 331,
+      "score_breakdown": {
+        "basic": 321,
+        "engagement": 10,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 535,
+        "average_views": 460,
+        "average_likes": 2,
+        "avg_engagement": 0.33,
+        "top3_avg": 0,
+        "max_single_views": 918,
+        "viral_video": {
+          "views": 918,
+          "likes": 3,
+          "comments": 0,
+          "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
+          "video_id": "iBaljmM5-TU",
+          "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
+        },
+        "growth_ratio": 0,
+        "video_count": 2,
+        "total_video_count": 5,
+        "subscriber_count": 34,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -82,66 +120,28 @@
       "status": "success"
     },
     {
-      "rank": 3,
-      "name": "김수정",
-      "channel_handle": "kokonyang-p6l",
-      "channel_url": "https://www.youtube.com/@kokonyang-p6l",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 77,
-      "score_breakdown": {
-        "basic": 77,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 128,
-        "average_views": 128,
-        "average_likes": 0,
-        "avg_engagement": 0.0,
-        "top3_avg": 0,
-        "max_single_views": 255,
-        "viral_video": {
-          "views": 255,
-          "likes": 0,
-          "comments": 0,
-          "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
-          "video_id": "iBaljmM5-TU",
-          "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 5,
-        "subscriber_count": 34,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
       "rank": 4,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 5,
+      "total_score": 6,
       "score_breakdown": {
-        "basic": 5,
+        "basic": 6,
         "engagement": 0,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 9,
-        "average_views": 9,
+        "median_score": 10,
+        "average_views": 10,
         "average_likes": 0,
         "avg_engagement": 0.0,
         "top3_avg": 0,
-        "max_single_views": 9,
+        "max_single_views": 10,
         "viral_video": {
-          "views": 9,
+          "views": 10,
           "likes": 0,
           "comments": 0,
           "title": "The vitamin truth doctors won't tell you #vitamin #health",
