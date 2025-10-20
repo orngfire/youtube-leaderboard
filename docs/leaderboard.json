@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-20T15:23:40.889079+00:00",
+  "last_updated": "2025-10-20T23:12:47.012853+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -57,29 +57,29 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 244,
+      "total_score": 300,
       "score_breakdown": {
-        "basic": 156,
+        "basic": 214,
         "engagement": 21,
-        "viral": 49,
-        "growth": 19
+        "viral": 51,
+        "growth": 14
       },
       "metrics": {
-        "median_score": 260,
-        "average_views": 721,
+        "median_score": 356,
+        "average_views": 745,
         "average_likes": 5,
-        "avg_engagement": 0.69,
-        "top3_avg": 971,
-        "max_single_views": 1901,
+        "avg_engagement": 0.72,
+        "top3_avg": 1012,
+        "max_single_views": 1926,
         "viral_video": {
-          "views": 1901,
+          "views": 1926,
           "likes": 15,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 3.74,
+        "growth_ratio": 2.84,
         "video_count": 3,
         "total_video_count": 6,
         "subscriber_count": 34,
@@ -133,22 +133,22 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 7,
+      "total_score": 8,
       "score_breakdown": {
-        "basic": 7,
+        "basic": 8,
         "engagement": 0,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 11,
-        "average_views": 11,
+        "median_score": 13,
+        "average_views": 13,
         "average_likes": 0,
         "avg_engagement": 0.0,
         "top3_avg": 0,
-        "max_single_views": 11,
+        "max_single_views": 13,
         "viral_video": {
-          "views": 11,
+          "views": 13,
           "likes": 0,
           "comments": 0,
           "title": "The vitamin truth doctors won't tell you #vitamin #health",
