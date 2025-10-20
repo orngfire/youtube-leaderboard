@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-20T07:15:00.233305+00:00",
+  "last_updated": "2025-10-20T15:23:40.889079+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,7 +21,7 @@
       },
       "metrics": {
         "median_score": 1020,
-        "average_views": 1069,
+        "average_views": 1070,
         "average_likes": 2,
         "avg_engagement": 0.23,
         "top3_avg": 2556,
@@ -48,33 +48,40 @@
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 740,
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 244,
       "score_breakdown": {
-        "basic": 722,
-        "engagement": 18,
-        "viral": 0,
-        "growth": 0
+        "basic": 156,
+        "engagement": 21,
+        "viral": 49,
+        "growth": 19
       },
       "metrics": {
-        "median_score": 1203,
-        "average_views": 928,
-        "average_likes": 6,
-        "avg_engagement": 0.59,
-        "top3_avg": 0,
-        "max_single_views": 1853,
+        "median_score": 260,
+        "average_views": 721,
+        "average_likes": 5,
+        "avg_engagement": 0.69,
+        "top3_avg": 971,
+        "max_single_views": 1901,
         "viral_video": {
-          "views": 1853,
-          "likes": 11,
+          "views": 1901,
+          "likes": 15,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 5,
+        "growth_ratio": 3.74,
+        "video_count": 3,
+        "total_video_count": 6,
         "subscriber_count": 34,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
