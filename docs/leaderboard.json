@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-19T23:12:24.823701+00:00",
+  "last_updated": "2025-10-20T07:15:00.233305+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,16 +12,16 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 708,
+      "total_score": 752,
       "score_breakdown": {
-        "basic": 567,
+        "basic": 612,
         "engagement": 7,
         "viral": 128,
-        "growth": 6
+        "growth": 5
       },
       "metrics": {
-        "median_score": 945,
-        "average_views": 1012,
+        "median_score": 1020,
+        "average_views": 1069,
         "average_likes": 2,
         "avg_engagement": 0.23,
         "top3_avg": 2556,
@@ -34,9 +34,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.17,
-        "video_count": 16,
-        "total_video_count": 16,
+        "growth_ratio": 1.08,
+        "video_count": 17,
+        "total_video_count": 17,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -50,22 +50,22 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 478,
+      "total_score": 740,
       "score_breakdown": {
-        "basic": 442,
-        "engagement": 36,
+        "basic": 722,
+        "engagement": 18,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 738,
-        "average_views": 462,
+        "median_score": 1203,
+        "average_views": 928,
         "average_likes": 6,
-        "avg_engagement": 1.19,
+        "avg_engagement": 0.59,
         "top3_avg": 0,
-        "max_single_views": 922,
+        "max_single_views": 1853,
         "viral_video": {
-          "views": 922,
+          "views": 1853,
           "likes": 11,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
