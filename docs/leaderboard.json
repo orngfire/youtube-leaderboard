@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T07:14:46.148751+00:00",
+  "last_updated": "2025-10-21T15:23:21.461156+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -48,43 +48,36 @@
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
-      "badges": [
-        "📈"
-      ],
-      "badge_descriptions": {
-        "📈": {
-          "name": "성장 로켓",
-          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
-        }
-      },
-      "total_score": 300,
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 626,
       "score_breakdown": {
-        "basic": 214,
-        "engagement": 21,
-        "viral": 51,
-        "growth": 14
+        "basic": 520,
+        "engagement": 24,
+        "viral": 75,
+        "growth": 6
       },
       "metrics": {
-        "median_score": 356,
-        "average_views": 745,
-        "average_likes": 5,
-        "avg_engagement": 0.72,
-        "top3_avg": 1012,
-        "max_single_views": 1926,
+        "median_score": 868,
+        "average_views": 804,
+        "average_likes": 6,
+        "avg_engagement": 0.81,
+        "top3_avg": 1504,
+        "max_single_views": 1927,
         "viral_video": {
-          "views": 1926,
-          "likes": 15,
+          "views": 1927,
+          "likes": 17,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 2.84,
-        "video_count": 3,
-        "total_video_count": 6,
-        "subscriber_count": 34,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
+        "growth_ratio": 1.2,
+        "video_count": 4,
+        "total_video_count": 7,
+        "subscriber_count": 35,
+        "subscriber_change": 1,
+        "subscriber_change_percent": 2.9
       },
       "status": "success"
     },
@@ -128,6 +121,44 @@
     },
     {
       "rank": 4,
+      "name": "김소윤",
+      "channel_handle": "maumedu",
+      "channel_url": "https://www.youtube.com/@maumedu",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 188,
+      "score_breakdown": {
+        "basic": 162,
+        "engagement": 12,
+        "viral": 10,
+        "growth": 4
+      },
+      "metrics": {
+        "median_score": 270,
+        "average_views": 172,
+        "average_likes": 1,
+        "avg_engagement": 0.39,
+        "top3_avg": 205,
+        "max_single_views": 296,
+        "viral_video": {
+          "views": 296,
+          "likes": 1,
+          "comments": 0,
+          "title": "너무나 소소하지만 함부로 할 수 없는 것들  #sorts  #기분전환  #마음돌봄",
+          "video_id": "rxqXKD8PlMQ",
+          "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
+        },
+        "growth_ratio": 0.76,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 1,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
@@ -161,44 +192,6 @@
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 5,
-      "name": "김소윤",
-      "channel_handle": "maumedu",
-      "channel_url": "https://www.youtube.com/@maumedu",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 0,
-        "subscriber_count": 1,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
       },
       "status": "success"
     },
