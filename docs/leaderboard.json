@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-20T23:12:47.012853+00:00",
+  "last_updated": "2025-10-21T07:14:46.148751+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,18 +12,18 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 752,
+      "total_score": 707,
       "score_breakdown": {
-        "basic": 612,
+        "basic": 567,
         "engagement": 7,
         "viral": 128,
-        "growth": 5
+        "growth": 6
       },
       "metrics": {
-        "median_score": 1020,
-        "average_views": 1070,
+        "median_score": 945,
+        "average_views": 1034,
         "average_likes": 2,
-        "avg_engagement": 0.23,
+        "avg_engagement": 0.22,
         "top3_avg": 2556,
         "max_single_views": 2517,
         "viral_video": {
@@ -34,9 +34,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.08,
-        "video_count": 17,
-        "total_video_count": 17,
+        "growth_ratio": 1.17,
+        "video_count": 18,
+        "total_video_count": 18,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
