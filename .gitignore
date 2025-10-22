@@ -43,3 +43,6 @@ Thumbs.db
 # 임시 파일
 *.tmp
 *.bak
+
+# 참조 폴더
+ref/
