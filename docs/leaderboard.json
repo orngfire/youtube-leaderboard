@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T07:14:05.035407+00:00",
+  "last_updated": "2025-10-22T14:16:36.171765+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,31 +12,31 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1121,
+      "total_score": 1298,
       "score_breakdown": {
-        "basic": 994,
-        "engagement": 21,
-        "viral": 102,
+        "basic": 1159,
+        "engagement": 18,
+        "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1657,
-        "average_views": 1132,
-        "average_likes": 8,
-        "avg_engagement": 0.71,
-        "top3_avg": 2042,
-        "max_single_views": 1963,
+        "median_score": 1931,
+        "average_views": 1083,
+        "average_likes": 7,
+        "avg_engagement": 0.61,
+        "top3_avg": 2336,
+        "max_single_views": 1966,
         "viral_video": {
-          "views": 1963,
+          "views": 1966,
           "likes": 17,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.78,
-        "video_count": 4,
-        "total_video_count": 7,
+        "growth_ratio": 0.82,
+        "video_count": 5,
+        "total_video_count": 8,
         "subscriber_count": 35,
         "subscriber_change": 1,
         "subscriber_change_percent": 2.9
@@ -50,18 +50,18 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 707,
+      "total_score": 663,
       "score_breakdown": {
-        "basic": 567,
+        "basic": 522,
         "engagement": 7,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 945,
-        "average_views": 1034,
+        "median_score": 870,
+        "average_views": 1012,
         "average_likes": 2,
-        "avg_engagement": 0.22,
+        "avg_engagement": 0.23,
         "top3_avg": 2556,
         "max_single_views": 2517,
         "viral_video": {
@@ -72,9 +72,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.17,
-        "video_count": 18,
-        "total_video_count": 18,
+        "growth_ratio": 1.27,
+        "video_count": 19,
+        "total_video_count": 19,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -126,7 +126,7 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 124,
+      "total_score": 125,
       "score_breakdown": {
         "basic": 90,
         "engagement": 11,
@@ -135,10 +135,10 @@
       },
       "metrics": {
         "median_score": 150,
-        "average_views": 133,
+        "average_views": 134,
         "average_likes": 0,
-        "avg_engagement": 0.38,
-        "top3_avg": 316,
+        "avg_engagement": 0.37,
+        "top3_avg": 317,
         "max_single_views": 298,
         "viral_video": {
           "views": 298,
