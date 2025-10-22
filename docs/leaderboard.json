@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T23:13:30.790251+00:00",
+  "last_updated": "2025-10-22T07:14:05.035407+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,74 +7,24 @@
   "leaderboard": [
     {
       "rank": 1,
-      "name": "김소윤",
-      "channel_handle": "maumedu",
-      "channel_url": "https://www.youtube.com/@maumedu",
-      "badges": [
-        "🔥",
-        "📈"
-      ],
-      "badge_descriptions": {
-        "🔥": {
-          "name": "바이럴 메이커",
-          "message": "히트 영상을 만들어내는 감각이 있으시네요 🚀"
-        },
-        "📈": {
-          "name": "성장 로켓",
-          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
-        }
-      },
-      "total_score": 1107,
-      "score_breakdown": {
-        "basic": 1,
-        "engagement": 11,
-        "viral": 11,
-        "growth": 1085
-      },
-      "metrics": {
-        "median_score": 1,
-        "average_views": 110,
-        "average_likes": 0,
-        "avg_engagement": 0.36,
-        "top3_avg": 217,
-        "max_single_views": 298,
-        "viral_video": {
-          "views": 298,
-          "likes": 1,
-          "comments": 0,
-          "title": "너무나 소소하지만 함부로 할 수 없는 것들  #sorts  #기분전환  #마음돌봄",
-          "video_id": "rxqXKD8PlMQ",
-          "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
-        },
-        "growth_ratio": 217.0,
-        "video_count": 5,
-        "total_video_count": 5,
-        "subscriber_count": 1,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 2,
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 881,
+      "total_score": 1121,
       "score_breakdown": {
-        "basic": 768,
-        "engagement": 20,
-        "viral": 90,
+        "basic": 994,
+        "engagement": 21,
+        "viral": 102,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1280,
-        "average_views": 1006,
-        "average_likes": 7,
-        "avg_engagement": 0.67,
-        "top3_avg": 1791,
+        "median_score": 1657,
+        "average_views": 1132,
+        "average_likes": 8,
+        "avg_engagement": 0.71,
+        "top3_avg": 2042,
         "max_single_views": 1963,
         "viral_video": {
           "views": 1963,
@@ -84,7 +34,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.83,
+        "growth_ratio": 0.78,
         "video_count": 4,
         "total_video_count": 7,
         "subscriber_count": 35,
@@ -94,7 +44,7 @@
       "status": "success"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
@@ -132,7 +82,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -164,6 +114,44 @@
         "video_count": 1,
         "total_video_count": 5,
         "subscriber_count": 8,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
+      "name": "김소윤",
+      "channel_handle": "maumedu",
+      "channel_url": "https://www.youtube.com/@maumedu",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 124,
+      "score_breakdown": {
+        "basic": 90,
+        "engagement": 11,
+        "viral": 16,
+        "growth": 7
+      },
+      "metrics": {
+        "median_score": 150,
+        "average_views": 133,
+        "average_likes": 0,
+        "avg_engagement": 0.38,
+        "top3_avg": 316,
+        "max_single_views": 298,
+        "viral_video": {
+          "views": 298,
+          "likes": 1,
+          "comments": 0,
+          "title": "너무나 소소하지만 함부로 할 수 없는 것들  #sorts  #기분전환  #마음돌봄",
+          "video_id": "rxqXKD8PlMQ",
+          "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
+        },
+        "growth_ratio": 1.45,
+        "video_count": 6,
+        "total_video_count": 6,
+        "subscriber_count": 1,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
       },
