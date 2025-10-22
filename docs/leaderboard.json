@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T14:16:36.171765+00:00",
+  "last_updated": "2025-10-22T14:26:43.795764+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1298,
+      "total_score": 1300,
       "score_breakdown": {
-        "basic": 1159,
+        "basic": 1160,
         "engagement": 18,
         "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1931,
-        "average_views": 1083,
+        "median_score": 1934,
+        "average_views": 1084,
         "average_likes": 7,
         "avg_engagement": 0.61,
-        "top3_avg": 2336,
+        "top3_avg": 2337,
         "max_single_views": 1966,
         "viral_video": {
           "views": 1966,
@@ -59,7 +59,7 @@
       },
       "metrics": {
         "median_score": 870,
-        "average_views": 1012,
+        "average_views": 1011,
         "average_likes": 2,
         "avg_engagement": 0.23,
         "top3_avg": 2556,
@@ -83,6 +83,44 @@
     },
     {
       "rank": 3,
+      "name": "김하나",
+      "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 372,
+      "score_breakdown": {
+        "basic": 268,
+        "engagement": 15,
+        "viral": 83,
+        "growth": 7
+      },
+      "metrics": {
+        "median_score": 446,
+        "average_views": 707,
+        "average_likes": 3,
+        "avg_engagement": 0.48,
+        "top3_avg": 1659,
+        "max_single_views": 1784,
+        "viral_video": {
+          "views": 1784,
+          "likes": 9,
+          "comments": 0,
+          "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
+          "video_id": "vNQ3f6pNvKE",
+          "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
+        },
+        "growth_ratio": 1.48,
+        "video_count": 7,
+        "total_video_count": 16,
+        "subscriber_count": 10,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -120,7 +158,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_url": "https://www.youtube.com/@maumedu",
@@ -158,7 +196,7 @@
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
@@ -196,7 +234,7 @@
       "status": "success"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
@@ -234,7 +272,7 @@
       "status": "success"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "임동한",
       "channel_handle": "easyfood369",
       "channel_url": "https://www.youtube.com/@easyfood369",
@@ -272,7 +310,7 @@
       "status": "success"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "서혜리",
       "channel_handle": "quick_bite_english",
       "channel_url": "https://www.youtube.com/@quick_bite_english",
@@ -310,7 +348,7 @@
       "status": "success"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "김태수",
       "channel_handle": "techshortupdates",
       "channel_url": "https://youtube.com/@techshortupdates",
@@ -348,7 +386,7 @@
       "status": "success"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "전우형",
       "channel_handle": "deundeun.papa_1",
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
@@ -386,7 +424,7 @@
       "status": "success"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "이응곤",
       "channel_handle": "talkerrypop",
       "channel_url": "https://www.youtube.com/@talkerrypop",
@@ -424,7 +462,7 @@
       "status": "success"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_url": "https://www.youtube.com/@nana.imou22",
@@ -462,7 +500,7 @@
       "status": "success"
     },
     {
-      "rank": 13,
+      "rank": 14,
       "name": "클로이",
       "channel_handle": "neo_chloe",
       "channel_url": "https://www.youtube.com/@neo_chloe",
