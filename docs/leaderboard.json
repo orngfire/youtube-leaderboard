@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T15:15:59.038478+00:00",
+  "last_updated": "2025-10-22T15:24:17.378270+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -59,9 +59,9 @@
       },
       "metrics": {
         "median_score": 870,
-        "average_views": 984,
+        "average_views": 1011,
         "average_likes": 2,
-        "avg_engagement": 0.22,
+        "avg_engagement": 0.23,
         "top3_avg": 2556,
         "max_single_views": 2517,
         "viral_video": {
@@ -164,19 +164,19 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 125,
+      "total_score": 124,
       "score_breakdown": {
-        "basic": 90,
+        "basic": 89,
         "engagement": 11,
         "viral": 16,
         "growth": 7
       },
       "metrics": {
-        "median_score": 150,
+        "median_score": 149,
         "average_views": 134,
         "average_likes": 0,
         "avg_engagement": 0.37,
-        "top3_avg": 317,
+        "top3_avg": 316,
         "max_single_views": 298,
         "viral_video": {
           "views": 298,
@@ -186,7 +186,7 @@
           "video_id": "rxqXKD8PlMQ",
           "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
         },
-        "growth_ratio": 1.45,
+        "growth_ratio": 1.47,
         "video_count": 6,
         "total_video_count": 6,
         "subscriber_count": 1,
