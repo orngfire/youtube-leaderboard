@@ -53,37 +53,37 @@ jobs:
     - name: Validate channel configuration
       run: |
         echo "Validating channels.json..."
-        python -c "
-import json
-import sys
+        python3 << 'EOF'
+        import json
+        import sys
 
-try:
-    with open('channels.json', 'r', encoding='utf-8') as f:
-        channels = json.load(f)
+        try:
+            with open('channels.json', 'r', encoding='utf-8') as f:
+                channels = json.load(f)
 
-    errors = []
-    for i, channel in enumerate(channels):
-        if 'name' not in channel:
-            errors.append(f'Channel {i}: missing name')
-        if 'channel_id' not in channel:
-            errors.append(f'Channel {channel.get(\"name\", i)}: missing channel_id')
-        elif not channel['channel_id'].startswith('UC'):
-            errors.append(f'Channel {channel.get(\"name\", i)}: invalid channel_id format')
+            errors = []
+            for i, channel in enumerate(channels):
+                if 'name' not in channel:
+                    errors.append(f'Channel {i}: missing name')
+                if 'channel_id' not in channel:
+                    errors.append(f'Channel {channel.get("name", i)}: missing channel_id')
+                elif not channel['channel_id'].startswith('UC'):
+                    errors.append(f'Channel {channel.get("name", i)}: invalid channel_id format')
 
-    if errors:
-        print('Validation errors found:')
-        for error in errors:
-            print(f'  - {error}')
-        sys.exit(1)
-    else:
-        print(f'✅ Validation passed: {len(channels)} channels configured')
-        for channel in channels:
-            print(f'  - {channel[\"name\"]}: {channel[\"channel_id\"]}')
+            if errors:
+                print('Validation errors found:')
+                for error in errors:
+                    print(f'  - {error}')
+                sys.exit(1)
+            else:
+                print(f'✅ Validation passed: {len(channels)} channels configured')
+                for channel in channels:
+                    print(f'  - {channel["name"]}: {channel["channel_id"]}')
 
-except Exception as e:
-    print(f'❌ Failed to validate channels.json: {e}')
-    sys.exit(1)
-        "
+        except Exception as e:
+            print(f'❌ Failed to validate channels.json: {e}')
+            sys.exit(1)
+        EOF
 
     - name: Run leaderboard script
       env:
@@ -114,38 +114,38 @@ except Exception as e:
     - name: Verify output
       run: |
         echo "Verifying leaderboard.json..."
-        python -c "
-import json
-import sys
+        python3 << 'EOF'
+        import json
+        import sys
 
-try:
-    with open('leaderboard.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        try:
+            with open('leaderboard.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
 
-    if 'leaderboard' not in data:
-        print('❌ Missing leaderboard key in JSON')
-        sys.exit(1)
+            if 'leaderboard' not in data:
+                print('❌ Missing leaderboard key in JSON')
+                sys.exit(1)
 
-    channels = data['leaderboard']
-    print(f'✅ Generated leaderboard with {len(channels)} channels')
+            channels = data['leaderboard']
+            print(f'✅ Generated leaderboard with {len(channels)} channels')
 
-    # Check for common issues
-    for channel in channels[:5]:
-        print(f'  {channel[\"rank\"]}. {channel[\"name\"]}: {channel[\"total_score\"]}점')
+            # Check for common issues
+            for channel in channels[:5]:
+                print(f'  {channel["rank"]}. {channel["name"]}: {channel["total_score"]}점')
 
-    # Check 클로이 specifically
-    chloe = [c for c in channels if c['name'] == '클로이']
-    if chloe:
-        c = chloe[0]
-        print(f'\\n클로이 확인:')
-        print(f'  - 점수: {c[\"total_score\"]}')
-        print(f'  - 순위: {c[\"rank\"]}')
-        print(f'  - 구독자: {c[\"metrics\"][\"subscriber_count\"]}')
+            # Check 클로이 specifically
+            chloe = [c for c in channels if c['name'] == '클로이']
+            if chloe:
+                c = chloe[0]
+                print(f'\n클로이 확인:')
+                print(f'  - 점수: {c["total_score"]}')
+                print(f'  - 순위: {c["rank"]}')
+                print(f'  - 구독자: {c["metrics"]["subscriber_count"]}')
 
-except Exception as e:
-    print(f'❌ Failed to verify output: {e}')
-    sys.exit(1)
-        "
+        except Exception as e:
+            print(f'❌ Failed to verify output: {e}')
+            sys.exit(1)
+        EOF
 
     - name: Move JSON to docs folder
       run: |
