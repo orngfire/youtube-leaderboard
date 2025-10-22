@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T23:12:15.461107+00:00",
+  "last_updated": "2025-10-22T23:14:04.119192+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,18 +12,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 876,
+      "total_score": 894,
       "score_breakdown": {
-        "basic": 728,
+        "basic": 745,
         "engagement": 18,
         "viral": 123,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1214,
-        "average_views": 976,
+        "median_score": 1242,
+        "average_views": 978,
         "average_likes": 6,
-        "avg_engagement": 0.6,
+        "avg_engagement": 0.61,
         "top3_avg": 2462,
         "max_single_views": 1967,
         "viral_video": {
@@ -34,7 +34,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 1.41,
+        "growth_ratio": 1.38,
         "video_count": 6,
         "total_video_count": 9,
         "subscriber_count": 35,
