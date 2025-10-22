@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T14:26:43.795764+00:00",
+  "last_updated": "2025-10-22T14:33:42.311070+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1300,
+      "total_score": 1298,
       "score_breakdown": {
-        "basic": 1160,
+        "basic": 1159,
         "engagement": 18,
         "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1934,
-        "average_views": 1084,
+        "median_score": 1931,
+        "average_views": 1083,
         "average_likes": 7,
         "avg_engagement": 0.61,
-        "top3_avg": 2337,
+        "top3_avg": 2336,
         "max_single_views": 1966,
         "viral_video": {
           "views": 1966,
@@ -59,9 +59,9 @@
       },
       "metrics": {
         "median_score": 870,
-        "average_views": 1011,
+        "average_views": 984,
         "average_likes": 2,
-        "avg_engagement": 0.23,
+        "avg_engagement": 0.22,
         "top3_avg": 2556,
         "max_single_views": 2517,
         "viral_video": {
@@ -84,8 +84,8 @@
     {
       "rank": 3,
       "name": "김하나",
-      "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
-      "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "channel_handle": "차곡차곡한뼘",
+      "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
       "badges": [],
       "badge_descriptions": {},
       "total_score": 372,
