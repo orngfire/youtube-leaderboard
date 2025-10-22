@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T15:24:17.378270+00:00",
+  "last_updated": "2025-10-22T23:12:15.461107+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,31 +12,31 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1298,
+      "total_score": 876,
       "score_breakdown": {
-        "basic": 1159,
+        "basic": 728,
         "engagement": 18,
-        "viral": 117,
-        "growth": 4
+        "viral": 123,
+        "growth": 7
       },
       "metrics": {
-        "median_score": 1931,
-        "average_views": 1083,
-        "average_likes": 7,
-        "avg_engagement": 0.61,
-        "top3_avg": 2336,
-        "max_single_views": 1966,
+        "median_score": 1214,
+        "average_views": 976,
+        "average_likes": 6,
+        "avg_engagement": 0.6,
+        "top3_avg": 2462,
+        "max_single_views": 1967,
         "viral_video": {
-          "views": 1966,
+          "views": 1967,
           "likes": 17,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.82,
-        "video_count": 5,
-        "total_video_count": 8,
+        "growth_ratio": 1.41,
+        "video_count": 6,
+        "total_video_count": 9,
         "subscriber_count": 35,
         "subscriber_change": 1,
         "subscriber_change_percent": 2.9
@@ -50,16 +50,16 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 663,
+      "total_score": 729,
       "score_breakdown": {
-        "basic": 522,
+        "basic": 589,
         "engagement": 7,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 870,
-        "average_views": 1011,
+        "median_score": 981,
+        "average_views": 1021,
         "average_likes": 2,
         "avg_engagement": 0.23,
         "top3_avg": 2556,
@@ -72,7 +72,7 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.27,
+        "growth_ratio": 1.12,
         "video_count": 19,
         "total_video_count": 19,
         "subscriber_count": 7,
@@ -88,7 +88,7 @@
       "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 372,
+      "total_score": 373,
       "score_breakdown": {
         "basic": 268,
         "engagement": 15,
@@ -164,31 +164,31 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 124,
+      "total_score": 156,
       "score_breakdown": {
-        "basic": 89,
-        "engagement": 11,
+        "basic": 128,
+        "engagement": 7,
         "viral": 16,
-        "growth": 7
+        "growth": 5
       },
       "metrics": {
-        "median_score": 149,
-        "average_views": 134,
+        "median_score": 213,
+        "average_views": 139,
         "average_likes": 0,
-        "avg_engagement": 0.37,
+        "avg_engagement": 0.24,
         "top3_avg": 316,
-        "max_single_views": 298,
+        "max_single_views": 297,
         "viral_video": {
-          "views": 298,
+          "views": 297,
           "likes": 1,
           "comments": 0,
           "title": "너무나 소소하지만 함부로 할 수 없는 것들  #sorts  #기분전환  #마음돌봄",
           "video_id": "rxqXKD8PlMQ",
           "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
         },
-        "growth_ratio": 1.47,
-        "video_count": 6,
-        "total_video_count": 6,
+        "growth_ratio": 1.02,
+        "video_count": 9,
+        "total_video_count": 9,
         "subscriber_count": 1,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
