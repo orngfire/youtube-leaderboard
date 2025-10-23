@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23T07:14:08.284611+00:00",
+  "last_updated": "2025-10-23T15:17:26.222793+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1358,
+      "total_score": 1463,
       "score_breakdown": {
-        "basic": 1207,
-        "engagement": 21,
+        "basic": 1313,
+        "engagement": 19,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2012,
-        "average_views": 1341,
-        "average_likes": 10,
-        "avg_engagement": 0.71,
-        "top3_avg": 2514,
+        "median_score": 2188,
+        "average_views": 1436,
+        "average_likes": 9,
+        "avg_engagement": 0.65,
+        "top3_avg": 2522,
         "max_single_views": 1967,
         "viral_video": {
           "views": 1967,
@@ -34,7 +34,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.85,
+        "growth_ratio": 0.78,
         "video_count": 6,
         "total_video_count": 9,
         "subscriber_count": 35,
@@ -50,15 +50,15 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 741,
+      "total_score": 742,
       "score_breakdown": {
-        "basic": 601,
+        "basic": 602,
         "engagement": 7,
         "viral": 128,
-        "growth": 6
+        "growth": 5
       },
       "metrics": {
-        "median_score": 1002,
+        "median_score": 1003,
         "average_views": 1029,
         "average_likes": 2,
         "avg_engagement": 0.22,
@@ -83,6 +83,44 @@
     },
     {
       "rank": 3,
+      "name": "김소윤",
+      "channel_handle": "maumedu",
+      "channel_url": "https://www.youtube.com/@maumedu",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 382,
+      "score_breakdown": {
+        "basic": 275,
+        "engagement": 15,
+        "viral": 90,
+        "growth": 2
+      },
+      "metrics": {
+        "median_score": 458,
+        "average_views": 610,
+        "average_likes": 3,
+        "avg_engagement": 0.49,
+        "top3_avg": 1798,
+        "max_single_views": 1655,
+        "viral_video": {
+          "views": 1655,
+          "likes": 10,
+          "comments": 0,
+          "title": "후회 말고 지금이라도, 이제는 알아야 한다.",
+          "video_id": "07ZqZCavyLY",
+          "url": "https://www.youtube.com/watch?v=07ZqZCavyLY"
+        },
+        "growth_ratio": 0.48,
+        "video_count": 12,
+        "total_video_count": 12,
+        "subscriber_count": 5,
+        "subscriber_change": 4,
+        "subscriber_change_percent": 400.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "김하나",
       "channel_handle": "차곡차곡한뼘",
       "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
@@ -120,7 +158,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -152,44 +190,6 @@
         "video_count": 1,
         "total_video_count": 5,
         "subscriber_count": 8,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 5,
-      "name": "김소윤",
-      "channel_handle": "maumedu",
-      "channel_url": "https://www.youtube.com/@maumedu",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 227,
-      "score_breakdown": {
-        "basic": 178,
-        "engagement": 5,
-        "viral": 40,
-        "growth": 4
-      },
-      "metrics": {
-        "median_score": 296,
-        "average_views": 306,
-        "average_likes": 1,
-        "avg_engagement": 0.18,
-        "top3_avg": 800,
-        "max_single_views": 1284,
-        "viral_video": {
-          "views": 1284,
-          "likes": 1,
-          "comments": 0,
-          "title": "절대 포기 못하는 조건은? #동기부여 #자기개발  #sorts",
-          "video_id": "1WH5drPhGMQ",
-          "url": "https://www.youtube.com/watch?v=1WH5drPhGMQ"
-        },
-        "growth_ratio": 0.74,
-        "video_count": 9,
-        "total_video_count": 9,
-        "subscriber_count": 1,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
       },
