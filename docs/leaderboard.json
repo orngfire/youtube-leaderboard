@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23T15:24:47.302243+00:00",
+  "last_updated": "2025-10-23T23:12:45.073251+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1463,
+      "total_score": 1385,
       "score_breakdown": {
-        "basic": 1314,
-        "engagement": 19,
+        "basic": 1235,
+        "engagement": 20,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2190,
-        "average_views": 1436,
-        "average_likes": 9,
-        "avg_engagement": 0.65,
-        "top3_avg": 2522,
+        "median_score": 2059,
+        "average_views": 1267,
+        "average_likes": 8,
+        "avg_engagement": 0.67,
+        "top3_avg": 2520,
         "max_single_views": 1967,
         "viral_video": {
           "views": 1967,
@@ -34,9 +34,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.78,
-        "video_count": 6,
-        "total_video_count": 9,
+        "growth_ratio": 0.83,
+        "video_count": 7,
+        "total_video_count": 10,
         "subscriber_count": 35,
         "subscriber_change": 1,
         "subscriber_change_percent": 2.9
@@ -50,15 +50,15 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 742,
+      "total_score": 741,
       "score_breakdown": {
-        "basic": 602,
+        "basic": 601,
         "engagement": 7,
         "viral": 128,
-        "growth": 5
+        "growth": 6
       },
       "metrics": {
-        "median_score": 1003,
+        "median_score": 1002,
         "average_views": 1029,
         "average_likes": 2,
         "avg_engagement": 0.22,
@@ -88,34 +88,34 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 383,
+      "total_score": 438,
       "score_breakdown": {
-        "basic": 275,
-        "engagement": 15,
-        "viral": 91,
-        "growth": 2
+        "basic": 307,
+        "engagement": 16,
+        "viral": 112,
+        "growth": 3
       },
       "metrics": {
-        "median_score": 458,
-        "average_views": 617,
-        "average_likes": 3,
-        "avg_engagement": 0.49,
-        "top3_avg": 1824,
-        "max_single_views": 1677,
+        "median_score": 512,
+        "average_views": 730,
+        "average_likes": 4,
+        "avg_engagement": 0.53,
+        "top3_avg": 2240,
+        "max_single_views": 2356,
         "viral_video": {
-          "views": 1677,
-          "likes": 10,
+          "views": 2356,
+          "likes": 9,
           "comments": 0,
-          "title": "후회 말고 지금이라도, 이제는 알아야 한다.",
-          "video_id": "07ZqZCavyLY",
-          "url": "https://www.youtube.com/watch?v=07ZqZCavyLY"
+          "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
+          "video_id": "1Shc4zjRj-g",
+          "url": "https://www.youtube.com/watch?v=1Shc4zjRj-g"
         },
-        "growth_ratio": 0.48,
+        "growth_ratio": 0.53,
         "video_count": 12,
         "total_video_count": 12,
-        "subscriber_count": 5,
-        "subscriber_change": 4,
-        "subscriber_change_percent": 400.0
+        "subscriber_count": 6,
+        "subscriber_change": 5,
+        "subscriber_change_percent": 500.0
       },
       "status": "success"
     },
