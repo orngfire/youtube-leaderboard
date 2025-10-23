@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23T07:12:37.911445+00:00",
+  "last_updated": "2025-10-23T07:14:08.284611+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,10 +21,10 @@
       },
       "metrics": {
         "median_score": 2012,
-        "average_views": 1331,
+        "average_views": 1341,
         "average_likes": 10,
         "avg_engagement": 0.71,
-        "top3_avg": 2512,
+        "top3_avg": 2514,
         "max_single_views": 1967,
         "viral_video": {
           "views": 1967,
@@ -164,22 +164,22 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 230,
+      "total_score": 227,
       "score_breakdown": {
         "basic": 178,
         "engagement": 5,
-        "viral": 43,
+        "viral": 40,
         "growth": 4
       },
       "metrics": {
         "median_score": 296,
-        "average_views": 329,
+        "average_views": 306,
         "average_likes": 1,
-        "avg_engagement": 0.17,
-        "top3_avg": 867,
-        "max_single_views": 1488,
+        "avg_engagement": 0.18,
+        "top3_avg": 800,
+        "max_single_views": 1284,
         "viral_video": {
-          "views": 1488,
+          "views": 1284,
           "likes": 1,
           "comments": 0,
           "title": "절대 포기 못하는 조건은? #동기부여 #자기개발  #sorts",
