@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T23:14:04.119192+00:00",
+  "last_updated": "2025-10-23T07:12:37.911445+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 894,
+      "total_score": 1358,
       "score_breakdown": {
-        "basic": 745,
-        "engagement": 18,
-        "viral": 123,
-        "growth": 7
+        "basic": 1207,
+        "engagement": 21,
+        "viral": 126,
+        "growth": 4
       },
       "metrics": {
-        "median_score": 1242,
-        "average_views": 978,
-        "average_likes": 6,
-        "avg_engagement": 0.61,
-        "top3_avg": 2462,
+        "median_score": 2012,
+        "average_views": 1331,
+        "average_likes": 10,
+        "avg_engagement": 0.71,
+        "top3_avg": 2512,
         "max_single_views": 1967,
         "viral_video": {
           "views": 1967,
@@ -34,7 +34,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 1.38,
+        "growth_ratio": 0.85,
         "video_count": 6,
         "total_video_count": 9,
         "subscriber_count": 35,
@@ -50,18 +50,18 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 729,
+      "total_score": 741,
       "score_breakdown": {
-        "basic": 589,
+        "basic": 601,
         "engagement": 7,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 981,
-        "average_views": 1021,
+        "median_score": 1002,
+        "average_views": 1029,
         "average_likes": 2,
-        "avg_engagement": 0.23,
+        "avg_engagement": 0.22,
         "top3_avg": 2556,
         "max_single_views": 2517,
         "viral_video": {
@@ -72,9 +72,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.12,
-        "video_count": 19,
-        "total_video_count": 19,
+        "growth_ratio": 1.1,
+        "video_count": 20,
+        "total_video_count": 20,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -97,7 +97,7 @@
       },
       "metrics": {
         "median_score": 446,
-        "average_views": 707,
+        "average_views": 708,
         "average_likes": 3,
         "avg_engagement": 0.48,
         "top3_avg": 1659,
@@ -110,7 +110,7 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.48,
+        "growth_ratio": 1.49,
         "video_count": 7,
         "total_video_count": 16,
         "subscriber_count": 10,
@@ -164,29 +164,29 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 156,
+      "total_score": 230,
       "score_breakdown": {
-        "basic": 128,
-        "engagement": 7,
-        "viral": 16,
-        "growth": 5
+        "basic": 178,
+        "engagement": 5,
+        "viral": 43,
+        "growth": 4
       },
       "metrics": {
-        "median_score": 213,
-        "average_views": 139,
-        "average_likes": 0,
-        "avg_engagement": 0.24,
-        "top3_avg": 316,
-        "max_single_views": 297,
+        "median_score": 296,
+        "average_views": 329,
+        "average_likes": 1,
+        "avg_engagement": 0.17,
+        "top3_avg": 867,
+        "max_single_views": 1488,
         "viral_video": {
-          "views": 297,
+          "views": 1488,
           "likes": 1,
           "comments": 0,
-          "title": "너무나 소소하지만 함부로 할 수 없는 것들  #sorts  #기분전환  #마음돌봄",
-          "video_id": "rxqXKD8PlMQ",
-          "url": "https://www.youtube.com/watch?v=rxqXKD8PlMQ"
+          "title": "절대 포기 못하는 조건은? #동기부여 #자기개발  #sorts",
+          "video_id": "1WH5drPhGMQ",
+          "url": "https://www.youtube.com/watch?v=1WH5drPhGMQ"
         },
-        "growth_ratio": 1.02,
+        "growth_ratio": 0.74,
         "video_count": 9,
         "total_video_count": 9,
         "subscriber_count": 1,
