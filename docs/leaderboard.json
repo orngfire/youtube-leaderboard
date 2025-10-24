@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23T23:14:53.151056+00:00",
+  "last_updated": "2025-10-24T07:12:09.504044+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,18 +12,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1386,
+      "total_score": 1415,
       "score_breakdown": {
-        "basic": 1235,
-        "engagement": 20,
+        "basic": 1266,
+        "engagement": 19,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2059,
-        "average_views": 1229,
-        "average_likes": 8,
-        "avg_engagement": 0.67,
+        "median_score": 2110,
+        "average_views": 1467,
+        "average_likes": 9,
+        "avg_engagement": 0.64,
         "top3_avg": 2520,
         "max_single_views": 1967,
         "viral_video": {
@@ -34,7 +34,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.83,
+        "growth_ratio": 0.81,
         "video_count": 7,
         "total_video_count": 10,
         "subscriber_count": 35,
@@ -50,16 +50,16 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 741,
+      "total_score": 730,
       "score_breakdown": {
-        "basic": 601,
+        "basic": 590,
         "engagement": 7,
         "viral": 128,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1002,
-        "average_views": 1029,
+        "median_score": 984,
+        "average_views": 991,
         "average_likes": 2,
         "avg_engagement": 0.22,
         "top3_avg": 2556,
@@ -72,9 +72,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.1,
-        "video_count": 20,
-        "total_video_count": 20,
+        "growth_ratio": 1.12,
+        "video_count": 21,
+        "total_video_count": 21,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -88,23 +88,23 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 438,
+      "total_score": 443,
       "score_breakdown": {
-        "basic": 307,
+        "basic": 311,
         "engagement": 16,
-        "viral": 112,
+        "viral": 113,
         "growth": 3
       },
       "metrics": {
-        "median_score": 512,
-        "average_views": 730,
+        "median_score": 518,
+        "average_views": 734,
         "average_likes": 4,
         "avg_engagement": 0.53,
-        "top3_avg": 2240,
-        "max_single_views": 2356,
+        "top3_avg": 2263,
+        "max_single_views": 2365,
         "viral_video": {
-          "views": 2356,
-          "likes": 9,
+          "views": 2365,
+          "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
           "video_id": "1Shc4zjRj-g",
@@ -112,7 +112,7 @@
         },
         "growth_ratio": 0.53,
         "video_count": 12,
-        "total_video_count": 12,
+        "total_video_count": 3,
         "subscriber_count": 6,
         "subscriber_change": 5,
         "subscriber_change_percent": 500.0
