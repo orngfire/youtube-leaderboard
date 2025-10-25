@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-24T23:15:03.170233+00:00",
+  "last_updated": "2025-10-25T07:10:40.794594+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,9 +21,9 @@
       },
       "metrics": {
         "median_score": 2110,
-        "average_views": 1480,
+        "average_views": 1489,
         "average_likes": 9,
-        "avg_engagement": 0.64,
+        "avg_engagement": 0.63,
         "top3_avg": 2524,
         "max_single_views": 1967,
         "viral_video": {
@@ -59,7 +59,7 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 990,
+        "average_views": 991,
         "average_likes": 2,
         "avg_engagement": 0.22,
         "top3_avg": 2556,
@@ -74,7 +74,7 @@
         },
         "growth_ratio": 1.12,
         "video_count": 21,
-        "total_video_count": 21,
+        "total_video_count": 20,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -100,7 +100,7 @@
         "average_views": 733,
         "average_likes": 4,
         "avg_engagement": 0.53,
-        "top3_avg": 2258,
+        "top3_avg": 2259,
         "max_single_views": 2357,
         "viral_video": {
           "views": 2357,
@@ -112,7 +112,7 @@
         },
         "growth_ratio": 0.53,
         "video_count": 12,
-        "total_video_count": 3,
+        "total_video_count": 12,
         "subscriber_count": 6,
         "subscriber_change": 5,
         "subscriber_change_percent": 500.0
@@ -303,9 +303,9 @@
         "growth_ratio": 0,
         "video_count": 0,
         "total_video_count": 25,
-        "subscriber_count": 368,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
+        "subscriber_count": 369,
+        "subscriber_change": 1,
+        "subscriber_change_percent": 0.3
       },
       "status": "success"
     },
