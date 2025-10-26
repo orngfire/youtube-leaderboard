@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-26T15:20:48.441010+00:00",
+  "last_updated": "2025-10-26T23:12:54.825847+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,7 +12,7 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1397,
+      "total_score": 1398,
       "score_breakdown": {
         "basic": 1249,
         "engagement": 18,
@@ -21,9 +21,9 @@
       },
       "metrics": {
         "median_score": 2082,
-        "average_views": 1433,
-        "average_likes": 8,
-        "avg_engagement": 0.59,
+        "average_views": 1494,
+        "average_likes": 9,
+        "avg_engagement": 0.61,
         "top3_avg": 2524,
         "max_single_views": 1967,
         "viral_video": {
@@ -37,9 +37,9 @@
         "growth_ratio": 0.82,
         "video_count": 8,
         "total_video_count": 11,
-        "subscriber_count": 35,
-        "subscriber_change": 1,
-        "subscriber_change_percent": 2.9
+        "subscriber_count": 36,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 5.9
       },
       "status": "success"
     },
@@ -83,6 +83,44 @@
     },
     {
       "rank": 3,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 482,
+      "score_breakdown": {
+        "basic": 345,
+        "engagement": 137,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 576,
+        "average_views": 176,
+        "average_likes": 8,
+        "avg_engagement": 4.56,
+        "top3_avg": 0,
+        "max_single_views": 338,
+        "viral_video": {
+          "views": 338,
+          "likes": 16,
+          "comments": 0,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 0,
+        "video_count": 2,
+        "total_video_count": 2,
+        "subscriber_count": 4,
+        "subscriber_change": 4,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_url": "https://www.youtube.com/@maumedu",
@@ -99,7 +137,7 @@
         "median_score": 543,
         "average_views": 734,
         "average_likes": 4,
-        "avg_engagement": 0.54,
+        "avg_engagement": 0.55,
         "top3_avg": 2259,
         "max_single_views": 2358,
         "viral_video": {
@@ -120,7 +158,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "김하나",
       "channel_handle": "차곡차곡한뼘",
       "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
@@ -158,7 +196,7 @@
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
@@ -192,44 +230,6 @@
         "subscriber_count": 8,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 6,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 156,
-      "score_breakdown": {
-        "basic": 81,
-        "engagement": 75,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 135,
-        "average_views": 60,
-        "average_likes": 2,
-        "avg_engagement": 2.5,
-        "top3_avg": 0,
-        "max_single_views": 107,
-        "viral_video": {
-          "views": 107,
-          "likes": 3,
-          "comments": 0,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 2,
-        "subscriber_count": 0,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0
       },
       "status": "success"
     },
