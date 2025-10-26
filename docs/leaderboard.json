@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-25T23:14:29.296148+00:00",
+  "last_updated": "2025-10-26T07:10:26.186260+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,17 +12,17 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1415,
+      "total_score": 1398,
       "score_breakdown": {
-        "basic": 1266,
+        "basic": 1249,
         "engagement": 19,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2110,
-        "average_views": 1490,
-        "average_likes": 9,
+        "median_score": 2081,
+        "average_views": 1352,
+        "average_likes": 8,
         "avg_engagement": 0.63,
         "top3_avg": 2524,
         "max_single_views": 1967,
@@ -34,9 +34,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.81,
-        "video_count": 7,
-        "total_video_count": 10,
+        "growth_ratio": 0.82,
+        "video_count": 8,
+        "total_video_count": 11,
         "subscriber_count": 35,
         "subscriber_change": 1,
         "subscriber_change_percent": 2.9
@@ -74,7 +74,7 @@
         },
         "growth_ratio": 1.12,
         "video_count": 21,
-        "total_video_count": 20,
+        "total_video_count": 21,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -88,18 +88,18 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 442,
+      "total_score": 457,
       "score_breakdown": {
-        "basic": 310,
+        "basic": 325,
         "engagement": 16,
         "viral": 113,
         "growth": 3
       },
       "metrics": {
-        "median_score": 517,
+        "median_score": 542,
         "average_views": 734,
         "average_likes": 4,
-        "avg_engagement": 0.53,
+        "avg_engagement": 0.55,
         "top3_avg": 2259,
         "max_single_views": 2357,
         "viral_video": {
@@ -110,7 +110,7 @@
           "video_id": "1Shc4zjRj-g",
           "url": "https://www.youtube.com/watch?v=1Shc4zjRj-g"
         },
-        "growth_ratio": 0.53,
+        "growth_ratio": 0.5,
         "video_count": 12,
         "total_video_count": 12,
         "subscriber_count": 6,
@@ -202,31 +202,31 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 8,
+      "total_score": 121,
       "score_breakdown": {
-        "basic": 8,
-        "engagement": 0,
+        "basic": 24,
+        "engagement": 97,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 13,
-        "average_views": 13,
+        "median_score": 40,
+        "average_views": 16,
         "average_likes": 0,
-        "avg_engagement": 0.0,
+        "avg_engagement": 3.23,
         "top3_avg": 0,
-        "max_single_views": 13,
+        "max_single_views": 18,
         "viral_video": {
-          "views": 13,
-          "likes": 0,
+          "views": 18,
+          "likes": 1,
           "comments": 0,
-          "title": "The vitamin truth doctors won't tell you #vitamin #health",
-          "video_id": "t7qnnHaeZl0",
-          "url": "https://www.youtube.com/watch?v=t7qnnHaeZl0"
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
         "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 1,
+        "video_count": 2,
+        "total_video_count": 2,
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
