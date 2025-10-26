@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-26T07:10:26.186260+00:00",
+  "last_updated": "2025-10-26T07:12:24.673436+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -202,27 +202,27 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 121,
+      "total_score": 7,
       "score_breakdown": {
-        "basic": 24,
-        "engagement": 97,
+        "basic": 7,
+        "engagement": 0,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 40,
-        "average_views": 16,
+        "median_score": 11,
+        "average_views": 11,
         "average_likes": 0,
-        "avg_engagement": 3.23,
+        "avg_engagement": 0.0,
         "top3_avg": 0,
-        "max_single_views": 18,
+        "max_single_views": 13,
         "viral_video": {
-          "views": 18,
-          "likes": 1,
+          "views": 13,
+          "likes": 0,
           "comments": 0,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+          "title": "The vitamin truth doctors won't tell you #vitamin #health",
+          "video_id": "t7qnnHaeZl0",
+          "url": "https://www.youtube.com/watch?v=t7qnnHaeZl0"
         },
         "growth_ratio": 0,
         "video_count": 2,
