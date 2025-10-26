@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-26T15:14:07.873156+00:00",
+  "last_updated": "2025-10-26T15:20:48.441010+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,7 +21,7 @@
       },
       "metrics": {
         "median_score": 2082,
-        "average_views": 1430,
+        "average_views": 1433,
         "average_likes": 8,
         "avg_engagement": 0.59,
         "top3_avg": 2524,
@@ -202,22 +202,22 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 157,
+      "total_score": 156,
       "score_breakdown": {
-        "basic": 80,
-        "engagement": 76,
+        "basic": 81,
+        "engagement": 75,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 134,
-        "average_views": 59,
+        "median_score": 135,
+        "average_views": 60,
         "average_likes": 2,
-        "avg_engagement": 2.54,
+        "avg_engagement": 2.5,
         "top3_avg": 0,
-        "max_single_views": 105,
+        "max_single_views": 107,
         "viral_video": {
-          "views": 105,
+          "views": 107,
           "likes": 3,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
