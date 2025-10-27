@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-27T07:15:20.912751+00:00",
+  "last_updated": "2025-10-27T15:18:06.150326+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,18 +12,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1397,
+      "total_score": 1380,
       "score_breakdown": {
-        "basic": 1249,
-        "engagement": 18,
+        "basic": 1231,
+        "engagement": 19,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2081,
-        "average_views": 1494,
-        "average_likes": 9,
-        "avg_engagement": 0.61,
+        "median_score": 2051,
+        "average_views": 1379,
+        "average_likes": 8,
+        "avg_engagement": 0.63,
         "top3_avg": 2524,
         "max_single_views": 1967,
         "viral_video": {
@@ -34,9 +34,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.82,
-        "video_count": 8,
-        "total_video_count": 11,
+        "growth_ratio": 0.83,
+        "video_count": 9,
+        "total_video_count": 12,
         "subscriber_count": 36,
         "subscriber_change": 2,
         "subscriber_change_percent": 5.9
@@ -50,23 +50,23 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1036,
+      "total_score": 1208,
       "score_breakdown": {
-        "basic": 891,
-        "engagement": 145,
+        "basic": 1091,
+        "engagement": 116,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1485,
-        "average_views": 435,
-        "average_likes": 21,
-        "avg_engagement": 4.83,
+        "median_score": 1818,
+        "average_views": 618,
+        "average_likes": 24,
+        "avg_engagement": 3.88,
         "top3_avg": 0,
-        "max_single_views": 856,
+        "max_single_views": 1217,
         "viral_video": {
-          "views": 856,
-          "likes": 42,
+          "views": 1217,
+          "likes": 48,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
@@ -75,8 +75,8 @@
         "growth_ratio": 0,
         "video_count": 2,
         "total_video_count": 2,
-        "subscriber_count": 10,
-        "subscriber_change": 10,
+        "subscriber_count": 11,
+        "subscriber_change": 11,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -92,15 +92,15 @@
       "score_breakdown": {
         "basic": 601,
         "engagement": 6,
-        "viral": 130,
+        "viral": 131,
         "growth": 6
       },
       "metrics": {
         "median_score": 1002,
-        "average_views": 1049,
+        "average_views": 1050,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2609,
+        "top3_avg": 2613,
         "max_single_views": 2517,
         "viral_video": {
           "views": 2517,
@@ -121,6 +121,44 @@
     },
     {
       "rank": 4,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 507,
+      "score_breakdown": {
+        "basic": 499,
+        "engagement": 8,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 832,
+        "average_views": 732,
+        "average_likes": 2,
+        "avg_engagement": 0.27,
+        "top3_avg": 0,
+        "max_single_views": 732,
+        "viral_video": {
+          "views": 732,
+          "likes": 2,
+          "comments": 0,
+          "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
+          "video_id": "5CXGCCuawKw",
+          "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 26,
+        "subscriber_count": 369,
+        "subscriber_change": 1,
+        "subscriber_change_percent": 0.3
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_url": "https://www.youtube.com/@maumedu",
@@ -135,7 +173,7 @@
       },
       "metrics": {
         "median_score": 542,
-        "average_views": 733,
+        "average_views": 734,
         "average_likes": 4,
         "avg_engagement": 0.55,
         "top3_avg": 2257,
@@ -158,7 +196,7 @@
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "김하나",
       "channel_handle": "차곡차곡한뼘",
       "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
@@ -176,10 +214,10 @@
         "average_views": 708,
         "average_likes": 3,
         "avg_engagement": 0.48,
-        "top3_avg": 1660,
-        "max_single_views": 1785,
+        "top3_avg": 1661,
+        "max_single_views": 1787,
         "viral_video": {
-          "views": 1785,
+          "views": 1787,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
@@ -196,24 +234,24 @@
       "status": "success"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 237,
+      "total_score": 268,
       "score_breakdown": {
-        "basic": 166,
-        "engagement": 71,
+        "basic": 129,
+        "engagement": 140,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 276,
-        "average_views": 126,
+        "median_score": 214,
+        "average_views": 64,
         "average_likes": 1,
-        "avg_engagement": 2.38,
+        "avg_engagement": 4.65,
         "top3_avg": 0,
         "max_single_views": 126,
         "viral_video": {
@@ -225,8 +263,8 @@
           "url": "https://www.youtube.com/watch?v=ULSfsaPpOQo"
         },
         "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 5,
+        "video_count": 2,
+        "total_video_count": 6,
         "subscriber_count": 8,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -234,7 +272,7 @@
       "status": "success"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
@@ -268,44 +306,6 @@
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 8,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 25,
-        "subscriber_count": 369,
-        "subscriber_change": 1,
-        "subscriber_change_percent": 0.3
       },
       "status": "success"
     },
