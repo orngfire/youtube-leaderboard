@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-27T07:13:19.046374+00:00",
+  "last_updated": "2025-10-27T07:15:20.912751+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -88,7 +88,7 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 742,
+      "total_score": 743,
       "score_breakdown": {
         "basic": 601,
         "engagement": 6,
@@ -97,10 +97,10 @@
       },
       "metrics": {
         "median_score": 1002,
-        "average_views": 1047,
+        "average_views": 1049,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2591,
+        "top3_avg": 2609,
         "max_single_views": 2517,
         "viral_video": {
           "views": 2517,
