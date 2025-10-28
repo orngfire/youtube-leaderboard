@@ -897,6 +897,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'rank': rank,
                 'name': item['name'],
                 'channel_handle': channel_handle,
+                'channel_name': item.get('channel_title', ''),
                 'channel_url': item['channel_url'],
                 'badges': item.get('badges', []),
                 'badge_descriptions': item.get('badge_descriptions', {}),
@@ -937,6 +938,7 @@ def create_json(leaderboard: List[Dict], filename: str):
                 'rank': rank,
                 'name': item['name'],
                 'channel_handle': channel_handle,
+                'channel_name': item.get('channel_title', ''),
                 'channel_url': item['channel_url'],
                 'badges': [],
                 'badge_descriptions': {},
@@ -1051,6 +1053,7 @@ def main():
         scores['subscriber_count'] = subscriber_info['current']
         scores['subscriber_change'] = subscriber_info['change']
         scores['subscriber_change_percent'] = subscriber_info['change_percent']
+        scores['channel_title'] = channel_stats.get('channel_title', '')
 
         all_channel_data.append({
             **channel_info,
