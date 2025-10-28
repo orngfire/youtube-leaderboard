@@ -1053,7 +1053,8 @@ def main():
         scores['subscriber_count'] = subscriber_info['current']
         scores['subscriber_change'] = subscriber_info['change']
         scores['subscriber_change_percent'] = subscriber_info['change_percent']
-        scores['channel_title'] = channel_stats.get('channel_title', '')
+        # channel_name: channels.json에서 가져온 값 우선, 없으면 API에서 가져온 값 사용
+        scores['channel_title'] = channel_info.get('channel_name', '') or channel_stats.get('channel_title', '')
 
         all_channel_data.append({
             **channel_info,
