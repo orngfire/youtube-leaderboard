@@ -143,7 +143,7 @@ function createTableRow(channel) {
                         ${createBadges(channel.badges, channel.badge_descriptions)}
                     </div>
                 </div>
-                <div class="channel-name">${channel.channel_name || (channel.channel_handle ? '@' + channel.channel_handle : '')}</div>
+                <div class="channel-name">${channel.channel_name ? '@' + channel.channel_name : (channel.channel_handle ? '@' + channel.channel_handle : '')}</div>
             </div>
         </td>
         <td class="total-score-cell">
@@ -204,7 +204,7 @@ function createMobileCard(channel) {
             ${channel.badges && channel.badges.length > 0 ?
                 `<span class="mobile-badges-inline">${channel.badges.join('')}</span>` : ''}
         </div>
-        <div class="mobile-channel">${channel.channel_name || (channel.channel_handle ? '@' + channel.channel_handle : '')}</div>
+        <div class="mobile-channel">${channel.channel_name ? '@' + channel.channel_name : (channel.channel_handle ? '@' + channel.channel_handle : '')}</div>
         <div class="mobile-scores">
             <div class="mobile-score-item">
                 <div class="mobile-score-label">채널</div>
@@ -700,7 +700,7 @@ function displayMostActive(channels) {
                     <div class="name-line">
                         <span class="name-text">${channel.name}</span>
                     </div>
-                    <div class="channel-name">${channel.channel_name || '@' + channel.channel_handle}</div>
+                    <div class="channel-name">${channel.channel_name ? '@' + channel.channel_name : '@' + channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">
@@ -748,7 +748,7 @@ function displayMostSubscribed(channels) {
                     <div class="name-line">
                         <span class="name-text">${channel.name}</span>
                     </div>
-                    <div class="channel-name">${channel.channel_name || '@' + channel.channel_handle}</div>
+                    <div class="channel-name">${channel.channel_name ? '@' + channel.channel_name : '@' + channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">
@@ -799,7 +799,7 @@ function displayViralHit(channels) {
                     <div class="name-line">
                         <span class="name-text">${channel.name}</span>
                     </div>
-                    <div class="channel-name">${channel.channel_name || '@' + channel.channel_handle}</div>
+                    <div class="channel-name">${channel.channel_name ? '@' + channel.channel_name : '@' + channel.channel_handle}</div>
                 </div>
             </td>
             <td class="score-cell">
