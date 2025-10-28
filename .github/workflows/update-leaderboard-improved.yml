@@ -4,10 +4,20 @@ on:
   schedule:
     # 한국 시간 00:00 (UTC 15:00)
     - cron: '0 15 * * *'
-    # 한국 시간 08:00 (UTC 23:00)
-    - cron: '0 23 * * *'
-    # 한국 시간 16:00 (UTC 07:00)
-    - cron: '0 7 * * *'
+    # 한국 시간 03:00 (UTC 18:00)
+    - cron: '0 18 * * *'
+    # 한국 시간 06:00 (UTC 21:00)
+    - cron: '0 21 * * *'
+    # 한국 시간 09:00 (UTC 00:00)
+    - cron: '0 0 * * *'
+    # 한국 시간 12:00 (UTC 03:00)
+    - cron: '0 3 * * *'
+    # 한국 시간 15:00 (UTC 06:00)
+    - cron: '0 6 * * *'
+    # 한국 시간 18:00 (UTC 09:00)
+    - cron: '0 9 * * *'
+    # 한국 시간 21:00 (UTC 12:00)
+    - cron: '0 12 * * *'
   workflow_dispatch:  # 수동 실행 가능
     inputs:
       branch:
@@ -62,6 +72,8 @@ jobs:
                 channels = json.load(f)
 
             errors = []
+            warnings = []
+
             for i, channel in enumerate(channels):
                 if 'name' not in channel:
                     errors.append(f'Channel {i}: missing name')
@@ -70,15 +82,37 @@ jobs:
                 elif not channel['channel_id'].startswith('UC'):
                     errors.append(f'Channel {channel.get("name", i)}: invalid channel_id format')
 
+                # Check channel_handle
+                channel_url = channel.get('channel_url', '')
+                channel_handle = channel.get('channel_handle', '')
+
+                if '@' in channel_url:
+                    # URL has @ handle
+                    url_handle = channel_url.split('@')[-1]
+                    if channel_handle and channel_handle != url_handle:
+                        warnings.append(f'Channel {channel.get("name", i)}: channel_handle "{channel_handle}" differs from URL handle "{url_handle}"')
+                elif not channel_handle:
+                    # No @ in URL and no explicit channel_handle
+                    warnings.append(f'Channel {channel.get("name", i)}: no channel_handle specified and URL has no @ handle')
+
             if errors:
-                print('Validation errors found:')
+                print('❌ Validation errors found:')
                 for error in errors:
                     print(f'  - {error}')
                 sys.exit(1)
-            else:
-                print(f'✅ Validation passed: {len(channels)} channels configured')
-                for channel in channels:
-                    print(f'  - {channel["name"]}: {channel["channel_id"]}')
+
+            if warnings:
+                print('⚠️  Validation warnings:')
+                for warning in warnings:
+                    print(f'  - {warning}')
+
+            print(f'✅ Validation passed: {len(channels)} channels configured')
+            for channel in channels:
+                handle = channel.get('channel_handle', '')
+                if not handle and '@' in channel.get('channel_url', ''):
+                    handle = channel['channel_url'].split('@')[-1]
+                handle_display = f' (@{handle})' if handle else ''
+                print(f'  - {channel["name"]}{handle_display}: {channel["channel_id"]}')
 
         except Exception as e:
             print(f'❌ Failed to validate channels.json: {e}')
