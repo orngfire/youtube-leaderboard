@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-27T15:24:56.147757+00:00",
+  "last_updated": "2025-10-28T14:05:02.023631+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -12,19 +12,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1380,
+      "total_score": 1398,
       "score_breakdown": {
-        "basic": 1231,
-        "engagement": 19,
+        "basic": 1249,
+        "engagement": 18,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2051,
-        "average_views": 1379,
+        "median_score": 2082,
+        "average_views": 1412,
         "average_likes": 8,
-        "avg_engagement": 0.63,
-        "top3_avg": 2524,
+        "avg_engagement": 0.62,
+        "top3_avg": 2525,
         "max_single_views": 1967,
         "viral_video": {
           "views": 1967,
@@ -34,9 +34,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.83,
-        "video_count": 9,
-        "total_video_count": 12,
+        "growth_ratio": 0.82,
+        "video_count": 10,
+        "total_video_count": 13,
         "subscriber_count": 36,
         "subscriber_change": 2,
         "subscriber_change_percent": 5.9
@@ -50,23 +50,23 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1208,
+      "total_score": 1191,
       "score_breakdown": {
-        "basic": 1091,
-        "engagement": 116,
+        "basic": 1078,
+        "engagement": 114,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1818,
-        "average_views": 618,
+        "median_score": 1796,
+        "average_views": 621,
         "average_likes": 24,
-        "avg_engagement": 3.88,
+        "avg_engagement": 3.78,
         "top3_avg": 0,
-        "max_single_views": 1217,
+        "max_single_views": 1222,
         "viral_video": {
-          "views": 1217,
-          "likes": 48,
+          "views": 1222,
+          "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
@@ -83,23 +83,61 @@
     },
     {
       "rank": 3,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 910,
+      "score_breakdown": {
+        "basic": 896,
+        "engagement": 14,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 1494,
+        "average_views": 1219,
+        "average_likes": 6,
+        "avg_engagement": 0.45,
+        "top3_avg": 0,
+        "max_single_views": 1860,
+        "viral_video": {
+          "views": 1860,
+          "likes": 5,
+          "comments": 0,
+          "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
+          "video_id": "5CXGCCuawKw",
+          "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
+        },
+        "growth_ratio": 0,
+        "video_count": 2,
+        "total_video_count": 27,
+        "subscriber_count": 370,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 0.5
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 743,
+      "total_score": 733,
       "score_breakdown": {
-        "basic": 601,
+        "basic": 590,
         "engagement": 6,
         "viral": 131,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1002,
-        "average_views": 1050,
+        "median_score": 984,
+        "average_views": 1016,
         "average_likes": 2,
-        "avg_engagement": 0.2,
+        "avg_engagement": 0.21,
         "top3_avg": 2613,
         "max_single_views": 2517,
         "viral_video": {
@@ -110,9 +148,9 @@
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.1,
-        "video_count": 22,
-        "total_video_count": 22,
+        "growth_ratio": 1.12,
+        "video_count": 23,
+        "total_video_count": 23,
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -120,45 +158,45 @@
       "status": "success"
     },
     {
-      "rank": 4,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_url": "https://www.youtube.com/@easyfood369",
+      "rank": 5,
+      "name": "김하나",
+      "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 558,
+      "total_score": 610,
       "score_breakdown": {
-        "basic": 547,
-        "engagement": 12,
-        "viral": 0,
-        "growth": 0
+        "basic": 498,
+        "engagement": 15,
+        "viral": 92,
+        "growth": 4
       },
       "metrics": {
-        "median_score": 911,
-        "average_views": 761,
-        "average_likes": 3,
-        "avg_engagement": 0.39,
-        "top3_avg": 0,
-        "max_single_views": 761,
+        "median_score": 830,
+        "average_views": 792,
+        "average_likes": 4,
+        "avg_engagement": 0.5,
+        "top3_avg": 1848,
+        "max_single_views": 1790,
         "viral_video": {
-          "views": 761,
-          "likes": 3,
+          "views": 1790,
+          "likes": 9,
           "comments": 0,
-          "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
-          "video_id": "5CXGCCuawKw",
-          "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
+          "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
+          "video_id": "vNQ3f6pNvKE",
+          "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 26,
-        "subscriber_count": 370,
-        "subscriber_change": 2,
-        "subscriber_change_percent": 0.5
+        "growth_ratio": 0.8,
+        "video_count": 8,
+        "total_video_count": 17,
+        "subscriber_count": 10,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
       },
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 6,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_url": "https://www.youtube.com/@maumedu",
@@ -196,71 +234,33 @@
       "status": "success"
     },
     {
-      "rank": 6,
-      "name": "김하나",
-      "channel_handle": "차곡차곡한뼘",
-      "channel_url": "https://www.youtube.com/@차곡차곡한뼘",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 373,
-      "score_breakdown": {
-        "basic": 268,
-        "engagement": 15,
-        "viral": 83,
-        "growth": 7
-      },
-      "metrics": {
-        "median_score": 446,
-        "average_views": 708,
-        "average_likes": 3,
-        "avg_engagement": 0.48,
-        "top3_avg": 1661,
-        "max_single_views": 1787,
-        "viral_video": {
-          "views": 1787,
-          "likes": 9,
-          "comments": 0,
-          "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
-          "video_id": "vNQ3f6pNvKE",
-          "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
-        },
-        "growth_ratio": 1.49,
-        "video_count": 7,
-        "total_video_count": 16,
-        "subscriber_count": 10,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
       "rank": 7,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 268,
+      "total_score": 320,
       "score_breakdown": {
-        "basic": 129,
-        "engagement": 140,
+        "basic": 250,
+        "engagement": 70,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 214,
-        "average_views": 64,
-        "average_likes": 1,
-        "avg_engagement": 4.65,
+        "median_score": 416,
+        "average_views": 192,
+        "average_likes": 2,
+        "avg_engagement": 2.35,
         "top3_avg": 0,
-        "max_single_views": 126,
+        "max_single_views": 257,
         "viral_video": {
-          "views": 126,
-          "likes": 1,
+          "views": 257,
+          "likes": 4,
           "comments": 1,
-          "title": "¡Casi me atrapa la ola gigante de COEX! 🌊 #culturacoreana #coreadelsur  #estudiacoreano",
-          "video_id": "ULSfsaPpOQo",
-          "url": "https://www.youtube.com/watch?v=ULSfsaPpOQo"
+          "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
+          "video_id": "iEuDZXysrQ0",
+          "url": "https://www.youtube.com/watch?v=iEuDZXysrQ0"
         },
         "growth_ratio": 0,
         "video_count": 2,
