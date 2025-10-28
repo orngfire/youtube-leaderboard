@@ -1006,9 +1006,12 @@ def main():
     for i, channel_info in enumerate(channels, 1):
         logger.info(f"\n[{i}/{len(channels)}] {channel_info['name']} 처리 중...")
 
-        # channel_url에서 channel_handle 추출
-        channel_handle = channel_info['channel_url'].split('@')[-1] if '@' in channel_info['channel_url'] else ''
-        channel_info['channel_handle'] = channel_handle
+        # channel_handle 처리 (명시적으로 제공된 경우 사용, 없으면 URL에서 추출)
+        if 'channel_handle' in channel_info:
+            channel_handle = channel_info['channel_handle']
+        else:
+            channel_handle = channel_info['channel_url'].split('@')[-1] if '@' in channel_info['channel_url'] else ''
+            channel_info['channel_handle'] = channel_handle
 
         # 채널 ID 가져오기 (channel_id가 있으면 바로 사용, 없으면 검색)
         if channel_info.get('channel_id'):
