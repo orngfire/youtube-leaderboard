@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-29T03:43:55.129121+00:00",
+  "last_updated": "2025-10-29T06:25:55.905360+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,16 +52,16 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1381,
+      "total_score": 1380,
       "score_breakdown": {
         "basic": 1231,
-        "engagement": 20,
+        "engagement": 19,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
         "median_score": 2051,
-        "average_views": 1362,
+        "average_views": 1378,
         "average_likes": 9,
         "avg_engagement": 0.65,
         "top3_avg": 2526,
@@ -100,13 +100,13 @@
       },
       "metrics": {
         "median_score": 1804,
-        "average_views": 628,
+        "average_views": 629,
         "average_likes": 24,
         "avg_engagement": 3.74,
         "top3_avg": 0,
-        "max_single_views": 1237,
+        "max_single_views": 1238,
         "viral_video": {
-          "views": 1237,
+          "views": 1238,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -169,15 +169,15 @@
       "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 609,
+      "total_score": 610,
       "score_breakdown": {
-        "basic": 498,
+        "basic": 499,
         "engagement": 15,
         "viral": 92,
         "growth": 4
       },
       "metrics": {
-        "median_score": 830,
+        "median_score": 831,
         "average_views": 792,
         "average_likes": 4,
         "avg_engagement": 0.51,
@@ -202,6 +202,45 @@
     },
     {
       "rank": 6,
+      "name": "국해란",
+      "channel_handle": "nana.imou22",
+      "channel_name": "나나이모",
+      "channel_url": "https://www.youtube.com/@nana.imou22",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 542,
+      "score_breakdown": {
+        "basic": 530,
+        "engagement": 12,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 883,
+        "average_views": 733,
+        "average_likes": 1,
+        "avg_engagement": 0.41,
+        "top3_avg": 0,
+        "max_single_views": 733,
+        "viral_video": {
+          "views": 733,
+          "likes": 1,
+          "comments": 1,
+          "title": "장암 우리나라 국밥 후기",
+          "video_id": "k2rWFFMT-bk",
+          "url": "https://www.youtube.com/watch?v=k2rWFFMT-bk"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 1,
+        "subscriber_count": 0,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 7,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_name": "마음에듀",
@@ -219,8 +258,8 @@
         "median_score": 543,
         "average_views": 734,
         "average_likes": 4,
-        "avg_engagement": 0.55,
-        "top3_avg": 2257,
+        "avg_engagement": 0.54,
+        "top3_avg": 2258,
         "max_single_views": 2354,
         "viral_video": {
           "views": 2354,
@@ -230,7 +269,7 @@
           "video_id": "1Shc4zjRj-g",
           "url": "https://www.youtube.com/watch?v=1Shc4zjRj-g"
         },
-        "growth_ratio": 0.5,
+        "growth_ratio": 0.51,
         "video_count": 12,
         "total_video_count": 12,
         "subscriber_count": 6,
@@ -240,7 +279,7 @@
       "status": "success"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_name": "Desde Seúl",
@@ -275,45 +314,6 @@
         "subscriber_count": 8,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 8,
-      "name": "국해란",
-      "channel_handle": "nana.imou22",
-      "channel_name": "나나이모",
-      "channel_url": "https://www.youtube.com/@nana.imou22",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 290,
-      "score_breakdown": {
-        "basic": 257,
-        "engagement": 32,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 429,
-        "average_views": 279,
-        "average_likes": 1,
-        "avg_engagement": 1.08,
-        "top3_avg": 0,
-        "max_single_views": 279,
-        "viral_video": {
-          "views": 279,
-          "likes": 1,
-          "comments": 1,
-          "title": "장암 우리나라 국밥 후기",
-          "video_id": "k2rWFFMT-bk",
-          "url": "https://www.youtube.com/watch?v=k2rWFFMT-bk"
-        },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 1,
-        "subscriber_count": 0,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0
       },
       "status": "success"
     },
