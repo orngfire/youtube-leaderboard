@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-29T18:30:43.647994+00:00",
+  "last_updated": "2025-10-29T21:23:41.126369+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -46,28 +46,67 @@
     },
     {
       "rank": 2,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1202,
+      "score_breakdown": {
+        "basic": 1065,
+        "engagement": 22,
+        "viral": 109,
+        "growth": 6
+      },
+      "metrics": {
+        "median_score": 1775,
+        "average_views": 1350,
+        "average_likes": 10,
+        "avg_engagement": 0.74,
+        "top3_avg": 2175,
+        "max_single_views": 1857,
+        "viral_video": {
+          "views": 1857,
+          "likes": 5,
+          "comments": 0,
+          "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
+          "video_id": "5CXGCCuawKw",
+          "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
+        },
+        "growth_ratio": 1.12,
+        "video_count": 4,
+        "total_video_count": 29,
+        "subscriber_count": 372,
+        "subscriber_change": 4,
+        "subscriber_change_percent": 1.1
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_name": "Vitaminute",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1195,
+      "total_score": 1196,
       "score_breakdown": {
-        "basic": 1083,
+        "basic": 1084,
         "engagement": 112,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1806,
-        "average_views": 630,
+        "median_score": 1807,
+        "average_views": 632,
         "average_likes": 24,
-        "avg_engagement": 3.73,
+        "avg_engagement": 3.72,
         "top3_avg": 0,
-        "max_single_views": 1241,
+        "max_single_views": 1244,
         "viral_video": {
-          "views": 1241,
+          "views": 1244,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -80,45 +119,6 @@
         "subscriber_count": 12,
         "subscriber_change": 12,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 3,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1141,
-      "score_breakdown": {
-        "basic": 1006,
-        "engagement": 24,
-        "viral": 106,
-        "growth": 6
-      },
-      "metrics": {
-        "median_score": 1676,
-        "average_views": 1292,
-        "average_likes": 10,
-        "avg_engagement": 0.79,
-        "top3_avg": 2114,
-        "max_single_views": 1857,
-        "viral_video": {
-          "views": 1857,
-          "likes": 5,
-          "comments": 0,
-          "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
-          "video_id": "5CXGCCuawKw",
-          "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
-        },
-        "growth_ratio": 1.19,
-        "video_count": 4,
-        "total_video_count": 29,
-        "subscriber_count": 372,
-        "subscriber_change": 4,
-        "subscriber_change_percent": 1.1
       },
       "status": "success"
     },
