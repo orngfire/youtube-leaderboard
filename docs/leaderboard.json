@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-29T09:15:15.919143+00:00",
+  "last_updated": "2025-10-29T12:37:34.334249+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -17,18 +17,18 @@
       "score_breakdown": {
         "basic": 1264,
         "engagement": 24,
-        "viral": 99,
+        "viral": 100,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2106,
-        "average_views": 1421,
+        "median_score": 2107,
+        "average_views": 1423,
         "average_likes": 11,
         "avg_engagement": 0.8,
-        "top3_avg": 1988,
-        "max_single_views": 1856,
+        "top3_avg": 1990,
+        "max_single_views": 1857,
         "viral_video": {
-          "views": 1856,
+          "views": 1857,
           "likes": 5,
           "comments": 0,
           "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
@@ -52,7 +52,7 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1380,
+      "total_score": 1381,
       "score_breakdown": {
         "basic": 1231,
         "engagement": 19,
@@ -60,8 +60,8 @@
         "growth": 4
       },
       "metrics": {
-        "median_score": 2051,
-        "average_views": 1378,
+        "median_score": 2052,
+        "average_views": 1379,
         "average_likes": 9,
         "avg_engagement": 0.65,
         "top3_avg": 2526,
@@ -91,22 +91,22 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1194,
+      "total_score": 1195,
       "score_breakdown": {
-        "basic": 1082,
+        "basic": 1083,
         "engagement": 112,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1804,
-        "average_views": 629,
+        "median_score": 1805,
+        "average_views": 630,
         "average_likes": 24,
-        "avg_engagement": 3.74,
+        "avg_engagement": 3.73,
         "top3_avg": 0,
-        "max_single_views": 1238,
+        "max_single_views": 1240,
         "viral_video": {
-          "views": 1238,
+          "views": 1240,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -178,10 +178,10 @@
       },
       "metrics": {
         "median_score": 831,
-        "average_views": 792,
+        "average_views": 793,
         "average_likes": 4,
         "avg_engagement": 0.5,
-        "top3_avg": 1846,
+        "top3_avg": 1848,
         "max_single_views": 1790,
         "viral_video": {
           "views": 1790,
@@ -208,22 +208,22 @@
       "channel_url": "https://www.youtube.com/@nana.imou22",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 601,
+      "total_score": 602,
       "score_breakdown": {
-        "basic": 590,
+        "basic": 592,
         "engagement": 11,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 983,
-        "average_views": 833,
+        "median_score": 986,
+        "average_views": 836,
         "average_likes": 1,
         "avg_engagement": 0.36,
         "top3_avg": 0,
-        "max_single_views": 833,
+        "max_single_views": 836,
         "viral_video": {
-          "views": 833,
+          "views": 836,
           "likes": 1,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
