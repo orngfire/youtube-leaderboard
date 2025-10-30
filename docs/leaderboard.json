@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T06:24:36.467032+00:00",
+  "last_updated": "2025-10-30T09:16:10.819113+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,7 +13,7 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1368,
+      "total_score": 1369,
       "score_breakdown": {
         "basic": 1214,
         "engagement": 24,
@@ -21,10 +21,10 @@
         "growth": 4
       },
       "metrics": {
-        "median_score": 2023,
-        "average_views": 1319,
+        "median_score": 2024,
+        "average_views": 1334,
         "average_likes": 9,
-        "avg_engagement": 0.8,
+        "avg_engagement": 0.81,
         "top3_avg": 2526,
         "max_single_views": 1969,
         "viral_video": {
@@ -52,19 +52,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1204,
+      "total_score": 1205,
       "score_breakdown": {
-        "basic": 1067,
+        "basic": 1069,
         "engagement": 22,
         "viral": 109,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1779,
-        "average_views": 1354,
+        "median_score": 1781,
+        "average_views": 1356,
         "average_likes": 10,
         "avg_engagement": 0.74,
-        "top3_avg": 2181,
+        "top3_avg": 2182,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -100,13 +100,13 @@
       },
       "metrics": {
         "median_score": 1810,
-        "average_views": 634,
+        "average_views": 636,
         "average_likes": 24,
         "avg_engagement": 3.7,
         "top3_avg": 0,
-        "max_single_views": 1249,
+        "max_single_views": 1251,
         "viral_video": {
-          "views": 1249,
+          "views": 1251,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -220,7 +220,7 @@
         "average_views": 793,
         "average_likes": 4,
         "avg_engagement": 0.5,
-        "top3_avg": 1848,
+        "top3_avg": 1849,
         "max_single_views": 1790,
         "viral_video": {
           "views": 1790,
