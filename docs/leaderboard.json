@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T09:16:10.819113+00:00",
+  "last_updated": "2025-10-30T12:36:27.160109+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,18 +13,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1369,
+      "total_score": 1396,
       "score_breakdown": {
-        "basic": 1214,
+        "basic": 1241,
         "engagement": 24,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2024,
-        "average_views": 1334,
+        "median_score": 2069,
+        "average_views": 1345,
         "average_likes": 9,
-        "avg_engagement": 0.81,
+        "avg_engagement": 0.8,
         "top3_avg": 2526,
         "max_single_views": 1969,
         "viral_video": {
@@ -35,7 +35,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.85,
+        "growth_ratio": 0.83,
         "video_count": 12,
         "total_video_count": 15,
         "subscriber_count": 37,
@@ -64,7 +64,7 @@
         "average_views": 1356,
         "average_likes": 10,
         "avg_engagement": 0.74,
-        "top3_avg": 2182,
+        "top3_avg": 2183,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -77,9 +77,9 @@
         "growth_ratio": 1.12,
         "video_count": 4,
         "total_video_count": 29,
-        "subscriber_count": 372,
-        "subscriber_change": 4,
-        "subscriber_change_percent": 1.1
+        "subscriber_count": 373,
+        "subscriber_change": 5,
+        "subscriber_change_percent": 1.4
       },
       "status": "success"
     },
@@ -288,20 +288,20 @@
       "badge_descriptions": {},
       "total_score": 319,
       "score_breakdown": {
-        "basic": 245,
-        "engagement": 74,
+        "basic": 246,
+        "engagement": 73,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 408,
+        "median_score": 410,
         "average_views": 184,
         "average_likes": 2,
-        "avg_engagement": 2.45,
+        "avg_engagement": 2.44,
         "top3_avg": 0,
-        "max_single_views": 241,
+        "max_single_views": 243,
         "viral_video": {
-          "views": 241,
+          "views": 243,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
