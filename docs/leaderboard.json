@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T01:05:55.418297+00:00",
+  "last_updated": "2025-10-30T03:39:08.135127+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,22 +13,22 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1366,
+      "total_score": 1368,
       "score_breakdown": {
         "basic": 1214,
-        "engagement": 22,
+        "engagement": 24,
         "viral": 126,
         "growth": 4
       },
       "metrics": {
         "median_score": 2023,
-        "average_views": 1286,
-        "average_likes": 8,
-        "avg_engagement": 0.74,
+        "average_views": 1297,
+        "average_likes": 9,
+        "avg_engagement": 0.79,
         "top3_avg": 2526,
-        "max_single_views": 1968,
+        "max_single_views": 1969,
         "viral_video": {
-          "views": 1968,
+          "views": 1969,
           "likes": 17,
           "comments": 0,
           "title": "내 고양이, 지금 행복한 걸까? 편안함의 신호 총정리 #고양이 #고양이브이로그#고양이행동 #랙돌 #cat #랙돌 #고양이일상 #랙돌고양이 #타입캐스트",
@@ -38,9 +38,9 @@
         "growth_ratio": 0.85,
         "video_count": 12,
         "total_video_count": 15,
-        "subscriber_count": 36,
-        "subscriber_change": 2,
-        "subscriber_change_percent": 5.9
+        "subscriber_count": 37,
+        "subscriber_change": 3,
+        "subscriber_change_percent": 8.8
       },
       "status": "success"
     },
@@ -52,7 +52,7 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1203,
+      "total_score": 1204,
       "score_breakdown": {
         "basic": 1067,
         "engagement": 22,
@@ -60,11 +60,11 @@
         "growth": 6
       },
       "metrics": {
-        "median_score": 1778,
-        "average_views": 1352,
+        "median_score": 1779,
+        "average_views": 1353,
         "average_likes": 10,
         "avg_engagement": 0.74,
-        "top3_avg": 2177,
+        "top3_avg": 2179,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -93,20 +93,20 @@
       "badge_descriptions": {},
       "total_score": 1197,
       "score_breakdown": {
-        "basic": 1085,
+        "basic": 1086,
         "engagement": 111,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1809,
+        "median_score": 1810,
         "average_views": 634,
         "average_likes": 24,
-        "avg_engagement": 3.71,
+        "avg_engagement": 3.7,
         "top3_avg": 0,
-        "max_single_views": 1248,
+        "max_single_views": 1249,
         "viral_video": {
-          "views": 1248,
+          "views": 1249,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
