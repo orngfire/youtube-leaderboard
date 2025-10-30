@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T03:39:08.135127+00:00",
+  "last_updated": "2025-10-30T06:24:36.467032+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,9 +22,9 @@
       },
       "metrics": {
         "median_score": 2023,
-        "average_views": 1297,
+        "average_views": 1319,
         "average_likes": 9,
-        "avg_engagement": 0.79,
+        "avg_engagement": 0.8,
         "top3_avg": 2526,
         "max_single_views": 1969,
         "viral_video": {
@@ -61,10 +61,10 @@
       },
       "metrics": {
         "median_score": 1779,
-        "average_views": 1353,
+        "average_views": 1354,
         "average_likes": 10,
         "avg_engagement": 0.74,
-        "top3_avg": 2179,
+        "top3_avg": 2181,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -130,7 +130,7 @@
       "channel_url": "https://www.youtube.com/@nana.imou22",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 982,
+      "total_score": 983,
       "score_breakdown": {
         "basic": 974,
         "engagement": 8,
@@ -138,14 +138,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 1623,
-        "average_views": 1423,
+        "median_score": 1624,
+        "average_views": 1424,
         "average_likes": 2,
         "avg_engagement": 0.28,
         "top3_avg": 0,
-        "max_single_views": 1423,
+        "max_single_views": 1424,
         "viral_video": {
-          "views": 1423,
+          "views": 1424,
           "likes": 2,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -181,7 +181,7 @@
         "average_views": 1016,
         "average_likes": 2,
         "avg_engagement": 0.21,
-        "top3_avg": 2613,
+        "top3_avg": 2612,
         "max_single_views": 2517,
         "viral_video": {
           "views": 2517,
@@ -295,13 +295,13 @@
       },
       "metrics": {
         "median_score": 408,
-        "average_views": 183,
+        "average_views": 184,
         "average_likes": 2,
-        "avg_engagement": 2.46,
+        "avg_engagement": 2.45,
         "top3_avg": 0,
-        "max_single_views": 240,
+        "max_single_views": 241,
         "viral_video": {
-          "views": 240,
+          "views": 241,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
