@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T18:29:42.016241+00:00",
+  "last_updated": "2025-10-30T21:22:49.658086+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1410,
+      "total_score": 1412,
       "score_breakdown": {
         "basic": 1250,
-        "engagement": 25,
-        "viral": 131,
+        "engagement": 24,
+        "viral": 134,
         "growth": 4
       },
       "metrics": {
         "median_score": 2082,
-        "average_views": 1364,
+        "average_views": 1389,
         "average_likes": 10,
-        "avg_engagement": 0.83,
-        "top3_avg": 2623,
+        "avg_engagement": 0.81,
+        "top3_avg": 2689,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -54,20 +54,20 @@
       "badge_descriptions": {},
       "total_score": 1197,
       "score_breakdown": {
-        "basic": 1086,
+        "basic": 1087,
         "engagement": 111,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1810,
+        "median_score": 1811,
         "average_views": 636,
         "average_likes": 24,
-        "avg_engagement": 3.7,
+        "avg_engagement": 3.69,
         "top3_avg": 0,
-        "max_single_views": 1251,
+        "max_single_views": 1252,
         "viral_video": {
-          "views": 1251,
+          "views": 1252,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -91,19 +91,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1015,
+      "total_score": 1092,
       "score_breakdown": {
-        "basic": 874,
-        "engagement": 25,
-        "viral": 109,
-        "growth": 7
+        "basic": 952,
+        "engagement": 22,
+        "viral": 111,
+        "growth": 6
       },
       "metrics": {
-        "median_score": 1456,
-        "average_views": 1176,
+        "median_score": 1587,
+        "average_views": 1313,
         "average_likes": 10,
-        "avg_engagement": 0.83,
-        "top3_avg": 2183,
+        "avg_engagement": 0.75,
+        "top3_avg": 2228,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -113,7 +113,7 @@
           "video_id": "5CXGCCuawKw",
           "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
         },
-        "growth_ratio": 1.37,
+        "growth_ratio": 1.25,
         "video_count": 5,
         "total_video_count": 30,
         "subscriber_count": 373,
