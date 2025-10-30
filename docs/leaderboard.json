@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T15:17:53.269004+00:00",
+  "last_updated": "2025-10-30T18:29:42.016241+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1405,
+      "total_score": 1410,
       "score_breakdown": {
         "basic": 1250,
         "engagement": 25,
-        "viral": 127,
+        "viral": 131,
         "growth": 4
       },
       "metrics": {
         "median_score": 2082,
-        "average_views": 1348,
+        "average_views": 1364,
         "average_likes": 10,
-        "avg_engagement": 0.82,
-        "top3_avg": 2530,
+        "avg_engagement": 0.83,
+        "top3_avg": 2623,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -38,9 +38,9 @@
         "growth_ratio": 0.82,
         "video_count": 12,
         "total_video_count": 15,
-        "subscriber_count": 37,
-        "subscriber_change": 3,
-        "subscriber_change_percent": 8.8
+        "subscriber_count": 38,
+        "subscriber_change": 4,
+        "subscriber_change_percent": 11.8
       },
       "status": "success"
     },
@@ -91,18 +91,18 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1013,
+      "total_score": 1015,
       "score_breakdown": {
-        "basic": 873,
-        "engagement": 24,
+        "basic": 874,
+        "engagement": 25,
         "viral": 109,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1455,
-        "average_views": 1244,
+        "median_score": 1456,
+        "average_views": 1176,
         "average_likes": 10,
-        "avg_engagement": 0.79,
+        "avg_engagement": 0.83,
         "top3_avg": 2183,
         "max_single_views": 1857,
         "viral_video": {
@@ -130,22 +130,22 @@
       "channel_url": "https://www.youtube.com/@nana.imou22",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 984,
+      "total_score": 982,
       "score_breakdown": {
-        "basic": 976,
+        "basic": 974,
         "engagement": 8,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1626,
-        "average_views": 1426,
+        "median_score": 1623,
+        "average_views": 1423,
         "average_likes": 2,
         "avg_engagement": 0.28,
         "top3_avg": 0,
-        "max_single_views": 1426,
+        "max_single_views": 1423,
         "viral_video": {
-          "views": 1426,
+          "views": 1423,
           "likes": 2,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -178,13 +178,13 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 1016,
+        "average_views": 1017,
         "average_likes": 2,
         "avg_engagement": 0.21,
-        "top3_avg": 2612,
-        "max_single_views": 2517,
+        "top3_avg": 2616,
+        "max_single_views": 2529,
         "viral_video": {
-          "views": 2517,
+          "views": 2529,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
@@ -217,10 +217,10 @@
       },
       "metrics": {
         "median_score": 831,
-        "average_views": 793,
+        "average_views": 794,
         "average_likes": 4,
         "avg_engagement": 0.5,
-        "top3_avg": 1849,
+        "top3_avg": 1850,
         "max_single_views": 1790,
         "viral_video": {
           "views": 1790,
