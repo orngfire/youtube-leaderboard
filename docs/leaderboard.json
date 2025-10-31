@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-31T03:40:11.609497+00:00",
+  "last_updated": "2025-10-31T06:24:59.995370+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,7 +13,7 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1395,
+      "total_score": 1396,
       "score_breakdown": {
         "basic": 1232,
         "engagement": 24,
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2054,
-        "average_views": 1352,
+        "average_views": 1362,
         "average_likes": 10,
         "avg_engagement": 0.81,
-        "top3_avg": 2693,
+        "top3_avg": 2710,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -104,9 +104,9 @@
         "average_likes": 10,
         "avg_engagement": 0.75,
         "top3_avg": 2229,
-        "max_single_views": 1857,
+        "max_single_views": 1856,
         "viral_video": {
-          "views": 1857,
+          "views": 1856,
           "likes": 5,
           "comments": 0,
           "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
