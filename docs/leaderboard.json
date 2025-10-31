@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-31T15:15:36.527464+00:00",
+  "last_updated": "2025-10-31T18:29:29.466473+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2116,
-        "average_views": 1403,
-        "average_likes": 10,
+        "average_views": 1416,
+        "average_likes": 11,
         "avg_engagement": 0.83,
-        "top3_avg": 2751,
+        "top3_avg": 2752,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -52,7 +52,7 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1197,
+      "total_score": 1198,
       "score_breakdown": {
         "basic": 1087,
         "engagement": 111,
@@ -60,14 +60,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 1811,
+        "median_score": 1812,
         "average_views": 636,
         "average_likes": 24,
         "avg_engagement": 3.69,
         "top3_avg": 0,
-        "max_single_views": 1252,
+        "max_single_views": 1253,
         "viral_video": {
-          "views": 1252,
+          "views": 1253,
           "likes": 47,
           "comments": 0,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -91,19 +91,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1095,
+      "total_score": 1094,
       "score_breakdown": {
-        "basic": 955,
+        "basic": 953,
         "engagement": 22,
         "viral": 112,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1592,
-        "average_views": 1315,
+        "median_score": 1589,
+        "average_views": 1314,
         "average_likes": 10,
         "avg_engagement": 0.75,
-        "top3_avg": 2232,
+        "top3_avg": 2231,
         "max_single_views": 1856,
         "viral_video": {
           "views": 1856,
@@ -212,7 +212,7 @@
       "score_breakdown": {
         "basic": 499,
         "engagement": 15,
-        "viral": 92,
+        "viral": 93,
         "growth": 4
       },
       "metrics": {
