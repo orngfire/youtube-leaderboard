@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T21:22:49.658086+00:00",
+  "last_updated": "2025-10-31T01:03:31.092708+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1412,
+      "total_score": 1396,
       "score_breakdown": {
-        "basic": 1250,
+        "basic": 1232,
         "engagement": 24,
-        "viral": 134,
+        "viral": 135,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2082,
-        "average_views": 1389,
+        "median_score": 2054,
+        "average_views": 1329,
         "average_likes": 10,
-        "avg_engagement": 0.81,
-        "top3_avg": 2689,
+        "avg_engagement": 0.82,
+        "top3_avg": 2691,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -35,9 +35,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.82,
-        "video_count": 12,
-        "total_video_count": 15,
+        "growth_ratio": 0.83,
+        "video_count": 13,
+        "total_video_count": 16,
         "subscriber_count": 38,
         "subscriber_change": 4,
         "subscriber_change_percent": 11.8
@@ -91,19 +91,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1092,
+      "total_score": 1093,
       "score_breakdown": {
-        "basic": 952,
+        "basic": 953,
         "engagement": 22,
         "viral": 111,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1587,
-        "average_views": 1313,
+        "median_score": 1589,
+        "average_views": 1314,
         "average_likes": 10,
         "avg_engagement": 0.75,
-        "top3_avg": 2228,
+        "top3_avg": 2229,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
