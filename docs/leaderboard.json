@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-01T15:13:19.523822+00:00",
+  "last_updated": "2025-11-01T18:25:20.143090+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,7 +13,7 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1442,
+      "total_score": 1443,
       "score_breakdown": {
         "basic": 1270,
         "engagement": 26,
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2116,
-        "average_views": 1426,
+        "average_views": 1429,
         "average_likes": 11,
         "avg_engagement": 0.85,
-        "top3_avg": 2859,
+        "top3_avg": 2867,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -52,24 +52,24 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1198,
+      "total_score": 1233,
       "score_breakdown": {
-        "basic": 1087,
-        "engagement": 111,
+        "basic": 1117,
+        "engagement": 115,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1812,
-        "average_views": 636,
+        "median_score": 1862,
+        "average_views": 637,
         "average_likes": 24,
-        "avg_engagement": 3.69,
+        "avg_engagement": 3.85,
         "top3_avg": 0,
-        "max_single_views": 1253,
+        "max_single_views": 1254,
         "viral_video": {
-          "views": 1253,
+          "views": 1254,
           "likes": 47,
-          "comments": 0,
+          "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
