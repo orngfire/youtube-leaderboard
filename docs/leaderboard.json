@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-02T15:13:54.166005+00:00",
+  "last_updated": "2025-11-02T18:24:36.403306+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -61,7 +61,7 @@
       },
       "metrics": {
         "median_score": 1590,
-        "average_views": 1315,
+        "average_views": 1316,
         "average_likes": 10,
         "avg_engagement": 0.76,
         "top3_avg": 2231,
@@ -223,16 +223,16 @@
       "total_score": 500,
       "score_breakdown": {
         "basic": 12,
-        "engagement": 115,
+        "engagement": 114,
         "viral": 62,
-        "growth": 311
+        "growth": 312
       },
       "metrics": {
         "median_score": 20,
-        "average_views": 426,
+        "average_views": 431,
         "average_likes": 16,
-        "avg_engagement": 3.83,
-        "top3_avg": 1243,
+        "avg_engagement": 3.79,
+        "top3_avg": 1248,
         "max_single_views": 1256,
         "viral_video": {
           "views": 1256,
@@ -242,7 +242,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 62.13,
+        "growth_ratio": 62.38,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 12,
