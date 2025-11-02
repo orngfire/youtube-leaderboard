@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-02T12:31:20.535662+00:00",
+  "last_updated": "2025-11-02T15:13:54.166005+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -46,45 +46,6 @@
     },
     {
       "rank": 2,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_name": "Vitaminute",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1233,
-      "score_breakdown": {
-        "basic": 1118,
-        "engagement": 115,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 1863,
-        "average_views": 638,
-        "average_likes": 24,
-        "avg_engagement": 3.84,
-        "top3_avg": 0,
-        "max_single_views": 1256,
-        "viral_video": {
-          "views": 1256,
-          "likes": 47,
-          "comments": 1,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 2,
-        "subscriber_count": 12,
-        "subscriber_change": 12,
-        "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 3,
       "name": "임동한",
       "channel_handle": "easyfood369",
       "channel_name": "알기쉬운음식궁합",
@@ -123,7 +84,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 3,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_name": "나나이모",
@@ -162,7 +123,7 @@
       "status": "success"
     },
     {
-      "rank": 5,
+      "rank": 4,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_name": "리로",
@@ -201,7 +162,7 @@
       "status": "success"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "name": "김하나",
       "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "channel_name": "차곡차곡 한뼘로그",
@@ -220,7 +181,7 @@
         "average_views": 794,
         "average_likes": 4,
         "avg_engagement": 0.5,
-        "top3_avg": 1851,
+        "top3_avg": 1852,
         "max_single_views": 1790,
         "viral_video": {
           "views": 1790,
@@ -236,6 +197,57 @@
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_name": "Vitaminute",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [
+        "🔥",
+        "📈"
+      ],
+      "badge_descriptions": {
+        "🔥": {
+          "name": "바이럴 메이커",
+          "message": "히트 영상을 만들어내는 감각이 있으시네요 🚀"
+        },
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 500,
+      "score_breakdown": {
+        "basic": 12,
+        "engagement": 115,
+        "viral": 62,
+        "growth": 311
+      },
+      "metrics": {
+        "median_score": 20,
+        "average_views": 426,
+        "average_likes": 16,
+        "avg_engagement": 3.83,
+        "top3_avg": 1243,
+        "max_single_views": 1256,
+        "viral_video": {
+          "views": 1256,
+          "likes": 47,
+          "comments": 1,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 62.13,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 12,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 0
       },
       "status": "success"
     },
