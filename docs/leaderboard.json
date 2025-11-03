@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-03T03:46:18.222736+00:00",
+  "last_updated": "2025-11-03T06:26:27.153179+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,18 +13,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1411,
+      "total_score": 1412,
       "score_breakdown": {
         "basic": 1235,
-        "engagement": 26,
+        "engagement": 27,
         "viral": 146,
         "growth": 4
       },
       "metrics": {
         "median_score": 2059,
-        "average_views": 1314,
-        "average_likes": 10,
-        "avg_engagement": 0.88,
+        "average_views": 1320,
+        "average_likes": 11,
+        "avg_engagement": 0.89,
         "top3_avg": 2910,
         "max_single_views": 1969,
         "viral_video": {
@@ -259,19 +259,19 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 450,
+      "total_score": 371,
       "score_breakdown": {
-        "basic": 14,
-        "engagement": 113,
-        "viral": 62,
-        "growth": 260
+        "basic": 22,
+        "engagement": 112,
+        "viral": 63,
+        "growth": 174
       },
       "metrics": {
-        "median_score": 24,
-        "average_views": 433,
+        "median_score": 36,
+        "average_views": 437,
         "average_likes": 16,
-        "avg_engagement": 3.77,
-        "top3_avg": 1250,
+        "avg_engagement": 3.73,
+        "top3_avg": 1254,
         "max_single_views": 1256,
         "viral_video": {
           "views": 1256,
@@ -281,7 +281,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 52.08,
+        "growth_ratio": 34.83,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 12,
