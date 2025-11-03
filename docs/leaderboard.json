@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-03T09:17:57.938530+00:00",
+  "last_updated": "2025-11-03T12:37:22.719822+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,18 +13,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1411,
+      "total_score": 1446,
       "score_breakdown": {
-        "basic": 1235,
-        "engagement": 26,
+        "basic": 1270,
+        "engagement": 27,
         "viral": 146,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2059,
-        "average_views": 1337,
+        "median_score": 2116,
+        "average_views": 1357,
         "average_likes": 11,
-        "avg_engagement": 0.88,
+        "avg_engagement": 0.89,
         "top3_avg": 2910,
         "max_single_views": 1969,
         "viral_video": {
@@ -35,7 +35,7 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.83,
+        "growth_ratio": 0.81,
         "video_count": 15,
         "total_video_count": 18,
         "subscriber_count": 42,
@@ -241,6 +241,52 @@
     },
     {
       "rank": 7,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_name": "Vitaminute",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 419,
+      "score_breakdown": {
+        "basic": 215,
+        "engagement": 117,
+        "viral": 68,
+        "growth": 19
+      },
+      "metrics": {
+        "median_score": 359,
+        "average_views": 462,
+        "average_likes": 17,
+        "avg_engagement": 3.9,
+        "top3_avg": 1362,
+        "max_single_views": 1256,
+        "viral_video": {
+          "views": 1256,
+          "likes": 47,
+          "comments": 1,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 3.79,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 12,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 8,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_name": "Desde Seúl",
@@ -256,13 +302,13 @@
       },
       "metrics": {
         "median_score": 410,
-        "average_views": 184,
+        "average_views": 185,
         "average_likes": 2,
-        "avg_engagement": 2.44,
+        "avg_engagement": 2.43,
         "top3_avg": 0,
-        "max_single_views": 243,
+        "max_single_views": 244,
         "viral_video": {
-          "views": 243,
+          "views": 244,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
@@ -275,52 +321,6 @@
         "subscriber_count": 8,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 8,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_name": "Vitaminute",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [
-        "📈"
-      ],
-      "badge_descriptions": {
-        "📈": {
-          "name": "성장 로켓",
-          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
-        }
-      },
-      "total_score": 316,
-      "score_breakdown": {
-        "basic": 96,
-        "engagement": 115,
-        "viral": 65,
-        "growth": 40
-      },
-      "metrics": {
-        "median_score": 160,
-        "average_views": 445,
-        "average_likes": 16,
-        "avg_engagement": 3.82,
-        "top3_avg": 1295,
-        "max_single_views": 1256,
-        "viral_video": {
-          "views": 1256,
-          "likes": 47,
-          "comments": 1,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
-        },
-        "growth_ratio": 8.1,
-        "video_count": 3,
-        "total_video_count": 3,
-        "subscriber_count": 12,
-        "subscriber_change": 12,
-        "subscriber_change_percent": 0
       },
       "status": "success"
     },
