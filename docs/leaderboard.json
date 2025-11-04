@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T12:38:52.219923+00:00",
+  "last_updated": "2025-11-04T14:02:55.922338+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -63,7 +63,7 @@
       "score_breakdown": {
         "basic": 1252,
         "engagement": 27,
-        "viral": 146,
+        "viral": 147,
         "growth": 4
       },
       "metrics": {
