@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-03T21:23:44.513515+00:00",
+  "last_updated": "2025-11-04T01:04:17.101710+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,25 +7,64 @@
   "leaderboard": [
     {
       "rank": 1,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_name": "Vitaminute",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1673,
+      "score_breakdown": {
+        "basic": 1441,
+        "engagement": 125,
+        "viral": 102,
+        "growth": 4
+      },
+      "metrics": {
+        "median_score": 2402,
+        "average_views": 662,
+        "average_likes": 27,
+        "avg_engagement": 4.18,
+        "top3_avg": 2046,
+        "max_single_views": 1259,
+        "viral_video": {
+          "views": 1259,
+          "likes": 47,
+          "comments": 1,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 0.85,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 18,
+        "subscriber_change": 18,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 2,
       "name": "김수정",
       "channel_handle": "kokonyang-p6l",
       "channel_name": "고양이 짧지",
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1447,
+      "total_score": 1430,
       "score_breakdown": {
-        "basic": 1270,
+        "basic": 1252,
         "engagement": 27,
-        "viral": 146,
+        "viral": 147,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2116,
-        "average_views": 1371,
+        "median_score": 2088,
+        "average_views": 1336,
         "average_likes": 11,
-        "avg_engagement": 0.88,
-        "top3_avg": 2929,
+        "avg_engagement": 0.91,
+        "top3_avg": 2931,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -35,51 +74,12 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.81,
-        "video_count": 15,
-        "total_video_count": 18,
+        "growth_ratio": 0.82,
+        "video_count": 16,
+        "total_video_count": 19,
         "subscriber_count": 43,
         "subscriber_change": 9,
         "subscriber_change_percent": 26.5
-      },
-      "status": "success"
-    },
-    {
-      "rank": 2,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_name": "Vitaminute",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1186,
-      "score_breakdown": {
-        "basic": 973,
-        "engagement": 118,
-        "viral": 89,
-        "growth": 6
-      },
-      "metrics": {
-        "median_score": 1621,
-        "average_views": 601,
-        "average_likes": 23,
-        "avg_engagement": 3.94,
-        "top3_avg": 1784,
-        "max_single_views": 1255,
-        "viral_video": {
-          "views": 1255,
-          "likes": 47,
-          "comments": 1,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
-        },
-        "growth_ratio": 1.1,
-        "video_count": 3,
-        "total_video_count": 3,
-        "subscriber_count": 17,
-        "subscriber_change": 17,
-        "subscriber_change_percent": 0
       },
       "status": "success"
     },
