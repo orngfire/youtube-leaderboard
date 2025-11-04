@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T14:02:55.922338+00:00",
+  "last_updated": "2025-11-04T15:18:48.383109+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2046,
+      "total_score": 2079,
       "score_breakdown": {
-        "basic": 1816,
-        "engagement": 113,
+        "basic": 1846,
+        "engagement": 114,
         "viral": 114,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3027,
+        "median_score": 3077,
         "average_views": 788,
         "average_likes": 29,
-        "avg_engagement": 3.76,
-        "top3_avg": 2271,
+        "avg_engagement": 3.81,
+        "top3_avg": 2288,
         "max_single_views": 1261,
         "viral_video": {
           "views": 1261,
@@ -42,7 +42,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 0.75,
+        "growth_ratio": 0.74,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 18,
@@ -98,19 +98,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1095,
+      "total_score": 1055,
       "score_breakdown": {
-        "basic": 955,
-        "engagement": 23,
+        "basic": 908,
+        "engagement": 28,
         "viral": 112,
-        "growth": 6
+        "growth": 7
       },
       "metrics": {
-        "median_score": 1591,
-        "average_views": 1317,
+        "median_score": 1514,
+        "average_views": 1042,
         "average_likes": 10,
-        "avg_engagement": 0.76,
-        "top3_avg": 2233,
+        "avg_engagement": 0.92,
+        "top3_avg": 2249,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -120,12 +120,12 @@
           "video_id": "5CXGCCuawKw",
           "url": "https://www.youtube.com/watch?v=5CXGCCuawKw"
         },
-        "growth_ratio": 1.25,
-        "video_count": 5,
-        "total_video_count": 30,
-        "subscriber_count": 374,
-        "subscriber_change": 6,
-        "subscriber_change_percent": 1.6
+        "growth_ratio": 1.33,
+        "video_count": 7,
+        "total_video_count": 32,
+        "subscriber_count": 376,
+        "subscriber_change": 8,
+        "subscriber_change_percent": 2.2
       },
       "status": "success"
     },
