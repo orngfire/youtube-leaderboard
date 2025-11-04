@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T06:25:37.409062+00:00",
+  "last_updated": "2025-11-04T09:16:57.762562+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2041,
+      "total_score": 2046,
       "score_breakdown": {
-        "basic": 1810,
+        "basic": 1816,
         "engagement": 113,
-        "viral": 113,
+        "viral": 114,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3017,
-        "average_views": 785,
+        "median_score": 3027,
+        "average_views": 788,
         "average_likes": 29,
-        "avg_engagement": 3.78,
-        "top3_avg": 2268,
+        "avg_engagement": 3.76,
+        "top3_avg": 2271,
         "max_single_views": 1261,
         "viral_video": {
           "views": 1261,
