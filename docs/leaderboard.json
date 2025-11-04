@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T15:18:48.383109+00:00",
+  "last_updated": "2025-11-04T18:30:11.008076+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2079,
+      "total_score": 2080,
       "score_breakdown": {
-        "basic": 1846,
+        "basic": 1847,
         "engagement": 114,
         "viral": 114,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3077,
-        "average_views": 788,
+        "median_score": 3079,
+        "average_views": 789,
         "average_likes": 29,
-        "avg_engagement": 3.81,
-        "top3_avg": 2288,
-        "max_single_views": 1261,
+        "avg_engagement": 3.8,
+        "top3_avg": 2289,
+        "max_single_views": 1262,
         "viral_video": {
-          "views": 1261,
+          "views": 1262,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -71,7 +71,7 @@
         "average_views": 1360,
         "average_likes": 11,
         "avg_engagement": 0.89,
-        "top3_avg": 2930,
+        "top3_avg": 2931,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -100,17 +100,17 @@
       "badge_descriptions": {},
       "total_score": 1055,
       "score_breakdown": {
-        "basic": 908,
-        "engagement": 28,
-        "viral": 112,
+        "basic": 909,
+        "engagement": 27,
+        "viral": 113,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1514,
-        "average_views": 1042,
+        "median_score": 1515,
+        "average_views": 1064,
         "average_likes": 10,
-        "avg_engagement": 0.92,
-        "top3_avg": 2249,
+        "avg_engagement": 0.9,
+        "top3_avg": 2251,
         "max_single_views": 1857,
         "viral_video": {
           "views": 1857,
@@ -266,10 +266,10 @@
         "average_views": 735,
         "average_likes": 4,
         "avg_engagement": 0.54,
-        "top3_avg": 2259,
-        "max_single_views": 2354,
+        "top3_avg": 2260,
+        "max_single_views": 2355,
         "viral_video": {
-          "views": 2354,
+          "views": 2355,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
