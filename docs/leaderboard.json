@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T18:30:04.962323+00:00",
+  "last_updated": "2025-11-05T21:24:35.116067+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2121,
+      "total_score": 2128,
       "score_breakdown": {
-        "basic": 1888,
+        "basic": 1895,
         "engagement": 114,
         "viral": 116,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3146,
-        "average_views": 796,
+        "median_score": 3158,
+        "average_views": 800,
         "average_likes": 30,
-        "avg_engagement": 3.81,
-        "top3_avg": 2313,
+        "avg_engagement": 3.79,
+        "top3_avg": 2317,
         "max_single_views": 1267,
         "viral_video": {
           "views": 1267,
@@ -42,7 +42,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 0.74,
+        "growth_ratio": 0.73,
         "video_count": 3,
         "total_video_count": 2,
         "subscriber_count": 18,
@@ -98,22 +98,22 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1122,
+      "total_score": 1132,
       "score_breakdown": {
         "basic": 940,
-        "engagement": 27,
-        "viral": 149,
+        "engagement": 25,
+        "viral": 161,
         "growth": 7
       },
       "metrics": {
         "median_score": 1566,
-        "average_views": 1205,
+        "average_views": 1284,
         "average_likes": 11,
-        "avg_engagement": 0.89,
-        "top3_avg": 2981,
-        "max_single_views": 2780,
+        "avg_engagement": 0.84,
+        "top3_avg": 3217,
+        "max_single_views": 3489,
         "viral_video": {
-          "views": 2780,
+          "views": 3489,
           "likes": 18,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
