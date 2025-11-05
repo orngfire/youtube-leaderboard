@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T21:24:08.637953+00:00",
+  "last_updated": "2025-11-05T01:05:42.614485+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2081,
+      "total_score": 2086,
       "score_breakdown": {
-        "basic": 1849,
-        "engagement": 114,
-        "viral": 114,
+        "basic": 1855,
+        "engagement": 113,
+        "viral": 115,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3081,
-        "average_views": 790,
+        "median_score": 3091,
+        "average_views": 794,
         "average_likes": 29,
-        "avg_engagement": 3.8,
-        "top3_avg": 2290,
-        "max_single_views": 1263,
+        "avg_engagement": 3.78,
+        "top3_avg": 2294,
+        "max_single_views": 1266,
         "viral_video": {
-          "views": 1263,
+          "views": 1266,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -59,17 +59,17 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1430,
+      "total_score": 1413,
       "score_breakdown": {
-        "basic": 1252,
+        "basic": 1235,
         "engagement": 27,
         "viral": 147,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2088,
-        "average_views": 1360,
-        "average_likes": 11,
+        "median_score": 2059,
+        "average_views": 1280,
+        "average_likes": 10,
         "avg_engagement": 0.89,
         "top3_avg": 2931,
         "max_single_views": 1969,
@@ -81,9 +81,9 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.82,
-        "video_count": 16,
-        "total_video_count": 19,
+        "growth_ratio": 0.83,
+        "video_count": 17,
+        "total_video_count": 20,
         "subscriber_count": 43,
         "subscriber_change": 9,
         "subscriber_change_percent": 26.5
@@ -107,13 +107,13 @@
       },
       "metrics": {
         "median_score": 1515,
-        "average_views": 1088,
+        "average_views": 1089,
         "average_likes": 10,
         "avg_engagement": 0.88,
-        "top3_avg": 2251,
-        "max_single_views": 1857,
+        "top3_avg": 2252,
+        "max_single_views": 1858,
         "viral_video": {
-          "views": 1857,
+          "views": 1858,
           "likes": 5,
           "comments": 0,
           "title": "혈당 낮추는 습관, 당뇨에 좋은 음식",
@@ -123,9 +123,9 @@
         "growth_ratio": 1.33,
         "video_count": 7,
         "total_video_count": 32,
-        "subscriber_count": 376,
-        "subscriber_change": 8,
-        "subscriber_change_percent": 2.2
+        "subscriber_count": 375,
+        "subscriber_change": 7,
+        "subscriber_change_percent": 1.9
       },
       "status": "success"
     },
