@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T03:41:03.404789+00:00",
+  "last_updated": "2025-11-05T06:25:10.229426+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2089,
+      "total_score": 2086,
       "score_breakdown": {
-        "basic": 1858,
+        "basic": 1854,
         "engagement": 113,
         "viral": 115,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3096,
-        "average_views": 796,
+        "median_score": 3090,
+        "average_views": 793,
         "average_likes": 29,
-        "avg_engagement": 3.77,
-        "top3_avg": 2296,
-        "max_single_views": 1265,
+        "avg_engagement": 3.78,
+        "top3_avg": 2293,
+        "max_single_views": 1263,
         "viral_video": {
-          "views": 1265,
+          "views": 1263,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -44,7 +44,7 @@
         },
         "growth_ratio": 0.74,
         "video_count": 3,
-        "total_video_count": 3,
+        "total_video_count": 2,
         "subscriber_count": 18,
         "subscriber_change": 18,
         "subscriber_change_percent": 0
@@ -68,10 +68,10 @@
       },
       "metrics": {
         "median_score": 2059,
-        "average_views": 1280,
+        "average_views": 1281,
         "average_likes": 10,
         "avg_engagement": 0.89,
-        "top3_avg": 2931,
+        "top3_avg": 2930,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -147,7 +147,7 @@
       "total_score": 914,
       "score_breakdown": {
         "basic": 767,
-        "engagement": 27,
+        "engagement": 26,
         "viral": 113,
         "growth": 8
       },
@@ -155,7 +155,7 @@
         "median_score": 1278,
         "average_views": 996,
         "average_likes": 9,
-        "avg_engagement": 0.89,
+        "avg_engagement": 0.88,
         "top3_avg": 2252,
         "max_single_views": 1858,
         "viral_video": {
