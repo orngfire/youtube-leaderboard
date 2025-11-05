@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T12:36:43.143030+00:00",
+  "last_updated": "2025-11-05T15:17:21.590090+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2088,
+      "total_score": 2121,
       "score_breakdown": {
-        "basic": 1856,
-        "engagement": 113,
-        "viral": 115,
+        "basic": 1888,
+        "engagement": 114,
+        "viral": 116,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3094,
+        "median_score": 3146,
         "average_views": 796,
-        "average_likes": 29,
-        "avg_engagement": 3.77,
-        "top3_avg": 2296,
+        "average_likes": 30,
+        "avg_engagement": 3.81,
+        "top3_avg": 2313,
         "max_single_views": 1267,
         "viral_video": {
           "views": 1267,
@@ -62,15 +62,15 @@
       "total_score": 1413,
       "score_breakdown": {
         "basic": 1235,
-        "engagement": 27,
+        "engagement": 26,
         "viral": 147,
         "growth": 4
       },
       "metrics": {
         "median_score": 2059,
-        "average_views": 1289,
+        "average_views": 1295,
         "average_likes": 10,
-        "avg_engagement": 0.89,
+        "avg_engagement": 0.88,
         "top3_avg": 2930,
         "max_single_views": 1969,
         "viral_video": {
@@ -274,9 +274,9 @@
         "average_likes": 4,
         "avg_engagement": 0.54,
         "top3_avg": 2260,
-        "max_single_views": 2355,
+        "max_single_views": 2356,
         "viral_video": {
-          "views": 2355,
+          "views": 2356,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
