@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T09:16:40.303019+00:00",
+  "last_updated": "2025-11-05T12:36:43.143030+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2086,
+      "total_score": 2088,
       "score_breakdown": {
-        "basic": 1854,
+        "basic": 1856,
         "engagement": 113,
         "viral": 115,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3090,
-        "average_views": 793,
+        "median_score": 3094,
+        "average_views": 796,
         "average_likes": 29,
-        "avg_engagement": 3.78,
-        "top3_avg": 2293,
-        "max_single_views": 1264,
+        "avg_engagement": 3.77,
+        "top3_avg": 2296,
+        "max_single_views": 1267,
         "viral_video": {
-          "views": 1264,
+          "views": 1267,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -68,7 +68,7 @@
       },
       "metrics": {
         "median_score": 2059,
-        "average_views": 1282,
+        "average_views": 1289,
         "average_likes": 10,
         "avg_engagement": 0.89,
         "top3_avg": 2930,
@@ -146,17 +146,17 @@
       },
       "total_score": 914,
       "score_breakdown": {
-        "basic": 767,
+        "basic": 768,
         "engagement": 26,
         "viral": 113,
         "growth": 8
       },
       "metrics": {
-        "median_score": 1278,
-        "average_views": 1007,
+        "median_score": 1280,
+        "average_views": 1008,
         "average_likes": 9,
         "avg_engagement": 0.87,
-        "top3_avg": 2252,
+        "top3_avg": 2253,
         "max_single_views": 1858,
         "viral_video": {
           "views": 1858,
