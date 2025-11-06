@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T21:24:35.116067+00:00",
+  "last_updated": "2025-11-06T01:04:51.759190+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2128,
+      "total_score": 2131,
       "score_breakdown": {
-        "basic": 1895,
-        "engagement": 114,
+        "basic": 1898,
+        "engagement": 113,
         "viral": 116,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3158,
-        "average_views": 800,
+        "median_score": 3163,
+        "average_views": 802,
         "average_likes": 30,
-        "avg_engagement": 3.79,
-        "top3_avg": 2317,
+        "avg_engagement": 3.78,
+        "top3_avg": 2319,
         "max_single_views": 1267,
         "viral_video": {
           "views": 1267,
@@ -59,18 +59,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1412,
+      "total_score": 1413,
       "score_breakdown": {
-        "basic": 1235,
-        "engagement": 26,
+        "basic": 1234,
+        "engagement": 27,
         "viral": 147,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2059,
-        "average_views": 1300,
+        "median_score": 2058,
+        "average_views": 1246,
         "average_likes": 10,
-        "avg_engagement": 0.88,
+        "avg_engagement": 0.91,
         "top3_avg": 2930,
         "max_single_views": 1969,
         "viral_video": {
@@ -82,11 +82,11 @@
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
         "growth_ratio": 0.83,
-        "video_count": 17,
-        "total_video_count": 20,
-        "subscriber_count": 43,
-        "subscriber_change": 9,
-        "subscriber_change_percent": 26.5
+        "video_count": 18,
+        "total_video_count": 21,
+        "subscriber_count": 44,
+        "subscriber_change": 10,
+        "subscriber_change_percent": 29.4
       },
       "status": "success"
     },
@@ -98,23 +98,23 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1132,
+      "total_score": 1133,
       "score_breakdown": {
         "basic": 940,
         "engagement": 25,
-        "viral": 161,
+        "viral": 162,
         "growth": 7
       },
       "metrics": {
         "median_score": 1566,
-        "average_views": 1284,
+        "average_views": 1285,
         "average_likes": 11,
-        "avg_engagement": 0.84,
-        "top3_avg": 3217,
-        "max_single_views": 3489,
+        "avg_engagement": 0.85,
+        "top3_avg": 3236,
+        "max_single_views": 3496,
         "viral_video": {
-          "views": 3489,
-          "likes": 18,
+          "views": 3496,
+          "likes": 19,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
           "video_id": "vUsfFAGKLt4",
