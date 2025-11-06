@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T01:04:51.759190+00:00",
+  "last_updated": "2025-11-06T03:43:43.035339+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2131,
+      "total_score": 2137,
       "score_breakdown": {
-        "basic": 1898,
+        "basic": 1904,
         "engagement": 113,
         "viral": 116,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3163,
-        "average_views": 802,
+        "median_score": 3174,
+        "average_views": 806,
         "average_likes": 30,
-        "avg_engagement": 3.78,
-        "top3_avg": 2319,
-        "max_single_views": 1267,
+        "avg_engagement": 3.76,
+        "top3_avg": 2323,
+        "max_single_views": 1269,
         "viral_video": {
-          "views": 1267,
+          "views": 1269,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -45,8 +45,8 @@
         "growth_ratio": 0.73,
         "video_count": 3,
         "total_video_count": 2,
-        "subscriber_count": 18,
-        "subscriber_change": 18,
+        "subscriber_count": 19,
+        "subscriber_change": 19,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -59,18 +59,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1413,
+      "total_score": 1414,
       "score_breakdown": {
         "basic": 1234,
-        "engagement": 27,
+        "engagement": 29,
         "viral": 147,
         "growth": 4
       },
       "metrics": {
         "median_score": 2058,
-        "average_views": 1246,
-        "average_likes": 10,
-        "avg_engagement": 0.91,
+        "average_views": 1260,
+        "average_likes": 11,
+        "avg_engagement": 0.95,
         "top3_avg": 2930,
         "max_single_views": 1969,
         "viral_video": {
@@ -84,9 +84,9 @@
         "growth_ratio": 0.83,
         "video_count": 18,
         "total_video_count": 21,
-        "subscriber_count": 44,
-        "subscriber_change": 10,
-        "subscriber_change_percent": 29.4
+        "subscriber_count": 47,
+        "subscriber_change": 13,
+        "subscriber_change_percent": 38.2
       },
       "status": "success"
     },
@@ -267,9 +267,9 @@
         "average_likes": 4,
         "avg_engagement": 0.54,
         "top3_avg": 2260,
-        "max_single_views": 2356,
+        "max_single_views": 2355,
         "viral_video": {
-          "views": 2356,
+          "views": 2355,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
