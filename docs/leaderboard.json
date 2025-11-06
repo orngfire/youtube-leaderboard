@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T15:18:14.058951+00:00",
+  "last_updated": "2025-11-06T18:31:13.066932+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -33,9 +33,9 @@
         "average_likes": 30,
         "avg_engagement": 3.66,
         "top3_avg": 2346,
-        "max_single_views": 1270,
+        "max_single_views": 1271,
         "viral_video": {
-          "views": 1270,
+          "views": 1271,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -68,10 +68,10 @@
       },
       "metrics": {
         "median_score": 2088,
-        "average_views": 1298,
+        "average_views": 1299,
         "average_likes": 12,
         "avg_engagement": 0.95,
-        "top3_avg": 3006,
+        "top3_avg": 3007,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -170,52 +170,6 @@
     },
     {
       "rank": 5,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [
-        "💬"
-      ],
-      "badge_descriptions": {
-        "💬": {
-          "name": "인게이지먼트 킹",
-          "message": "진짜 팬을 만드는 능력자!"
-        }
-      },
-      "total_score": 815,
-      "score_breakdown": {
-        "basic": 65,
-        "engagement": 750,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 108,
-        "average_views": 8,
-        "average_likes": 2,
-        "avg_engagement": 25.0,
-        "top3_avg": 0,
-        "max_single_views": 8,
-        "viral_video": {
-          "views": 8,
-          "likes": 2,
-          "comments": 0,
-          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
-          "video_id": "Viy8RFl2xu0",
-          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
-        },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 26,
-        "subscriber_count": 109,
-        "subscriber_change": -1,
-        "subscriber_change_percent": -0.9
-      },
-      "status": "success"
-    },
-    {
-      "rank": 6,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_name": "리로",
@@ -231,7 +185,7 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 1017,
+        "average_views": 1018,
         "average_likes": 2,
         "avg_engagement": 0.21,
         "top3_avg": 2616,
@@ -250,6 +204,52 @@
         "subscriber_count": 7,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [
+        "💬"
+      ],
+      "badge_descriptions": {
+        "💬": {
+          "name": "인게이지먼트 킹",
+          "message": "진짜 팬을 만드는 능력자!"
+        }
+      },
+      "total_score": 666,
+      "score_breakdown": {
+        "basic": 66,
+        "engagement": 600,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 110,
+        "average_views": 10,
+        "average_likes": 2,
+        "avg_engagement": 20.0,
+        "top3_avg": 0,
+        "max_single_views": 10,
+        "viral_video": {
+          "views": 10,
+          "likes": 2,
+          "comments": 0,
+          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
+          "video_id": "Viy8RFl2xu0",
+          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 26,
+        "subscriber_count": 109,
+        "subscriber_change": -1,
+        "subscriber_change_percent": -0.9
       },
       "status": "success"
     },
@@ -302,14 +302,14 @@
       "badge_descriptions": {},
       "total_score": 459,
       "score_breakdown": {
-        "basic": 327,
+        "basic": 328,
         "engagement": 16,
         "viral": 113,
         "growth": 3
       },
       "metrics": {
-        "median_score": 544,
-        "average_views": 735,
+        "median_score": 546,
+        "average_views": 736,
         "average_likes": 4,
         "avg_engagement": 0.54,
         "top3_avg": 2260,
@@ -322,7 +322,7 @@
           "video_id": "1Shc4zjRj-g",
           "url": "https://www.youtube.com/watch?v=1Shc4zjRj-g"
         },
-        "growth_ratio": 0.51,
+        "growth_ratio": 0.5,
         "video_count": 12,
         "total_video_count": 12,
         "subscriber_count": 6,
