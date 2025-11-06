@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T06:25:32.123786+00:00",
+  "last_updated": "2025-11-06T09:16:30.246206+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2146,
+      "total_score": 2152,
       "score_breakdown": {
-        "basic": 1913,
+        "basic": 1921,
         "engagement": 112,
-        "viral": 116,
+        "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3189,
-        "average_views": 812,
+        "median_score": 3201,
+        "average_views": 816,
         "average_likes": 30,
-        "avg_engagement": 3.74,
-        "top3_avg": 2328,
+        "avg_engagement": 3.72,
+        "top3_avg": 2332,
         "max_single_views": 1270,
         "viral_video": {
           "views": 1270,
@@ -59,19 +59,19 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1432,
+      "total_score": 1436,
       "score_breakdown": {
         "basic": 1252,
         "engagement": 29,
-        "viral": 147,
+        "viral": 151,
         "growth": 4
       },
       "metrics": {
         "median_score": 2088,
-        "average_views": 1279,
+        "average_views": 1298,
         "average_likes": 12,
-        "avg_engagement": 0.98,
-        "top3_avg": 2930,
+        "avg_engagement": 0.96,
+        "top3_avg": 3022,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -84,9 +84,9 @@
         "growth_ratio": 0.82,
         "video_count": 18,
         "total_video_count": 21,
-        "subscriber_count": 46,
-        "subscriber_change": 12,
-        "subscriber_change_percent": 35.3
+        "subscriber_count": 47,
+        "subscriber_change": 13,
+        "subscriber_change_percent": 38.2
       },
       "status": "success"
     },
@@ -170,6 +170,52 @@
     },
     {
       "rank": 5,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [
+        "💬"
+      ],
+      "badge_descriptions": {
+        "💬": {
+          "name": "인게이지먼트 킹",
+          "message": "진짜 팬을 만드는 능력자!"
+        }
+      },
+      "total_score": 782,
+      "score_breakdown": {
+        "basic": 32,
+        "engagement": 750,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 54,
+        "average_views": 4,
+        "average_likes": 1,
+        "avg_engagement": 25.0,
+        "top3_avg": 0,
+        "max_single_views": 4,
+        "viral_video": {
+          "views": 4,
+          "likes": 1,
+          "comments": 0,
+          "title": "보험료만 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
+          "video_id": "Viy8RFl2xu0",
+          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 26,
+        "subscriber_count": 109,
+        "subscriber_change": -1,
+        "subscriber_change_percent": -0.9
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_name": "리로",
@@ -208,7 +254,7 @@
       "status": "success"
     },
     {
-      "rank": 6,
+      "rank": 7,
       "name": "김하나",
       "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "channel_name": "차곡차곡 한뼘로그",
@@ -247,7 +293,7 @@
       "status": "success"
     },
     {
-      "rank": 7,
+      "rank": 8,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_name": "마음에듀",
@@ -286,7 +332,7 @@
       "status": "success"
     },
     {
-      "rank": 8,
+      "rank": 9,
       "name": "조한준",
       "channel_handle": "Desde_Seúl",
       "channel_name": "Desde Seúl",
@@ -325,7 +371,7 @@
       "status": "success"
     },
     {
-      "rank": 9,
+      "rank": 10,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
       "channel_name": "IQ160 건강깡패",
@@ -364,7 +410,7 @@
       "status": "success"
     },
     {
-      "rank": 10,
+      "rank": 11,
       "name": "서혜리",
       "channel_handle": "quick_bite_english",
       "channel_name": "Quick Bite English",
@@ -403,7 +449,7 @@
       "status": "success"
     },
     {
-      "rank": 11,
+      "rank": 12,
       "name": "김태수",
       "channel_handle": "techshortupdates",
       "channel_name": "Tech Short Updates",
@@ -438,45 +484,6 @@
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 12,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 25,
-        "subscriber_count": 109,
-        "subscriber_change": -1,
-        "subscriber_change_percent": -0.9
       },
       "status": "success"
     },
