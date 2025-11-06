@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T12:36:40.674882+00:00",
+  "last_updated": "2025-11-06T15:18:14.058951+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2172,
+      "total_score": 2175,
       "score_breakdown": {
-        "basic": 1941,
+        "basic": 1945,
         "engagement": 110,
         "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3235,
-        "average_views": 827,
+        "median_score": 3241,
+        "average_views": 829,
         "average_likes": 30,
-        "avg_engagement": 3.67,
-        "top3_avg": 2344,
+        "avg_engagement": 3.66,
+        "top3_avg": 2346,
         "max_single_views": 1270,
         "viral_video": {
           "views": 1270,
@@ -107,7 +107,7 @@
       },
       "metrics": {
         "median_score": 1566,
-        "average_views": 1280,
+        "average_views": 1281,
         "average_likes": 11,
         "avg_engagement": 0.85,
         "top3_avg": 3236,
@@ -183,23 +183,23 @@
           "message": "진짜 팬을 만드는 능력자!"
         }
       },
-      "total_score": 782,
+      "total_score": 815,
       "score_breakdown": {
-        "basic": 32,
+        "basic": 65,
         "engagement": 750,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 54,
-        "average_views": 4,
-        "average_likes": 1,
+        "median_score": 108,
+        "average_views": 8,
+        "average_likes": 2,
         "avg_engagement": 25.0,
         "top3_avg": 0,
-        "max_single_views": 4,
+        "max_single_views": 8,
         "viral_video": {
-          "views": 4,
-          "likes": 1,
+          "views": 8,
+          "likes": 2,
           "comments": 0,
           "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
           "video_id": "Viy8RFl2xu0",
