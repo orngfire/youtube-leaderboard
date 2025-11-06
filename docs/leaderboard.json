@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T09:16:30.246206+00:00",
+  "last_updated": "2025-11-06T12:36:40.674882+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,19 +20,19 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2152,
+      "total_score": 2172,
       "score_breakdown": {
-        "basic": 1921,
-        "engagement": 112,
+        "basic": 1941,
+        "engagement": 110,
         "viral": 117,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3201,
-        "average_views": 816,
+        "median_score": 3235,
+        "average_views": 827,
         "average_likes": 30,
-        "avg_engagement": 3.72,
-        "top3_avg": 2332,
+        "avg_engagement": 3.67,
+        "top3_avg": 2344,
         "max_single_views": 1270,
         "viral_video": {
           "views": 1270,
@@ -42,7 +42,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 0.73,
+        "growth_ratio": 0.72,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 20,
@@ -63,15 +63,15 @@
       "score_breakdown": {
         "basic": 1252,
         "engagement": 29,
-        "viral": 151,
+        "viral": 150,
         "growth": 4
       },
       "metrics": {
         "median_score": 2088,
         "average_views": 1298,
         "average_likes": 12,
-        "avg_engagement": 0.96,
-        "top3_avg": 3022,
+        "avg_engagement": 0.95,
+        "top3_avg": 3006,
         "max_single_views": 1969,
         "viral_video": {
           "views": 1969,
@@ -84,9 +84,9 @@
         "growth_ratio": 0.82,
         "video_count": 18,
         "total_video_count": 21,
-        "subscriber_count": 47,
-        "subscriber_change": 13,
-        "subscriber_change_percent": 38.2
+        "subscriber_count": 46,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 35.3
       },
       "status": "success"
     },
@@ -201,7 +201,7 @@
           "views": 4,
           "likes": 1,
           "comments": 0,
-          "title": "보험료만 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
+          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
           "video_id": "Viy8RFl2xu0",
           "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
         },
