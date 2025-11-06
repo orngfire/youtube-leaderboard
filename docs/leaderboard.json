@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T03:43:43.035339+00:00",
+  "last_updated": "2025-11-06T06:25:32.123786+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -20,22 +20,22 @@
           "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
         }
       },
-      "total_score": 2137,
+      "total_score": 2146,
       "score_breakdown": {
-        "basic": 1904,
-        "engagement": 113,
+        "basic": 1913,
+        "engagement": 112,
         "viral": 116,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3174,
-        "average_views": 806,
+        "median_score": 3189,
+        "average_views": 812,
         "average_likes": 30,
-        "avg_engagement": 3.76,
-        "top3_avg": 2323,
-        "max_single_views": 1269,
+        "avg_engagement": 3.74,
+        "top3_avg": 2328,
+        "max_single_views": 1270,
         "viral_video": {
-          "views": 1269,
+          "views": 1270,
           "likes": 48,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -44,9 +44,9 @@
         },
         "growth_ratio": 0.73,
         "video_count": 3,
-        "total_video_count": 2,
-        "subscriber_count": 19,
-        "subscriber_change": 19,
+        "total_video_count": 3,
+        "subscriber_count": 20,
+        "subscriber_change": 20,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -59,18 +59,18 @@
       "channel_url": "https://www.youtube.com/@kokonyang-p6l",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1414,
+      "total_score": 1432,
       "score_breakdown": {
-        "basic": 1234,
+        "basic": 1252,
         "engagement": 29,
         "viral": 147,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2058,
-        "average_views": 1260,
-        "average_likes": 11,
-        "avg_engagement": 0.95,
+        "median_score": 2088,
+        "average_views": 1279,
+        "average_likes": 12,
+        "avg_engagement": 0.98,
         "top3_avg": 2930,
         "max_single_views": 1969,
         "viral_video": {
@@ -81,12 +81,12 @@
           "video_id": "iBaljmM5-TU",
           "url": "https://www.youtube.com/watch?v=iBaljmM5-TU"
         },
-        "growth_ratio": 0.83,
+        "growth_ratio": 0.82,
         "video_count": 18,
         "total_video_count": 21,
-        "subscriber_count": 47,
-        "subscriber_change": 13,
-        "subscriber_change_percent": 38.2
+        "subscriber_count": 46,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 35.3
       },
       "status": "success"
     },
@@ -101,13 +101,13 @@
       "total_score": 1133,
       "score_breakdown": {
         "basic": 940,
-        "engagement": 25,
+        "engagement": 26,
         "viral": 162,
         "growth": 7
       },
       "metrics": {
         "median_score": 1566,
-        "average_views": 1285,
+        "average_views": 1280,
         "average_likes": 11,
         "avg_engagement": 0.85,
         "top3_avg": 3236,
