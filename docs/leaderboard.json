@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-07T18:28:56.784807+00:00",
+  "last_updated": "2025-11-07T21:19:34.782852+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -107,13 +107,13 @@
       },
       "metrics": {
         "median_score": 1566,
-        "average_views": 1273,
+        "average_views": 1274,
         "average_likes": 11,
-        "avg_engagement": 0.86,
-        "top3_avg": 3214,
-        "max_single_views": 3431,
+        "avg_engagement": 0.85,
+        "top3_avg": 3215,
+        "max_single_views": 3432,
         "viral_video": {
-          "views": 3431,
+          "views": 3432,
           "likes": 19,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
@@ -188,7 +188,7 @@
         "average_views": 1018,
         "average_likes": 2,
         "avg_engagement": 0.21,
-        "top3_avg": 2616,
+        "top3_avg": 2617,
         "max_single_views": 2529,
         "viral_video": {
           "views": 2529,
