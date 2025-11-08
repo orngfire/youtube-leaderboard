@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-08T06:21:47.910003+00:00",
+  "last_updated": "2025-11-08T09:13:21.594902+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -72,9 +72,9 @@
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3004,
-        "max_single_views": 2024,
+        "max_single_views": 2026,
         "viral_video": {
-          "views": 2024,
+          "views": 2026,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -209,52 +209,6 @@
     },
     {
       "rank": 6,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [
-        "💬"
-      ],
-      "badge_descriptions": {
-        "💬": {
-          "name": "인게이지먼트 킹",
-          "message": "진짜 팬을 만드는 능력자!"
-        }
-      },
-      "total_score": 612,
-      "score_breakdown": {
-        "basic": 67,
-        "engagement": 545,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 111,
-        "average_views": 11,
-        "average_likes": 2,
-        "avg_engagement": 18.18,
-        "top3_avg": 0,
-        "max_single_views": 11,
-        "viral_video": {
-          "views": 11,
-          "likes": 2,
-          "comments": 0,
-          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
-          "video_id": "Viy8RFl2xu0",
-          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
-        },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 26,
-        "subscriber_count": 109,
-        "subscriber_change": -1,
-        "subscriber_change_percent": -0.9
-      },
-      "status": "success"
-    },
-    {
-      "rank": 7,
       "name": "김하나",
       "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "channel_name": "차곡차곡 한뼘로그",
@@ -269,7 +223,7 @@
         "growth": 4
       },
       "metrics": {
-        "median_score": 833,
+        "median_score": 834,
         "average_views": 795,
         "average_likes": 4,
         "avg_engagement": 0.5,
@@ -289,6 +243,52 @@
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 7,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [
+        "💬"
+      ],
+      "badge_descriptions": {
+        "💬": {
+          "name": "인게이지먼트 킹",
+          "message": "진짜 팬을 만드는 능력자!"
+        }
+      },
+      "total_score": 567,
+      "score_breakdown": {
+        "basic": 67,
+        "engagement": 500,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 112,
+        "average_views": 12,
+        "average_likes": 2,
+        "avg_engagement": 16.67,
+        "top3_avg": 0,
+        "max_single_views": 12,
+        "viral_video": {
+          "views": 12,
+          "likes": 2,
+          "comments": 0,
+          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
+          "video_id": "Viy8RFl2xu0",
+          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 26,
+        "subscriber_count": 109,
+        "subscriber_change": -1,
+        "subscriber_change_percent": -0.9
       },
       "status": "success"
     },
