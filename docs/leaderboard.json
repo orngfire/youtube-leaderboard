@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-07T21:19:34.782852+00:00",
+  "last_updated": "2025-11-08T01:01:32.663707+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -68,13 +68,13 @@
       },
       "metrics": {
         "median_score": 2116,
-        "average_views": 1338,
+        "average_views": 1337,
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3004,
-        "max_single_views": 2038,
+        "max_single_views": 2023,
         "viral_video": {
-          "views": 2038,
+          "views": 2023,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -261,7 +261,7 @@
       "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 611,
+      "total_score": 612,
       "score_breakdown": {
         "basic": 500,
         "engagement": 15,
@@ -269,7 +269,7 @@
         "growth": 4
       },
       "metrics": {
-        "median_score": 832,
+        "median_score": 833,
         "average_views": 795,
         "average_likes": 4,
         "avg_engagement": 0.5,
