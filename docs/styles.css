@@ -567,10 +567,10 @@ body {
 }
 
 .expanded-content.show {
-    max-height: 800px;  /* Increased to accommodate badges and button */
+    max-height: 2000px;  /* Large enough for all content including badges */
     padding: 20px;
     border-top: 1px solid var(--gray-200);
-    overflow-y: auto;  /* Allow scrolling if content exceeds max-height */
+    overflow: visible;  /* Allow full content visibility */
 }
 
 .detail-section {
