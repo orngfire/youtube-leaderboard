@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-09T18:25:47.888495+00:00",
+  "last_updated": "2025-11-09T21:21:09.144852+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -92,6 +92,45 @@
     },
     {
       "rank": 3,
+      "name": "이응곤",
+      "channel_handle": "talkerrypop",
+      "channel_name": "Barten",
+      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1156,
+      "score_breakdown": {
+        "basic": 1128,
+        "engagement": 28,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 1880,
+        "average_views": 1280,
+        "average_likes": 6,
+        "avg_engagement": 0.94,
+        "top3_avg": 0,
+        "max_single_views": 1280,
+        "viral_video": {
+          "views": 1280,
+          "likes": 6,
+          "comments": 3,
+          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "NPXUH5FqEH0",
+          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 1,
+        "subscriber_count": 2,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "임동한",
       "channel_handle": "easyfood369",
       "channel_name": "알기쉬운음식궁합",
@@ -130,7 +169,7 @@
       "status": "success"
     },
     {
-      "rank": 4,
+      "rank": 5,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_name": "나나이모",
@@ -164,45 +203,6 @@
         "total_video_count": 1,
         "subscriber_count": 0,
         "subscriber_change": 0,
-        "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 5,
-      "name": "이응곤",
-      "channel_handle": "talkerrypop",
-      "channel_name": "Barten",
-      "channel_url": "https://www.youtube.com/@talkerrypop",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 996,
-      "score_breakdown": {
-        "basic": 960,
-        "engagement": 36,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 1600,
-        "average_views": 1000,
-        "average_likes": 6,
-        "avg_engagement": 1.2,
-        "top3_avg": 0,
-        "max_single_views": 1000,
-        "viral_video": {
-          "views": 1000,
-          "likes": 6,
-          "comments": 3,
-          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "NPXUH5FqEH0",
-          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
-        },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 1,
-        "subscriber_count": 2,
-        "subscriber_change": 2,
         "subscriber_change_percent": 0
       },
       "status": "success"
