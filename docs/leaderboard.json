@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-09T09:13:13.252570+00:00",
+  "last_updated": "2025-11-09T12:32:05.858129+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -228,9 +228,9 @@
         "average_likes": 4,
         "avg_engagement": 0.5,
         "top3_avg": 1853,
-        "max_single_views": 1790,
+        "max_single_views": 1791,
         "viral_video": {
-          "views": 1790,
+          "views": 1791,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
@@ -378,31 +378,31 @@
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 0,
+      "total_score": 264,
       "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
+        "basic": 245,
+        "engagement": 19,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
+        "median_score": 408,
+        "average_views": 308,
+        "average_likes": 2,
+        "avg_engagement": 0.65,
         "top3_avg": 0,
-        "max_single_views": 0,
+        "max_single_views": 308,
         "viral_video": {
-          "views": 0,
-          "likes": 0,
+          "views": 308,
+          "likes": 2,
           "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
+          "title": "레드 와인 다이어트? 운동 효과 있다고?",
+          "video_id": "wcI6ViPGbsE",
+          "url": "https://www.youtube.com/watch?v=wcI6ViPGbsE"
         },
         "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 0,
+        "video_count": 1,
+        "total_video_count": 1,
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
@@ -411,6 +411,45 @@
     },
     {
       "rank": 11,
+      "name": "이응곤",
+      "channel_handle": "talkerrypop",
+      "channel_name": "Barten",
+      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 115,
+      "score_breakdown": {
+        "basic": 77,
+        "engagement": 38,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 129,
+        "average_views": 79,
+        "average_likes": 1,
+        "avg_engagement": 1.27,
+        "top3_avg": 0,
+        "max_single_views": 79,
+        "viral_video": {
+          "views": 79,
+          "likes": 1,
+          "comments": 0,
+          "title": "“AI vs 양자, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "coSQQZ5pmzw",
+          "url": "https://www.youtube.com/watch?v=coSQQZ5pmzw"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 1,
+        "subscriber_count": 0,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 12,
       "name": "서혜리",
       "channel_handle": "quick_bite_english",
       "channel_name": "Quick Bite English",
@@ -449,50 +488,11 @@
       "status": "success"
     },
     {
-      "rank": 12,
+      "rank": 13,
       "name": "김태수",
       "channel_handle": "techshortupdates",
       "channel_name": "Tech Short Updates",
       "channel_url": "https://youtube.com/@techshortupdates",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 0,
-      "score_breakdown": {
-        "basic": 0,
-        "engagement": 0,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 0,
-        "average_views": 0,
-        "average_likes": 0,
-        "avg_engagement": 0,
-        "top3_avg": 0,
-        "max_single_views": 0,
-        "viral_video": {
-          "views": 0,
-          "likes": 0,
-          "comments": 0,
-          "title": "",
-          "video_id": "",
-          "url": ""
-        },
-        "growth_ratio": 0,
-        "video_count": 0,
-        "total_video_count": 0,
-        "subscriber_count": 0,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 13,
-      "name": "이응곤",
-      "channel_handle": "talkerrypop",
-      "channel_name": "Barten",
-      "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
       "total_score": 0,
