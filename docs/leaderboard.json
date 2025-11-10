@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-10T01:07:28.626038+00:00",
+  "last_updated": "2025-11-10T03:46:59.964077+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -98,22 +98,22 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1157,
+      "total_score": 1159,
       "score_breakdown": {
-        "basic": 1129,
+        "basic": 1131,
         "engagement": 28,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1882,
-        "average_views": 1282,
+        "median_score": 1885,
+        "average_views": 1285,
         "average_likes": 6,
-        "avg_engagement": 0.94,
+        "avg_engagement": 0.93,
         "top3_avg": 0,
-        "max_single_views": 1282,
+        "max_single_views": 1285,
         "viral_video": {
-          "views": 1282,
+          "views": 1285,
           "likes": 6,
           "comments": 3,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -378,22 +378,22 @@
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 338,
+      "total_score": 341,
       "score_breakdown": {
-        "basic": 314,
+        "basic": 317,
         "engagement": 24,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 524,
-        "average_views": 374,
+        "median_score": 528,
+        "average_views": 378,
         "average_likes": 3,
-        "avg_engagement": 0.8,
+        "avg_engagement": 0.79,
         "top3_avg": 0,
-        "max_single_views": 374,
+        "max_single_views": 378,
         "viral_video": {
-          "views": 374,
+          "views": 378,
           "likes": 3,
           "comments": 0,
           "title": "레드 와인 다이어트? 운동 효과 있다고?",
