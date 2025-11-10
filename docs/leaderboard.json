@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-10T15:18:29.923922+00:00",
+  "last_updated": "2025-11-10T18:29:54.100988+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -92,40 +92,40 @@
     },
     {
       "rank": 3,
-      "name": "이응곤",
-      "channel_handle": "talkerrypop",
-      "channel_name": "Barten",
-      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1163,
+      "total_score": 1154,
       "score_breakdown": {
-        "basic": 1135,
-        "engagement": 28,
-        "viral": 0,
-        "growth": 0
+        "basic": 964,
+        "engagement": 23,
+        "viral": 161,
+        "growth": 6
       },
       "metrics": {
-        "median_score": 1892,
-        "average_views": 1292,
-        "average_likes": 6,
-        "avg_engagement": 0.93,
-        "top3_avg": 0,
-        "max_single_views": 1292,
+        "median_score": 1606,
+        "average_views": 1334,
+        "average_likes": 10,
+        "avg_engagement": 0.77,
+        "top3_avg": 3217,
+        "max_single_views": 3439,
         "viral_video": {
-          "views": 1292,
-          "likes": 6,
-          "comments": 3,
-          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "NPXUH5FqEH0",
-          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
+          "views": 3439,
+          "likes": 19,
+          "comments": 0,
+          "title": "혈관이 청소되는 음식 6가지!",
+          "video_id": "vUsfFAGKLt4",
+          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
         },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 1,
-        "subscriber_count": 2,
-        "subscriber_change": 2,
-        "subscriber_change_percent": 0
+        "growth_ratio": 1.28,
+        "video_count": 10,
+        "total_video_count": 35,
+        "subscriber_count": 377,
+        "subscriber_change": 9,
+        "subscriber_change_percent": 2.4
       },
       "status": "success"
     },
@@ -170,47 +170,40 @@
     },
     {
       "rank": 5,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [
-        "📈"
-      ],
-      "badge_descriptions": {
-        "📈": {
-          "name": "성장 로켓",
-          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
-        }
-      },
-      "total_score": 991,
+      "name": "이응곤",
+      "channel_handle": "talkerrypop",
+      "channel_name": "Barten",
+      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 903,
       "score_breakdown": {
-        "basic": 797,
-        "engagement": 26,
-        "viral": 161,
-        "growth": 8
+        "basic": 872,
+        "engagement": 31,
+        "viral": 0,
+        "growth": 0
       },
       "metrics": {
-        "median_score": 1328,
-        "average_views": 1146,
-        "average_likes": 10,
-        "avg_engagement": 0.86,
-        "top3_avg": 3215,
-        "max_single_views": 3432,
+        "median_score": 1452,
+        "average_views": 952,
+        "average_likes": 5,
+        "avg_engagement": 1.05,
+        "top3_avg": 0,
+        "max_single_views": 1295,
         "viral_video": {
-          "views": 3432,
-          "likes": 19,
-          "comments": 0,
-          "title": "혈관이 청소되는 음식 6가지!",
-          "video_id": "vUsfFAGKLt4",
-          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
+          "views": 1295,
+          "likes": 6,
+          "comments": 3,
+          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "NPXUH5FqEH0",
+          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
         },
-        "growth_ratio": 1.55,
-        "video_count": 10,
-        "total_video_count": 35,
-        "subscriber_count": 377,
-        "subscriber_change": 9,
-        "subscriber_change_percent": 2.4
+        "growth_ratio": 0,
+        "video_count": 2,
+        "total_video_count": 2,
+        "subscriber_count": 2,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 0
       },
       "status": "success"
     },
