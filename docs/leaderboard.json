@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-10T12:37:25.630259+00:00",
+  "last_updated": "2025-11-10T15:18:29.923922+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -131,45 +131,6 @@
     },
     {
       "rank": 4,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1133,
-      "score_breakdown": {
-        "basic": 940,
-        "engagement": 26,
-        "viral": 161,
-        "growth": 7
-      },
-      "metrics": {
-        "median_score": 1566,
-        "average_views": 1273,
-        "average_likes": 11,
-        "avg_engagement": 0.86,
-        "top3_avg": 3215,
-        "max_single_views": 3432,
-        "viral_video": {
-          "views": 3432,
-          "likes": 19,
-          "comments": 0,
-          "title": "혈관이 청소되는 음식 6가지!",
-          "video_id": "vUsfFAGKLt4",
-          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
-        },
-        "growth_ratio": 1.32,
-        "video_count": 9,
-        "total_video_count": 34,
-        "subscriber_count": 377,
-        "subscriber_change": 9,
-        "subscriber_change_percent": 2.4
-      },
-      "status": "success"
-    },
-    {
-      "rank": 5,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_name": "나나이모",
@@ -204,6 +165,52 @@
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 991,
+      "score_breakdown": {
+        "basic": 797,
+        "engagement": 26,
+        "viral": 161,
+        "growth": 8
+      },
+      "metrics": {
+        "median_score": 1328,
+        "average_views": 1146,
+        "average_likes": 10,
+        "avg_engagement": 0.86,
+        "top3_avg": 3215,
+        "max_single_views": 3432,
+        "viral_video": {
+          "views": 3432,
+          "likes": 19,
+          "comments": 0,
+          "title": "혈관이 청소되는 음식 6가지!",
+          "video_id": "vUsfFAGKLt4",
+          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
+        },
+        "growth_ratio": 1.55,
+        "video_count": 10,
+        "total_video_count": 35,
+        "subscriber_count": 377,
+        "subscriber_change": 9,
+        "subscriber_change_percent": 2.4
       },
       "status": "success"
     },
