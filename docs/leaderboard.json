@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11T03:42:11.167386+00:00",
+  "last_updated": "2025-11-11T06:25:44.874767+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -98,16 +98,16 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1167,
+      "total_score": 1168,
       "score_breakdown": {
-        "basic": 1139,
+        "basic": 1140,
         "engagement": 28,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1899,
-        "average_views": 1299,
+        "median_score": 1900,
+        "average_views": 1300,
         "average_likes": 7,
         "avg_engagement": 0.92,
         "top3_avg": 0,
@@ -137,19 +137,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1154,
+      "total_score": 1156,
       "score_breakdown": {
         "basic": 964,
-        "engagement": 23,
+        "engagement": 24,
         "viral": 161,
         "growth": 6
       },
       "metrics": {
         "median_score": 1606,
-        "average_views": 1340,
-        "average_likes": 10,
-        "avg_engagement": 0.77,
-        "top3_avg": 3222,
+        "average_views": 1382,
+        "average_likes": 11,
+        "avg_engagement": 0.81,
+        "top3_avg": 3223,
         "max_single_views": 3439,
         "viral_video": {
           "views": 3439,
@@ -162,9 +162,9 @@
         "growth_ratio": 1.28,
         "video_count": 10,
         "total_video_count": 35,
-        "subscriber_count": 378,
-        "subscriber_change": 10,
-        "subscriber_change_percent": 2.7
+        "subscriber_count": 380,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 3.3
       },
       "status": "success"
     },
