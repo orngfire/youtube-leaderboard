@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11T09:16:39.159103+00:00",
+  "last_updated": "2025-11-11T12:37:01.760440+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -98,23 +98,23 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1169,
+      "total_score": 1315,
       "score_breakdown": {
-        "basic": 1141,
-        "engagement": 28,
+        "basic": 1276,
+        "engagement": 38,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1902,
+        "median_score": 2128,
         "average_views": 1302,
-        "average_likes": 7,
-        "avg_engagement": 0.92,
+        "average_likes": 10,
+        "avg_engagement": 1.27,
         "top3_avg": 0,
-        "max_single_views": 1303,
+        "max_single_views": 1304,
         "viral_video": {
-          "views": 1303,
-          "likes": 6,
+          "views": 1304,
+          "likes": 10,
           "comments": 3,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
           "video_id": "NPXUH5FqEH0",
@@ -123,8 +123,8 @@
         "growth_ratio": 0,
         "video_count": 2,
         "total_video_count": 2,
-        "subscriber_count": 4,
-        "subscriber_change": 4,
+        "subscriber_count": 7,
+        "subscriber_change": 7,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -137,16 +137,16 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1155,
+      "total_score": 1161,
       "score_breakdown": {
-        "basic": 964,
+        "basic": 970,
         "engagement": 23,
         "viral": 161,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1607,
-        "average_views": 1405,
+        "median_score": 1617,
+        "average_views": 1407,
         "average_likes": 11,
         "avg_engagement": 0.77,
         "top3_avg": 3223,
@@ -248,45 +248,6 @@
     },
     {
       "rank": 7,
-      "name": "김하나",
-      "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
-      "channel_name": "차곡차곡 한뼘로그",
-      "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 613,
-      "score_breakdown": {
-        "basic": 501,
-        "engagement": 15,
-        "viral": 93,
-        "growth": 4
-      },
-      "metrics": {
-        "median_score": 836,
-        "average_views": 796,
-        "average_likes": 4,
-        "avg_engagement": 0.5,
-        "top3_avg": 1853,
-        "max_single_views": 1791,
-        "viral_video": {
-          "views": 1791,
-          "likes": 9,
-          "comments": 0,
-          "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
-          "video_id": "vNQ3f6pNvKE",
-          "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
-        },
-        "growth_ratio": 0.8,
-        "video_count": 8,
-        "total_video_count": 17,
-        "subscriber_count": 10,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 8,
       "name": "전우형",
       "channel_handle": "deundeun.papa_1",
       "channel_name": "든든파파  :::1분 부자마인드:::",
@@ -332,7 +293,7 @@
       "status": "success"
     },
     {
-      "rank": 9,
+      "rank": 8,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_name": "마음에듀",
@@ -371,6 +332,45 @@
       "status": "success"
     },
     {
+      "rank": 9,
+      "name": "김하나",
+      "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "channel_name": "차곡차곡 한뼘로그",
+      "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 383,
+      "score_breakdown": {
+        "basic": 268,
+        "engagement": 15,
+        "viral": 93,
+        "growth": 7
+      },
+      "metrics": {
+        "median_score": 447,
+        "average_views": 728,
+        "average_likes": 4,
+        "avg_engagement": 0.49,
+        "top3_avg": 1853,
+        "max_single_views": 1791,
+        "viral_video": {
+          "views": 1791,
+          "likes": 9,
+          "comments": 0,
+          "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
+          "video_id": "vNQ3f6pNvKE",
+          "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
+        },
+        "growth_ratio": 1.49,
+        "video_count": 9,
+        "total_video_count": 18,
+        "subscriber_count": 10,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
       "rank": 10,
       "name": "강민성",
       "channel_handle": "IQ160건강깡패",
@@ -378,22 +378,22 @@
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 340,
+      "total_score": 341,
       "score_breakdown": {
-        "basic": 316,
+        "basic": 317,
         "engagement": 24,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 527,
-        "average_views": 377,
+        "median_score": 528,
+        "average_views": 378,
         "average_likes": 3,
-        "avg_engagement": 0.8,
+        "avg_engagement": 0.79,
         "top3_avg": 0,
-        "max_single_views": 377,
+        "max_single_views": 378,
         "viral_video": {
-          "views": 377,
+          "views": 378,
           "likes": 3,
           "comments": 0,
           "title": "레드 와인 다이어트? 운동 효과 있다고?",
