@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-12T01:04:57.322029+00:00",
+  "last_updated": "2025-11-12T03:41:19.818518+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -72,9 +72,9 @@
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3004,
-        "max_single_views": 2029,
+        "max_single_views": 2030,
         "viral_video": {
-          "views": 2029,
+          "views": 2030,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -149,7 +149,7 @@
         "average_views": 1473,
         "average_likes": 10,
         "avg_engagement": 0.72,
-        "top3_avg": 3342,
+        "top3_avg": 3343,
         "max_single_views": 3439,
         "viral_video": {
           "views": 3439,
