@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-12T12:37:49.850090+00:00",
+  "last_updated": "2025-11-12T15:18:55.111049+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -140,7 +140,7 @@
       "total_score": 1184,
       "score_breakdown": {
         "basic": 989,
-        "engagement": 21,
+        "engagement": 22,
         "viral": 167,
         "growth": 6
       },
@@ -248,52 +248,6 @@
     },
     {
       "rank": 7,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [
-        "💬"
-      ],
-      "badge_descriptions": {
-        "💬": {
-          "name": "인게이지먼트 킹",
-          "message": "진짜 팬을 만드는 능력자!"
-        }
-      },
-      "total_score": 469,
-      "score_breakdown": {
-        "basic": 69,
-        "engagement": 400,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 115,
-        "average_views": 15,
-        "average_likes": 2,
-        "avg_engagement": 13.33,
-        "top3_avg": 0,
-        "max_single_views": 15,
-        "viral_video": {
-          "views": 15,
-          "likes": 2,
-          "comments": 0,
-          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
-          "video_id": "Viy8RFl2xu0",
-          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
-        },
-        "growth_ratio": 0,
-        "video_count": 1,
-        "total_video_count": 26,
-        "subscriber_count": 109,
-        "subscriber_change": -1,
-        "subscriber_change_percent": -0.9
-      },
-      "status": "success"
-    },
-    {
-      "rank": 8,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_name": "마음에듀",
@@ -328,6 +282,52 @@
         "subscriber_count": 6,
         "subscriber_change": 5,
         "subscriber_change_percent": 500.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 8,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [
+        "💬"
+      ],
+      "badge_descriptions": {
+        "💬": {
+          "name": "인게이지먼트 킹",
+          "message": "진짜 팬을 만드는 능력자!"
+        }
+      },
+      "total_score": 404,
+      "score_breakdown": {
+        "basic": 71,
+        "engagement": 333,
+        "viral": 0,
+        "growth": 0
+      },
+      "metrics": {
+        "median_score": 118,
+        "average_views": 18,
+        "average_likes": 2,
+        "avg_engagement": 11.11,
+        "top3_avg": 0,
+        "max_single_views": 18,
+        "viral_video": {
+          "views": 18,
+          "likes": 2,
+          "comments": 0,
+          "title": "보험료 이렇게만 줄여도, 매달 투자금이 생깁니다｜진짜 재테크의 시작",
+          "video_id": "Viy8RFl2xu0",
+          "url": "https://www.youtube.com/watch?v=Viy8RFl2xu0"
+        },
+        "growth_ratio": 0,
+        "video_count": 1,
+        "total_video_count": 26,
+        "subscriber_count": 109,
+        "subscriber_change": -1,
+        "subscriber_change_percent": -0.9
       },
       "status": "success"
     },
