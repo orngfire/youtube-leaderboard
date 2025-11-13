@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T15:18:53.365756+00:00",
+  "last_updated": "2025-11-13T18:29:53.397624+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,52 +7,6 @@
   "leaderboard": [
     {
       "rank": 1,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_name": "Vitaminute",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [
-        "🎯"
-      ],
-      "badge_descriptions": {
-        "🎯": {
-          "name": "꾸준러",
-          "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
-        }
-      },
-      "total_score": 2284,
-      "score_breakdown": {
-        "basic": 2044,
-        "engagement": 115,
-        "viral": 122,
-        "growth": 4
-      },
-      "metrics": {
-        "median_score": 3406,
-        "average_views": 837,
-        "average_likes": 31,
-        "avg_engagement": 3.82,
-        "top3_avg": 2437,
-        "max_single_views": 1276,
-        "viral_video": {
-          "views": 1276,
-          "likes": 49,
-          "comments": 1,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
-        },
-        "growth_ratio": 0.72,
-        "video_count": 3,
-        "total_video_count": 3,
-        "subscriber_count": 21,
-        "subscriber_change": 21,
-        "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 2,
       "name": "김수정",
       "channel_handle": "kongpupu",
       "channel_name": "고양이 짧지",
@@ -91,10 +45,10 @@
       "status": "success"
     },
     {
-      "rank": 3,
+      "rank": 2,
       "name": "이응곤",
       "channel_handle": "talkerrypop",
-      "channel_name": "Barten",
+      "channel_name": "그때샀다면",
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
@@ -106,14 +60,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 2216,
-        "average_views": 1316,
+        "median_score": 2217,
+        "average_views": 1317,
         "average_likes": 12,
         "avg_engagement": 1.37,
         "top3_avg": 0,
-        "max_single_views": 1318,
+        "max_single_views": 1319,
         "viral_video": {
-          "views": 1318,
+          "views": 1319,
           "likes": 12,
           "comments": 3,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -125,6 +79,45 @@
         "total_video_count": 2,
         "subscriber_count": 8,
         "subscriber_change": 8,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_name": "Vitaminute",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1299,
+      "score_breakdown": {
+        "basic": 1053,
+        "engagement": 117,
+        "viral": 122,
+        "growth": 7
+      },
+      "metrics": {
+        "median_score": 1756,
+        "average_views": 629,
+        "average_likes": 23,
+        "avg_engagement": 3.9,
+        "top3_avg": 2446,
+        "max_single_views": 1276,
+        "viral_video": {
+          "views": 1276,
+          "likes": 49,
+          "comments": 1,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 1.39,
+        "video_count": 4,
+        "total_video_count": 4,
+        "subscriber_count": 21,
+        "subscriber_change": 21,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -149,7 +142,7 @@
         "average_views": 1473,
         "average_likes": 11,
         "avg_engagement": 0.73,
-        "top3_avg": 3340,
+        "top3_avg": 3341,
         "max_single_views": 3439,
         "viral_video": {
           "views": 3439,
@@ -215,23 +208,23 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 751,
+      "total_score": 786,
       "score_breakdown": {
-        "basic": 718,
-        "engagement": 33,
+        "basic": 749,
+        "engagement": 37,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1197,
-        "average_views": 772,
-        "average_likes": 8,
-        "avg_engagement": 1.1,
+        "median_score": 1249,
+        "average_views": 774,
+        "average_likes": 10,
+        "avg_engagement": 1.23,
         "top3_avg": 0,
-        "max_single_views": 1524,
+        "max_single_views": 1528,
         "viral_video": {
-          "views": 1524,
-          "likes": 15,
+          "views": 1528,
+          "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
           "video_id": "UlcVdKnJB30",
