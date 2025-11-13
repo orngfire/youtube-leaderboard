@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T18:29:53.397624+00:00",
+  "last_updated": "2025-11-13T21:24:08.006760+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -91,22 +91,22 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1299,
+      "total_score": 1300,
       "score_breakdown": {
-        "basic": 1053,
+        "basic": 1054,
         "engagement": 117,
         "viral": 122,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1756,
-        "average_views": 629,
+        "median_score": 1757,
+        "average_views": 630,
         "average_likes": 23,
-        "avg_engagement": 3.9,
-        "top3_avg": 2446,
-        "max_single_views": 1276,
+        "avg_engagement": 3.89,
+        "top3_avg": 2447,
+        "max_single_views": 1277,
         "viral_video": {
-          "views": 1276,
+          "views": 1277,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -208,22 +208,22 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 786,
+      "total_score": 788,
       "score_breakdown": {
-        "basic": 749,
+        "basic": 751,
         "engagement": 37,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1249,
-        "average_views": 774,
+        "median_score": 1252,
+        "average_views": 776,
         "average_likes": 10,
-        "avg_engagement": 1.23,
+        "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1528,
+        "max_single_views": 1533,
         "viral_video": {
-          "views": 1528,
+          "views": 1533,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
