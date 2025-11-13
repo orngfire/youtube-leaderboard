@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T12:38:30.802906+00:00",
+  "last_updated": "2025-11-13T15:18:53.365756+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -98,16 +98,16 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1370,
+      "total_score": 1371,
       "score_breakdown": {
-        "basic": 1329,
+        "basic": 1330,
         "engagement": 41,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 2215,
-        "average_views": 1315,
+        "median_score": 2216,
+        "average_views": 1316,
         "average_likes": 12,
         "avg_engagement": 1.37,
         "top3_avg": 0,
@@ -146,7 +146,7 @@
       },
       "metrics": {
         "median_score": 1648,
-        "average_views": 1472,
+        "average_views": 1473,
         "average_likes": 11,
         "avg_engagement": 0.73,
         "top3_avg": 3340,
@@ -215,22 +215,22 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 747,
+      "total_score": 751,
       "score_breakdown": {
-        "basic": 713,
+        "basic": 718,
         "engagement": 33,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1189,
-        "average_views": 764,
+        "median_score": 1197,
+        "average_views": 772,
         "average_likes": 8,
-        "avg_engagement": 1.11,
+        "avg_engagement": 1.1,
         "top3_avg": 0,
-        "max_single_views": 1510,
+        "max_single_views": 1524,
         "viral_video": {
-          "views": 1510,
+          "views": 1524,
           "likes": 15,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
