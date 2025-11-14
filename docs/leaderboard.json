@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T21:24:08.006760+00:00",
+  "last_updated": "2025-11-14T01:04:50.866019+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,22 +52,22 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1371,
+      "total_score": 1370,
       "score_breakdown": {
-        "basic": 1330,
+        "basic": 1329,
         "engagement": 41,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 2217,
-        "average_views": 1317,
+        "median_score": 2216,
+        "average_views": 1316,
         "average_likes": 12,
         "avg_engagement": 1.37,
         "top3_avg": 0,
-        "max_single_views": 1319,
+        "max_single_views": 1316,
         "viral_video": {
-          "views": 1319,
+          "views": 1316,
           "likes": 12,
           "comments": 3,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -217,13 +217,13 @@
       },
       "metrics": {
         "median_score": 1252,
-        "average_views": 776,
+        "average_views": 777,
         "average_likes": 10,
         "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1533,
+        "max_single_views": 1534,
         "viral_video": {
-          "views": 1533,
+          "views": 1534,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
