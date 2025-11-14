@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-14T15:15:15.720113+00:00",
+  "last_updated": "2025-11-14T18:29:29.743468+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -99,8 +99,8 @@
         "growth": 6
       },
       "metrics": {
-        "median_score": 1903,
-        "average_views": 1562,
+        "median_score": 1904,
+        "average_views": 1563,
         "average_likes": 11,
         "avg_engagement": 0.71,
         "top3_avg": 3341,
@@ -138,10 +138,10 @@
         "growth": 7
       },
       "metrics": {
-        "median_score": 1758,
-        "average_views": 630,
+        "median_score": 1759,
+        "average_views": 631,
         "average_likes": 23,
-        "avg_engagement": 3.89,
+        "avg_engagement": 3.88,
         "top3_avg": 2448,
         "max_single_views": 1277,
         "viral_video": {
@@ -208,7 +208,7 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 789,
+      "total_score": 790,
       "score_breakdown": {
         "basic": 753,
         "engagement": 37,
@@ -216,14 +216,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 1254,
+        "median_score": 1255,
         "average_views": 780,
         "average_likes": 10,
         "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1539,
+        "max_single_views": 1540,
         "viral_video": {
-          "views": 1539,
+          "views": 1540,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
