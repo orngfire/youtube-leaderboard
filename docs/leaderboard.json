@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-14T06:25:31.241145+00:00",
+  "last_updated": "2025-11-14T09:16:04.208407+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,16 +52,16 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1371,
+      "total_score": 1372,
       "score_breakdown": {
-        "basic": 1330,
+        "basic": 1331,
         "engagement": 41,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 2217,
-        "average_views": 1317,
+        "median_score": 2218,
+        "average_views": 1318,
         "average_likes": 12,
         "avg_engagement": 1.37,
         "top3_avg": 0,
