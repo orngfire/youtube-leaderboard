@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-14T09:16:04.208407+00:00",
+  "last_updated": "2025-11-14T12:36:49.399055+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,27 +52,27 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1372,
+      "total_score": 1373,
       "score_breakdown": {
-        "basic": 1331,
+        "basic": 1332,
         "engagement": 41,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 2218,
-        "average_views": 1318,
+        "median_score": 2220,
+        "average_views": 1320,
         "average_likes": 12,
-        "avg_engagement": 1.37,
+        "avg_engagement": 1.36,
         "top3_avg": 0,
-        "max_single_views": 1318,
+        "max_single_views": 1320,
         "viral_video": {
-          "views": 1318,
+          "views": 1320,
           "likes": 12,
           "comments": 3,
-          "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "kSeZgqj3X7c",
-          "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
+          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "NPXUH5FqEH0",
+          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
         },
         "growth_ratio": 0,
         "video_count": 2,
@@ -85,6 +85,45 @@
     },
     {
       "rank": 3,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1336,
+      "score_breakdown": {
+        "basic": 1142,
+        "engagement": 21,
+        "viral": 167,
+        "growth": 6
+      },
+      "metrics": {
+        "median_score": 1903,
+        "average_views": 1562,
+        "average_likes": 11,
+        "avg_engagement": 0.71,
+        "top3_avg": 3341,
+        "max_single_views": 3439,
+        "viral_video": {
+          "views": 3439,
+          "likes": 19,
+          "comments": 0,
+          "title": "혈관이 청소되는 음식 6가지!",
+          "video_id": "vUsfFAGKLt4",
+          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
+        },
+        "growth_ratio": 1.2,
+        "video_count": 10,
+        "total_video_count": 35,
+        "subscriber_count": 380,
+        "subscriber_change": 12,
+        "subscriber_change_percent": 3.3
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "김예림",
       "channel_handle": "vitaminute4u",
       "channel_name": "Vitaminute",
@@ -119,45 +158,6 @@
         "subscriber_count": 21,
         "subscriber_change": 21,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 4,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1184,
-      "score_breakdown": {
-        "basic": 989,
-        "engagement": 22,
-        "viral": 167,
-        "growth": 6
-      },
-      "metrics": {
-        "median_score": 1648,
-        "average_views": 1473,
-        "average_likes": 11,
-        "avg_engagement": 0.73,
-        "top3_avg": 3341,
-        "max_single_views": 3439,
-        "viral_video": {
-          "views": 3439,
-          "likes": 19,
-          "comments": 0,
-          "title": "혈관이 청소되는 음식 6가지!",
-          "video_id": "vUsfFAGKLt4",
-          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
-        },
-        "growth_ratio": 1.25,
-        "video_count": 11,
-        "total_video_count": 36,
-        "subscriber_count": 380,
-        "subscriber_change": 12,
-        "subscriber_change_percent": 3.3
       },
       "status": "success"
     },
@@ -334,10 +334,10 @@
       },
       "metrics": {
         "median_score": 447,
-        "average_views": 731,
+        "average_views": 732,
         "average_likes": 4,
         "avg_engagement": 0.49,
-        "top3_avg": 1853,
+        "top3_avg": 1854,
         "max_single_views": 1791,
         "viral_video": {
           "views": 1791,
