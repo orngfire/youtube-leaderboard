@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-15T12:32:07.057630+00:00",
+  "last_updated": "2025-11-15T15:14:41.820073+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -210,20 +210,20 @@
       "badge_descriptions": {},
       "total_score": 790,
       "score_breakdown": {
-        "basic": 753,
-        "engagement": 37,
+        "basic": 754,
+        "engagement": 36,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
         "median_score": 1256,
-        "average_views": 780,
+        "average_views": 781,
         "average_likes": 10,
         "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1541,
+        "max_single_views": 1542,
         "viral_video": {
-          "views": 1541,
+          "views": 1542,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
