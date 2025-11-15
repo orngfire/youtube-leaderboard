@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-15T03:36:02.448032+00:00",
+  "last_updated": "2025-11-15T06:22:41.801205+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -26,9 +26,9 @@
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3004,
-        "max_single_views": 2030,
+        "max_single_views": 2031,
         "viral_video": {
-          "views": 2030,
+          "views": 2031,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -65,9 +65,9 @@
         "average_likes": 12,
         "avg_engagement": 1.36,
         "top3_avg": 0,
-        "max_single_views": 1320,
+        "max_single_views": 1321,
         "viral_video": {
-          "views": 1320,
+          "views": 1321,
           "likes": 12,
           "comments": 3,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -154,7 +154,7 @@
         },
         "growth_ratio": 1.38,
         "video_count": 4,
-        "total_video_count": 4,
+        "total_video_count": 3,
         "subscriber_count": 21,
         "subscriber_change": 21,
         "subscriber_change_percent": 0
@@ -372,14 +372,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 528,
-        "average_views": 378,
+        "median_score": 529,
+        "average_views": 379,
         "average_likes": 3,
         "avg_engagement": 0.79,
         "top3_avg": 0,
-        "max_single_views": 378,
+        "max_single_views": 379,
         "viral_video": {
-          "views": 378,
+          "views": 379,
           "likes": 3,
           "comments": 0,
           "title": "레드 와인 다이어트? 운동 효과 있다고?",
