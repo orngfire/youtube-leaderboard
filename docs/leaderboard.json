@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-16T03:45:10.498968+00:00",
+  "last_updated": "2025-11-16T06:23:23.136269+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,6 +7,45 @@
   "leaderboard": [
     {
       "rank": 1,
+      "name": "이응곤",
+      "channel_handle": "talkerrypop",
+      "channel_name": "그때샀다면",
+      "channel_url": "https://www.youtube.com/@talkerrypop",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1463,
+      "score_breakdown": {
+        "basic": 1333,
+        "engagement": 47,
+        "viral": 79,
+        "growth": 4
+      },
+      "metrics": {
+        "median_score": 2222,
+        "average_views": 885,
+        "average_likes": 9,
+        "avg_engagement": 1.58,
+        "top3_avg": 1585,
+        "max_single_views": 1322,
+        "viral_video": {
+          "views": 1322,
+          "likes": 12,
+          "comments": 3,
+          "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "kSeZgqj3X7c",
+          "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
+        },
+        "growth_ratio": 0.71,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 8,
+        "subscriber_change": 8,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 2,
       "name": "김수정",
       "channel_handle": "kongpupu",
       "channel_name": "고양이 짧지",
@@ -26,9 +65,9 @@
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3005,
-        "max_single_views": 2031,
+        "max_single_views": 2032,
         "viral_video": {
-          "views": 2031,
+          "views": 2032,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -41,45 +80,6 @@
         "subscriber_count": 47,
         "subscriber_change": 13,
         "subscriber_change_percent": 38.2
-      },
-      "status": "success"
-    },
-    {
-      "rank": 2,
-      "name": "이응곤",
-      "channel_handle": "talkerrypop",
-      "channel_name": "그때샀다면",
-      "channel_url": "https://www.youtube.com/@talkerrypop",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1374,
-      "score_breakdown": {
-        "basic": 1333,
-        "engagement": 41,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 2222,
-        "average_views": 1322,
-        "average_likes": 12,
-        "avg_engagement": 1.36,
-        "top3_avg": 0,
-        "max_single_views": 1322,
-        "viral_video": {
-          "views": 1322,
-          "likes": 12,
-          "comments": 3,
-          "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "kSeZgqj3X7c",
-          "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 2,
-        "subscriber_count": 8,
-        "subscriber_change": 8,
-        "subscriber_change_percent": 0
       },
       "status": "success"
     },
@@ -115,7 +115,7 @@
         },
         "growth_ratio": 1.2,
         "video_count": 10,
-        "total_video_count": 35,
+        "total_video_count": 36,
         "subscriber_count": 380,
         "subscriber_change": 12,
         "subscriber_change_percent": 3.3
@@ -154,7 +154,7 @@
         },
         "growth_ratio": 1.37,
         "video_count": 4,
-        "total_video_count": 3,
+        "total_video_count": 4,
         "subscriber_count": 21,
         "subscriber_change": 21,
         "subscriber_change_percent": 0
