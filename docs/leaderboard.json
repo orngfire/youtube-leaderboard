@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-16T01:09:19.747649+00:00",
+  "last_updated": "2025-11-16T03:45:10.498968+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1307,
+      "total_score": 1309,
       "score_breakdown": {
-        "basic": 1062,
-        "engagement": 116,
+        "basic": 1064,
+        "engagement": 115,
         "viral": 123,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1770,
-        "average_views": 636,
+        "median_score": 1774,
+        "average_views": 638,
         "average_likes": 23,
-        "avg_engagement": 3.85,
-        "top3_avg": 2455,
+        "avg_engagement": 3.84,
+        "top3_avg": 2458,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
@@ -152,7 +152,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 1.38,
+        "growth_ratio": 1.37,
         "video_count": 4,
         "total_video_count": 3,
         "subscriber_count": 21,
@@ -210,20 +210,20 @@
       "badge_descriptions": {},
       "total_score": 790,
       "score_breakdown": {
-        "basic": 754,
-        "engagement": 36,
+        "basic": 753,
+        "engagement": 37,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
         "median_score": 1256,
-        "average_views": 781,
+        "average_views": 780,
         "average_likes": 10,
         "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1542,
+        "max_single_views": 1541,
         "viral_video": {
-          "views": 1542,
+          "views": 1541,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
