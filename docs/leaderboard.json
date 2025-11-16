@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-16T12:32:17.490510+00:00",
+  "last_updated": "2025-11-16T15:14:28.727612+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,29 +13,29 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1533,
+      "total_score": 1535,
       "score_breakdown": {
-        "basic": 1366,
-        "engagement": 48,
-        "viral": 114,
+        "basic": 1367,
+        "engagement": 47,
+        "viral": 116,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2277,
-        "average_views": 1262,
+        "median_score": 2278,
+        "average_views": 1299,
         "average_likes": 14,
-        "avg_engagement": 1.61,
-        "top3_avg": 2279,
-        "max_single_views": 1327,
+        "avg_engagement": 1.56,
+        "top3_avg": 2316,
+        "max_single_views": 1328,
         "viral_video": {
-          "views": 1327,
+          "views": 1328,
           "likes": 13,
           "comments": 3,
-          "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "kSeZgqj3X7c",
-          "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
+          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "NPXUH5FqEH0",
+          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
         },
-        "growth_ratio": 1.0,
+        "growth_ratio": 1.02,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 9,
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1310,
+      "total_score": 1289,
       "score_breakdown": {
-        "basic": 1065,
-        "engagement": 115,
-        "viral": 123,
+        "basic": 1046,
+        "engagement": 114,
+        "viral": 122,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1774,
-        "average_views": 638,
+        "median_score": 1744,
+        "average_views": 630,
         "average_likes": 23,
-        "avg_engagement": 3.84,
-        "top3_avg": 2459,
+        "avg_engagement": 3.81,
+        "top3_avg": 2438,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
@@ -152,7 +152,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 1.37,
+        "growth_ratio": 1.4,
         "video_count": 4,
         "total_video_count": 4,
         "subscriber_count": 21,
@@ -412,13 +412,13 @@
       },
       "metrics": {
         "median_score": 412,
-        "average_views": 186,
+        "average_views": 187,
         "average_likes": 2,
         "avg_engagement": 2.41,
         "top3_avg": 0,
-        "max_single_views": 247,
+        "max_single_views": 248,
         "viral_video": {
-          "views": 247,
+          "views": 248,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
