@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-16T09:13:50.687679+00:00",
+  "last_updated": "2025-11-16T12:32:17.490510+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,29 +13,29 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1524,
+      "total_score": 1533,
       "score_breakdown": {
-        "basic": 1364,
-        "engagement": 53,
-        "viral": 103,
+        "basic": 1366,
+        "engagement": 48,
+        "viral": 114,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2273,
-        "average_views": 1085,
-        "average_likes": 13,
-        "avg_engagement": 1.78,
-        "top3_avg": 2051,
-        "max_single_views": 1326,
+        "median_score": 2277,
+        "average_views": 1262,
+        "average_likes": 14,
+        "avg_engagement": 1.61,
+        "top3_avg": 2279,
+        "max_single_views": 1327,
         "viral_video": {
-          "views": 1326,
+          "views": 1327,
           "likes": 13,
           "comments": 3,
           "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
           "video_id": "kSeZgqj3X7c",
           "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
         },
-        "growth_ratio": 0.9,
+        "growth_ratio": 1.0,
         "video_count": 3,
         "total_video_count": 3,
         "subscriber_count": 9,
@@ -130,9 +130,9 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1309,
+      "total_score": 1310,
       "score_breakdown": {
-        "basic": 1064,
+        "basic": 1065,
         "engagement": 115,
         "viral": 123,
         "growth": 7
@@ -142,7 +142,7 @@
         "average_views": 638,
         "average_likes": 23,
         "avg_engagement": 3.84,
-        "top3_avg": 2458,
+        "top3_avg": 2459,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
@@ -210,20 +210,20 @@
       "badge_descriptions": {},
       "total_score": 790,
       "score_breakdown": {
-        "basic": 753,
-        "engagement": 37,
+        "basic": 754,
+        "engagement": 36,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
         "median_score": 1256,
-        "average_views": 780,
+        "average_views": 781,
         "average_likes": 10,
         "avg_engagement": 1.22,
         "top3_avg": 0,
-        "max_single_views": 1541,
+        "max_single_views": 1542,
         "viral_video": {
-          "views": 1541,
+          "views": 1542,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
