@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-17T15:18:52.247793+00:00",
+  "last_updated": "2025-11-17T18:30:00.823145+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -21,14 +21,14 @@
         "growth": 5
       },
       "metrics": {
-        "median_score": 2378,
-        "average_views": 1310,
+        "median_score": 2379,
+        "average_views": 1311,
         "average_likes": 14,
         "avg_engagement": 1.6,
-        "top3_avg": 2360,
-        "max_single_views": 1328,
+        "top3_avg": 2361,
+        "max_single_views": 1329,
         "viral_video": {
-          "views": 1328,
+          "views": 1329,
           "likes": 13,
           "comments": 4,
           "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1308,
+      "total_score": 1309,
       "score_breakdown": {
-        "basic": 1063,
-        "engagement": 116,
+        "basic": 1064,
+        "engagement": 115,
         "viral": 123,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1771,
-        "average_views": 636,
+        "median_score": 1774,
+        "average_views": 638,
         "average_likes": 24,
-        "avg_engagement": 3.85,
-        "top3_avg": 2456,
+        "avg_engagement": 3.84,
+        "top3_avg": 2458,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
@@ -216,14 +216,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 1257,
+        "median_score": 1258,
         "average_views": 782,
         "average_likes": 10,
         "avg_engagement": 1.21,
         "top3_avg": 0,
-        "max_single_views": 1543,
+        "max_single_views": 1544,
         "viral_video": {
-          "views": 1543,
+          "views": 1544,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
