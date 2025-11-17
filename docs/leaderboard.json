@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-16T21:21:50.180430+00:00",
+  "last_updated": "2025-11-17T01:06:04.665408+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2278,
-        "average_views": 1305,
+        "average_views": 1306,
         "average_likes": 14,
         "avg_engagement": 1.56,
-        "top3_avg": 2321,
+        "top3_avg": 2323,
         "max_single_views": 1328,
         "viral_video": {
           "views": 1328,
@@ -132,17 +132,17 @@
       "badge_descriptions": {},
       "total_score": 1289,
       "score_breakdown": {
-        "basic": 1046,
+        "basic": 1047,
         "engagement": 114,
         "viral": 122,
         "growth": 7
       },
       "metrics": {
         "median_score": 1744,
-        "average_views": 631,
+        "average_views": 632,
         "average_likes": 23,
-        "avg_engagement": 3.8,
-        "top3_avg": 2438,
+        "avg_engagement": 3.79,
+        "top3_avg": 2439,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
