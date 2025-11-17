@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-17T09:19:11.824419+00:00",
+  "last_updated": "2025-11-17T12:37:09.257571+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,7 +22,7 @@
       },
       "metrics": {
         "median_score": 2278,
-        "average_views": 1309,
+        "average_views": 1310,
         "average_likes": 14,
         "avg_engagement": 1.55,
         "top3_avg": 2326,
@@ -91,7 +91,7 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1336,
+      "total_score": 1337,
       "score_breakdown": {
         "basic": 1142,
         "engagement": 21,
@@ -103,7 +103,7 @@
         "average_views": 1563,
         "average_likes": 11,
         "avg_engagement": 0.71,
-        "top3_avg": 3341,
+        "top3_avg": 3342,
         "max_single_views": 3439,
         "viral_video": {
           "views": 3439,
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1289,
+      "total_score": 1308,
       "score_breakdown": {
-        "basic": 1047,
-        "engagement": 114,
-        "viral": 122,
+        "basic": 1063,
+        "engagement": 116,
+        "viral": 123,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1744,
-        "average_views": 634,
-        "average_likes": 23,
-        "avg_engagement": 3.79,
-        "top3_avg": 2439,
+        "median_score": 1771,
+        "average_views": 635,
+        "average_likes": 24,
+        "avg_engagement": 3.86,
+        "top3_avg": 2456,
         "max_single_views": 1277,
         "viral_video": {
           "views": 1277,
@@ -152,7 +152,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 1.4,
+        "growth_ratio": 1.39,
         "video_count": 4,
         "total_video_count": 4,
         "subscriber_count": 21,
@@ -256,7 +256,7 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 1018,
+        "average_views": 1019,
         "average_likes": 2,
         "avg_engagement": 0.2,
         "top3_avg": 2617,
