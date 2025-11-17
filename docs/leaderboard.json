@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-17T03:45:14.799643+00:00",
+  "last_updated": "2025-11-17T06:26:18.324796+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2278,
-        "average_views": 1307,
+        "average_views": 1309,
         "average_likes": 14,
-        "avg_engagement": 1.56,
-        "top3_avg": 2323,
+        "avg_engagement": 1.55,
+        "top3_avg": 2325,
         "max_single_views": 1328,
         "viral_video": {
           "views": 1328,
@@ -115,7 +115,7 @@
         },
         "growth_ratio": 1.2,
         "video_count": 10,
-        "total_video_count": 36,
+        "total_video_count": 35,
         "subscriber_count": 381,
         "subscriber_change": 13,
         "subscriber_change_percent": 3.5
@@ -139,7 +139,7 @@
       },
       "metrics": {
         "median_score": 1744,
-        "average_views": 632,
+        "average_views": 633,
         "average_likes": 23,
         "avg_engagement": 3.79,
         "top3_avg": 2439,
