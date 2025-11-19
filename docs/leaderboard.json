@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-19T18:31:27.438811+00:00",
+  "last_updated": "2025-11-19T21:20:07.173571+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,10 +22,10 @@
       },
       "metrics": {
         "median_score": 2379,
-        "average_views": 1314,
+        "average_views": 1315,
         "average_likes": 14,
         "avg_engagement": 1.6,
-        "top3_avg": 2364,
+        "top3_avg": 2365,
         "max_single_views": 1329,
         "viral_video": {
           "views": 1329,
@@ -99,8 +99,8 @@
         "growth": 7
       },
       "metrics": {
-        "median_score": 1836,
-        "average_views": 670,
+        "median_score": 1835,
+        "average_views": 669,
         "average_likes": 24,
         "avg_engagement": 3.66,
         "top3_avg": 2500,
