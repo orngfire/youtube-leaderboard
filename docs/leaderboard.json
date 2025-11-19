@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-19T06:24:38.049357+00:00",
+  "last_updated": "2025-11-19T09:16:58.001007+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -91,19 +91,19 @@
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1338,
+      "total_score": 1340,
       "score_breakdown": {
-        "basic": 1096,
-        "engagement": 111,
+        "basic": 1098,
+        "engagement": 110,
         "viral": 125,
         "growth": 7
       },
       "metrics": {
-        "median_score": 1826,
-        "average_views": 665,
+        "median_score": 1830,
+        "average_views": 667,
         "average_likes": 24,
-        "avg_engagement": 3.69,
-        "top3_avg": 2494,
+        "avg_engagement": 3.67,
+        "top3_avg": 2497,
         "max_single_views": 1279,
         "viral_video": {
           "views": 1279,
@@ -113,7 +113,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 1.35,
+        "growth_ratio": 1.34,
         "video_count": 4,
         "total_video_count": 3,
         "subscriber_count": 22,
