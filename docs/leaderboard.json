@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-22T06:22:22.309758+00:00",
+  "last_updated": "2025-11-22T09:13:44.737586+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -208,22 +208,22 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 792,
+      "total_score": 793,
       "score_breakdown": {
-        "basic": 755,
+        "basic": 757,
         "engagement": 36,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1259,
-        "average_views": 784,
+        "median_score": 1262,
+        "average_views": 786,
         "average_likes": 10,
         "avg_engagement": 1.21,
         "top3_avg": 0,
-        "max_single_views": 1547,
+        "max_single_views": 1551,
         "viral_video": {
-          "views": 1547,
+          "views": 1551,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
