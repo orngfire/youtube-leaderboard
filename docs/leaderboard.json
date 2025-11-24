@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-23T21:22:55.289113+00:00",
+  "last_updated": "2025-11-24T01:09:28.121566+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,22 +130,22 @@
       "channel_url": "https://www.youtube.com/@nana.imou22",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1017,
+      "total_score": 1018,
       "score_breakdown": {
-        "basic": 1006,
-        "engagement": 11,
+        "basic": 1007,
+        "engagement": 10,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1677,
-        "average_views": 1427,
+        "median_score": 1679,
+        "average_views": 1429,
         "average_likes": 3,
         "avg_engagement": 0.35,
         "top3_avg": 0,
-        "max_single_views": 1427,
+        "max_single_views": 1429,
         "viral_video": {
-          "views": 1427,
+          "views": 1429,
           "likes": 3,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -296,7 +296,7 @@
       "total_score": 436,
       "score_breakdown": {
         "basic": 154,
-        "engagement": 110,
+        "engagement": 109,
         "viral": 125,
         "growth": 47
       },
