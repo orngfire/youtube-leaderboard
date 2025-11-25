@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-25T01:04:57.924014+00:00",
+  "last_updated": "2025-11-25T03:44:36.336008+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -163,6 +163,45 @@
     },
     {
       "rank": 5,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 951,
+      "score_breakdown": {
+        "basic": 851,
+        "engagement": 30,
+        "viral": 66,
+        "growth": 5
+      },
+      "metrics": {
+        "median_score": 1418,
+        "average_views": 881,
+        "average_likes": 9,
+        "avg_engagement": 0.98,
+        "top3_avg": 1314,
+        "max_single_views": 1551,
+        "viral_video": {
+          "views": 1551,
+          "likes": 17,
+          "comments": 0,
+          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
+          "video_id": "UlcVdKnJB30",
+          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
+        },
+        "growth_ratio": 0.93,
+        "video_count": 3,
+        "total_video_count": 28,
+        "subscriber_count": 110,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 6,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_name": "리로",
@@ -195,45 +234,6 @@
         "video_count": 23,
         "total_video_count": 23,
         "subscriber_count": 7,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 6,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 627,
-      "score_breakdown": {
-        "basic": 529,
-        "engagement": 35,
-        "viral": 57,
-        "growth": 6
-      },
-      "metrics": {
-        "median_score": 882,
-        "average_views": 719,
-        "average_likes": 8,
-        "avg_engagement": 1.16,
-        "top3_avg": 1135,
-        "max_single_views": 1551,
-        "viral_video": {
-          "views": 1551,
-          "likes": 17,
-          "comments": 0,
-          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
-          "video_id": "UlcVdKnJB30",
-          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
-        },
-        "growth_ratio": 1.29,
-        "video_count": 3,
-        "total_video_count": 28,
-        "subscriber_count": 110,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
       },
