@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-25T15:18:56.200939+00:00",
+  "last_updated": "2025-11-25T18:32:14.535745+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -100,7 +100,7 @@
       },
       "metrics": {
         "median_score": 2116,
-        "average_views": 1339,
+        "average_views": 1340,
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3007,
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1098,
+      "total_score": 1183,
       "score_breakdown": {
-        "basic": 994,
-        "engagement": 30,
-        "viral": 70,
+        "basic": 1075,
+        "engagement": 32,
+        "viral": 72,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1657,
-        "average_views": 928,
-        "average_likes": 9,
-        "avg_engagement": 1.01,
-        "top3_avg": 1395,
+        "median_score": 1791,
+        "average_views": 940,
+        "average_likes": 10,
+        "avg_engagement": 1.06,
+        "top3_avg": 1440,
         "max_single_views": 1555,
         "viral_video": {
           "views": 1555,
@@ -152,7 +152,7 @@
           "video_id": "UlcVdKnJB30",
           "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
         },
-        "growth_ratio": 0.84,
+        "growth_ratio": 0.8,
         "video_count": 3,
         "total_video_count": 28,
         "subscriber_count": 110,
@@ -332,15 +332,15 @@
       "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 383,
+      "total_score": 384,
       "score_breakdown": {
-        "basic": 268,
+        "basic": 269,
         "engagement": 15,
         "viral": 93,
         "growth": 7
       },
       "metrics": {
-        "median_score": 447,
+        "median_score": 448,
         "average_views": 734,
         "average_likes": 4,
         "avg_engagement": 0.48,
@@ -354,7 +354,7 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.5,
+        "growth_ratio": 1.49,
         "video_count": 9,
         "total_video_count": 18,
         "subscriber_count": 10,
