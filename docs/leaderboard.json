@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-26T09:17:16.743460+00:00",
+  "last_updated": "2025-11-26T12:38:58.833433+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1205,
+      "total_score": 1206,
       "score_breakdown": {
-        "basic": 1097,
-        "engagement": 32,
+        "basic": 1098,
+        "engagement": 31,
         "viral": 73,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1828,
-        "average_views": 952,
+        "median_score": 1830,
+        "average_views": 953,
         "average_likes": 10,
         "avg_engagement": 1.05,
-        "top3_avg": 1452,
+        "top3_avg": 1453,
         "max_single_views": 1555,
         "viral_video": {
           "views": 1555,
@@ -217,10 +217,10 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 1019,
+        "average_views": 1020,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2617,
+        "top3_avg": 2619,
         "max_single_views": 2529,
         "viral_video": {
           "views": 2529,
@@ -295,27 +295,27 @@
       },
       "total_score": 436,
       "score_breakdown": {
-        "basic": 154,
+        "basic": 155,
         "engagement": 109,
         "viral": 125,
-        "growth": 48
+        "growth": 47
       },
       "metrics": {
-        "median_score": 257,
-        "average_views": 539,
+        "median_score": 258,
+        "average_views": 540,
         "average_likes": 19,
-        "avg_engagement": 3.64,
-        "top3_avg": 2501,
-        "max_single_views": 1281,
+        "avg_engagement": 3.63,
+        "top3_avg": 2502,
+        "max_single_views": 1282,
         "viral_video": {
-          "views": 1281,
+          "views": 1282,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.5,
+        "growth_ratio": 9.47,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
