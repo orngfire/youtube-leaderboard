@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-27T18:29:04.410196+00:00",
+  "last_updated": "2025-11-27T21:23:39.854408+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1257,
+      "total_score": 1259,
       "score_breakdown": {
-        "basic": 1148,
+        "basic": 1151,
         "engagement": 31,
         "viral": 74,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1914,
-        "average_views": 981,
+        "median_score": 1918,
+        "average_views": 983,
         "average_likes": 10,
         "avg_engagement": 1.02,
-        "top3_avg": 1481,
+        "top3_avg": 1483,
         "max_single_views": 1556,
         "viral_video": {
           "views": 1556,
@@ -302,13 +302,13 @@
       },
       "metrics": {
         "median_score": 258,
-        "average_views": 540,
+        "average_views": 541,
         "average_likes": 19,
         "avg_engagement": 3.59,
-        "top3_avg": 2485,
-        "max_single_views": 1283,
+        "top3_avg": 2486,
+        "max_single_views": 1285,
         "viral_video": {
-          "views": 1283,
+          "views": 1285,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
