@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-28T18:29:29.579826+00:00",
+  "last_updated": "2025-11-28T21:22:36.460320+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1282,
+      "total_score": 1285,
       "score_breakdown": {
-        "basic": 1174,
+        "basic": 1176,
         "engagement": 30,
         "viral": 75,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1956,
-        "average_views": 995,
+        "median_score": 1960,
+        "average_views": 997,
         "average_likes": 10,
         "avg_engagement": 1.0,
-        "top3_avg": 1495,
+        "top3_avg": 1497,
         "max_single_views": 1556,
         "viral_video": {
           "views": 1556,
