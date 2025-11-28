@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-28T01:03:07.402115+00:00",
+  "last_updated": "2025-11-28T03:41:22.041125+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1261,
+      "total_score": 1265,
       "score_breakdown": {
-        "basic": 1153,
+        "basic": 1156,
         "engagement": 30,
         "viral": 74,
         "growth": 4
       },
       "metrics": {
-        "median_score": 1921,
-        "average_views": 984,
+        "median_score": 1927,
+        "average_views": 986,
         "average_likes": 10,
-        "avg_engagement": 1.02,
-        "top3_avg": 1484,
+        "avg_engagement": 1.01,
+        "top3_avg": 1486,
         "max_single_views": 1556,
         "viral_video": {
           "views": 1556,
@@ -306,16 +306,16 @@
         "average_likes": 19,
         "avg_engagement": 3.59,
         "top3_avg": 2486,
-        "max_single_views": 1285,
+        "max_single_views": 1286,
         "viral_video": {
-          "views": 1285,
+          "views": 1286,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.4,
+        "growth_ratio": 9.41,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 21,
