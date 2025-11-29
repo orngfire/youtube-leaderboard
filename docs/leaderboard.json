@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-29T01:03:34.497504+00:00",
+  "last_updated": "2025-11-29T03:41:10.418036+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -221,9 +221,9 @@
         "average_likes": 2,
         "avg_engagement": 0.2,
         "top3_avg": 2619,
-        "max_single_views": 2529,
+        "max_single_views": 2531,
         "viral_video": {
-          "views": 2529,
+          "views": 2531,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
@@ -305,10 +305,10 @@
         "average_views": 541,
         "average_likes": 19,
         "avg_engagement": 3.59,
-        "top3_avg": 2486,
-        "max_single_views": 1286,
+        "top3_avg": 2487,
+        "max_single_views": 1287,
         "viral_video": {
-          "views": 1286,
+          "views": 1287,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
