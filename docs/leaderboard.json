@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T01:07:01.329919+00:00",
+  "last_updated": "2025-12-03T03:47:32.630334+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,13 +22,13 @@
       },
       "metrics": {
         "median_score": 2379,
-        "average_views": 1317,
+        "average_views": 1318,
         "average_likes": 13,
         "avg_engagement": 1.54,
-        "top3_avg": 2334,
-        "max_single_views": 1329,
+        "top3_avg": 2335,
+        "max_single_views": 1330,
         "viral_video": {
-          "views": 1329,
+          "views": 1330,
           "likes": 12,
           "comments": 3,
           "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -46,45 +46,6 @@
     },
     {
       "rank": 2,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1501,
-      "score_breakdown": {
-        "basic": 1295,
-        "engagement": 23,
-        "viral": 177,
-        "growth": 5
-      },
-      "metrics": {
-        "median_score": 2159,
-        "average_views": 1591,
-        "average_likes": 12,
-        "avg_engagement": 0.78,
-        "top3_avg": 3537,
-        "max_single_views": 3439,
-        "viral_video": {
-          "views": 3439,
-          "likes": 19,
-          "comments": 0,
-          "title": "혈관이 청소되는 음식 6가지!",
-          "video_id": "vUsfFAGKLt4",
-          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
-        },
-        "growth_ratio": 1.05,
-        "video_count": 11,
-        "total_video_count": 36,
-        "subscriber_count": 388,
-        "subscriber_change": 20,
-        "subscriber_change_percent": 5.4
-      },
-      "status": "success"
-    },
-    {
-      "rank": 3,
       "name": "김수정",
       "channel_handle": "kongpupu",
       "channel_name": "고양이 짧지",
@@ -123,7 +84,85 @@
       "status": "success"
     },
     {
+      "rank": 3,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1349,
+      "score_breakdown": {
+        "basic": 1142,
+        "engagement": 24,
+        "viral": 177,
+        "growth": 6
+      },
+      "metrics": {
+        "median_score": 1904,
+        "average_views": 1511,
+        "average_likes": 12,
+        "avg_engagement": 0.79,
+        "top3_avg": 3537,
+        "max_single_views": 3439,
+        "viral_video": {
+          "views": 3439,
+          "likes": 19,
+          "comments": 0,
+          "title": "혈관이 청소되는 음식 6가지!",
+          "video_id": "vUsfFAGKLt4",
+          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
+        },
+        "growth_ratio": 1.2,
+        "video_count": 12,
+        "total_video_count": 37,
+        "subscriber_count": 390,
+        "subscriber_change": 22,
+        "subscriber_change_percent": 6.0
+      },
+      "status": "success"
+    },
+    {
       "rank": 4,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1043,
+      "score_breakdown": {
+        "basic": 911,
+        "engagement": 36,
+        "viral": 91,
+        "growth": 5
+      },
+      "metrics": {
+        "median_score": 1518,
+        "average_views": 867,
+        "average_likes": 10,
+        "avg_engagement": 1.21,
+        "top3_avg": 1814,
+        "max_single_views": 1556,
+        "viral_video": {
+          "views": 1556,
+          "likes": 17,
+          "comments": 0,
+          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
+          "video_id": "UlcVdKnJB30",
+          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
+        },
+        "growth_ratio": 0.99,
+        "video_count": 4,
+        "total_video_count": 29,
+        "subscriber_count": 110,
+        "subscriber_change": 0,
+        "subscriber_change_percent": 0.0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 5,
       "name": "국해란",
       "channel_handle": "nana.imou22",
       "channel_name": "나나이모",
@@ -158,45 +197,6 @@
         "subscriber_count": 0,
         "subscriber_change": 0,
         "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 5,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1010,
-      "score_breakdown": {
-        "basic": 878,
-        "engagement": 38,
-        "viral": 89,
-        "growth": 5
-      },
-      "metrics": {
-        "median_score": 1464,
-        "average_views": 840,
-        "average_likes": 10,
-        "avg_engagement": 1.25,
-        "top3_avg": 1778,
-        "max_single_views": 1556,
-        "viral_video": {
-          "views": 1556,
-          "likes": 17,
-          "comments": 0,
-          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
-          "video_id": "UlcVdKnJB30",
-          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
-        },
-        "growth_ratio": 1.02,
-        "video_count": 4,
-        "total_video_count": 29,
-        "subscriber_count": 110,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
       },
       "status": "success"
     },
