@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T03:47:32.630334+00:00",
+  "last_updated": "2025-12-03T06:26:57.650956+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -91,34 +91,34 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1349,
+      "total_score": 1413,
       "score_breakdown": {
-        "basic": 1142,
-        "engagement": 24,
+        "basic": 1206,
+        "engagement": 25,
         "viral": 177,
         "growth": 6
       },
       "metrics": {
-        "median_score": 1904,
-        "average_views": 1511,
+        "median_score": 2010,
+        "average_views": 1561,
         "average_likes": 12,
-        "avg_engagement": 0.79,
-        "top3_avg": 3537,
-        "max_single_views": 3439,
+        "avg_engagement": 0.82,
+        "top3_avg": 3539,
+        "max_single_views": 3444,
         "viral_video": {
-          "views": 3439,
+          "views": 3444,
           "likes": 19,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
           "video_id": "vUsfFAGKLt4",
           "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
         },
-        "growth_ratio": 1.2,
+        "growth_ratio": 1.14,
         "video_count": 12,
         "total_video_count": 37,
-        "subscriber_count": 390,
-        "subscriber_change": 22,
-        "subscriber_change_percent": 6.0
+        "subscriber_count": 391,
+        "subscriber_change": 23,
+        "subscriber_change_percent": 6.2
       },
       "status": "success"
     },
@@ -130,19 +130,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1043,
+      "total_score": 1090,
       "score_breakdown": {
-        "basic": 911,
-        "engagement": 36,
-        "viral": 91,
+        "basic": 955,
+        "engagement": 38,
+        "viral": 93,
         "growth": 5
       },
       "metrics": {
-        "median_score": 1518,
-        "average_views": 867,
+        "median_score": 1591,
+        "average_views": 878,
         "average_likes": 10,
-        "avg_engagement": 1.21,
-        "top3_avg": 1814,
+        "avg_engagement": 1.25,
+        "top3_avg": 1863,
         "max_single_views": 1556,
         "viral_video": {
           "views": 1556,
@@ -152,7 +152,7 @@
           "video_id": "UlcVdKnJB30",
           "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
         },
-        "growth_ratio": 0.99,
+        "growth_ratio": 0.94,
         "video_count": 4,
         "total_video_count": 29,
         "subscriber_count": 110,
