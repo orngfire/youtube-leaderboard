@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T09:19:04.003218+00:00",
+  "last_updated": "2025-12-03T12:38:59.022423+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,16 +52,16 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1576,
+      "total_score": 1578,
       "score_breakdown": {
-        "basic": 1372,
+        "basic": 1375,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2288,
-        "average_views": 1826,
+        "median_score": 2291,
+        "average_views": 1827,
         "average_likes": 13,
         "avg_engagement": 0.73,
         "top3_avg": 3540,
@@ -76,7 +76,7 @@
         },
         "growth_ratio": 1.0,
         "video_count": 10,
-        "total_video_count": 37,
+        "total_video_count": 35,
         "subscriber_count": 391,
         "subscriber_change": 23,
         "subscriber_change_percent": 6.2
@@ -85,6 +85,45 @@
     },
     {
       "rank": 3,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1475,
+      "score_breakdown": {
+        "basic": 1311,
+        "engagement": 42,
+        "viral": 119,
+        "growth": 3
+      },
+      "metrics": {
+        "median_score": 2184,
+        "average_views": 1070,
+        "average_likes": 14,
+        "avg_engagement": 1.4,
+        "top3_avg": 2386,
+        "max_single_views": 1556,
+        "viral_video": {
+          "views": 1556,
+          "likes": 17,
+          "comments": 0,
+          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
+          "video_id": "UlcVdKnJB30",
+          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
+        },
+        "growth_ratio": 0.69,
+        "video_count": 4,
+        "total_video_count": 29,
+        "subscriber_count": 112,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 1.8
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "김수정",
       "channel_handle": "kongpupu",
       "channel_name": "고양이 짧지",
@@ -119,45 +158,6 @@
         "subscriber_count": 47,
         "subscriber_change": 13,
         "subscriber_change_percent": 38.2
-      },
-      "status": "success"
-    },
-    {
-      "rank": 4,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1262,
-      "score_breakdown": {
-        "basic": 1116,
-        "engagement": 40,
-        "viral": 102,
-        "growth": 4
-      },
-      "metrics": {
-        "median_score": 1860,
-        "average_views": 938,
-        "average_likes": 12,
-        "avg_engagement": 1.33,
-        "top3_avg": 2042,
-        "max_single_views": 1556,
-        "viral_video": {
-          "views": 1556,
-          "likes": 17,
-          "comments": 0,
-          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
-          "video_id": "UlcVdKnJB30",
-          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
-        },
-        "growth_ratio": 0.8,
-        "video_count": 4,
-        "total_video_count": 29,
-        "subscriber_count": 111,
-        "subscriber_change": 1,
-        "subscriber_change_percent": 0.9
       },
       "status": "success"
     },
