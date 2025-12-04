@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-04T12:39:58.908661+00:00",
+  "last_updated": "2025-12-04T15:19:35.089240+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,16 +52,16 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1583,
+      "total_score": 1586,
       "score_breakdown": {
-        "basic": 1379,
+        "basic": 1382,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2298,
-        "average_views": 1828,
+        "median_score": 2304,
+        "average_views": 1829,
         "average_likes": 13,
         "avg_engagement": 0.73,
         "top3_avg": 3540,
@@ -91,16 +91,16 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1478,
+      "total_score": 1479,
       "score_breakdown": {
-        "basic": 1312,
+        "basic": 1313,
         "engagement": 40,
         "viral": 122,
         "growth": 3
       },
       "metrics": {
         "median_score": 2188,
-        "average_views": 1114,
+        "average_views": 1115,
         "average_likes": 14,
         "avg_engagement": 1.35,
         "top3_avg": 2444,
@@ -260,9 +260,9 @@
         "average_likes": 4,
         "avg_engagement": 0.54,
         "top3_avg": 2261,
-        "max_single_views": 2358,
+        "max_single_views": 2359,
         "viral_video": {
-          "views": 2358,
+          "views": 2359,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 543,
         "average_likes": 19,
-        "avg_engagement": 3.58,
-        "top3_avg": 2489,
-        "max_single_views": 1294,
+        "avg_engagement": 3.57,
+        "top3_avg": 2490,
+        "max_single_views": 1295,
         "viral_video": {
-          "views": 1294,
+          "views": 1295,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
