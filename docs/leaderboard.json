@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T09:16:35.799790+00:00",
+  "last_updated": "2025-12-05T12:38:14.331402+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,15 +13,15 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1608,
+      "total_score": 1610,
       "score_breakdown": {
-        "basic": 1404,
+        "basic": 1406,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2340,
+        "median_score": 2344,
         "average_views": 1832,
         "average_likes": 13,
         "avg_engagement": 0.73,
@@ -52,22 +52,22 @@
       "channel_url": "https://www.youtube.com/@talkerrypop",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1595,
+      "total_score": 1597,
       "score_breakdown": {
-        "basic": 1427,
+        "basic": 1429,
         "engagement": 46,
         "viral": 117,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2379,
-        "average_views": 1318,
+        "median_score": 2381,
+        "average_views": 1320,
         "average_likes": 13,
         "avg_engagement": 1.54,
-        "top3_avg": 2335,
-        "max_single_views": 1330,
+        "top3_avg": 2336,
+        "max_single_views": 1331,
         "viral_video": {
-          "views": 1330,
+          "views": 1331,
           "likes": 12,
           "comments": 3,
           "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -99,14 +99,14 @@
         "growth": 3
       },
       "metrics": {
-        "median_score": 2191,
+        "median_score": 2192,
         "average_views": 1116,
         "average_likes": 14,
         "avg_engagement": 1.34,
-        "top3_avg": 2445,
-        "max_single_views": 1559,
+        "top3_avg": 2446,
+        "max_single_views": 1560,
         "viral_video": {
-          "views": 1559,
+          "views": 1560,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
@@ -142,7 +142,7 @@
         "average_views": 1340,
         "average_likes": 11,
         "avg_engagement": 0.9,
-        "top3_avg": 3009,
+        "top3_avg": 3010,
         "max_single_views": 2035,
         "viral_video": {
           "views": 2035,
@@ -305,10 +305,10 @@
         "average_views": 543,
         "average_likes": 19,
         "avg_engagement": 3.57,
-        "top3_avg": 2490,
-        "max_single_views": 1296,
+        "top3_avg": 2491,
+        "max_single_views": 1297,
         "viral_video": {
-          "views": 1296,
+          "views": 1297,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -373,20 +373,20 @@
       "badge_descriptions": {},
       "total_score": 342,
       "score_breakdown": {
-        "basic": 318,
+        "basic": 319,
         "engagement": 24,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 530,
-        "average_views": 380,
+        "median_score": 531,
+        "average_views": 381,
         "average_likes": 3,
         "avg_engagement": 0.79,
         "top3_avg": 0,
-        "max_single_views": 380,
+        "max_single_views": 381,
         "viral_video": {
-          "views": 380,
+          "views": 381,
           "likes": 3,
           "comments": 0,
           "title": "레드 와인 다이어트? 운동 효과 있다고?",
