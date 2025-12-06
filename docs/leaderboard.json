@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-06T03:38:59.638226+00:00",
+  "last_updated": "2025-12-06T06:23:09.682558+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,15 +13,15 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1625,
+      "total_score": 1626,
       "score_breakdown": {
-        "basic": 1421,
+        "basic": 1422,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2369,
+        "median_score": 2370,
         "average_views": 1838,
         "average_likes": 13,
         "avg_engagement": 0.73,
@@ -91,9 +91,9 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1484,
+      "total_score": 1485,
       "score_breakdown": {
-        "basic": 1315,
+        "basic": 1316,
         "engagement": 42,
         "viral": 124,
         "growth": 3
@@ -335,19 +335,19 @@
       "total_score": 384,
       "score_breakdown": {
         "basic": 269,
-        "engagement": 15,
+        "engagement": 14,
         "viral": 93,
         "growth": 7
       },
       "metrics": {
         "median_score": 448,
-        "average_views": 735,
+        "average_views": 736,
         "average_likes": 4,
         "avg_engagement": 0.48,
-        "top3_avg": 1856,
-        "max_single_views": 1793,
+        "top3_avg": 1857,
+        "max_single_views": 1794,
         "viral_video": {
-          "views": 1793,
+          "views": 1794,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
