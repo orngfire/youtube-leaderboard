@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-06T01:03:24.011985+00:00",
+  "last_updated": "2025-12-06T03:38:59.638226+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,16 +13,16 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1624,
+      "total_score": 1625,
       "score_breakdown": {
-        "basic": 1420,
+        "basic": 1421,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2366,
-        "average_views": 1837,
+        "median_score": 2369,
+        "average_views": 1838,
         "average_likes": 13,
         "avg_engagement": 0.73,
         "top3_avg": 3540,
@@ -139,7 +139,7 @@
       },
       "metrics": {
         "median_score": 2117,
-        "average_views": 1340,
+        "average_views": 1341,
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3010,
@@ -302,20 +302,20 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 543,
+        "average_views": 544,
         "average_likes": 19,
         "avg_engagement": 3.57,
         "top3_avg": 2491,
-        "max_single_views": 1297,
+        "max_single_views": 1298,
         "viral_video": {
-          "views": 1297,
+          "views": 1298,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.38,
+        "growth_ratio": 9.39,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 21,
