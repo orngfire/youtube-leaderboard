@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T21:25:09.398974+00:00",
+  "last_updated": "2025-12-06T01:03:24.011985+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,15 +13,15 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1623,
+      "total_score": 1624,
       "score_breakdown": {
-        "basic": 1419,
+        "basic": 1420,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2365,
+        "median_score": 2366,
         "average_views": 1837,
         "average_likes": 13,
         "avg_engagement": 0.73,
