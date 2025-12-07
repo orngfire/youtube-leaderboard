@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-06T21:22:33.440148+00:00",
+  "last_updated": "2025-12-07T01:13:35.027479+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,15 +13,15 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1631,
+      "total_score": 1632,
       "score_breakdown": {
-        "basic": 1427,
+        "basic": 1428,
         "engagement": 22,
         "viral": 177,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2379,
+        "median_score": 2380,
         "average_views": 1840,
         "average_likes": 13,
         "avg_engagement": 0.73,
@@ -345,9 +345,9 @@
         "average_likes": 4,
         "avg_engagement": 0.48,
         "top3_avg": 1857,
-        "max_single_views": 1794,
+        "max_single_views": 1795,
         "viral_video": {
-          "views": 1794,
+          "views": 1795,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
