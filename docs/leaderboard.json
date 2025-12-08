@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T18:33:14.241402+00:00",
+  "last_updated": "2025-12-08T21:22:37.349752+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,22 +13,22 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1753,
+      "total_score": 1757,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 25,
-        "viral": 177,
+        "viral": 182,
         "growth": 4
       },
       "metrics": {
         "median_score": 2578,
-        "average_views": 1795,
+        "average_views": 1834,
         "average_likes": 14,
-        "avg_engagement": 0.84,
-        "top3_avg": 3540,
-        "max_single_views": 3445,
+        "avg_engagement": 0.82,
+        "top3_avg": 3630,
+        "max_single_views": 3447,
         "viral_video": {
-          "views": 3445,
+          "views": 3447,
           "likes": 19,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
