@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-07T21:21:46.320585+00:00",
+  "last_updated": "2025-12-08T01:07:22.368602+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -22,7 +22,7 @@
       },
       "metrics": {
         "median_score": 2378,
-        "average_views": 1839,
+        "average_views": 1840,
         "average_likes": 13,
         "avg_engagement": 0.73,
         "top3_avg": 3540,
