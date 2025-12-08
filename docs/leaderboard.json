@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-08T15:19:12.427952+00:00",
+  "last_updated": "2025-12-08T18:33:14.241402+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,18 +13,18 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1631,
+      "total_score": 1753,
       "score_breakdown": {
-        "basic": 1427,
-        "engagement": 22,
+        "basic": 1547,
+        "engagement": 25,
         "viral": 177,
-        "growth": 5
+        "growth": 4
       },
       "metrics": {
-        "median_score": 2378,
-        "average_views": 1840,
-        "average_likes": 13,
-        "avg_engagement": 0.73,
+        "median_score": 2578,
+        "average_views": 1795,
+        "average_likes": 14,
+        "avg_engagement": 0.84,
         "top3_avg": 3540,
         "max_single_views": 3445,
         "viral_video": {
@@ -35,12 +35,12 @@
           "video_id": "vUsfFAGKLt4",
           "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
         },
-        "growth_ratio": 0.96,
-        "video_count": 10,
-        "total_video_count": 35,
-        "subscriber_count": 390,
-        "subscriber_change": 22,
-        "subscriber_change_percent": 6.0
+        "growth_ratio": 0.89,
+        "video_count": 11,
+        "total_video_count": 36,
+        "subscriber_count": 393,
+        "subscriber_change": 25,
+        "subscriber_change_percent": 6.8
       },
       "status": "success"
     },
@@ -99,14 +99,14 @@
         "growth": 3
       },
       "metrics": {
-        "median_score": 2194,
-        "average_views": 1118,
+        "median_score": 2195,
+        "average_views": 1119,
         "average_likes": 14,
         "avg_engagement": 1.39,
-        "top3_avg": 2482,
-        "max_single_views": 1562,
+        "top3_avg": 2483,
+        "max_single_views": 1563,
         "viral_video": {
-          "views": 1562,
+          "views": 1563,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 544,
         "average_likes": 19,
-        "avg_engagement": 3.57,
+        "avg_engagement": 3.56,
         "top3_avg": 2492,
-        "max_single_views": 1300,
+        "max_single_views": 1301,
         "viral_video": {
-          "views": 1300,
+          "views": 1301,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
