@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-09T06:27:19.571960+00:00",
+  "last_updated": "2025-12-09T09:18:35.317183+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1758,
+      "total_score": 1760,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 25,
-        "viral": 182,
+        "viral": 184,
         "growth": 4
       },
       "metrics": {
         "median_score": 2578,
-        "average_views": 1837,
-        "average_likes": 14,
-        "avg_engagement": 0.82,
-        "top3_avg": 3640,
+        "average_views": 1838,
+        "average_likes": 15,
+        "avg_engagement": 0.83,
+        "top3_avg": 3678,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -38,9 +38,9 @@
         "growth_ratio": 0.89,
         "video_count": 11,
         "total_video_count": 36,
-        "subscriber_count": 393,
-        "subscriber_change": 25,
-        "subscriber_change_percent": 6.8
+        "subscriber_count": 394,
+        "subscriber_change": 26,
+        "subscriber_change_percent": 7.1
       },
       "status": "success"
     },
@@ -220,10 +220,10 @@
         "average_views": 1020,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2619,
-        "max_single_views": 2531,
+        "top3_avg": 2620,
+        "max_single_views": 2532,
         "viral_video": {
-          "views": 2531,
+          "views": 2532,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
