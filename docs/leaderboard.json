@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-11T09:20:24.999433+00:00",
+  "last_updated": "2025-12-11T12:41:13.461786+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1763,
+      "total_score": 1764,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 25,
-        "viral": 187,
+        "viral": 188,
         "growth": 4
       },
       "metrics": {
         "median_score": 2578,
         "average_views": 1840,
         "average_likes": 15,
-        "avg_engagement": 0.84,
-        "top3_avg": 3734,
+        "avg_engagement": 0.85,
+        "top3_avg": 3752,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -38,9 +38,9 @@
         "growth_ratio": 0.89,
         "video_count": 11,
         "total_video_count": 36,
-        "subscriber_count": 395,
-        "subscriber_change": 27,
-        "subscriber_change_percent": 7.3
+        "subscriber_count": 397,
+        "subscriber_change": 29,
+        "subscriber_change_percent": 7.9
       },
       "status": "success"
     },
@@ -91,19 +91,19 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1489,
+      "total_score": 1505,
       "score_breakdown": {
-        "basic": 1319,
-        "engagement": 41,
-        "viral": 124,
+        "basic": 1334,
+        "engagement": 42,
+        "viral": 125,
         "growth": 3
       },
       "metrics": {
-        "median_score": 2199,
+        "median_score": 2224,
         "average_views": 1122,
-        "average_likes": 14,
-        "avg_engagement": 1.38,
-        "top3_avg": 2487,
+        "average_likes": 15,
+        "avg_engagement": 1.4,
+        "top3_avg": 2504,
         "max_single_views": 1567,
         "viral_video": {
           "views": 1567,
