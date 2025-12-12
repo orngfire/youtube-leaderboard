@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T01:09:00.378504+00:00",
+  "last_updated": "2025-12-12T03:53:44.179256+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,19 +13,19 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1766,
+      "total_score": 1767,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 26,
-        "viral": 189,
+        "viral": 190,
         "growth": 4
       },
       "metrics": {
         "median_score": 2578,
         "average_views": 1841,
         "average_likes": 15,
-        "avg_engagement": 0.85,
-        "top3_avg": 3773,
+        "avg_engagement": 0.86,
+        "top3_avg": 3790,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -339,7 +339,7 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 363,
+      "total_score": 362,
       "score_breakdown": {
         "basic": 248,
         "engagement": 14,
@@ -348,9 +348,9 @@
       },
       "metrics": {
         "median_score": 412,
-        "average_views": 665,
+        "average_views": 690,
         "average_likes": 3,
-        "avg_engagement": 0.48,
+        "avg_engagement": 0.46,
         "top3_avg": 1858,
         "max_single_views": 1797,
         "viral_video": {
