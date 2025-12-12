@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T06:27:36.432186+00:00",
+  "last_updated": "2025-12-12T09:19:40.292017+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -25,7 +25,7 @@
         "average_views": 1842,
         "average_likes": 15,
         "avg_engagement": 0.86,
-        "top3_avg": 3791,
+        "top3_avg": 3792,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -220,10 +220,10 @@
         "average_views": 1020,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2620,
-        "max_single_views": 2532,
+        "top3_avg": 2621,
+        "max_single_views": 2535,
         "viral_video": {
-          "views": 2532,
+          "views": 2535,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
