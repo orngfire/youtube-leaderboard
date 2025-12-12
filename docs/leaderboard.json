@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-11T21:29:38.995815+00:00",
+  "last_updated": "2025-12-12T01:09:00.378504+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,7 +13,7 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1765,
+      "total_score": 1766,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 26,
@@ -25,7 +25,7 @@
         "average_views": 1841,
         "average_likes": 15,
         "avg_engagement": 0.85,
-        "top3_avg": 3772,
+        "top3_avg": 3773,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -330,19 +330,26 @@
       "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "channel_name": "차곡차곡 한뼘로그",
       "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 384,
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 363,
       "score_breakdown": {
-        "basic": 269,
+        "basic": 248,
         "engagement": 14,
         "viral": 93,
-        "growth": 7
+        "growth": 8
       },
       "metrics": {
-        "median_score": 448,
-        "average_views": 738,
-        "average_likes": 4,
+        "median_score": 412,
+        "average_views": 665,
+        "average_likes": 3,
         "avg_engagement": 0.48,
         "top3_avg": 1858,
         "max_single_views": 1797,
@@ -354,9 +361,9 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.49,
-        "video_count": 9,
-        "total_video_count": 18,
+        "growth_ratio": 1.62,
+        "video_count": 10,
+        "total_video_count": 19,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
