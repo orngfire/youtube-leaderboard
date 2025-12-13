@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T03:45:17.248340+00:00",
+  "last_updated": "2025-12-13T06:25:08.263722+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,18 +52,18 @@
       "channel_url": "https://youtube.com/@buy1yearago",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1597,
+      "total_score": 1558,
       "score_breakdown": {
-        "basic": 1429,
-        "engagement": 46,
+        "basic": 1384,
+        "engagement": 51,
         "viral": 117,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2382,
-        "average_views": 1322,
-        "average_likes": 13,
-        "avg_engagement": 1.54,
+        "median_score": 2307,
+        "average_views": 992,
+        "average_likes": 10,
+        "avg_engagement": 1.71,
         "top3_avg": 2338,
         "max_single_views": 1332,
         "viral_video": {
@@ -74,9 +74,9 @@
           "video_id": "kSeZgqj3X7c",
           "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
         },
-        "growth_ratio": 0.98,
-        "video_count": 3,
-        "total_video_count": 3,
+        "growth_ratio": 1.01,
+        "video_count": 4,
+        "total_video_count": 4,
         "subscriber_count": 11,
         "subscriber_change": 11,
         "subscriber_change_percent": 0
@@ -99,11 +99,11 @@
         "growth": 3
       },
       "metrics": {
-        "median_score": 2225,
+        "median_score": 2226,
         "average_views": 1123,
         "average_likes": 15,
         "avg_engagement": 1.4,
-        "top3_avg": 2504,
+        "top3_avg": 2505,
         "max_single_views": 1567,
         "viral_video": {
           "views": 1567,
@@ -305,10 +305,10 @@
         "average_views": 547,
         "average_likes": 19,
         "avg_engagement": 3.55,
-        "top3_avg": 2496,
-        "max_single_views": 1313,
+        "top3_avg": 2497,
+        "max_single_views": 1315,
         "viral_video": {
-          "views": 1313,
+          "views": 1315,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
