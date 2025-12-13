@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T06:25:08.263722+00:00",
+  "last_updated": "2025-12-13T09:14:28.179519+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,22 +52,22 @@
       "channel_url": "https://youtube.com/@buy1yearago",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1558,
+      "total_score": 1559,
       "score_breakdown": {
         "basic": 1384,
-        "engagement": 51,
+        "engagement": 53,
         "viral": 117,
         "growth": 5
       },
       "metrics": {
-        "median_score": 2307,
-        "average_views": 992,
+        "median_score": 2308,
+        "average_views": 998,
         "average_likes": 10,
-        "avg_engagement": 1.71,
-        "top3_avg": 2338,
-        "max_single_views": 1332,
+        "avg_engagement": 1.75,
+        "top3_avg": 2339,
+        "max_single_views": 1333,
         "viral_video": {
-          "views": 1332,
+          "views": 1333,
           "likes": 12,
           "comments": 3,
           "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
@@ -76,7 +76,7 @@
         },
         "growth_ratio": 1.01,
         "video_count": 4,
-        "total_video_count": 4,
+        "total_video_count": 3,
         "subscriber_count": 11,
         "subscriber_change": 11,
         "subscriber_change_percent": 0
@@ -306,9 +306,9 @@
         "average_likes": 19,
         "avg_engagement": 3.55,
         "top3_avg": 2497,
-        "max_single_views": 1315,
+        "max_single_views": 1316,
         "viral_video": {
-          "views": 1315,
+          "views": 1316,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
@@ -363,7 +363,7 @@
         },
         "growth_ratio": 1.62,
         "video_count": 10,
-        "total_video_count": 19,
+        "total_video_count": 18,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
