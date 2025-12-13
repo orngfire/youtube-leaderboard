@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T15:18:53.365756+00:00",
+  "last_updated": "2025-12-13T02:50:38.387086+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -7,74 +7,145 @@
   "leaderboard": [
     {
       "rank": 1,
-      "name": "김예림",
-      "channel_handle": "vitaminute4u",
-      "channel_name": "Vitaminute",
-      "channel_url": "https://www.youtube.com/@vitaminute4u",
-      "badges": [
-        "🎯"
-      ],
-      "badge_descriptions": {
-        "🎯": {
-          "name": "꾸준러",
-          "message": "꾸준히 좋은 콘텐츠를 만들고 있어요!"
-        }
-      },
-      "total_score": 2284,
+      "name": "임동한",
+      "channel_handle": "easyfood369",
+      "channel_name": "알기쉬운음식궁합",
+      "channel_url": "https://www.youtube.com/@easyfood369",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1767,
       "score_breakdown": {
-        "basic": 2044,
-        "engagement": 115,
-        "viral": 122,
+        "basic": 1547,
+        "engagement": 26,
+        "viral": 190,
         "growth": 4
       },
       "metrics": {
-        "median_score": 3406,
-        "average_views": 837,
-        "average_likes": 31,
-        "avg_engagement": 3.82,
-        "top3_avg": 2437,
-        "max_single_views": 1276,
+        "median_score": 2578,
+        "average_views": 1843,
+        "average_likes": 15,
+        "avg_engagement": 0.86,
+        "top3_avg": 3796,
+        "max_single_views": 3447,
         "viral_video": {
-          "views": 1276,
-          "likes": 49,
-          "comments": 1,
-          "title": "Why NMN is a true game-changer for your lifespan?",
-          "video_id": "HP7X13UIrcc",
-          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+          "views": 3447,
+          "likes": 19,
+          "comments": 0,
+          "title": "혈관이 청소되는 음식 6가지!",
+          "video_id": "vUsfFAGKLt4",
+          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
         },
-        "growth_ratio": 0.72,
-        "video_count": 3,
-        "total_video_count": 3,
-        "subscriber_count": 21,
-        "subscriber_change": 21,
-        "subscriber_change_percent": 0
+        "growth_ratio": 0.89,
+        "video_count": 11,
+        "total_video_count": 36,
+        "subscriber_count": 398,
+        "subscriber_change": 30,
+        "subscriber_change_percent": 8.2
       },
       "status": "success"
     },
     {
       "rank": 2,
+      "name": "이응곤",
+      "channel_handle": "buy1yearago",
+      "channel_name": "그때샀다면",
+      "channel_url": "https://youtube.com/@buy1yearago",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1597,
+      "score_breakdown": {
+        "basic": 1429,
+        "engagement": 46,
+        "viral": 117,
+        "growth": 5
+      },
+      "metrics": {
+        "median_score": 2382,
+        "average_views": 1322,
+        "average_likes": 13,
+        "avg_engagement": 1.54,
+        "top3_avg": 2338,
+        "max_single_views": 1332,
+        "viral_video": {
+          "views": 1332,
+          "likes": 12,
+          "comments": 3,
+          "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
+          "video_id": "kSeZgqj3X7c",
+          "url": "https://www.youtube.com/watch?v=kSeZgqj3X7c"
+        },
+        "growth_ratio": 0.98,
+        "video_count": 3,
+        "total_video_count": 3,
+        "subscriber_count": 11,
+        "subscriber_change": 11,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
+      "rank": 3,
+      "name": "전우형",
+      "channel_handle": "deundeun.papa_1",
+      "channel_name": "든든파파  :::1분 부자마인드:::",
+      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
+      "badges": [],
+      "badge_descriptions": {},
+      "total_score": 1506,
+      "score_breakdown": {
+        "basic": 1335,
+        "engagement": 42,
+        "viral": 125,
+        "growth": 3
+      },
+      "metrics": {
+        "median_score": 2225,
+        "average_views": 1123,
+        "average_likes": 15,
+        "avg_engagement": 1.4,
+        "top3_avg": 2504,
+        "max_single_views": 1567,
+        "viral_video": {
+          "views": 1567,
+          "likes": 17,
+          "comments": 0,
+          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
+          "video_id": "UlcVdKnJB30",
+          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
+        },
+        "growth_ratio": 0.69,
+        "video_count": 4,
+        "total_video_count": 29,
+        "subscriber_count": 112,
+        "subscriber_change": 2,
+        "subscriber_change_percent": 1.8
+      },
+      "status": "success"
+    },
+    {
+      "rank": 4,
       "name": "김수정",
       "channel_handle": "kongpupu",
       "channel_name": "고양이 짧지",
       "channel_url": "https://www.youtube.com/@kongpupu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1451,
+      "total_score": 1452,
       "score_breakdown": {
         "basic": 1270,
         "engagement": 27,
-        "viral": 150,
+        "viral": 151,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2116,
-        "average_views": 1337,
+        "median_score": 2117,
+        "average_views": 1342,
         "average_likes": 11,
         "avg_engagement": 0.9,
-        "top3_avg": 3004,
-        "max_single_views": 2030,
+        "top3_avg": 3011,
+        "max_single_views": 2035,
         "viral_video": {
-          "views": 2030,
+          "views": 2035,
           "likes": 6,
           "comments": 0,
           "title": "고양이 골골송, 이런 의미를 가지고 있어요! #고양이 #cat #고양이일상 #고양이건강 #타입캐스트 #catvideos #catshorts #고양이쇼츠 #고양이심리",
@@ -91,84 +162,6 @@
       "status": "success"
     },
     {
-      "rank": 3,
-      "name": "이응곤",
-      "channel_handle": "buy1yearago",
-      "channel_name": "그때샀다면",
-      "channel_url": "https://youtube.com/@buy1yearago",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1371,
-      "score_breakdown": {
-        "basic": 1330,
-        "engagement": 41,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 2216,
-        "average_views": 1316,
-        "average_likes": 12,
-        "avg_engagement": 1.37,
-        "top3_avg": 0,
-        "max_single_views": 1318,
-        "viral_video": {
-          "views": 1318,
-          "likes": 12,
-          "comments": 3,
-          "title": "“AI vs 양자 컴퓨팅 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
-          "video_id": "NPXUH5FqEH0",
-          "url": "https://www.youtube.com/watch?v=NPXUH5FqEH0"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 2,
-        "subscriber_count": 8,
-        "subscriber_change": 8,
-        "subscriber_change_percent": 0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 4,
-      "name": "임동한",
-      "channel_handle": "easyfood369",
-      "channel_name": "알기쉬운음식궁합",
-      "channel_url": "https://www.youtube.com/@easyfood369",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 1184,
-      "score_breakdown": {
-        "basic": 989,
-        "engagement": 22,
-        "viral": 167,
-        "growth": 6
-      },
-      "metrics": {
-        "median_score": 1648,
-        "average_views": 1473,
-        "average_likes": 11,
-        "avg_engagement": 0.73,
-        "top3_avg": 3340,
-        "max_single_views": 3439,
-        "viral_video": {
-          "views": 3439,
-          "likes": 19,
-          "comments": 0,
-          "title": "혈관이 청소되는 음식 6가지!",
-          "video_id": "vUsfFAGKLt4",
-          "url": "https://www.youtube.com/watch?v=vUsfFAGKLt4"
-        },
-        "growth_ratio": 1.25,
-        "video_count": 11,
-        "total_video_count": 36,
-        "subscriber_count": 380,
-        "subscriber_change": 12,
-        "subscriber_change_percent": 3.3
-      },
-      "status": "success"
-    },
-    {
       "rank": 5,
       "name": "국해란",
       "channel_handle": "nana.imou22",
@@ -176,22 +169,22 @@
       "channel_url": "https://www.youtube.com/@nana.imou22",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1016,
+      "total_score": 1020,
       "score_breakdown": {
-        "basic": 1005,
-        "engagement": 11,
+        "basic": 1009,
+        "engagement": 10,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1675,
-        "average_views": 1425,
+        "median_score": 1682,
+        "average_views": 1432,
         "average_likes": 3,
         "avg_engagement": 0.35,
         "top3_avg": 0,
-        "max_single_views": 1425,
+        "max_single_views": 1432,
         "viral_video": {
-          "views": 1425,
+          "views": 1432,
           "likes": 3,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -209,45 +202,6 @@
     },
     {
       "rank": 6,
-      "name": "전우형",
-      "channel_handle": "deundeun.papa_1",
-      "channel_name": "든든파파  :::1분 부자마인드:::",
-      "channel_url": "https://www.youtube.com/@deundeun.papa_1",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 751,
-      "score_breakdown": {
-        "basic": 718,
-        "engagement": 33,
-        "viral": 0,
-        "growth": 0
-      },
-      "metrics": {
-        "median_score": 1197,
-        "average_views": 772,
-        "average_likes": 8,
-        "avg_engagement": 1.1,
-        "top3_avg": 0,
-        "max_single_views": 1524,
-        "viral_video": {
-          "views": 1524,
-          "likes": 15,
-          "comments": 0,
-          "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
-          "video_id": "UlcVdKnJB30",
-          "url": "https://www.youtube.com/watch?v=UlcVdKnJB30"
-        },
-        "growth_ratio": 0,
-        "video_count": 2,
-        "total_video_count": 27,
-        "subscriber_count": 110,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
-      },
-      "status": "success"
-    },
-    {
-      "rank": 7,
       "name": "조준철",
       "channel_handle": "lee-lo-4u",
       "channel_name": "리로",
@@ -263,20 +217,20 @@
       },
       "metrics": {
         "median_score": 984,
-        "average_views": 1018,
+        "average_views": 1020,
         "average_likes": 2,
         "avg_engagement": 0.2,
-        "top3_avg": 2617,
-        "max_single_views": 2529,
+        "top3_avg": 2621,
+        "max_single_views": 2535,
         "viral_video": {
-          "views": 2529,
+          "views": 2535,
           "likes": 14,
           "comments": 0,
           "title": "리더는 결국, 불편함을 먼저 삼키는 사람이다",
           "video_id": "sj4hHmeYk0s",
           "url": "https://www.youtube.com/watch?v=sj4hHmeYk0s"
         },
-        "growth_ratio": 1.12,
+        "growth_ratio": 1.13,
         "video_count": 23,
         "total_video_count": 23,
         "subscriber_count": 7,
@@ -286,14 +240,14 @@
       "status": "success"
     },
     {
-      "rank": 8,
+      "rank": 7,
       "name": "김소윤",
       "channel_handle": "maumedu",
       "channel_name": "마음에듀",
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 459,
+      "total_score": 460,
       "score_breakdown": {
         "basic": 328,
         "engagement": 16,
@@ -301,14 +255,14 @@
         "growth": 3
       },
       "metrics": {
-        "median_score": 546,
+        "median_score": 547,
         "average_views": 736,
         "average_likes": 4,
         "avg_engagement": 0.54,
-        "top3_avg": 2260,
-        "max_single_views": 2357,
+        "top3_avg": 2261,
+        "max_single_views": 2359,
         "viral_video": {
-          "views": 2357,
+          "views": 2359,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
@@ -325,38 +279,91 @@
       "status": "success"
     },
     {
+      "rank": 8,
+      "name": "김예림",
+      "channel_handle": "vitaminute4u",
+      "channel_name": "Vitaminute",
+      "channel_url": "https://www.youtube.com/@vitaminute4u",
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 434,
+      "score_breakdown": {
+        "basic": 155,
+        "engagement": 106,
+        "viral": 125,
+        "growth": 47
+      },
+      "metrics": {
+        "median_score": 259,
+        "average_views": 547,
+        "average_likes": 19,
+        "avg_engagement": 3.55,
+        "top3_avg": 2496,
+        "max_single_views": 1313,
+        "viral_video": {
+          "views": 1313,
+          "likes": 49,
+          "comments": 1,
+          "title": "Why NMN is a true game-changer for your lifespan?",
+          "video_id": "HP7X13UIrcc",
+          "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
+        },
+        "growth_ratio": 9.41,
+        "video_count": 5,
+        "total_video_count": 5,
+        "subscriber_count": 21,
+        "subscriber_change": 21,
+        "subscriber_change_percent": 0
+      },
+      "status": "success"
+    },
+    {
       "rank": 9,
       "name": "김하나",
       "channel_handle": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
       "channel_name": "차곡차곡 한뼘로그",
       "channel_url": "https://www.youtube.com/channel/UC-jLUdV6YsVWUXG-qAKqPnw",
-      "badges": [],
-      "badge_descriptions": {},
-      "total_score": 383,
+      "badges": [
+        "📈"
+      ],
+      "badge_descriptions": {
+        "📈": {
+          "name": "성장 로켓",
+          "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
+        }
+      },
+      "total_score": 362,
       "score_breakdown": {
-        "basic": 268,
-        "engagement": 15,
+        "basic": 248,
+        "engagement": 14,
         "viral": 93,
-        "growth": 7
+        "growth": 8
       },
       "metrics": {
-        "median_score": 447,
-        "average_views": 731,
-        "average_likes": 4,
-        "avg_engagement": 0.49,
-        "top3_avg": 1853,
-        "max_single_views": 1791,
+        "median_score": 412,
+        "average_views": 690,
+        "average_likes": 3,
+        "avg_engagement": 0.46,
+        "top3_avg": 1858,
+        "max_single_views": 1798,
         "viral_video": {
-          "views": 1791,
+          "views": 1798,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.49,
-        "video_count": 9,
-        "total_video_count": 18,
+        "growth_ratio": 1.62,
+        "video_count": 10,
+        "total_video_count": 19,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
@@ -371,22 +378,22 @@
       "channel_url": "https://www.youtube.com/@IQ160건강깡패",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 341,
+      "total_score": 342,
       "score_breakdown": {
-        "basic": 317,
+        "basic": 319,
         "engagement": 24,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 528,
-        "average_views": 378,
+        "median_score": 531,
+        "average_views": 381,
         "average_likes": 3,
         "avg_engagement": 0.79,
         "top3_avg": 0,
-        "max_single_views": 378,
+        "max_single_views": 381,
         "viral_video": {
-          "views": 378,
+          "views": 381,
           "likes": 3,
           "comments": 0,
           "title": "레드 와인 다이어트? 운동 효과 있다고?",
@@ -410,22 +417,22 @@
       "channel_url": "https://www.youtube.com/@Desde_Seúl",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 319,
+      "total_score": 320,
       "score_breakdown": {
-        "basic": 247,
-        "engagement": 73,
+        "basic": 248,
+        "engagement": 72,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 411,
-        "average_views": 186,
+        "median_score": 412,
+        "average_views": 188,
         "average_likes": 2,
-        "avg_engagement": 2.42,
+        "avg_engagement": 2.4,
         "top3_avg": 0,
-        "max_single_views": 246,
+        "max_single_views": 249,
         "viral_video": {
-          "views": 246,
+          "views": 249,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
@@ -474,9 +481,9 @@
         "growth_ratio": 0,
         "video_count": 0,
         "total_video_count": 53,
-        "subscriber_count": 334,
-        "subscriber_change": 0,
-        "subscriber_change_percent": 0.0
+        "subscriber_count": 332,
+        "subscriber_change": -2,
+        "subscriber_change_percent": -0.6
       },
       "status": "success"
     },
