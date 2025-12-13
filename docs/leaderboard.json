@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-12T21:24:57.552418+00:00",
+  "last_updated": "2025-12-13T01:04:40.967659+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -38,9 +38,9 @@
         "growth_ratio": 0.89,
         "video_count": 11,
         "total_video_count": 36,
-        "subscriber_count": 397,
-        "subscriber_change": 29,
-        "subscriber_change_percent": 7.9
+        "subscriber_count": 398,
+        "subscriber_change": 30,
+        "subscriber_change_percent": 8.2
       },
       "status": "success"
     },
@@ -60,14 +60,14 @@
         "growth": 5
       },
       "metrics": {
-        "median_score": 2381,
-        "average_views": 1320,
+        "median_score": 2382,
+        "average_views": 1322,
         "average_likes": 13,
         "avg_engagement": 1.54,
-        "top3_avg": 2337,
-        "max_single_views": 1331,
+        "top3_avg": 2338,
+        "max_single_views": 1332,
         "viral_video": {
-          "views": 1331,
+          "views": 1332,
           "likes": 12,
           "comments": 3,
           "title": "“전기차 vs AI 대장주, 1년 전 오늘 1억 투자했다면, 결과는???!!!\"",
