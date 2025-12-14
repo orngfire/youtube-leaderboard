@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T06:25:00.505010+00:00",
+  "last_updated": "2025-12-14T09:15:01.312104+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -25,7 +25,7 @@
         "average_views": 1843,
         "average_likes": 15,
         "avg_engagement": 0.86,
-        "top3_avg": 3797,
+        "top3_avg": 3798,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -363,7 +363,7 @@
         },
         "growth_ratio": 1.62,
         "video_count": 10,
-        "total_video_count": 18,
+        "total_video_count": 19,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
