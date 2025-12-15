@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-15T06:30:17.742790+00:00",
+  "last_updated": "2025-12-15T09:26:30.410329+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -91,9 +91,9 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1506,
+      "total_score": 1507,
       "score_breakdown": {
-        "basic": 1335,
+        "basic": 1336,
         "engagement": 42,
         "viral": 125,
         "growth": 3
@@ -103,7 +103,7 @@
         "average_views": 1124,
         "average_likes": 15,
         "avg_engagement": 1.4,
-        "top3_avg": 2505,
+        "top3_avg": 2506,
         "max_single_views": 1567,
         "viral_video": {
           "views": 1567,
@@ -171,20 +171,20 @@
       "badge_descriptions": {},
       "total_score": 1020,
       "score_breakdown": {
-        "basic": 1009,
+        "basic": 1010,
         "engagement": 10,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1682,
-        "average_views": 1432,
+        "median_score": 1683,
+        "average_views": 1433,
         "average_likes": 3,
         "avg_engagement": 0.35,
         "top3_avg": 0,
-        "max_single_views": 1432,
+        "max_single_views": 1433,
         "viral_video": {
-          "views": 1432,
+          "views": 1433,
           "likes": 3,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -208,16 +208,16 @@
       "channel_url": "https://www.youtube.com/@lee-lo-4u",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 733,
+      "total_score": 734,
       "score_breakdown": {
-        "basic": 590,
+        "basic": 591,
         "engagement": 6,
         "viral": 131,
         "growth": 6
       },
       "metrics": {
-        "median_score": 984,
-        "average_views": 1020,
+        "median_score": 985,
+        "average_views": 1021,
         "average_likes": 2,
         "avg_engagement": 0.2,
         "top3_avg": 2621,
@@ -339,16 +339,16 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 348,
+      "total_score": 350,
       "score_breakdown": {
-        "basic": 232,
+        "basic": 234,
         "engagement": 14,
         "viral": 93,
         "growth": 9
       },
       "metrics": {
-        "median_score": 387,
-        "average_views": 653,
+        "median_score": 390,
+        "average_views": 654,
         "average_likes": 3,
         "avg_engagement": 0.47,
         "top3_avg": 1858,
@@ -361,7 +361,7 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.73,
+        "growth_ratio": 1.71,
         "video_count": 11,
         "total_video_count": 20,
         "subscriber_count": 10,
