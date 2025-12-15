@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-15T15:21:11.429904+00:00",
+  "last_updated": "2025-12-15T18:34:14.366567+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -52,9 +52,9 @@
       "channel_url": "https://youtube.com/@buy1yearago",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1551,
+      "total_score": 1552,
       "score_breakdown": {
-        "basic": 1384,
+        "basic": 1385,
         "engagement": 45,
         "viral": 117,
         "growth": 5
@@ -64,7 +64,7 @@
         "average_views": 1168,
         "average_likes": 10,
         "avg_engagement": 1.5,
-        "top3_avg": 2339,
+        "top3_avg": 2340,
         "max_single_views": 1333,
         "viral_video": {
           "views": 1333,
