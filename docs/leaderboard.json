@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-14T21:24:00.834692+00:00",
+  "last_updated": "2025-12-15T01:10:51.177190+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -339,18 +339,18 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 362,
+      "total_score": 342,
       "score_breakdown": {
-        "basic": 248,
+        "basic": 226,
         "engagement": 14,
         "viral": 93,
-        "growth": 8
+        "growth": 9
       },
       "metrics": {
-        "median_score": 412,
-        "average_views": 690,
+        "median_score": 377,
+        "average_views": 649,
         "average_likes": 3,
-        "avg_engagement": 0.46,
+        "avg_engagement": 0.48,
         "top3_avg": 1858,
         "max_single_views": 1798,
         "viral_video": {
@@ -361,9 +361,9 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.62,
-        "video_count": 10,
-        "total_video_count": 19,
+        "growth_ratio": 1.77,
+        "video_count": 11,
+        "total_video_count": 20,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
