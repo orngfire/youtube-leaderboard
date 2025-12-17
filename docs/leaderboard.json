@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-17T03:51:28.193435+00:00",
+  "last_updated": "2025-12-17T06:28:05.109869+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -91,22 +91,22 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1507,
+      "total_score": 1508,
       "score_breakdown": {
-        "basic": 1336,
+        "basic": 1337,
         "engagement": 42,
         "viral": 125,
         "growth": 3
       },
       "metrics": {
-        "median_score": 2226,
-        "average_views": 1124,
+        "median_score": 2229,
+        "average_views": 1126,
         "average_likes": 15,
         "avg_engagement": 1.4,
-        "top3_avg": 2506,
-        "max_single_views": 1567,
+        "top3_avg": 2509,
+        "max_single_views": 1572,
         "viral_video": {
-          "views": 1567,
+          "views": 1572,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
@@ -293,19 +293,19 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 433,
+      "total_score": 436,
       "score_breakdown": {
         "basic": 155,
-        "engagement": 106,
-        "viral": 125,
+        "engagement": 107,
+        "viral": 126,
         "growth": 47
       },
       "metrics": {
         "median_score": 259,
         "average_views": 549,
         "average_likes": 19,
-        "avg_engagement": 3.53,
-        "top3_avg": 2500,
+        "avg_engagement": 3.57,
+        "top3_avg": 2517,
         "max_single_views": 1326,
         "viral_video": {
           "views": 1326,
@@ -315,11 +315,11 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.42,
+        "growth_ratio": 9.49,
         "video_count": 5,
         "total_video_count": 5,
-        "subscriber_count": 21,
-        "subscriber_change": 21,
+        "subscriber_count": 22,
+        "subscriber_change": 22,
         "subscriber_change_percent": 0
       },
       "status": "success"
@@ -363,7 +363,7 @@
         },
         "growth_ratio": 1.71,
         "video_count": 11,
-        "total_video_count": 19,
+        "total_video_count": 20,
         "subscriber_count": 10,
         "subscriber_change": 0,
         "subscriber_change_percent": 0.0
