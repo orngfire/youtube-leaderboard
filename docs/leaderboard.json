@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-19T12:37:38.523326+00:00",
+  "last_updated": "2025-12-19T15:18:37.516944+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -302,20 +302,20 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 550,
+        "average_views": 551,
         "average_likes": 19,
         "avg_engagement": 3.56,
         "top3_avg": 2519,
-        "max_single_views": 1328,
+        "max_single_views": 1329,
         "viral_video": {
-          "views": 1328,
+          "views": 1329,
           "likes": 49,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.49,
+        "growth_ratio": 9.5,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
@@ -351,10 +351,10 @@
         "average_views": 654,
         "average_likes": 3,
         "avg_engagement": 0.47,
-        "top3_avg": 1858,
-        "max_single_views": 1799,
+        "top3_avg": 1859,
+        "max_single_views": 1800,
         "viral_video": {
-          "views": 1799,
+          "views": 1800,
           "likes": 9,
           "comments": 0,
           "title": "옥상텃밭에서 10월 수확 #옥상텃밭 #텃밭가꾸기  #도시농부 #텃밭 #텃밭만들기 #수확",

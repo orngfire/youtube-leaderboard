@@ -1,105 +1,105 @@
 {
   "description": "구독자 수 기준선 데이터 (최초 조회 시점)",
   "created_at": "2025-10-16T18:18:09.547469+00:00",
-  "updated_at": "2025-12-19T12:37:38.522822+00:00",
+  "updated_at": "2025-12-19T15:18:37.516387+00:00",
   "channels": {
     "UCcMRADwvMuSTWiB69qNSSUA": {
       "name": "조준철",
       "initial_subscribers": 7,
       "initial_date": "2025-10-16T18:18:11.441594+00:00",
       "last_subscribers": 7,
-      "last_update": "2025-12-19T12:37:34.454253+00:00"
+      "last_update": "2025-12-19T15:18:32.635635+00:00"
     },
     "UCSvpGbvdyNYvYopKyxTY7yQ": {
       "name": "강민성",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:18:12.022435+00:00",
       "last_subscribers": 0,
-      "last_update": "2025-12-19T12:37:34.828415+00:00"
+      "last_update": "2025-12-19T15:18:33.130977+00:00"
     },
     "UCMt0CZ3LQ7MXnpTSLOm2WIw": {
       "name": "김예림",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:18:12.459544+00:00",
       "last_subscribers": 22,
-      "last_update": "2025-12-19T12:37:35.111785+00:00"
+      "last_update": "2025-12-19T15:18:33.531259+00:00"
     },
     "UCp172WWQsW0Vvc924md6Giw": {
       "name": "조한준",
       "initial_subscribers": 8,
       "initial_date": "2025-10-16T18:18:13.029060+00:00",
       "last_subscribers": 8,
-      "last_update": "2025-12-19T12:37:35.403372+00:00"
+      "last_update": "2025-12-19T15:18:33.837853+00:00"
     },
     "UCJc4X5ZWGHonb4Bik6IVTgw": {
       "name": "임동한",
       "initial_subscribers": 368,
       "initial_date": "2025-10-16T18:18:13.579148+00:00",
       "last_subscribers": 399,
-      "last_update": "2025-12-19T12:37:35.733579+00:00"
+      "last_update": "2025-12-19T15:18:34.223939+00:00"
     },
     "UCSuyRNFqR7_N2RpWNXJoLnw": {
       "name": "김수정",
       "initial_subscribers": 34,
       "initial_date": "2025-10-16T18:18:14.381038+00:00",
       "last_subscribers": 47,
-      "last_update": "2025-12-19T12:37:36.103726+00:00"
+      "last_update": "2025-12-19T15:18:34.707206+00:00"
     },
     "UC_c2yUaR-70MTy7jy9vdCEA": {
       "name": "서혜리",
       "initial_subscribers": 334,
       "initial_date": "2025-10-16T18:18:14.980229+00:00",
       "last_subscribers": 332,
-      "last_update": "2025-12-19T12:37:36.458664+00:00"
+      "last_update": "2025-12-19T15:18:35.052293+00:00"
     },
     "UCHNU6QIuX5ivOcNPGt7hgtw": {
       "name": "김태수",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:18:15.941152+00:00",
       "last_subscribers": 0,
-      "last_update": "2025-12-19T12:37:37.055021+00:00"
+      "last_update": "2025-12-19T15:18:35.751332+00:00"
     },
     "UCE_fO6R5HcM86Zyv-oecG_g": {
       "name": "전우형",
       "initial_subscribers": 110,
       "initial_date": "2025-10-16T18:18:16.574673+00:00",
       "last_subscribers": 113,
-      "last_update": "2025-12-19T12:37:37.227082+00:00"
+      "last_update": "2025-12-19T15:18:35.960317+00:00"
     },
     "UCLT46O02dMewCafHz5me0cQ": {
       "name": "이응곤",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:18:17.220996+00:00",
       "last_subscribers": 11,
-      "last_update": "2025-12-19T12:37:37.586359+00:00"
+      "last_update": "2025-12-19T15:18:36.321924+00:00"
     },
     "UCGDddZb7QW7f76q4wiSAQ7Q": {
       "name": "국해란",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:18:17.634801+00:00",
       "last_subscribers": 0,
-      "last_update": "2025-12-19T12:37:37.850415+00:00"
+      "last_update": "2025-12-19T15:18:36.659159+00:00"
     },
     "UCYY4jQLw225dbINMhDipRzg": {
       "name": "클로이",
       "initial_subscribers": 0,
       "initial_date": "2025-10-16T18:21:18.950228+00:00",
       "last_subscribers": 0,
-      "last_update": "2025-12-19T12:37:38.093999+00:00"
+      "last_update": "2025-12-19T15:18:36.990167+00:00"
     },
     "UC6Ldd_8AwstrdgVENsyjQMQ": {
       "name": "김소윤",
       "initial_subscribers": 1,
       "initial_date": "2025-10-17T15:49:52.200546+00:00",
       "last_subscribers": 6,
-      "last_update": "2025-12-19T12:37:34.112809+00:00"
+      "last_update": "2025-12-19T15:18:32.205092+00:00"
     },
     "UC-jLUdV6YsVWUXG-qAKqPnw": {
       "name": "김하나",
       "initial_subscribers": 10,
       "initial_date": "2025-10-22T14:05:22.000000+00:00",
       "last_subscribers": 10,
-      "last_update": "2025-12-19T12:37:38.278109+00:00"
+      "last_update": "2025-12-19T15:18:37.211050+00:00"
     }
   }
 }
