@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-20T01:04:54.663842+00:00",
+  "last_updated": "2025-12-20T03:44:57.699935+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -293,29 +293,29 @@
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 436,
+      "total_score": 438,
       "score_breakdown": {
         "basic": 155,
-        "engagement": 107,
-        "viral": 126,
+        "engagement": 108,
+        "viral": 127,
         "growth": 48
       },
       "metrics": {
         "median_score": 259,
         "average_views": 552,
         "average_likes": 19,
-        "avg_engagement": 3.55,
-        "top3_avg": 2521,
+        "avg_engagement": 3.59,
+        "top3_avg": 2538,
         "max_single_views": 1334,
         "viral_video": {
           "views": 1334,
-          "likes": 49,
+          "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.5,
+        "growth_ratio": 9.57,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
