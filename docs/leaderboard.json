@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-20T15:15:41.390082+00:00",
+  "last_updated": "2025-12-20T18:27:53.379221+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -103,10 +103,10 @@
         "average_views": 1127,
         "average_likes": 15,
         "avg_engagement": 1.4,
-        "top3_avg": 2509,
-        "max_single_views": 1573,
+        "top3_avg": 2510,
+        "max_single_views": 1574,
         "viral_video": {
-          "views": 1573,
+          "views": 1574,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
@@ -139,7 +139,7 @@
       },
       "metrics": {
         "median_score": 2117,
-        "average_views": 1342,
+        "average_views": 1343,
         "average_likes": 11,
         "avg_engagement": 0.9,
         "top3_avg": 3013,
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 552,
         "average_likes": 19,
-        "avg_engagement": 3.59,
-        "top3_avg": 2538,
-        "max_single_views": 1336,
+        "avg_engagement": 3.58,
+        "top3_avg": 2539,
+        "max_single_views": 1338,
         "viral_video": {
-          "views": 1336,
+          "views": 1338,
           "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
