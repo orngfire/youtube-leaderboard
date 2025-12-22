@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-22T18:32:30.368032+00:00",
+  "last_updated": "2025-12-22T21:25:17.986035+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -341,13 +341,13 @@
       },
       "total_score": 351,
       "score_breakdown": {
-        "basic": 235,
+        "basic": 236,
         "engagement": 14,
         "viral": 93,
         "growth": 9
       },
       "metrics": {
-        "median_score": 392,
+        "median_score": 393,
         "average_views": 656,
         "average_likes": 3,
         "avg_engagement": 0.47,
@@ -361,7 +361,7 @@
           "video_id": "vNQ3f6pNvKE",
           "url": "https://www.youtube.com/watch?v=vNQ3f6pNvKE"
         },
-        "growth_ratio": 1.71,
+        "growth_ratio": 1.7,
         "video_count": 11,
         "total_video_count": 20,
         "subscriber_count": 10,
