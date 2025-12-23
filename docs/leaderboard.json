@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-23T03:57:16.305000+00:00",
+  "last_updated": "2025-12-23T06:28:27.313401+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -116,9 +116,9 @@
         "growth_ratio": 0.69,
         "video_count": 4,
         "total_video_count": 30,
-        "subscriber_count": 114,
-        "subscriber_change": 4,
-        "subscriber_change_percent": 3.6
+        "subscriber_count": 115,
+        "subscriber_change": 5,
+        "subscriber_change_percent": 4.5
       },
       "status": "success"
     },
