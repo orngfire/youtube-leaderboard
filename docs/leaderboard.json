@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-24T15:17:54.499052+00:00",
+  "last_updated": "2025-12-24T18:31:44.892405+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -13,7 +13,7 @@
       "channel_url": "https://www.youtube.com/@easyfood369",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1767,
+      "total_score": 1768,
       "score_breakdown": {
         "basic": 1547,
         "engagement": 26,
@@ -21,11 +21,11 @@
         "growth": 4
       },
       "metrics": {
-        "median_score": 2578,
-        "average_views": 1844,
+        "median_score": 2579,
+        "average_views": 1845,
         "average_likes": 15,
         "avg_engagement": 0.86,
-        "top3_avg": 3800,
+        "top3_avg": 3801,
         "max_single_views": 3447,
         "viral_video": {
           "views": 3447,
@@ -91,22 +91,22 @@
       "channel_url": "https://www.youtube.com/@deundeun.papa_1",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 1511,
+      "total_score": 1513,
       "score_breakdown": {
-        "basic": 1340,
+        "basic": 1342,
         "engagement": 42,
         "viral": 126,
         "growth": 3
       },
       "metrics": {
-        "median_score": 2234,
-        "average_views": 1130,
+        "median_score": 2236,
+        "average_views": 1132,
         "average_likes": 15,
         "avg_engagement": 1.39,
-        "top3_avg": 2513,
-        "max_single_views": 1577,
+        "top3_avg": 2516,
+        "max_single_views": 1579,
         "viral_video": {
-          "views": 1577,
+          "views": 1579,
           "likes": 17,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
