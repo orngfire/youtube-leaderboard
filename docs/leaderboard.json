@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-26T09:17:11.263855+00:00",
+  "last_updated": "2025-12-26T12:37:51.434120+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -259,10 +259,10 @@
         "average_views": 737,
         "average_likes": 4,
         "avg_engagement": 0.54,
-        "top3_avg": 2261,
-        "max_single_views": 2359,
+        "top3_avg": 2262,
+        "max_single_views": 2360,
         "viral_video": {
-          "views": 2359,
+          "views": 2360,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 554,
         "average_likes": 19,
-        "avg_engagement": 3.58,
-        "top3_avg": 2541,
-        "max_single_views": 1345,
+        "avg_engagement": 3.57,
+        "top3_avg": 2542,
+        "max_single_views": 1346,
         "viral_video": {
-          "views": 1345,
+          "views": 1346,
           "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
