@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-28T15:16:29.981722+00:00",
+  "last_updated": "2025-12-28T18:30:52.851010+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -305,7 +305,7 @@
         "average_views": 556,
         "average_likes": 19,
         "avg_engagement": 3.56,
-        "top3_avg": 2545,
+        "top3_avg": 2546,
         "max_single_views": 1356,
         "viral_video": {
           "views": 1356,
@@ -315,7 +315,7 @@
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.59,
+        "growth_ratio": 9.6,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
