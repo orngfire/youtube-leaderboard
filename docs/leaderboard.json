@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T04:06:19.931989+00:00",
+  "last_updated": "2025-12-29T06:29:34.076986+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -116,9 +116,9 @@
         "growth_ratio": 0.69,
         "video_count": 4,
         "total_video_count": 30,
-        "subscriber_count": 117,
-        "subscriber_change": 7,
-        "subscriber_change_percent": 6.4
+        "subscriber_count": 116,
+        "subscriber_change": 6,
+        "subscriber_change_percent": 5.5
       },
       "status": "success"
     },
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 557,
         "average_likes": 19,
-        "avg_engagement": 3.56,
-        "top3_avg": 2546,
-        "max_single_views": 1358,
+        "avg_engagement": 3.55,
+        "top3_avg": 2547,
+        "max_single_views": 1360,
         "viral_video": {
-          "views": 1358,
+          "views": 1360,
           "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
