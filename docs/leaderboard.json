@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-28T21:25:19.043154+00:00",
+  "last_updated": "2025-12-29T01:15:04.096152+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -15,20 +15,20 @@
       "badge_descriptions": {},
       "total_score": 1768,
       "score_breakdown": {
-        "basic": 1547,
+        "basic": 1548,
         "engagement": 26,
         "viral": 190,
         "growth": 4
       },
       "metrics": {
-        "median_score": 2579,
-        "average_views": 1845,
+        "median_score": 2580,
+        "average_views": 1846,
         "average_likes": 15,
         "avg_engagement": 0.86,
-        "top3_avg": 3801,
-        "max_single_views": 3447,
+        "top3_avg": 3802,
+        "max_single_views": 3448,
         "viral_video": {
-          "views": 3447,
+          "views": 3448,
           "likes": 19,
           "comments": 0,
           "title": "혈관이 청소되는 음식 6가지!",
@@ -38,9 +38,9 @@
         "growth_ratio": 0.89,
         "video_count": 11,
         "total_video_count": 36,
-        "subscriber_count": 402,
-        "subscriber_change": 34,
-        "subscriber_change_percent": 9.2
+        "subscriber_count": 403,
+        "subscriber_change": 35,
+        "subscriber_change_percent": 9.5
       },
       "status": "success"
     },
@@ -302,13 +302,13 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 556,
+        "average_views": 557,
         "average_likes": 19,
         "avg_engagement": 3.56,
         "top3_avg": 2546,
-        "max_single_views": 1356,
+        "max_single_views": 1358,
         "viral_video": {
-          "views": 1356,
+          "views": 1358,
           "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
