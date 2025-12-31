@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-31T18:31:45.977812+00:00",
+  "last_updated": "2025-12-31T21:25:39.377023+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -304,11 +304,11 @@
         "median_score": 259,
         "average_views": 560,
         "average_likes": 19,
-        "avg_engagement": 3.54,
+        "avg_engagement": 3.53,
         "top3_avg": 2552,
-        "max_single_views": 1374,
+        "max_single_views": 1376,
         "viral_video": {
-          "views": 1374,
+          "views": 1376,
           "likes": 50,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
