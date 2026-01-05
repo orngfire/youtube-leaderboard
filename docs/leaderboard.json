@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-05T01:17:04.862779+00:00",
+  "last_updated": "2026-01-05T04:12:36.229150+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -425,14 +425,14 @@
         "growth": 0
       },
       "metrics": {
-        "median_score": 413,
+        "median_score": 414,
         "average_views": 188,
         "average_likes": 2,
         "avg_engagement": 2.39,
         "top3_avg": 0,
-        "max_single_views": 250,
+        "max_single_views": 251,
         "viral_video": {
-          "views": 250,
+          "views": 251,
           "likes": 4,
           "comments": 1,
           "title": "¡Miau! Los 3 Barrios Favoritos de los Coreanos en Seúl (¡No son Turísticos!) #culturacoreana",
