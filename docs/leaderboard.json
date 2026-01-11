@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-11T06:26:39.975452+00:00",
+  "last_updated": "2026-01-11T09:15:40.520728+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -285,37 +285,42 @@
       "channel_name": "Vitaminute",
       "channel_url": "https://www.youtube.com/@vitaminute4u",
       "badges": [
+        "🔥",
         "📈"
       ],
       "badge_descriptions": {
+        "🔥": {
+          "name": "바이럴 메이커",
+          "message": "히트 영상을 만들어내는 감각이 있으시네요 🚀"
+        },
         "📈": {
           "name": "성장 로켓",
           "message": "최근 가장 빠르게 성장하고 있어요! 이 기세 어디까지?"
         }
       },
-      "total_score": 439,
+      "total_score": 441,
       "score_breakdown": {
         "basic": 155,
-        "engagement": 106,
-        "viral": 129,
+        "engagement": 107,
+        "viral": 130,
         "growth": 49
       },
       "metrics": {
         "median_score": 259,
         "average_views": 565,
         "average_likes": 19,
-        "avg_engagement": 3.54,
-        "top3_avg": 2577,
+        "avg_engagement": 3.57,
+        "top3_avg": 2594,
         "max_single_views": 1400,
         "viral_video": {
           "views": 1400,
-          "likes": 51,
+          "likes": 52,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.72,
+        "growth_ratio": 9.78,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
