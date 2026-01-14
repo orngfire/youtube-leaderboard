@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-13T21:28:44.165803+00:00",
+  "last_updated": "2026-01-14T01:13:54.285685+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -116,9 +116,9 @@
         "growth_ratio": 0.69,
         "video_count": 4,
         "total_video_count": 30,
-        "subscriber_count": 115,
-        "subscriber_change": 5,
-        "subscriber_change_percent": 4.5
+        "subscriber_count": 116,
+        "subscriber_change": 6,
+        "subscriber_change_percent": 5.5
       },
       "status": "success"
     },
@@ -307,10 +307,10 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 567,
+        "average_views": 568,
         "average_likes": 19,
         "avg_engagement": 3.56,
-        "top3_avg": 2597,
+        "top3_avg": 2598,
         "max_single_views": 1409,
         "viral_video": {
           "views": 1409,
@@ -486,9 +486,9 @@
         "growth_ratio": 0,
         "video_count": 0,
         "total_video_count": 53,
-        "subscriber_count": 332,
-        "subscriber_change": -2,
-        "subscriber_change_percent": -0.6
+        "subscriber_count": 333,
+        "subscriber_change": -1,
+        "subscriber_change_percent": -0.3
       },
       "status": "success"
     },
