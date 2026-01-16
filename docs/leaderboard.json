@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-16T12:40:02.152201+00:00",
+  "last_updated": "2026-01-16T15:20:13.994842+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -247,29 +247,29 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 461,
+      "total_score": 477,
       "score_breakdown": {
-        "basic": 329,
-        "engagement": 16,
+        "basic": 344,
+        "engagement": 17,
         "viral": 113,
-        "growth": 3
+        "growth": 2
       },
       "metrics": {
-        "median_score": 548,
-        "average_views": 737,
+        "median_score": 574,
+        "average_views": 738,
         "average_likes": 4,
-        "avg_engagement": 0.54,
-        "top3_avg": 2262,
-        "max_single_views": 2361,
+        "avg_engagement": 0.55,
+        "top3_avg": 2263,
+        "max_single_views": 2362,
         "viral_video": {
-          "views": 2361,
+          "views": 2362,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
           "video_id": "1Shc4zjRj-g",
           "url": "https://www.youtube.com/watch?v=1Shc4zjRj-g"
         },
-        "growth_ratio": 0.5,
+        "growth_ratio": 0.48,
         "video_count": 12,
         "total_video_count": 12,
         "subscriber_count": 8,
