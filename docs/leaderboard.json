@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-20T21:28:46.209869+00:00",
+  "last_updated": "2026-01-21T01:13:18.558179+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -247,9 +247,9 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 477,
+      "total_score": 478,
       "score_breakdown": {
-        "basic": 345,
+        "basic": 346,
         "engagement": 17,
         "viral": 113,
         "growth": 2
@@ -272,9 +272,9 @@
         "growth_ratio": 0.48,
         "video_count": 12,
         "total_video_count": 12,
-        "subscriber_count": 8,
-        "subscriber_change": 7,
-        "subscriber_change_percent": 700.0
+        "subscriber_count": 9,
+        "subscriber_change": 8,
+        "subscriber_change_percent": 800.0
       },
       "status": "success"
     },
@@ -310,10 +310,10 @@
         "average_views": 569,
         "average_likes": 19,
         "avg_engagement": 3.55,
-        "top3_avg": 2600,
-        "max_single_views": 1414,
+        "top3_avg": 2601,
+        "max_single_views": 1415,
         "viral_video": {
-          "views": 1414,
+          "views": 1415,
           "likes": 52,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
