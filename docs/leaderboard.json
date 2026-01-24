@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T01:09:30.752077+00:00",
+  "last_updated": "2026-01-24T03:56:41.929411+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -424,14 +424,14 @@
       "badge_descriptions": {},
       "total_score": 320,
       "score_breakdown": {
-        "basic": 249,
+        "basic": 250,
         "engagement": 71,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
         "median_score": 416,
-        "average_views": 190,
+        "average_views": 191,
         "average_likes": 2,
         "avg_engagement": 2.36,
         "top3_avg": 0,
