@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-24T21:24:51.700203+00:00",
+  "last_updated": "2026-01-25T01:19:02.731709+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -247,9 +247,9 @@
       "channel_url": "https://www.youtube.com/@maumedu",
       "badges": [],
       "badge_descriptions": {},
-      "total_score": 478,
+      "total_score": 477,
       "score_breakdown": {
-        "basic": 346,
+        "basic": 345,
         "engagement": 17,
         "viral": 113,
         "growth": 2
