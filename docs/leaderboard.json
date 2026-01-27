@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T18:40:37.043277+00:00",
+  "last_updated": "2026-01-27T21:26:15.594597+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -142,7 +142,7 @@
         "average_views": 1345,
         "average_likes": 11,
         "avg_engagement": 0.9,
-        "top3_avg": 3015,
+        "top3_avg": 3016,
         "max_single_views": 2036,
         "viral_video": {
           "views": 2036,
