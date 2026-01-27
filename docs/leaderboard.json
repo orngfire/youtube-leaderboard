@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T06:29:57.031227+00:00",
+  "last_updated": "2026-01-27T09:27:19.789100+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -102,11 +102,11 @@
         "median_score": 2214,
         "average_views": 1136,
         "average_likes": 14,
-        "avg_engagement": 1.37,
+        "avg_engagement": 1.36,
         "top3_avg": 2503,
-        "max_single_views": 1582,
+        "max_single_views": 1583,
         "viral_video": {
-          "views": 1582,
+          "views": 1583,
           "likes": 16,
           "comments": 0,
           "title": "이 5가지만 바꿨는데... 인생이 진짜 달라졌습니다!",
@@ -307,20 +307,20 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 573,
+        "average_views": 574,
         "average_likes": 19,
-        "avg_engagement": 3.53,
-        "top3_avg": 2606,
-        "max_single_views": 1432,
+        "avg_engagement": 3.52,
+        "top3_avg": 2608,
+        "max_single_views": 1435,
         "viral_video": {
-          "views": 1432,
+          "views": 1435,
           "likes": 52,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
           "video_id": "HP7X13UIrcc",
           "url": "https://www.youtube.com/watch?v=HP7X13UIrcc"
         },
-        "growth_ratio": 9.83,
+        "growth_ratio": 9.84,
         "video_count": 5,
         "total_video_count": 5,
         "subscriber_count": 22,
