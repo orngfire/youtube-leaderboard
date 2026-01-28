@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T04:03:20.633671+00:00",
+  "last_updated": "2026-01-28T06:31:18.408360+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -259,10 +259,10 @@
         "average_views": 738,
         "average_likes": 4,
         "avg_engagement": 0.55,
-        "top3_avg": 2263,
-        "max_single_views": 2362,
+        "top3_avg": 2264,
+        "max_single_views": 2363,
         "viral_video": {
-          "views": 2362,
+          "views": 2363,
           "likes": 10,
           "comments": 0,
           "title": "자고 일어났더니?! #감성영상 #기분전환 #sorts",
