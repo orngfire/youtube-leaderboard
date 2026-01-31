@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T15:19:20.063598+00:00",
+  "last_updated": "2026-01-31T18:34:17.781250+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -171,20 +171,20 @@
       "badge_descriptions": {},
       "total_score": 1029,
       "score_breakdown": {
-        "basic": 1018,
+        "basic": 1019,
         "engagement": 10,
         "viral": 0,
         "growth": 0
       },
       "metrics": {
-        "median_score": 1697,
-        "average_views": 1447,
+        "median_score": 1698,
+        "average_views": 1448,
         "average_likes": 3,
         "avg_engagement": 0.35,
         "top3_avg": 0,
-        "max_single_views": 1447,
+        "max_single_views": 1448,
         "viral_video": {
-          "views": 1447,
+          "views": 1448,
           "likes": 3,
           "comments": 1,
           "title": "장암 우리나라 국밥 후기",
@@ -307,13 +307,13 @@
       },
       "metrics": {
         "median_score": 259,
-        "average_views": 577,
+        "average_views": 578,
         "average_likes": 19,
         "avg_engagement": 3.5,
         "top3_avg": 2614,
-        "max_single_views": 1452,
+        "max_single_views": 1453,
         "viral_video": {
-          "views": 1452,
+          "views": 1453,
           "likes": 52,
           "comments": 1,
           "title": "Why NMN is a true game-changer for your lifespan?",
