@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-06T09:36:37.915076+00:00",
+  "last_updated": "2026-02-06T12:54:42.939782+00:00",
   "period": {
     "start": "2025-10-02T00:00:00Z",
     "end": "2025-12-14T23:59:59Z"
@@ -100,7 +100,7 @@
       },
       "metrics": {
         "median_score": 2215,
-        "average_views": 1136,
+        "average_views": 1137,
         "average_likes": 14,
         "avg_engagement": 1.36,
         "top3_avg": 2504,
@@ -116,9 +116,9 @@
         "growth_ratio": 0.69,
         "video_count": 4,
         "total_video_count": 30,
-        "subscriber_count": 117,
-        "subscriber_change": 7,
-        "subscriber_change_percent": 6.4
+        "subscriber_count": 116,
+        "subscriber_change": 6,
+        "subscriber_change_percent": 5.5
       },
       "status": "success"
     },
